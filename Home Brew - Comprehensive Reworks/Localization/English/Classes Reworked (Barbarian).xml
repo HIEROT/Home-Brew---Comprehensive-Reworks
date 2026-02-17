@@ -322,7 +322,7 @@
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000l" version="2">While enraged, recover +1d6 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; per turn.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800013" version="1">Relentless Endurance</content>
-	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000m" version="2">Upon starting your turn while below half of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; you receive total damage &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; until the beginning of your next turn. This may only occur once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000m" version="2">Upon starting your turn while below half of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; you receive total damage &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; until the beginning of your next turn. This may occur once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800z13" version="1">Relentless Endurance</content>
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf8000zm" version="2">Affected creature has &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to all forms of damage.</content>
 
