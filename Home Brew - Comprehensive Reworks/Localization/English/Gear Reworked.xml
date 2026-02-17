@@ -1402,7 +1402,7 @@
 	<content contentuid="h988e346agac66g4744gb06eg213b479dee08" version="3">Lunar Vitality</content>
 	<content contentuid="h7ef436c4g147ag4c41g8aa2g8081d22225f7" version="2">Affected creature has gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt;. While they have these Temporary Hit Points, all incoming damage is reduced by [2].</content>
 	<content contentuid="h9c84f7a8gdd50g4a36g8281gd1ba6cebe344" version="3">Lunar Bestial Fortitude</content>
-	<content contentuid="h64d8133fg293eg426cg8518gd5ba4a57a9c0" version="3">Gain a +[1] bonus to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;. Additionally, you roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against Spells. This effect persists while Wild Shaped.</content>
+	<content contentuid="h64d8133fg293eg426cg8518gd5ba4a57a9c0" version="3">Gain a +[1] bonus to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;. Additionally, you roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against Spells. This effect persists while Wildshaped.</content>
 
 <!--CHANCER'S CARCANET-->
 	<content contentuid="h68f8c634g7382g4cddgafcbg713b17b6ea13" version="1">Second Chance</content>
@@ -1848,7 +1848,7 @@
 
 	<content contentuid="hb5b63d88gafd6g4989g915cgb7096596ecf6" version="1">Beast Totem</content>
 	<content contentuid="h3e349385g1a09g408eg93e3gd4d27d1d82df" version="1">A small wooden idol carved into the shape of several different beasts.</content>
-	<content contentuid="h0f7518b4g8148g4a93g9cc9g5e5acd94cd6e" version="1">Upon becoming enraged or assuming a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wild Shape&lt;/LSTag&gt;, gain three stacks of &lt;LSTag Type="Status" Tooltip="MAG_MOMENTUM"&gt;Momentum&lt;/LSTag&gt;.</content>
+	<content contentuid="h0f7518b4g8148g4a93g9cc9g5e5acd94cd6e" version="1">Upon becoming enraged or assuming a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, gain three stacks of &lt;LSTag Type="Status" Tooltip="MAG_MOMENTUM"&gt;Momentum&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hb0bda3f1g61d9g4220gac7fg234f6a23f3a5" version="1">Booyahg Bloodwell Vial</content>
 	<content contentuid="hec8ce9bdgf679g42d6g8698g28844948c2bd" version="1">Goblin spellcasters, or "Booyahgs" act as shamanistic healers for their tribe.</content>
@@ -1961,7 +1961,7 @@
 
 	<content contentuid="h460b90a5g45b3g468cg9f9fgb23925173eb0" version="1">Totem of Dread</content>
 	<content contentuid="h3d7ded3eg5c26g4300gadb6g9d2077772869" version="1">Whatever this is meant to represent, it is of great importance to the Illithid.</content>
-	<content contentuid="h7611d9e7g25dfg42a8ga65ag166a225a8a89" version="1">Upon becoming enraged or assuming a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wild Shape&lt;/LSTag&gt;, gain &lt;LSTag Type="Status" Tooltip="JWL_Status_TotemDread"&gt;Thirst for Dominance&lt;/LSTag&gt; for [1] turns.</content>
+	<content contentuid="h7611d9e7g25dfg42a8ga65ag166a225a8a89" version="1">Upon becoming enraged or assuming a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, gain &lt;LSTag Type="Status" Tooltip="JWL_Status_TotemDread"&gt;Thirst for Dominance&lt;/LSTag&gt; for [1] turns.</content>
 	<content contentuid="h33da9203gcb89g40e2g9a52g2801595ccd0a" version="1">Thirst for Dominance</content>
 	<content contentuid="hb1b78ad1gcbe7g4fefg826ag347cb4cd675a" version="1">Affected creature has a bonus to &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt; and damage equal to their &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 
@@ -2086,7 +2086,7 @@
 	<content contentuid="h33a48aafg0af1g4c73ga354ga580c1fb44bc" version="1">Spirit Totem</content>
 	<content contentuid="h3e25c4c3gde11g494egb582g6226c1785e2a" version="1">A small wooden idol dedicated to renowned forest spirits.</content>
 	<content contentuid="hf7a84260gca0dg4f20g95f9g11ba487f16b0" version="1">Phatasmal Guardian</content>
-	<content contentuid="hd1631a77g33afg40ffg926fg3d6d23d70508" version="1">While not enraged or assuming a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wild Shaped&lt;/LSTag&gt;, if your health drops below [1]% you gain &lt;LSTag Type="Status" Tooltip="GREATER_INVISIBILITY"&gt;"Greater Invisibility"&lt;/LSTag&gt; for [2] turns.</content>
+	<content contentuid="hd1631a77g33afg40ffg926fg3d6d23d70508" version="1">While not enraged or assuming a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshaped&lt;/LSTag&gt;, if your health drops below [1]% you gain &lt;LSTag Type="Status" Tooltip="GREATER_INVISIBILITY"&gt;"Greater Invisibility"&lt;/LSTag&gt; for [2] turns.</content>
 
 	<content contentuid="hdc8fb06agfaa4g4259gb834ge143ac95662f" version="1">Blood of Ahmarreld</content>
 	<content contentuid="hc2c2962ag21eeg41a9g85e9g686515ee5020" version="1">A bloodwell vial from the ancient and powerful sorcerer Ahmarreld.</content>
@@ -2200,7 +2200,7 @@
 
 	<content contentuid="hce864aabg41fdg405egba6cg1d45f6a85bec" version="1">Ornate Dragon Totem</content>
 	<content contentuid="h24d77d52gb0dag4d31g8203gcd776fa7aa85" version="1">Carefully crafted by artisans from across the sea, this totem is imbued with great power.</content>
-	<content contentuid="h9e35a2dcge824g4205g84f9g2e34128be73e" version="1">When you &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wild Shape&lt;/LSTag&gt;, gain &lt;LSTag Type="Status" Tooltip="ALCH_POTION_FLYING"&gt;Flying&lt;/LSTag&gt; for [1] turns.</content>
+	<content contentuid="h9e35a2dcge824g4205g84f9g2e34128be73e" version="1">When you &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, gain &lt;LSTag Type="Status" Tooltip="ALCH_POTION_FLYING"&gt;Flying&lt;/LSTag&gt; for [1] turns.</content>
 
 	<content contentuid="he8c5ad1ag2839g4840gacdfg2e258a8ed05f" version="1">Dragon Bloodwell Vial</content>
 	<content contentuid="h73b9280cg1e59g4d9dgbd31gd0f6d7c24786" version="1">The blood of a powerful dragon is held within.</content>

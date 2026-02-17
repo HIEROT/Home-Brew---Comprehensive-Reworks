@@ -466,7 +466,7 @@
 	<content contentuid="h87a4cfdbg2ba1g4a61gbbe7g540a28a9a966" version="2">Once per turn, after having made an unarmed or weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, or after having cast a Spell, you may make an additional attack for free.&lt;Br&gt;&lt;Br&gt;This passive acts as a replacement of &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h3e6c622egb059g47e7gb925g7e82eae1bfda" version="2">Lunar Instinct</content>
-	<content contentuid="h36aba2dbg6f37g4343ga32egcab0fd7edcb3" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wild Shape&lt;/LSTag&gt;, you gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h36aba2dbg6f37g4343ga32egcab0fd7edcb3" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, you gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h3e6c622egb059g47e7gb925g7e82eae12525" version="2">Beastial Instinct</content>
 	<content contentuid="h36aba2dbg6f37g4343ga32egcab0fd766684" version="1">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
