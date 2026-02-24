@@ -1610,7 +1610,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h078069acgf62bg4c64g9322938rw9feusjf3" version="1">Relinquish control of your summoned creatures, allowing them to act on their own accord. This effect can be toggled at any time.</content>
 	<content contentuid="h4d0c77c3g56aag4077g80c4g3bkjdsi22d5f" version="1">Summon Buffs</content>
 	<content contentuid="h4d0c77c3g56aag4077g80c4g3bkjdsiff6d8" version="1">Buffs applied to this summon due to the passive effects of their summoner.</content>
-	<content contentuid="h197f62bbgd1ddg4436g90df5s6s5d4f56f45" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This passive effect applies to any creatures that you summon.</content>
+	<content contentuid="h197f62bbgd1ddg4436g90df5s6s5d4f56f45" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This passive effect also applies to any creatures that you summon.</content>
 
 <!--ON SAVE EVENTS-->
 
