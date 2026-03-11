@@ -165,11 +165,11 @@
 	<content contentuid="h6462906fg8352g4e58g9bc1g232e8fdaf5ab" version="1">Once per turn, while assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; and after having made an unarmed or weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; with your main hand, you may make two additional attacks for free.</content>
 
 	<content contentuid="h580791fcg0d77g485bg8f6eg4a9w6a5sdf82" version="2">Lunar Shift</content>
-	<content contentuid="hab01f6f3gbe5ag482ag9399g6asdf4sd5e98" version="1">Upon casting a Spell, you may assume the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wild Shape&lt;/LSTag&gt; as a free action. Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while assuming the form of a Wild Shape, you may cast one Spell without expending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
+	<content contentuid="hab01f6f3gbe5ag482ag9399g6asdf4sd5e98" version="1">Upon casting a Spell, you may assume the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; as a free action. Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while assuming the form of a Wildshape, you may cast one Spell without expending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
 	<content contentuid="h580791fcg0d77g485bg8f6eg4a9w6a5sdf83" version="2">Lunar Shift - Spellbound</content>
 	<content contentuid="hab01f6f3gbe5ag482ag9399g6asdf4sd5e99" version="1">Affected creature may cast one Spell without expending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
 	<content contentuid="h580791fcg0d77g485bg8f6eg4a9w6a5sdf85" version="2">Lunar Shift - Wildbound</content>
-	<content contentuid="hab01f6f3gbe5ag482ag9399g6asdf4sd5e97" version="1">Affected creature may assume the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wild Shape&lt;/LSTag&gt; as a free action.</content>
+	<content contentuid="hab01f6f3gbe5ag482ag9399g6asdf4sd5e97" version="1">Affected creature may assume the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; as a free action.</content>
 
 <!--CIRCLE OF THE SPORES-->
 

@@ -159,7 +159,7 @@
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209a6a9965" version="1">Champion's Repertoire</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204a9a6454" version="8">Gain &lt;LSTag Type="Spell" Tooltip="Shout_CSecondWind"&gt;Champion's Windstorm&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_RallyingCry"&gt;Rallying Cry&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Shout_BattalionsMarch"&gt;Batallion's March&lt;/LSTag&gt;.</content>
 	<content contentuid="h9a3262d9g1cf8g40d2gae47ga2703e761c79" version="1">Champion's Windstorm</content>
-	<content contentuid="h87c9d35ag7914g4efegb53cgf06381ff4b6e" version="8">Restore [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;. The amount of dice rolled is equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+	<content contentuid="h87c9d35ag7914g4efegb53cgf06381ff4b6e" version="8">Restore [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;. The number of dice rolled is equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 	<content contentuid="h9a3262d9g1cf8g40d2gae47ga27065sd48e2" version="1">Rallying Cry</content>
 	<content contentuid="h87c9d35ag7914g4efegb53s45ef5s84ef84f" version="8">&lt;LSTag Type="Status" Tooltip="RALLY"&gt;Rally&lt;/LSTag&gt; all allies within [1] of you.</content>
 	<content contentuid="h9a3262d9g1cf8gs56e4f484fa27065sd48e2" version="1">Battalion's March</content>
