@@ -166,6 +166,45 @@
 	<content contentuid="heba5aa44355c4cbd91bef6d45ba8e7385104" version="1">Topaz 4</content>
 	<content contentuid="heba5aa44355c4cbd91bef6d45ba8e7385105" version="1">Topaz 5</content>
 
+<!--RADIANT SOUL-->
+
+	<content contentuid="75afaf5bbeec48939102d9037449bef500000" version="1">Radiant Bloom</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000z" version="1">Power flows visibly through you in cascading waves of illuminated brilliance. Radiant and pure, yet effortlessly frightening to those who behold it. A reincarnation of the "Ever Brilliant Mako".</content>
+
+	<content contentuid="75afaf5bbeec48939102d9037449bef500001" version="1">Soulfire Spark</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000a" version="1">While in combat, casting a Spell causes you to emit an aura across [1]. The duration of this aura is equal to the level of Spell that you cast. Allies within the aura regain [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of their turns. Enemies within the aura take [3] at the start of their turns.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000z1" version="1">Soulfire Spark</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000za" version="1">Affected creature is emitting an aura across [1]. Allies within the aura regain [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of their turns. Enemies within the aura take [3] at the start of their turns.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef500zz1" version="1">Soulfire Spark: Bliss</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef500zza" version="1">Affected creature will regain [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each turn due to a nearby allies radiance.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50zzz1" version="1">Soulfire Spark: Bleak</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50zzza" version="1">Affected creature will take [1] Radiant damage at the start of each turn due to a nearby enemies radiance.</content>
+
+	<content contentuid="75afaf5bbeec48939102d9037449bef500002" version="1">Radiance in Bloom</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000b" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Target_RadianceinBloom"&gt;Radiance in Bloom&lt;/LSTag&gt;.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000z2" version="1">Radiance in Bloom</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000zb" version="1">Unleash your radiance in a [1] area, damaging enemies and healing allies for [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Casting this Spell will provide you with two turns of &lt;LSTag Type="Passive" Tooltip="SoulfireSpark"&gt;Soulfire Spark&lt;/LSTag&gt; per Spell level, rather than one.</content>
+
+	<content contentuid="75afaf5bbeec48939102d9037449bef500003" version="1">Soulfire Ignition</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000c" version="1">Your &lt;LSTag Type="Passive" Tooltip="SoulfireSpark"&gt;Soulfire Spark&lt;/LSTag&gt; has been upgrade to a Soulfire Ignition. Allies within the aura now regain [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of their turns. Enemies within the aura now take [2] at the start of their turns.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000z3" version="1">Soulfire Ignition</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000zc" version="1">Affected creature is emitting an aura across [1]. Allies within the aura regain [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of their turns. Enemies within the aura take [3] at the start of their turns.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef500zz3" version="1">Soulfire Ignition: Bliss</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef500zzc" version="1">Affected creature will regain [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each turn due to a nearby allies radiance.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50zzz3" version="1">Soulfire Ignition: Bleak</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50zzzc" version="1">Affected creature will take [1] Radiant damage at the start of each turn due to a nearby enemies radiance.</content>
+
+	<content contentuid="75afaf5bbeec48939102d9037449bef500004" version="1">Immeasurable Light</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000d" version="1">Allies within the radius of your &lt;LSTag Type="Passive" Tooltip="SoulfireIgnition"&gt;Soulfire Ignition&lt;/LSTag&gt; gain &lt;LSTag Type="Status" Tooltip="DIVINE_FAVOR"&gt;Divine Favour&lt;/LSTag&gt;. In addition, each time that you deal Radiant damage, your target is afflicted with one &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiating Orb&lt;/LSTag&gt;.</content>
+
+	<content contentuid="75afaf5bbeec48939102d9037449bef500005" version="1">Soulfire Inferno</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000e" version="1">The healing done and damage dealt to creatures within your &lt;LSTag Type="Passive" Tooltip="SoulfireIgnition"&gt;Soulfire Ignition&lt;/LSTag&gt; now triggers at both the start and end of their turns.</content>
+
+	<content contentuid="75afaf5bbeec48939102d9037449bef500006" version="1">Radiance Unhinged</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000f" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_RadianceUnhinged"&gt;Radiance Unhinged&lt;/LSTag&gt;.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000z6" version="1">Radiance Unhinged</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000zf" version="1">Unleash your inner radiance in a [1] area, damaging enemies and healing allies within your &lt;LSTag Type="Passive" Tooltip="SoulfireIgnition"&gt;Soulfire Ignition&lt;/LSTag&gt; for [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+
 <!--SHADE WALKER-->
 
 	<content contentuid="h16312bfag01a2g42f8g943bg3fcba8ecfcc3" version="1">Shade Walker</content>
@@ -358,7 +397,7 @@
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000a" version="1">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you create one &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt;. This effect can trigger once per turn.</content>
 
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500002" version="1">Arcane Oppression</content>
-	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000b" version="1">After having used &lt;LSTag Type="Passive" Tooltip="CreationaryText"&gt;Creationary&lt;/LSTag&gt;, enemies within [1] of you roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when attempting to resist your Spells effects.</content>
+	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000b" version="1">After having used &lt;LSTag Type="Spell" Tooltip="Shout_CreateSpellSlotLVL2"&gt;Spell Channeling&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_CreateSorceryPointsLVL2"&gt;Sorcery Channeling&lt;/LSTag&gt;, enemies within [1] of you roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when attempting to resist your Spells effects.</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b5000z2" version="1">Arcane Oppression</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b5000zb" version="1">Affected creature is forcing enemies within [1] to roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when attempting to resist the effects of Spells.</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500zz2" version="1">Arcane Oppression</content>
@@ -368,9 +407,7 @@
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000c" version="1">Once per turn, casting a Spell creates one &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt;.</content>
 
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500004" version="1">Charismatic Infusion</content>
-	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000d" version="1">After having used &lt;LSTag Type="Passive" Tooltip="CreationaryText"&gt;Creationary&lt;/LSTag&gt;, Spells you cast add your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; to their damage rolls.</content>
-	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b5000z4" version="1">Charismatic Infusion</content>
-	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b5000zd" version="1">Affected creature's Spells have their damage increased by a value equal to their &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000d" version="1">Spells you cast add your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; to their damage rolls.</content>
 
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500005" version="1">Charismatic Shield</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000e" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all damage for as long as you have &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt;. Each time you are damaged by an enemy, you immediately lose one Sorcery Point. This can be toggled at any time.</content>
@@ -414,7 +451,7 @@
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000p" version="1">When damaged by an enemy, you generate one stack of &lt;LSTag Type="Status" Tooltip="SORCEROUS_OVERFLOW"&gt;Sorcerous Overflow&lt;/LSTag&gt;.</content>
 
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500017" version="1">Shared Creation</content>
-	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000q" version="1">&lt;LSTag Type="Passive" Tooltip="CreationaryText"&gt;Creationary&lt;/LSTag&gt; can now target allies.</content>
+	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000q" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_CreateSpellSlotLVL2"&gt;Spell Channeling&lt;/LSTag&gt; may now target allies.</content>
 
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500018" version="1">Sorcerous Acumen</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000r" version="1">Gain the ability to expend one &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt; to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on any &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Check&lt;/LSTag&gt;.</content>

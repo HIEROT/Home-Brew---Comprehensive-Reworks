@@ -7,7 +7,7 @@
 
 <!--PSIONIC OVERLOAD-->
 	<content contentuid="h2d18417cgc993g4e52g914cgf1e205a824cb" version="2">Psionic Overload</content>
-	<content contentuid="h74504e19g746bg4867gb7d5g63a74cd99dd0" version="4">When dealing damage with a weapon or while unarmed, deal an additional [1].</content>
+	<content contentuid="h74504e19g746bg4867gb7d5g63a74cd99dd0" version="4">When dealing damage with a weapon or while unarmed or assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wild Shape&lt;/LSTag&gt;, deal an additional [1].</content>
 
 <!--FAVOURABLE BEGINNINGS-->
 	<content contentuid="hb3c2d634g1eb9g4b82gbd88g599b2eec1f66" version="3">Favourable Outcomes</content>
@@ -168,7 +168,7 @@
 
 <!--AWAKENED-->
 	<content contentuid="h17566e31g76ddg41d8gafe5gb617ae1c8677" version="1">Awakened</content>
-	<content contentuid="h02c55962g989ag4901ga98cg8fcf76a9a120" version="1">Your resistance to the zaith'isk in the githyanki infirmary has awakened newfound resilience. Illithid Powers no longer reduce your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="h02c55962g989ag4901ga98cg8fcf76a9a120" version="1">Your tadpole has been thoroughly awakened. Illithid Powers no longer reduce your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h202dc139g4871g4a2ega932g075704cbbcbc" version="3">Your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; has been reduced by 2 by the Zaith'isk. The githyanki device failed to harm your illithid parasite, and has instead permanently taken something from you.</content>
 	<content contentuid="h55e0fc7dgcd0ag4bb7g8d6cgb1d093ce452b" version="3">Your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; has been reduced by 2 by the Zaith'isk. The githyanki device failed to harm your illithid parasite, and has instead permanently taken something from you.</content>

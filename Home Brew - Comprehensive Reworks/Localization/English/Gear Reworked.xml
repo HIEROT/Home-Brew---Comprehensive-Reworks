@@ -10,20 +10,23 @@
 	<content contentuid="h040f504dgc3fdg4ba6gb3ddg95b4a7e9a784" version="2">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Class Passives and Feats cannot stack with themselves through use of items.</content>
 
 <!--HAG HAIR EDIT-->
-	<content contentuid="he3613a4egb36fg4e21g9b64gf28eb5ea79fd" version="1">You want to be stronger? Tougher? Smarter? Done! Anything is possible. (Ability Score +2)</content>
-	<content contentuid="hb9985314gbdaeg43abgb09eg0ba62f84f450" version="1">Consuming this piece of fey flesh grants a permanent +2 bonus to &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;. </content>
-	<content contentuid="h893ca8b9g6fb3g4becg8313gfad6a93c0ad7" version="1">Consuming this piece of fey flesh grants a permanent +2 bonus to &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;.</content>
-	<content contentuid="h2613a90bg932fg4a04g9533ga8aa80ba3222" version="1">Consuming this piece of fey flesh grants a permanent +2 bonus to &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt;.</content>
-	<content contentuid="hcd29882agc525g43a4gb69ag577fc554d421" version="1">Consuming this piece of fey flesh grants a permanent +2 bonus to &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;.</content>
-	<content contentuid="h066676b1gce7dg4bf5gbcd5g7ae30c97493e" version="1">Consuming this piece of fey flesh grants a permanent +2 bonus to &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;.</content>
-	<content contentuid="he0cd3c1cg3e22g4477g8804g00084266704a" version="1">Consuming this piece of fey flesh grants a permanent +2 bonus to &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt;.</content>
+	<content contentuid="he3613a4egb36fg4e21g9b64gf28eb5ea79fd" version="1">You want to be stronger? Tougher? Smarter? Done! Anything is possible.</content>
+	<content contentuid="hb9985314gbdaeg43abgb09eg0ba62f84f450" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;. </content>
+	<content contentuid="h893ca8b9g6fb3g4becg8313gfad6a93c0ad7" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;.</content>
+	<content contentuid="h2613a90bg932fg4a04g9533ga8aa80ba3222" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt;.</content>
+	<content contentuid="hcd29882agc525g43a4gb69ag577fc554d421" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;.</content>
+	<content contentuid="h066676b1gce7dg4bf5gbcd5g7ae30c97493e" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;.</content>
+	<content contentuid="he0cd3c1cg3e22g4477g8804g00084266704a" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h1dcaeebcg9c5dg49dcg9e23g74d9056a4bd0" version="2">Trusting a Hag</content>
+	<content contentuid="h8c35f8f8gf36bg49f0gb846g32f6dd6f3cee" version="2">Trusting a Hag sure does have benefits, doesn't it?</content>
 
 <!--ATTUNEMENT INTEGRATION-->
 	<content contentuid="hd3a156cc7fbf4a5c985eef63f0c2b99b55g3" version="1">Attunement</content>
-	<content contentuid="h98e3be41aead4b5bb8ee60104126ded4b17d" version="5">Determines your ability to equip magical items. The rarity of the item determines the amount of Attunement required to equip it, with each higher rarity costing more.&lt;br&gt;&lt;br&gt;Uncommon items require one point of Attunement.&lt;br&gt;&lt;br&gt;Rare items require two points of Attunement.&lt;br&gt;&lt;br&gt;Very Rare and Legendary items require four points of Attunement.</content>
+	<content contentuid="h98e3be41aead4b5bb8ee60104126ded4b17d" version="5">Determines your ability to equip magical items. The rarity of the item determines the amount of Attunement required to equip it, with each higher rarity costing more.&lt;br&gt;&lt;br&gt;Uncommon items require one point of Attunement.&lt;br&gt;&lt;br&gt;Rare items require two points of Attunement.&lt;br&gt;&lt;br&gt;Very Rare items require three points of Attunement.&lt;br&gt;&lt;br&gt;Legendary items require four points of Attunement.</content>
 
 	<content contentuid="h9328bdc1gcc66g4369g91f3gf3568b1c5133" version="1">Wyvern Toxin</content>
-	<content contentuid="h057011f1g48a4g48b2g85daga04e5026f87d" version="2">Affected entity takes [1] at the end of its next turn.</content>
+	<content contentuid="h057011f1g48a4g48b2g85daga04e5026f87d" version="2">Affected entity takes [1] at the start of its next turn.</content>
 
 <!--ARROWS-->
 	<content contentuid="he2f3af0ag21d0g40efg833bg12f5032eba13" version="1">Arrow of Aberration Slaying</content>
@@ -151,6 +154,8 @@
 	<content contentuid="hbb61911fg1ef9g499fg81c9g7f0039dffd43" version="3">Hurl an flask of flammable oil, coating the the ground on impact.</content>
 
 	<content contentuid="hea0cab11g3d91g4777gafe0ga36e2e2a59c6" version="6">The shrapnel inside this will explode on impact, potentially causing all nearby creatures to &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h8ce0e24cgb5c8g4140gbd31g274d62cd0548" version="1">Applies a condition that reflects all incoming projectiles back at their source.</content>
 
 <!--EDIT TENACITY DESC-->
 	<content contentuid="h141b89fdgbd46g44a4g8b6fg39a9c72a3bed" version="2">Overwhelm</content>
@@ -281,8 +286,8 @@
 	<content contentuid="h2fa83a4dg3b80g4eeeg818fg22dd2f5d6d84" version="3">This object shines with a glowing light in a radius of [1], causing it to deal an additional [2].</content>
 
 <!--PERIAPT OF WOUND CLOSURE-->
-	<content contentuid="hddc19688gfbffg473cgbdeeg606fc4f261a2" version="3">Wound Closure</content>
-	<content contentuid="h2fa83a4dg3b80g4eeeg818fg22dd2f5d6d84" version="3">When healed below 25% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, regain the maximum amount of Hit Points possible.</content>
+	<content contentuid="h4f79a8ceg5817g4e30g9a23g87c5482ebbad" version="3">Wound Closure</content>
+	<content contentuid="hb3742df5g6278g4eedg815fga7d42cb67c90" version="3">When healed below 25% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, regain the maximum amount of Hit Points possible.</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42d2s5d6545" version="1">Wound Closure</content>
 	<content contentuid="h2fa83a4dg3b80g4eeeg818fg22d22d5f6558" version="1">Affected creature will regain the maximum amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; possible when healed.</content>
 
@@ -516,7 +521,7 @@
 
 <!--THE WATERSPARKERS-->
 	<content contentuid="h4e602986gf231g4d72g9a88g2648d2125ce0" version="3">Sparking Surfaces</content>
-	<content contentuid="h27f55615g490fg4048g9c2bg2d48e238f4da" version="6">The wearer becomes immune to the effects of walking through electrified surfaces. Stepping in water immediately electrifies it. If the wearer starts their turn on an electrified surface, they gain [1] &lt;LSTag Type="Status" Tooltip="MAG_CHARGED_LIGHTNING"&gt;Lightning Charge&lt;/LSTag&gt;.</content>
+	<content contentuid="h27f55615g490fg4048g9c2bg2d48e238f4da" version="6">The wearer becomes immune to the effects of walking through electrified surfaces. While in combat, stepping in water immediately electrifies it. If the wearer starts their turn on an electrified surface, they gain [1] &lt;LSTag Type="Status" Tooltip="MAG_CHARGED_LIGHTNING"&gt;Lightning Charge&lt;/LSTag&gt;.</content>
 
 <!--TRUE LOVES EMBRACE-->
 	<content contentuid="h69fb2ca9g7914g463aga589gbf6a8719a62c" version="3">Lovers Ward</content>
@@ -581,6 +586,12 @@
 <!--MOON DEVOTION ROBE-->
 	<content contentuid="hc4fc035dg20a0g4cf1gb88cgedf06ed1c4f5" version="1">Selûne's Protection</content>
 	<content contentuid="h431b5b51gfdbdg4380gb856geed9f805f98c" version="3">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Constitution based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Each successful &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; you make causes the source of the Saving Throw to take [1].</content>
+
+<!--SOULBOUND CHAIN-->
+	<content contentuid="h94981fe3g720cg4a5dgaaw5e4f6s485ef465" version="1">Soulbound</content>
+	<content contentuid="hf318c6dcg5444gwse5f4se4f6s456e45ew54" version="3">Upon dealing damage, you have a 33% chance to afflict your target with &lt;LSTag Type="Status" Tooltip="SOULBOUND"&gt;Soulbound&lt;/LSTag&gt;.</content>
+	<content contentuid="h94981fe3g720cg4a5dgaaw5e4f6s485ef46z" version="1">Soulbound</content>
+	<content contentuid="hf318c6dcg5444gwse5f4se4f6s456e45ew5z" version="3">Affected creature is unable to utilize their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement&lt;/LSTag&gt; until the end of their next turn.</content>
 
 <!--SHADOW-CLOAKED RING-->
 	<content contentuid="h385fb38fg6a1dg4d66g8c7cg9fd7e85648d9" version="3">Shadowthief</content>
@@ -757,7 +768,7 @@
 
 <!--CIRCLET OF HUNTING-->
 	<content contentuid="h9d43e46cg794eg4888ga8e4gc6e7adb48d02" version="2">Hunter's Eye</content>
-	<content contentuid="h598865d5gd110g4ab4gace2g103f74e9a574" version="3">You gain a +[1] bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and roll all damage with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against creatures marked by &lt;LSTag Type="Status" Tooltip="HUNTERS_MARK"&gt;Hunter's Mark&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="TRUE_STRIKE"&gt;True Strike&lt;/LSTag&gt;, or &lt;LSTag Type="Status" Tooltip="FAERIE_FIRE"&gt;Faerie Fire&lt;/LSTag&gt;.</content>
+	<content contentuid="h598865d5gd110g4ab4gace2g103f74e9a574" version="3">While under the effects of &lt;LSTag Type="Status" Tooltip="TRUE_STRIKE"&gt;True Strike&lt;/LSTag&gt;, you make all Damage Rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 <!--BOOTS OF ARCANE BOLSTERING-->
 	<content contentuid="hc4bee9c1gd891g45d1g8330ga4a2f91c9e56" version="2">Rapid Caster</content>
@@ -798,16 +809,12 @@
 	<content contentuid="he78eb6f5ga85eg4943ga3e7gb332e71ba90b" version="3">Reaper's Rigidity</content>
 	<content contentuid="h8a3684e3g1ba1g4c81gb4afgaf3a4f38c557" version="4">You can't be moved against your will. This can be toggled at any time.</content>
 	<content contentuid="h14179d92g21b2g4159g9e39g1163df653d98" version="3">Numbed</content>
-	<content contentuid="hce03c8dcg15a0g4b1cgad79g833917c78c63" version="4">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; has been halved. The Spellcaster has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against the affected entity.&lt;br&gt;&lt;br&gt;Removed if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
+	<content contentuid="hce03c8dcg15a0g4b1cgad79g833917c78c63" version="4">Affected creature's &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; has been halved. The Spellcaster has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against the affected entity.&lt;br&gt;&lt;br&gt;Removed if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
 
 <!--SELÛNE'S SPEAR OF NIGHT-->
 	<content contentuid="h6afc6040g6189g4d65g9177ga06019e95d13" version="2">Moonmote</content>
 	<content contentuid="hef065898ge958g4085gb33dg40078b0ee1f4" version="2">Illuminate a [1] area around you with wisps of moonlight that make &lt;LSTag Tooltip="MovementSpeed"&gt;Movement&lt;/LSTag&gt; difficult for enemies and grants your allies an additional [2].</content>
 	<content contentuid="h178f0080gd517g4d54ga81fgcc05500c6285" version="2">At the start of their turn, each hostile creature within the light must succeed a Wisdom based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or they must treat the lit area as &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
-
-<!--PERIAPT OF WOUND CLOSURE-->
-	<content contentuid="hf9701d8fgb427g4a4bga02egdd184ff93fd9" version="1">Potent Healing</content>
-	<content contentuid="h2241f33fgb052g41bagb57bg7af4724dc5e3" version="2">Whenever healed while below 25% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you restore the maximum number of Hit Points possible.</content>
 
 <!--RESONANCE STONE-->
 	<content contentuid="h6e04194fg95f1g45a1gab21g9a91836d26e3" version="2">Steeped In Bliss</content>
@@ -1545,9 +1552,9 @@
 	<content contentuid="hcbb02b50g75d3g46a0239490wdeuf903w595" version="1">Hellrider</content>
 	<content contentuid="h53277800gd3a4g4984gbf20394ur0w98fsf4" version="2">Upon making a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; against another creature, &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt; are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and deal an additional 1d12 damage. Upon making a Melee Weapon Attack against another creature, Ranged Weapon Attacks are rolled with Advantage and deal an additional 1d12 damage.</content>
 	<content contentuid="hcbb02b50g75d3g46a0239490wdeuf903w501" version="1">Hellrider: Melee</content>
-	<content contentuid="hb8bf311cg5a03g46a9g888bgceewe98r9s0a" version="2">Affected creature makes &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and deals an additional 1d12 damage when doing so.</content>
+	<content contentuid="ha2b1f08fg4d26g44e6g87f6gc498192859a7" version="2">Affected creature makes &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and deals an additional 1d12 damage when doing so.</content>
 	<content contentuid="hcbb02b50g75d3g46a0239490wdeuf903w502" version="1">Hellrider: Ranged</content>
-	<content contentuid="hb8bf311cg5a03g46a9g888bgceewe98r9s0b" version="2">Affected creature makes &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and deals an additional 1d12 damage when doing so.</content>
+	<content contentuid="h7a6d6932ge204g4616g9248g132dfdb31e6a" version="2">Affected creature makes &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and deals an additional 1d12 damage when doing so.</content>
 
 <!--DUELLISTS PREROGATIVE-->
 	<content contentuid="h711045a1g2e51g4ca1gbed0g1f418fa12e6b" version="1">Elegant Duellist</content>
@@ -2126,7 +2133,7 @@
 	<content contentuid="h90d32ee1gb12bg41d6ga445gf7a02b10e858" version="1">Holy Symbol of Eilistraee</content>
 	<content contentuid="h487c6e70gdebfg4f3ag9afbg4e2251c1e9ab" version="1">A small token dedicated to the drow sword goddess of beauty and freedom.</content>
 	<content contentuid="hca2427eag5ae6g4bdfg801cg74eb4646d6e9" version="1">Moon Maiden's Mark</content>
-	<content contentuid="hc6dbc548g719dg4548g871cg674bd40b61a0" version="1">When dealing damage with shortswords, longswords, or greatswords, deal additional damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+	<content contentuid="hc6dbc548g719dg4548g871cg674bd40b61a0" version="1">When dealing damage with shortswords, longswords, or greatswords, deal additional damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by two.</content>
 
 	<content contentuid="h7da956f2ga70bg4fe8g988bg4595a7e832a9" version="1">Holy Symbol of Helm</content>
 	<content contentuid="ha116629cg3f8cg4004g830cg4c0fe89f3513" version="1">A worn and weathered copper coin. Despite its age, the symbol of the god Helm is still clearly visible.</content>

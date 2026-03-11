@@ -350,7 +350,7 @@
 	<content contentuid="51939390dfff9dif9dff4699fafff6d90000a" version="4">This creature is considered to be far more dangerous than what you typically encounter.&lt;br&gt;&lt;br&gt;When recovering from a &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION_DESCRIPTION"&gt;Lockdown Condition&lt;/LSTag&gt;, they gain status immunity to all lockdown conditions for three turns.</content>
 
 	<content contentuid="51939390dfff9dif9dff4699fafff6d900002" version="1">Fatal Encounter</content>
-	<content contentuid="51939390dfff9dif9dff4699fafff6d90000b" version="4">This creature exudes an aura of power. Encountering them in combat can easily prove fatal.&lt;br&gt;&lt;br&gt;When recovering from a &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION_DESCRIPTION"&gt;Lockdown Condition&lt;/LSTag&gt;, they gain status immunity to all lockdown conditions for three turns.</content>
+	<content contentuid="51939390dfff9dif9dff4699fafff6d90000b" version="4">This creature exudes an aura of power. Encountering them in combat can easily prove fatal.&lt;br&gt;&lt;br&gt;When recovering from a &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION_DESCRIPTION"&gt;Lockdown Condition&lt;/LSTag&gt;, they gain status immunity to all lockdown conditions for three turns. In addition, Fatal Encounters have status immunity to being &lt;LSTag Type="Status" Tooltip="DISARMED"&gt;Disarmed&lt;/LSTag&gt;.</content>
 
 	<content contentuid="51939390dfff9dif9dff4699fafff6d900003" version="1">Lockdown Immunity</content>
 	<content contentuid="51939390dfff9dif9dff4699fafff6d90000c" version="4">Affected creature has status immunity to all &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION_DESCRIPTION"&gt;Lockdown Conditions&lt;/LSTag&gt;.</content>
@@ -456,7 +456,7 @@
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d322000zd" version="1">Call forth a violent Worg to tear through your enemies.</content>
 
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d32200005" version="1">Reckless Warcry</content>
-	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000e" version="4">As the leader of the pack, this creature will potentially let out a desperate, rallying &lt;LSTag Type="Status" Tooltip="GOBLINWARCRY"&gt;Warcry&lt;/LSTag&gt; when beginning their turn with no &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000e" version="4">As the leader of the pack, this creature can let out a desperate &lt;LSTag Type="Status" Tooltip="GOBLINWARCRY"&gt;Warcry&lt;/LSTag&gt; when beginning their turn.</content>
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d322000z5" version="1">Reckless Warcry</content>
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d322000ze" version="4">Let out a desperate, rallying &lt;LSTag Type="Status" Tooltip="GOBLINWARCRY"&gt;Warcry&lt;/LSTag&gt; to embolden you and your allies.</content>
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d32200zz5" version="1">Reckless Warcry</content>

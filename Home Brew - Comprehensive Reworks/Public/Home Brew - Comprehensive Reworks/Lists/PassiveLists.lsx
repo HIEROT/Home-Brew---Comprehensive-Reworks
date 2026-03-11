@@ -5,16 +5,16 @@
     <node id="root">
       <children>
         <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="Proficiency_Battleaxes,Proficiency_Flails,Proficiency_Glaives,Proficiency_Greataxe,Proficiency_Greatswords,Proficiency_Halberds,Proficiency_Longswords,Proficiency_Mauls,Proficiency_Morningstars,Proficiency_Pikes,Proficiency_Rapiers,Proficiency_Scimitars,Proficiency_Shortswords,Proficiency_Tridents,Proficiency_Warhammers,Proficiency_Warpicks,Proficiency_HandCrossbows,Proficiency_HeavyCrossbows,Proficiency_Longbows,Proficiency_Shields,Proficiency_LightArmour,Proficiency_MediumArmour,Proficiency_HeavyArmour" />
-                    <attribute id="UUID" type="guid" value="bd718fc4-4e10-4e46-a07c-ea6b5e44a137" />
-					</node>
-        <node id="PassiveList">
                     <attribute id="Passives" type="LSString" value="Personality_None,Personality_Barbarian,Personality_Bard,Personality_Cleric,Personality_Druid,Personality_Fighter,Personality_Monk,Personality_Ranger,Personality_Rogue,Personality_Sorcerer,Personality_Warlock,Personality_Wizard" />
                     <attribute id="UUID" type="guid" value="cf44a7c1-3fcb-4fb6-8624-45dd433c11b1" />
 					</node>
         <node id="PassiveList">
                     <attribute id="Passives" type="LSString" value="CT_None,CT_AdrenalineSurge,CT_BlindEmotions,CT_BloodyResults,CT_BorrowedTime,CT_BreatheDeep,CT_ConfidentlyIncorrect,CT_CriticalLoss,CT_Crybaby,CT_DelusionsintheDark,CT_Gambler,CT_GentleGiant,CT_GildedPilfer,CT_GlassCannon,CT_HandsofCalamity,CT_HastyReflexes,CT_Haymaker,CT_HealthyChills,CT_HeavyHanded,CT_Hyperfixation,CT_Ironbourne,CT_ImmovableBoulder,CT_Lefty,CT_LetMeSoloThem,CT_LoneWolf,CT_Narcoleptic,CT_NaturalMedium,CT_Overcharged,CT_OverlyDifficult,CT_Packing,CT_PlanarSkipping,CT_ReactiveLoss,CT_Reckless,CT_SlowRoller,CT_Stinky,CT_SplitFocus,CT_SunlightAversion,CT_Unhinged,CT_UnstableSource,CT_WaningImmortality,CT_Wretch" />
                     <attribute id="UUID" type="guid" value="15eff335-46df-4268-9eea-aabcb6c13025" />
+					</node>
+        <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="AT_None,AT_ArcanePrecision,AT_CombatMastery,AT_DeepenedResolve,AT_ImposingWill,AT_IronBreaker,AT_MartialPrecision,AT_RestorativeTouch,AT_TemperedBody,AT_TemperedMind,AT_WeaveBreaker" />
+                    <attribute id="UUID" type="guid" value="4607f9c7-335c-443f-b075-a3f068c20a0d" />
 					</node>
         <node id="PassiveList">
                     <attribute id="Passives" type="LSString" value="AdaptivePlating,ArcaneCalibrationMatrix,AutomatedArcaneSuppression,CastleDefense,DeadZoneCalibration,ElementalPayload,EmergencyPowerCell,FailsafeInjection,IncendiaryRounds,KineticFeedbackLoop,LikeClockwork,ModularAugmentation,NaniteDispersionField,Overclocked,PrecisionRifling,RecoilCompensation,Safeguard,SpeedLoader,SyntheticActionEconomy,VitalAim" />
@@ -31,10 +31,6 @@
         <node id="PassiveList">
                     <attribute id="Passives" type="LSString" value="BarbarousAssault,BrutalCritical,DangerSense,DeathGlare,Faceoff,FuriousCriticals,LandsStride,OverwhelmingPower,PeakPhysicality,RageoftheMountain,RageoftheUndefeated,RagingVitality,RelentlessRage,RipandTear,RootedinAnger,TemperedRetaliation,TerrifyingBellow,UnrelentingRampage,UnarmouredBeast,UnstoppableForce" />
                     <attribute id="UUID" type="guid" value="d8183f3c-9c62-40b7-9418-e7ad07a8204e" />
-					</node>
-        <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="AspectoftheBear,AspectoftheEagle,AspectoftheElk,AspectoftheTiger,AspectoftheWolf" />
-                    <attribute id="UUID" type="guid" value="3525e4c5-528b-4197-acd6-47c084054b59" />
 					</node>
         <node id="PassiveList">
                     <attribute id="Passives" type="LSString" value="Aggressive_Rhythm,Discerning_Insult,Distracting_Dissonance,Dueling_Ditties,Echoes_of_Fortitude,Encouraging_Momentum,Engaging_Composition,Guiding_Performance,Harmonious_Aura,Infuriating_Amplification,Inspirational_Resonance,Inspiring_Crescendo,Insufferable_Discord,Melodic_Precision,Mobile_Maestro,Mocksmith,Silver_Tongued_Savant,Soothing_Words,Unprecedented_Encore,Vigorously_Tuned" />
@@ -81,7 +77,7 @@
                     <attribute id="UUID" type="guid" value="27e37640-a012-40f0-8ced-a398640dac75" />
 					</node>
         <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="Ambush_Breaker,Ballistic_Infusion,Beastbonds_Precision,Beastial_Foresight,Blood_Bond,Bounty_Hunter,Close_Quarters_Shooter,Escapist,Explosive_Arrowheads,Hidden_Inventory,Marksmans_Edge,Multiattack_Defense,Natural_Huntsman,Natural_Opportunity,Protective_Bond,Sniper,Superior_Technique,Sure_Shot,Two_Weapon_Fighting,Wanton_Synergy" />
+                    <attribute id="Passives" type="LSString" value="Ambush_Breaker,Ballistic_Infusion,Beastbonds_Precision,Beastial_Recovery,Blood_Bond,Bounty_Hunter,Close_Quarters_Shooter,Escapist,Explosive_Arrowheads,Hidden_Inventory,Marksmans_Edge,Multiattack_Defense,Natural_Huntsman,Natural_Opportunity,Protective_Bond,Sniper,Superior_Technique,Sure_Shot,Two_Weapon_Fighting,Wanton_Synergy" />
                     <attribute id="UUID" type="guid" value="fed4c4e9-fbe0-41d6-abc1-ee3dc5b80302" />
 					</node>
         <node id="PassiveList">
