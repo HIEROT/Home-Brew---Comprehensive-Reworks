@@ -5,7 +5,7 @@ type "SpellData"
 data "SpellType" "Target"
 data "SpellProperties" "IF(not ClassLevelHigherOrEqualThan(5,'Bard')):ApplyStatus(BARDIC_INSPIRATION,100, -1);IF(ClassLevelHigherOrEqualThan(5,'Bard') and not ClassLevelHigherOrEqualThan(9,'Bard')):ApplyStatus(BARDIC_INSPIRATION_D8,100, -1);IF(ClassLevelHigherOrEqualThan(9,'Bard')):ApplyStatus(BARDIC_INSPIRATION_D10,100, -1);IF(HasPassive('Echoes_of_Fortitude',context.Source)):ApplyStatus(ECHOES_OF_FORTITUDE,100, -1);IF(HasPassive('Encouraging_Momentum',context.Source) or HasPassive('Encouraging_Momentum_Item',context.Source)):ApplyStatus(DASH,100,1);IF(HasPassive('Encouraging_Momentum',context.Source) or HasPassive('Encouraging_Momentum_Item',context.Source)):ApplyStatus(DISENGAGE,100,1);IF(HasPassive('Encouraging_Momentum',context.Source) or HasPassive('Encouraging_Momentum_Item',context.Source)):ApplyStatus(SELF,DASH,100,1);IF(HasPassive('Encouraging_Momentum',context.Source) or HasPassive('Encouraging_Momentum_Item',context.Source)):ApplyStatus(SELF,DISENGAGE,100,1);IF(HasPassive('Engaging_Composition',context.Source) and HasWeaponInMainHand(context.Target)):ApplyStatus(COMMANDERS_STRIKE_D8_BARD,100,-1);IF(HasPassive('Inspirational_Resonance',context.Source)):CreateExplosion(Projectile_Inspirational_Resonance);IF(HasPassive('Soothing_Words',context.Source) or HasPassive('Soothing_Words_Item',context.Source)):ApplyStatus(SOOTHING_WORDS,100,-1);IF(HasPassive('Unprecedented_Encore',context.Source)):TriggerRandomCast(17,,WildMagicPositive);IF(HasPassive('Mobile_Maestro',context.Source)):SwapPlaces();AI_ONLY:ApplyStatus(SELF,AI_HELPER_BUFF,100,0)"
 data "TargetRadius" "18"
-data "TargetConditions" "Character() and not Enemy() and not Self() and not (HasStatus('BARDIC_INSPIRATION') or HasStatus('BARDIC_INSPIRATION_D8') or HasStatus('BARDIC_INSPIRATION_COMBAT') or HasStatus('BARDIC_INSPIRATION_COMBAT_D8'))"
+data "TargetConditions" "Ally() and not Dead() and not Self() and not (HasStatus('BARDIC_INSPIRATION') or HasStatus('BARDIC_INSPIRATION_D8') or HasStatus('BARDIC_INSPIRATION_COMBAT') or HasStatus('BARDIC_INSPIRATION_COMBAT_D8'))"
 data "Icon" "Action_Bard_RestoreBardicInspiration"
 data "DisplayName" "he811cf79gab9dg4fc3g908dg12f52b41e976;1"
 data "Description" "hb2e60320g20ebg4a60gb572g098b49a5c544;5"
@@ -132,6 +132,7 @@ data "HitAnimationType" "None"
 data "LineOfSightFlags" "AddSourceHeight"
 data "PrepareEffect" "cc478d8f-d3eb-46dc-844c-203ae2ec7df5"
 data "CastEffect" "7d3e8834-02c2-4641-bad5-23ad5b00d342"
+data "RequirementConditions" "not Grounded()"
 
 <!--COLLEGE OF VALOUR-->
 

@@ -2712,7 +2712,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="CollegeofMoriendi"/>
-                    <attribute id="PassivesAdded" type="LSString" value="GraveChill"/>
+                    <attribute id="PassivesAdded" type="LSString" value="FuneralMarch"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
 					<attribute id="Selectors" type="LSString" value="SelectSpells(4f8a545f-2a42-490b-a008-7276d5186b0a,1,1,BardSpells)" />
                     <attribute id="TableUUID" type="guid" value="89818b42-0c0c-4c76-ade9-2148f37cd51d"/>
@@ -2746,7 +2746,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="CollegeofMoriendi"/>
-                    <attribute id="PassivesAdded" type="LSString" value="FuneralMarch"/>
+                    <attribute id="PassivesAdded" type="LSString" value="GraveChill"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
 					<attribute id="Selectors" type="LSString" value="SelectSpells(4f8a545f-2a42-490b-a008-7276d5186b0a,1,1,BardSpells)" />
                     <attribute id="TableUUID" type="guid" value="89818b42-0c0c-4c76-ade9-2148f37cd51d"/>

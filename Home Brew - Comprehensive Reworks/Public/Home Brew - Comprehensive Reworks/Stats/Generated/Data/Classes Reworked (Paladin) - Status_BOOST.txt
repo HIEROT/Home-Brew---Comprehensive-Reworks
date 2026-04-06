@@ -22,7 +22,7 @@ data "Icon" "Spell_2e_RighteousMight"
 data "StackId" "JUDGEMENTOFTHECRUCIBLE"
 data "OnRemoveFunctors" "RestoreResource(WarPriestActionPoint, 1, 0)"
 data "TickType" "EndTurn"
-data "StatusPropertyFlags" "ForceOverhead"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "FormatColor" "Gold"
 
 <!--SMITE REWORKS-->

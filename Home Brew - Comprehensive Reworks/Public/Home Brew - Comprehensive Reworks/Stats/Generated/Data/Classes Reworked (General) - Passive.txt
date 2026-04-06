@@ -130,7 +130,7 @@ data "Icon" "PassiveFeature_IronMind"
 data "Properties" "Highlighted;ForceShowInCC"
 data "Boosts" "IF(not Self()):DamageBonus(ProficiencyBonus)"
 data "StatsFunctorContext" "OnDamaged"
-data "StatsFunctors" "DealDamage(SELF,ProficiencyBonus,,,,0,,true)"
+data "StatsFunctors" "DealDamage(ProficiencyBonus,,,,0,,true)"
 
 new entry "CT_BorrowedTime"
 type "PassiveData"

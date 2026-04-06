@@ -28,7 +28,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="2922f8bf-1d35-4649-a9b6-f21dccdbeb94" />
 					<attribute id="Name" type="LSString" value="MAG_Cleric_Forge_Mace_2" />
-					<attribute id="ParentTemplateId" type="FixedString" value="e6b027a7-40bb-445e-b199-38b08d2b4832" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f9cacc03-7071-4c77-9b49-9f7b3dfe06dd" />
 					<attribute id="Stats" type="FixedString" value="MAG_Cleric_Forge_Mace_2" />
 					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
 					<attribute id="TechnicalDescriptionParams" type="LSString" value="" />
@@ -45,7 +45,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="f5cfb5a6-6321-4a66-a97a-c180106ed220" />
 					<attribute id="Name" type="LSString" value="MAG_Cleric_Forge_Mace_3" />
-					<attribute id="ParentTemplateId" type="FixedString" value="e6b027a7-40bb-445e-b199-38b08d2b4832" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f9cacc03-7071-4c77-9b49-9f7b3dfe06dd" />
 					<attribute id="Stats" type="FixedString" value="MAG_Cleric_Forge_Mace_3" />
 					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
 					<attribute id="TechnicalDescriptionParams" type="LSString" value="" />

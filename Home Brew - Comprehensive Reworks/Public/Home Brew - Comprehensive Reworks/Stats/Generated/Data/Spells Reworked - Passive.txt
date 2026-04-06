@@ -1,9 +1,55 @@
+<!---------------------------------------------------------------------------------------------------MISC--------------------------------------------------------------------------------------------------->
+
+<!--DOWNED AUTO REVIVE-->
+
+new entry "Downed_CombatEnded"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCombatEnded"
+data "StatsFunctors" "RegainHitPoints(1)"
+
+<!--MULTI HIT SPELLS-->
 
 new entry "Multihit_Blocker_Remover"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCastResolved"
 data "StatsFunctors" "RemoveStatus(MULTIHIT_BLOCKER)"
+
+<!--SHORT RESTING-->
+
+new entry "ShortResting"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnShortRest"
+data "StatsFunctors" "IF(CheckRulesetModifier('1d9a608a-3885-4d48-8816-458e40d1136e', false)):RegainHitPoints(MaxHP/2);IF(CheckRulesetModifier('1d9a608a-3885-4d48-8816-458e40d1136e', true)):RegainHitPoints(MaxHP);RemoveStatus(GAINSORCERYPOINT_1);RemoveStatus(GAINSORCERYPOINT_2);RemoveStatus(GAINSORCERYPOINT_3);RemoveStatus(GAINSORCERYPOINT_4);RemoveStatus(GAINSORCERYPOINT_5);RemoveStatus(GAINSORCERYPOINT_6);RemoveStatus(LOSESORCERYPOINT_1);RemoveStatus(LOSESORCERYPOINT_2);RemoveStatus(LOSESORCERYPOINT_3);RemoveStatus(LOSESORCERYPOINT_4);RemoveStatus(LOSESORCERYPOINT_5);RemoveStatus(LOSESORCERYPOINT_6);RemoveStatus(GAINSPELLSLOT_1);RemoveStatus(GAINSPELLSLOT_2);RemoveStatus(GAINSPELLSLOT_3);RemoveStatus(GAINSPELLSLOT_4);RemoveStatus(GAINSPELLSLOT_5);RemoveStatus(GAINSPELLSLOT_6);RemoveStatus(LOSESPELLSLOT_1);RemoveStatus(LOSESPELLSLOT_2);RemoveStatus(LOSESPELLSLOT_3);RemoveStatus(LOSESPELLSLOT_4);RemoveStatus(LOSESPELLSLOT_5);RemoveStatus(LOSESPELLSLOT_6);RemoveStatus(SORCERYPOINTS_1);RemoveStatus(SORCERYPOINTS_2);RemoveStatus(PHILOSOPHERS_STONE_USED);RemoveStatus(HASTE_LETHARGY);RemoveStatus(HASTE_LETHARGY_KO);RemoveStatus(EXHAUSTION_1);RemoveStatus(EXHAUSTION_2);RemoveStatus(EXHAUSTION_3);RemoveStatus(EXHAUSTION_4);RemoveStatus(EXHAUSTION_5);RemoveStatus(EXHAUSTION_6);RemoveStatus(EXHAUSTION_7);RemoveStatus(EXHAUSTION_8);RemoveStatus(EXHAUSTION_9);RemoveStatus(EXHAUSTION_10);RemoveStatus(STRESS_1);RemoveStatus(STRESS_2);RemoveStatus(STRESS_3);RemoveStatus(STRESS_4);RemoveStatus(STRESS_5);RemoveStatus(STRESS_6);RemoveStatus(STRESS_7);RemoveStatus(STRESS_8);RemoveStatus(STRESS_9);RemoveStatus(STRESS_10);RemoveStatus(TOXICITY_1);RemoveStatus(TOXICITY_2);RemoveStatus(TOXICITY_3);RemoveStatus(TOXICITY_4);RemoveStatus(TOXICITY_5);RemoveStatus(TOXICITY_6);RemoveStatus(TOXICITY_7);RemoveStatus(TOXICITY_8);RemoveStatus(TOXICITY_9);RemoveStatus(TOXICITY_10)"
+
+<!---------------------------------------------------------------------------------------------------CONDITIONS--------------------------------------------------------------------------------------------------->
+
+<!--ASPECT OF MURDER-->
+
+new entry "AspectofMurder"
+type "PassiveData"
+data "DisplayName" "hdad2d69cgc3e6g4ae0g884fgcc24988b733d;3"
+data "Description" "h2e6a6adfg1db3g4121g885eg84183982e2d9;3"
+data "Icon" "PassiveFeature_Generic_Death"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamage"
+data "StatsFunctors" "ApplyStatus(AURA_OF_MURDER_BUFF,100,1)"
+
+<!--CRAWLING GNAW-->
+
+new entry "ZombieDecay"
+type "PassiveData"
+data "DisplayName" "ha0399efegfcecg47beg80a9g9fd267a3fc2e;1"
+data "Description" "h06553ae4gc02bg4b85g8b6fg29bbf4fdc9a8;2"
+data "DescriptionParams" "DealDamage(1,Force)"
+data "Icon" "statIcons_CrawlingGnawInfection"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCreate;OnCombatStarted;OnTurn"
+data "StatsFunctors" "IF(not HasStatus('ZOMBIE_DECAY_ACTUAL', context.Source))ApplyStatus(SELF,ZOMBIE_DECAY_ACTUAL,100,-1)"
+
+<!--DRUNK-->
 
 new entry "Innebriated"
 type "PassiveData"
@@ -24,6 +70,43 @@ data "Description" "h5fd7c8b8ga49bg421ag813egfd15477a9888;2"
 data "Icon" "Status_Drunk"
 data "Boosts" "IF(IsUnarmedAttack() and not HasPassive('BingeDrinker', context.Source)):RollBonus(Attack,1);IF(IsUnarmedAttack() and HasPassive('BingeDrinker', context.Source)):RollBonus(Attack,2)"
 
+<!--FORCE CONDUIT-->
+
+new entry "MAG_ZOC_ForceConduit_EnergyConversionBlast_Passive"
+type "PassiveData"
+data "Icon" "PassiveFeature_Generic_Tactical"
+data "DisplayName" "h19df58dcgd283g4783g99e5g21b06ff74f98;2"
+data "Description" "h2b39c540gc2c5g4708ga0eag202eac601613;3"
+data "DescriptionParams" "DealDamage(1d12,Force);Distance(3)"
+data "Properties" "OncePerAttack"
+data "StatsFunctorContext" "OnDamaged"
+data "Conditions" "IsMeleeAttack() and ForceConduitBlastRequirement(context.Target) and not HasStatus('MAG_ZOC_FORCE_CONDUIT_ONCE_TECHNICAL')"
+data "StatsFunctors" "ApplyStatus(MAG_ZOC_FORCE_CONDUIT_EXPLOSION_TECHNICAL, 100, 0);SetStatusDuration(MAG_ZOC_FORCE_CONDUIT,-5,Add);ApplyStatus(MAG_ZOC_FORCE_CONDUIT_ONCE_TECHNICAL, 100, 0)"
+
+new entry "MAG_ZOC_ForceConduit_EnergyConversionTrigger_Passive"
+type "PassiveData"
+data "DisplayName" "h0e5c9b29gfb0cg49e7g9969gdcf0562791e9;1"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnStatusApplied"
+
+<!--HEAT-->
+
+new entry "MAG_Fire_Heat_Convergence_Passive"
+type "PassiveData"
+data "DisplayName" "h848e2c9fg3432g4695g880fgc7e6647372a0;2"
+data "Description" "h0a936a4cg714dg4771g80edgae9a7097cd3f;3"
+data "DescriptionParams" "DealDamage(1,Fire)"
+data "Icon" "PassiveFeature_HeatConvergence"
+data "Properties" "IsToggled;Temporary"
+data "Boosts" "UnlockSpellVariant(HeatConvergenceFireSpellCheck(),ModifyIconGlow(), ModifyTooltipDescription());IF(StatusGroupDurationEqualOrMoreThan(context.Source,'MAG_FIRE_HEAT',10) and HasPassive('Pyrebound', context.Source)):UnlockSpell(Target_MeteoricBurst)"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsDamageTypeFire() and not Self()"
+data "StatsFunctors" "RemoveStatus(SELF, MAG_FIRE_HEAT);RemoveStatus(SELF, MAG_FIRE_HEAT_CONVERGENCE)"
+data "ToggleOnFunctors" "ApplyStatus(MAG_FIRE_HEAT_CONVERGENCE, 100, -1)"
+data "ToggleOffFunctors" "RemoveStatus(MAG_FIRE_HEAT_CONVERGENCE)"
+
+<!--INFESTED-->
+
 new entry "Spider_Infestation"
 type "PassiveData"
 data "DisplayName" "h2e01071egfa79g46ceg83c5gd2eaad509bd6;1"
@@ -35,6 +118,8 @@ data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnAttacked"
 data "Conditions" "IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellId('Projectile_SteelWindBeam')"
 data "StatsFunctors" "IF(not ((Tagged('SPIDER', context.Source) or HasPassive('SpiderWalk', context.Source)) or HasStatus('SPIDER_INFESTATION', context.Source))):ApplyStatus(SWAP,SPIDER_INFESTATION,100,3)"
+
+<!--LIGHTNING CHARGES-->
 
 new entry "MAG_ChargedLightning_LightningDamage_Passive"
 type "PassiveData"
@@ -50,6 +135,8 @@ data "StatsFunctorContext" "OnDamage"
 data "Conditions" "HasStatus('MAG_CHARGED_LIGHTNING', context.Source) and not HasStatus('MAG_CHARGED_LIGHTNING_AURA_TECHNICAL', context.Source)"
 data "StatsFunctors" "IF(not HasStatus('MAG_CHARGED_LIGHTNING_AURA_TECHNICAL', context.Source) and IsDischargingLightning(context.Source) and not HasStatus('MAG_CHARGED_LIGHTNING_LIGHTNING_DISCHARGE_ONCE_TECHNICAL', context.Source)):ApplyStatus(MAG_CHARGED_LIGHTNING_DISCHARGE_DAMAGE, 100, 0);IF(IsDischargingLightning(context.Source) and not HasStatus('MAG_CHARGED_LIGHTNING_LIGHTNING_DISCHARGE_ONCE_TECHNICAL', context.Source)):ApplyStatus(MAG_CHARGED_LIGHTNING_GENERATE_CHARGE_FX, 100, 0);IF(IsDischargingLightning(context.Source)):ApplyStatus(SELF, MAG_CHARGED_LIGHTNING_LIGHTNING_DISCHARGE_ONCE_TECHNICAL, 100, 0);IF(not HasStatus('MAG_CHARGED_LIGHTNING_AURA_TECHNICAL', context.Source) and IsDischargingLightning(context.Source)):SetStatusDuration(SELF,MAG_CHARGED_LIGHTNING,-5,Add);"
 
+<!--RADIATING ORB-->
+
 new entry "MAG_RadiatingOrb_ReduceDurationPerAttack_Passive"
 type "PassiveData"
 using "MAG_Radiant_RadiatingOrb_Ring_Passive"
@@ -60,15 +147,54 @@ data "StatsFunctorContext" "OnAttack"
 data "Conditions" "not Self() and not Item() and HasAttackRoll()"
 data "StatsFunctors" "RemoveStatus(SELF,MAG_RADIANT_RADIATING_ORB)"
 
-new entry "Witch_Bolt_Removal"
+<!--UNSTOPPABLE-->
+
+new entry "MurderHungry"
 type "PassiveData"
+data "DisplayName" "h78afbff3g229bg4088ga6fege1eedc757a9c;2"
+data "Description" "ha04d776fgf2fag4d53gbe32gef9ac9ef407a;2"
+data "DescriptionParams" "1"
+data "Icon" "PassiveFeature_Generic_Death"
 data "Properties" "Highlighted"
-data "DisplayName" "hf6bafad6ga4ceg4964gb087gaed6f56fb99c;1"
-data "Description" "h15d4de85ga056g43c2g928bg17546b4191d0;2"
-data "Icon" "Spell_Evocation_WitchBolt"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "IsKillingBlow() and Character() and not Self() and HasStatus('WITCH_BOLT', context.Target)"
-data "StatsFunctors" "RemoveStatus(SELF,WITCH_BOLT_OWNER)"
+data "Conditions" "Character() and not Self() and not Ally()"
+data "StatsFunctors" "IF(HasStatus('DEATHSHEAD_UNSTOPPABLE_11', context.Source)):ApplyStatus(SELF,DEATHSHEAD_UNSTOPPABLE_12, 100, -1);IF(HasStatus('DEATHSHEAD_UNSTOPPABLE_10', context.Source)):ApplyStatus(SELF,DEATHSHEAD_UNSTOPPABLE_11, 100, -1);IF(HasStatus('DEATHSHEAD_UNSTOPPABLE_9', context.Source)):ApplyStatus(SELF,DEATHSHEAD_UNSTOPPABLE_10, 100, -1);IF(HasStatus('DEATHSHEAD_UNSTOPPABLE_8', context.Source)):ApplyStatus(SELF,DEATHSHEAD_UNSTOPPABLE_9, 100, -1);IF(HasStatus('DEATHSHEAD_UNSTOPPABLE_7', context.Source)):ApplyStatus(SELF,DEATHSHEAD_UNSTOPPABLE_8, 100, -1);IF(HasStatus('DEATHSHEAD_UNSTOPPABLE_6', context.Source)):ApplyStatus(SELF,DEATHSHEAD_UNSTOPPABLE_7, 100, -1);IF(HasStatus('DEATHSHEAD_UNSTOPPABLE_5', context.Source)):ApplyStatus(SELF,DEATHSHEAD_UNSTOPPABLE_6, 100, -1);IF(HasStatus('DEATHSHEAD_UNSTOPPABLE_4', context.Source)):ApplyStatus(SELF,DEATHSHEAD_UNSTOPPABLE_5, 100, -1);IF(HasStatus('DEATHSHEAD_UNSTOPPABLE_3', context.Source)):ApplyStatus(SELF,DEATHSHEAD_UNSTOPPABLE_4, 100, -1);IF(HasStatus('DEATHSHEAD_UNSTOPPABLE_2', context.Source)):ApplyStatus(SELF,DEATHSHEAD_UNSTOPPABLE_3, 100, -1);IF(HasStatus('DEATHSHEAD_UNSTOPPABLE_1', context.Source)):ApplyStatus(SELF,DEATHSHEAD_UNSTOPPABLE_2, 100, -1);ApplyStatus(SELF,DEATHSHEAD_UNSTOPPABLE_1, 100, -1)"
+
+<!--VAMPIRE ASCENDANT-->
+
+new entry "LOW_Astarion_VampireAscendant"
+type "PassiveData"
+data "DisplayName" "h7c8ce380g0d56g4807gb60cg58e283b4ecdb;2"
+data "Description" "hf9a3c136gfa53g4170g9eeega20ced9c9111;4"
+data "DescriptionParams" "DealDamage(1d12, Necrotic)"
+data "Icon" "Action_Monster_Bulette_Bite"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Target_LOW_Astarion_VampireAscendant);UnlockSpell(Shout_LOW_MistyEscape_Astarion);DamageBonus(1d12,Necrotic)"
+
+<!--VOLOS EYE-->
+
+new entry "CAMP_Volo_ErsatzEye"
+type "PassiveData"
+data "DisplayName" "h232cc24ega0f9g4f4dgb5d3g46ab59579d4b;2"
+data "Description" "h9d8550edg6d54g4113gbbdcge6d99b8b2a2f;4"
+data "Icon" "Item_DEN_VoloOperation_ErsatzEye"
+data "StatsFunctorContext" "OnCreate;OnLongRest"
+data "StatsFunctors" "IF(not HasStatus('SEE_INVISIBILITY_VOLO', context.Source)):ApplyStatus(SELF,SEE_INVISIBILITY_VOLO,100,-1)"
+
+<!---------------------------------------------------------------------------------------------------CANTRIPS--------------------------------------------------------------------------------------------------->
+
+<!--THUNDEROUS STRIKE-->
+
+new entry "S5E_BoomingBlade"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnProjectileExploded;OnCast"
+data "Conditions" "(SpellCategoryIs(SpellCategory.Jump) and context.HasContextFlag(StatsFunctorContext.OnProjectileExploded)) or (SpellTypeIs(SpellType.Rush) and context.HasContextFlag(StatsFunctorContext.OnCast))"
+data "StatsFunctors" "CreateExplosion(Projectile_ThunderEffect_Explosion);IF(HasStatus('BOOMING_BLADE',context.Source)):DealDamage(LevelMapValue(D8Cantrip),Thunder);RemoveStatus(BOOMING_BLADE)"
+
+<!---------------------------------------------------------------------------------------------------SPELLS--------------------------------------------------------------------------------------------------->
+
+<!--ARMOUR OF AGATHYS-->
 
 new entry "ArmorOfAgathys"
 type "PassiveData"
@@ -111,6 +237,45 @@ type "PassiveData"
 using "ArmorOfAgathys"
 data "DescriptionParams" "DealDamage(36,Cold)"
 data "StatsFunctors" "ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,36, Cold,Magical)"
+
+<!--FELINE BOMBARDMENT-->
+
+new entry "Feline_Frenzy"
+type "PassiveData"
+data "DisplayName" "39f18b02804848b18a0b8dbbf2c3861300z5;1"
+data "Description" "39f18b02804848b18a0b8dbbf2c3861300ze;4"
+data "Icon" "Spell_Conjuration_FlockOfFamiliars"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsKillingBlow() and Character() and not Self() and not Summon() and not SpellId('Projectile_FlamingFrenzy') and not SpellId('Projectile_FlamingFrenzy_2') and not SpellId('Projectile_FlamingFrenzy_3') and not SpellId('Projectile_FlamingFrenzy_4') and not SpellId('Projectile_FlamingFrenzy_5') and not SpellId('Projectile_FlamingFrenzy_6')"
+data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH,SHADOWCURSE_SUMMON_CHECK,SUMMON_LOSECONTROL,UNSUMMON_ABLE)"
+
+new entry "Feline_Frenzy_2"
+type "PassiveData"
+using "Feline_Frenzy"
+data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH_2,SHADOWCURSE_SUMMON_CHECK,SUMMON_LOSECONTROL,UNSUMMON_ABLE)"
+
+new entry "Feline_Frenzy_3"
+type "PassiveData"
+using "Feline_Frenzy"
+data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH_3,SHADOWCURSE_SUMMON_CHECK,SUMMON_LOSECONTROL,UNSUMMON_ABLE)"
+
+new entry "Feline_Frenzy_4"
+type "PassiveData"
+using "Feline_Frenzy"
+data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH_4,SHADOWCURSE_SUMMON_CHECK,SUMMON_LOSECONTROL,UNSUMMON_ABLE)"
+
+new entry "Feline_Frenzy_5"
+type "PassiveData"
+using "Feline_Frenzy"
+data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH_5,SHADOWCURSE_SUMMON_CHECK,SUMMON_LOSECONTROL,UNSUMMON_ABLE)"
+
+new entry "Feline_Frenzy_6"
+type "PassiveData"
+using "Feline_Frenzy"
+data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH_6,SHADOWCURSE_SUMMON_CHECK,SUMMON_LOSECONTROL,UNSUMMON_ABLE)"
+
+<!--FIND FAMILIAR-->
 
 new entry "FelineFall"
 type "PassiveData"
@@ -162,6 +327,90 @@ data "StatsFunctorContext" "OnAttacked"
 data "Conditions" "IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit)"
 data "StatsFunctors" "IF(not ((Tagged('SPIDER', context.Source) or HasPassive('SpiderWalk', context.Source)) or HasStatus('SPIDER_INFESTATION', context.Source))):ApplyStatus(SWAP,SPIDER_INFESTATION,100,3)"
 
+<!--FIRE SHIELD-->
+
+new entry "FireShield_Warm"
+type "PassiveData"
+data "DisplayName" "h967349e8g79acg4187gb87egaed902982c8a;1"
+data "Description" "hb6cc3a06gbe30g4fc9gada9gc8d15a7d9f8e;1"
+data "DescriptionParams" "DealDamage(1d6,Fire)"
+data "Icon" "Spell_Evocation_FireShield_Warm"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "Enemy() and IsMeleeAttack()() and not SpellTypeIs(SpellType.Throw) and not IsRedirectedDamage()"
+data "StatsFunctors" "ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,1d6, Fire,Magical)"
+
+new entry "FireShield_Warm_2"
+type "PassiveData"
+data "DisplayName" "h967349e8g79acg4187gb87egaed902982c8a;1"
+data "Description" "hb6cc3a06gbe30g4fc9gada9gc8d15a7d9f8e;1"
+data "DescriptionParams" "DealDamage(2d6,Fire)"
+data "Icon" "Spell_Evocation_FireShield_Warm"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "Enemy() and IsMeleeAttack()() and not SpellTypeIs(SpellType.Throw) and not IsRedirectedDamage()"
+data "StatsFunctors" "ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,2d6, Fire,Magical)"
+
+new entry "FireShield_Warm_3"
+type "PassiveData"
+data "DisplayName" "h967349e8g79acg4187gb87egaed902982c8a;1"
+data "Description" "hb6cc3a06gbe30g4fc9gada9gc8d15a7d9f8e;1"
+data "DescriptionParams" "DealDamage(3d6,Fire)"
+data "Icon" "Spell_Evocation_FireShield_Warm"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "Enemy() and IsMeleeAttack()() and not SpellTypeIs(SpellType.Throw) and not IsRedirectedDamage()"
+data "StatsFunctors" "ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,3d6, Fire,Magical)"
+
+new entry "FireShield_Warm_4"
+type "PassiveData"
+data "DisplayName" "h967349e8g79acg4187gb87egaed902982c8a;1"
+data "Description" "hb6cc3a06gbe30g4fc9gada9gc8d15a7d9f8e;1"
+data "DescriptionParams" "DealDamage(4d6,Fire)"
+data "Icon" "Spell_Evocation_FireShield_Warm"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "Enemy() and IsMeleeAttack()() and not SpellTypeIs(SpellType.Throw) and not IsRedirectedDamage()"
+data "StatsFunctors" "ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,4d6, Fire,Magical)"
+
+new entry "FireShield_Warm_5"
+type "PassiveData"
+data "DisplayName" "h967349e8g79acg4187gb87egaed902982c8a;1"
+data "Description" "hb6cc3a06gbe30g4fc9gada9gc8d15a7d9f8e;1"
+data "DescriptionParams" "DealDamage(5d6,Fire)"
+data "Icon" "Spell_Evocation_FireShield_Warm"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "Enemy() and IsMeleeAttack()() and not SpellTypeIs(SpellType.Throw) and not IsRedirectedDamage()"
+data "StatsFunctors" "ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,5d6, Fire,Magical)"
+
+new entry "FireShield_Warm_6"
+type "PassiveData"
+data "DisplayName" "h967349e8g79acg4187gb87egaed902982c8a;1"
+data "Description" "hb6cc3a06gbe30g4fc9gada9gc8d15a7d9f8e;1"
+data "DescriptionParams" "DealDamage(6d6,Fire)"
+data "Icon" "Spell_Evocation_FireShield_Warm"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "Enemy() and IsMeleeAttack()() and not SpellTypeIs(SpellType.Throw) and not IsRedirectedDamage()"
+data "StatsFunctors" "ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,6d6, Fire,Magical)"
+
+<!--FLAMING ARROWS-->
+
+new entry "S5E_FlameArrows"
+type "PassiveData"
+data "Icon" "Spell_Transmutation_FlameArrows"
+data "DisplayName" "39f1898f9sdfosdoifsodofsofd99494xyz6;1"
+data "Description" "39f1898f9sdfosdoifsodofsofd99494xyzf;1"
+data "DescriptionParams" "DealDamage(1d4,Fire)"
+data "Properties" "IsToggled;Temporary"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsRangedWeaponAttack()"
+data "StatsFunctors" "UseActionResource(SELF,FlameArrows,1,0);ApplyStatus(BURNING,100,3);DealDamage(1d4,Fire)"
+data "ToggleGroup" "S5E_FlameArrows"
+data "EnabledConditions" "HasActionResource('FlameArrows', 1, 0, false, false, context.Source) and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "EnabledContext" "OnLongRest;OnActionResourcesChanged;OnStatusApplied;OnStatusRemoved"
+
 <!--FLAMING SPHERE-->
 
 new entry "FlamingSphere_State"
@@ -209,93 +458,91 @@ data "DescriptionParams" "DealDamage(6d6,Fire)"
 data "ToggleOnFunctors" "ApplyStatus(FLAMING_SPHERE_AURA_6,100,-1)"
 data "ToggleOffFunctors" "RemoveStatus(FLAMING_SPHERE_AURA_6)"
 
-new entry "PhantasmalForce"
-type "PassiveData"
-data "DisplayName" "hc24c5d57g6a4fg4968gb949g422486f6f58a;1"
-data "Description" "h43ef0364g4b0bg4fcagbe4fgd5fab2591786;1"
-data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnAttacked"
-data "Conditions" "TotalAttackDamageDoneGreaterThan(0)"
-data "StatsFunctors" "IF(HasAttackDamageDoneForType(DamageType.Slashing)):ApplyStatus(PHANTASMAL_FORCE_SLASHING,100,-1);IF(HasAttackDamageDoneForType(DamageType.Piercing)):ApplyStatus(PHANTASMAL_FORCE_PIERCING,100,-1);IF(HasAttackDamageDoneForType(DamageType.Bludgeoning)):ApplyStatus(PHANTASMAL_FORCE_BLUDGEONING,100,-1);IF(HasAttackDamageDoneForType(DamageType.Acid)):ApplyStatus(PHANTASMAL_FORCE_ACID,100,-1);IF(HasAttackDamageDoneForType(DamageType.Thunder)):ApplyStatus(PHANTASMAL_FORCE_THUNDER,100,-1);IF(HasAttackDamageDoneForType(DamageType.Necrotic)):ApplyStatus(PHANTASMAL_FORCE_NECROTIC,100,-1);IF(HasAttackDamageDoneForType(DamageType.Fire)):ApplyStatus(PHANTASMAL_FORCE_FIRE,100,-1);IF(HasAttackDamageDoneForType(DamageType.Lightning)):ApplyStatus(PHANTASMAL_FORCE_LIGHTNING,100,-1);IF(HasAttackDamageDoneForType(DamageType.Cold)):ApplyStatus(PHANTASMAL_FORCE_COLD,100,-1);IF(HasAttackDamageDoneForType(DamageType.Psychic)):ApplyStatus(PHANTASMAL_FORCE_PSYCHIC,100,-1);IF(HasAttackDamageDoneForType(DamageType.Poison)):ApplyStatus(PHANTASMAL_FORCE_POISON,100,-1);IF(HasAttackDamageDoneForType(DamageType.Radiant)):ApplyStatus(PHANTASMAL_FORCE_RADIANT,100,-1);IF(HasAttackDamageDoneForType(DamageType.Force)):ApplyStatus(PHANTASMAL_FORCE_FORCE,100,-1)"
+<!--FROSTFLAME ARMAMENTS-->
 
-new entry "FireShield_Warm"
+new entry "Frostflame_ArmamentIce"
 type "PassiveData"
-data "DisplayName" "h967349e8g79acg4187gb87egaed902982c8a;1"
-data "Description" "hb6cc3a06gbe30g4fc9gada9gc8d15a7d9f8e;1"
-data "DescriptionParams" "DealDamage(1d6,Fire)"
-data "Icon" "Spell_Evocation_FireShield_Warm"
-data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnAttacked"
-data "Conditions" "Enemy() and IsMeleeAttack() and not IsMiss() and not SpellTypeIs(SpellType.Throw) and not IsRedirectedDamage()"
-data "StatsFunctors" "ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,1d6, Fire,Magical)"
+data "Properties" "IsHidden;OncePerAttack"
+data "Boosts" "IF(Item(context.Source)):WeaponProperty(Unstowable)"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsKillingBlow() and Character() and not Self()"
+data "StatsFunctors" "CreateExplosion(Projectile_FrostflameIce, context.Target)"
+data "DisplayName" "39f18b02804848b18a0b8dbbf2c38613zzz2;1"
+data "Description" "39f18b02804848b18a0b8dbbf2c38613zzzb;2"
+data "DescriptionParams" "DealDamage(1d12,Cold);Distance(3)"
+data "Icon" "Spell_Evocation_ContinualFlame"
 
-new entry "FireShield_Warm_2"
+new entry "Frostflame_ArmamentFire"
 type "PassiveData"
-data "DisplayName" "h967349e8g79acg4187gb87egaed902982c8a;1"
-data "Description" "hb6cc3a06gbe30g4fc9gada9gc8d15a7d9f8e;1"
-data "DescriptionParams" "DealDamage(2d6,Fire)"
-data "Icon" "Spell_Evocation_FireShield_Warm"
-data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnAttacked"
-data "Conditions" "Enemy() and IsMeleeAttack() and not IsMiss() and not SpellTypeIs(SpellType.Throw) and not IsRedirectedDamage()"
-data "StatsFunctors" "ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,2d6, Fire,Magical)"
+data "Properties" "IsHidden;OncePerAttack"
+data "Boosts" "IF(Item(context.Source)):WeaponProperty(Unstowable)"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsKillingBlow() and Character() and not Self()"
+data "StatsFunctors" "CreateExplosion(Projectile_FrostflameFire, context.Target)"
+data "DisplayName" "39f18b02804848b18a0b8dbbf2c38613xxx2;1"
+data "Description" "39f18b02804848b18a0b8dbbf2c38613xxxb;2"
+data "DescriptionParams" "DealDamage(1d12,Fire);Distance(3)"
+data "Icon" "Spell_Evocation_ContinualFlame_Red"
 
-new entry "FireShield_Warm_3"
+new entry "Frostflame_ArmamentIce_2"
 type "PassiveData"
-data "DisplayName" "h967349e8g79acg4187gb87egaed902982c8a;1"
-data "Description" "hb6cc3a06gbe30g4fc9gada9gc8d15a7d9f8e;1"
-data "DescriptionParams" "DealDamage(3d6,Fire)"
-data "Icon" "Spell_Evocation_FireShield_Warm"
-data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnAttacked"
-data "Conditions" "Enemy() and IsMeleeAttack() and not IsMiss() and not SpellTypeIs(SpellType.Throw) and not IsRedirectedDamage()"
-data "StatsFunctors" "ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,3d6, Fire,Magical)"
+using "Frostflame_ArmamentIce"
+data "StatsFunctors" "CreateExplosion(Projectile_FrostflameIce_2, context.Target)"
+data "DescriptionParams" "DealDamage(2d12,Cold);Distance(3)"
 
-new entry "FireShield_Warm_4"
+new entry "Frostflame_ArmamentFire_2"
 type "PassiveData"
-data "DisplayName" "h967349e8g79acg4187gb87egaed902982c8a;1"
-data "Description" "hb6cc3a06gbe30g4fc9gada9gc8d15a7d9f8e;1"
-data "DescriptionParams" "DealDamage(4d6,Fire)"
-data "Icon" "Spell_Evocation_FireShield_Warm"
-data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnAttacked"
-data "Conditions" "Enemy() and IsMeleeAttack() and not IsMiss() and not SpellTypeIs(SpellType.Throw) and not IsRedirectedDamage()"
-data "StatsFunctors" "ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,4d6, Fire,Magical)"
+using "Frostflame_ArmamentFire"
+data "StatsFunctors" "CreateExplosion(Projectile_FrostflameFire_2, context.Target)"
+data "DescriptionParams" "DealDamage(2d12,Fire);Distance(3)"
 
-new entry "FireShield_Warm_5"
+new entry "Frostflame_ArmamentIce_3"
 type "PassiveData"
-data "DisplayName" "h967349e8g79acg4187gb87egaed902982c8a;1"
-data "Description" "hb6cc3a06gbe30g4fc9gada9gc8d15a7d9f8e;1"
-data "DescriptionParams" "DealDamage(5d6,Fire)"
-data "Icon" "Spell_Evocation_FireShield_Warm"
-data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnAttacked"
-data "Conditions" "Enemy() and IsMeleeAttack() and not IsMiss() and not SpellTypeIs(SpellType.Throw) and not IsRedirectedDamage()"
-data "StatsFunctors" "ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,5d6, Fire,Magical)"
+using "Frostflame_ArmamentIce"
+data "StatsFunctors" "CreateExplosion(Projectile_FrostflameIce_3, context.Target)"
+data "DescriptionParams" "DealDamage(3d12,Cold);Distance(3)"
 
-new entry "FireShield_Warm_6"
+new entry "Frostflame_ArmamentFire_3"
 type "PassiveData"
-data "DisplayName" "h967349e8g79acg4187gb87egaed902982c8a;1"
-data "Description" "hb6cc3a06gbe30g4fc9gada9gc8d15a7d9f8e;1"
-data "DescriptionParams" "DealDamage(6d6,Fire)"
-data "Icon" "Spell_Evocation_FireShield_Warm"
-data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnAttacked"
-data "Conditions" "Enemy() and IsMeleeAttack() and not IsMiss() and not SpellTypeIs(SpellType.Throw) and not IsRedirectedDamage()"
-data "StatsFunctors" "ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,6d6, Fire,Magical)"
+using "Frostflame_ArmamentFire"
+data "StatsFunctors" "CreateExplosion(Projectile_FrostflameFire_3, context.Target)"
+data "DescriptionParams" "DealDamage(3d12,Fire);Distance(3)"
 
-new entry "Irresistible_Dance"
+new entry "Frostflame_ArmamentIce_4"
 type "PassiveData"
-data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnDamaged"
-data "StatsFunctors" "RemoveStatus(IRRESISTIBLE_DANCE);ApplyStatus(SELF,IRRESISTIBLE_DANCE,100,3)"
+using "Frostflame_ArmamentIce"
+data "StatsFunctors" "CreateExplosion(Projectile_FrostflameIce_4, context.Target)"
+data "DescriptionParams" "DealDamage(4d12,Cold);Distance(3)"
 
-new entry "S5E_BoomingBlade"
+new entry "Frostflame_ArmamentFire_4"
 type "PassiveData"
-data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnProjectileExploded;OnCast"
-data "Conditions" "(SpellCategoryIs(SpellCategory.Jump) and context.HasContextFlag(StatsFunctorContext.OnProjectileExploded)) or (SpellTypeIs(SpellType.Rush) and context.HasContextFlag(StatsFunctorContext.OnCast))"
-data "StatsFunctors" "CreateExplosion(Projectile_ThunderEffect_Explosion);IF(HasStatus('BOOMING_BLADE',context.Source)):DealDamage(LevelMapValue(D8Cantrip),Thunder);RemoveStatus(BOOMING_BLADE)"
+using "Frostflame_ArmamentFire"
+data "StatsFunctors" "CreateExplosion(Projectile_FrostflameFire_4, context.Target)"
+data "DescriptionParams" "DealDamage(4d12,Fire);Distance(3)"
+
+new entry "Frostflame_ArmamentIce_5"
+type "PassiveData"
+using "Frostflame_ArmamentIce"
+data "StatsFunctors" "CreateExplosion(Projectile_FrostflameIce_5, context.Target)"
+data "DescriptionParams" "DealDamage(5d12,Cold);Distance(3)"
+
+new entry "Frostflame_ArmamentFire_5"
+type "PassiveData"
+using "Frostflame_ArmamentFire"
+data "StatsFunctors" "CreateExplosion(Projectile_FrostflameFire_5, context.Target)"
+data "DescriptionParams" "DealDamage(5d12,Fire);Distance(3)"
+
+new entry "Frostflame_ArmamentIce_6"
+type "PassiveData"
+using "Frostflame_ArmamentIce"
+data "StatsFunctors" "CreateExplosion(Projectile_FrostflameIce_6, context.Target)"
+data "DescriptionParams" "DealDamage(6d12,Cold);Distance(3)"
+
+new entry "Frostflame_ArmamentFire_6"
+type "PassiveData"
+using "Frostflame_ArmamentFire"
+data "StatsFunctors" "CreateExplosion(Projectile_FrostflameFire_6, context.Target)"
+data "DescriptionParams" "DealDamage(6d12,Fire);Distance(3)"
 
 <!--HASTE-->
 
@@ -324,25 +571,119 @@ data "Properties" "Highlighted;IsToggled;ToggledDefaultAddToHotbar;Temporary"
 data "ToggleOnEffect" "VFX_Spells_Cast_Sorcerer_TidesOfChaos_BodyFX_01:Dummy_BodyFX:;VFX_Spells_Cast_Sorcerer_Shout_EyeFX_01:Dummy_EyeFX_01:;VFX_Spells_Cast_Sorcerer_Shout_EyeFX_02:Dummy_EyeFX_02:;"
 data "Boosts" "UnlockSpellVariant(HasteCheck(),ModifyUseCosts(Replace,ActionPoint,0,-1,ActionPoint),ModifyUseCosts(Replace,BonusActionPoint,0,-1,BonusActionPoint),ModifyUseCosts(Replace,ReactionActionPoint,0,-1,ReactionActionPoint),ModifyUseCosts(Add,ArcaneShot,1,0))"
 
-new entry "Downed_CombatEnded"
+<!--HUNTERS MARK-->
+
+new entry "HuntersMark"
+type "PassiveData"
+data "DisplayName" "h60e7c307g97bag4739gabb2g23296582836f;2"
+data "Description" "h1d582117g48f0g40d0gba67g3f2b3b9bacdc;2"
+data "Icon" "PassiveFeature_HuntersMark"
+data "PriorityOrder" "2"
+data "Properties" "IsHidden"
+data "Boosts" "IF(HasStatus('HUNTERS_MARK',context.Target,context.Source) and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit)):Reroll(Damage,20,false)"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "HasStatus('HUNTERS_MARK',context.Target,context.Source) and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit) and TotalAttackDamageDoneGreaterThan(0)"
+data "StatsFunctors" "ApplyStatus(PASSIVE_HUNTERS_MARK,100,0)"
+
+<!--OTTOS IRRESISTABLE DANCE-->
+
+new entry "Irresistible_Dance"
 type "PassiveData"
 data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnCombatEnded"
-data "StatsFunctors" "RegainHitPoints(1)"
+data "StatsFunctorContext" "OnDamaged"
+data "StatsFunctors" "RemoveStatus(IRRESISTIBLE_DANCE);ApplyStatus(SELF,IRRESISTIBLE_DANCE,100,3)"
 
-new entry "LOW_Astarion_VampireAscendant"
+<!--PHANTASMAL FORCE-->
+
+new entry "PhantasmalForce"
 type "PassiveData"
-data "DisplayName" "h7c8ce380g0d56g4807gb60cg58e283b4ecdb;2"
-data "Description" "hf9a3c136gfa53g4170g9eeega20ced9c9111;4"
-data "DescriptionParams" "DealDamage(1d12, Necrotic)"
-data "Icon" "Action_Monster_Bulette_Bite"
+data "DisplayName" "hc24c5d57g6a4fg4968gb949g422486f6f58a;1"
+data "Description" "h43ef0364g4b0bg4fcagbe4fgd5fab2591786;1"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "TotalAttackDamageDoneGreaterThan(0)"
+data "StatsFunctors" "IF(HasAttackDamageDoneForType(DamageType.Slashing)):ApplyStatus(PHANTASMAL_FORCE_SLASHING,100,-1);IF(HasAttackDamageDoneForType(DamageType.Piercing)):ApplyStatus(PHANTASMAL_FORCE_PIERCING,100,-1);IF(HasAttackDamageDoneForType(DamageType.Bludgeoning)):ApplyStatus(PHANTASMAL_FORCE_BLUDGEONING,100,-1);IF(HasAttackDamageDoneForType(DamageType.Acid)):ApplyStatus(PHANTASMAL_FORCE_ACID,100,-1);IF(HasAttackDamageDoneForType(DamageType.Thunder)):ApplyStatus(PHANTASMAL_FORCE_THUNDER,100,-1);IF(HasAttackDamageDoneForType(DamageType.Necrotic)):ApplyStatus(PHANTASMAL_FORCE_NECROTIC,100,-1);IF(HasAttackDamageDoneForType(DamageType.Fire)):ApplyStatus(PHANTASMAL_FORCE_FIRE,100,-1);IF(HasAttackDamageDoneForType(DamageType.Lightning)):ApplyStatus(PHANTASMAL_FORCE_LIGHTNING,100,-1);IF(HasAttackDamageDoneForType(DamageType.Cold)):ApplyStatus(PHANTASMAL_FORCE_COLD,100,-1);IF(HasAttackDamageDoneForType(DamageType.Psychic)):ApplyStatus(PHANTASMAL_FORCE_PSYCHIC,100,-1);IF(HasAttackDamageDoneForType(DamageType.Poison)):ApplyStatus(PHANTASMAL_FORCE_POISON,100,-1);IF(HasAttackDamageDoneForType(DamageType.Radiant)):ApplyStatus(PHANTASMAL_FORCE_RADIANT,100,-1);IF(HasAttackDamageDoneForType(DamageType.Force)):ApplyStatus(PHANTASMAL_FORCE_FORCE,100,-1)"
+
+<!--SHADOWBLADE-->
+
+new entry "ShadowBlade_Passive"
+type "PassiveData"
+data "DisplayName" "h0160e9efg8974g43d6gb3fcg8d4e9d200a3c;4"
+data "Description" "ha672fd65g0fe4g4596g9529gce372c013ca1;6"
+data "Icon" "Spell_Illusion_ShadowBlade"
+data "Boosts" "IF(not HasObscuredState(ObscuredState.Clear,context.Source) and IsMeleeAttack() and IsWeaponAttack() and not IsOffHandAttack()):Advantage(AttackRoll);IF(not HasObscuredState(ObscuredState.Clear,context.Source) and IsMeleeAttack() and IsWeaponAttack() and not IsOffHandAttack()):MinimumRollResult(Damage,20)"
+
+<!--SPIRIT GUARDIANS-->
+
+new entry "SpiritGuardiansVFX_Radiant"
+type "PassiveData"
+data "DisplayName" "h6a2d3c90g162bg4eb6g9e1dg8ecb8e4365fa;2"
+data "Description" "h4b1e9786g99cdg4c8bg88e7g351d70681e55;5"
+data "Icon" "Spell_Necromancy_SpiritShroud_Radiant"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCreate;OnCombatStarted;OnTurn"
+data "StatsFunctors" "IF(Combat(context.Source) and not HasStatus('SPIRITGUARDIANSVFX_RADIANT', context.Source)):ApplyStatus(SELF,SPIRITGUARDIANSVFX_RADIANT,100,-1)"
+
+new entry "SpiritGuardiansVFX_Necrotic"
+type "PassiveData"
+data "DisplayName" "h6a2d3c90g162bg4eb6g9e1dg8ecb8e4365fa;2"
+data "Description" "h4b1e9786g99cdg4c8bg88e7g351d70681e55;5"
+data "Icon" "Spell_Necromancy_SpiritShroud_Necrotic"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCreate;OnCombatStarted;OnTurn"
+data "StatsFunctors" "IF(Combat(context.Source) and not HasStatus('SPIRITGUARDIANSVFX_NECROTIC', context.Source)):ApplyStatus(SELF,SPIRITGUARDIANSVFX_NECROTIC,100,-1)"
+
+<!--SPIRITUAL SHROUD-->
+
+new entry "Spiritual_Shroud"
+type "PassiveData"
+data "DisplayName" "39f1898f9sdfosdoifsodofsofd994940013;1"
+data "Description" "39f1898f9sdfosdoifsodofsofd99494000m;4"
+data "DescriptionParams" "DealDamage(1d12,Cold);Distance(3)"
+data "Icon" "Spell_Necromancy_SpiritShroud"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "Enemy() and IsMiss() and not IsRedirectedDamage() and not (SpellId('Projectile_SpiritualShroud') or SpellId('Projectile_SpiritualShroud_2') or SpellId('Projectile_SpiritualShroud_3') or SpellId('Projectile_SpiritualShroud_4') or SpellId('Projectile_SpiritualShroud_5') or SpellId('Projectile_SpiritualShroud_6'))"
+data "StatsFunctors" "CreateExplosion(SELF,Projectile_SpiritualShroud)"
+
+new entry "Spiritual_Shroud_2"
+type "PassiveData"
+using "Spiritual_Shroud"
+data "DescriptionParams" "DealDamage(2d12,Cold);Distance(3)"
+data "StatsFunctors" "CreateExplosion(SELF,Projectile_SpiritualShroud_2)"
+
+new entry "Spiritual_Shroud_3"
+type "PassiveData"
+using "Spiritual_Shroud"
+data "DescriptionParams" "DealDamage(3d12,Cold);Distance(3)"
+data "StatsFunctors" "CreateExplosion(SELF,Projectile_SpiritualShroud_3)"
+
+new entry "Spiritual_Shroud_4"
+type "PassiveData"
+using "Spiritual_Shroud"
+data "DescriptionParams" "DealDamage(4d12,Cold);Distance(3)"
+data "StatsFunctors" "CreateExplosion(SELF,Projectile_SpiritualShroud_4)"
+
+new entry "Spiritual_Shroud_5"
+type "PassiveData"
+using "Spiritual_Shroud"
+data "DescriptionParams" "DealDamage(5d12,Cold);Distance(3)"
+data "StatsFunctors" "CreateExplosion(SELF,Projectile_SpiritualShroud_5)"
+
+new entry "Spiritual_Shroud_6"
+type "PassiveData"
+using "Spiritual_Shroud"
+data "DescriptionParams" "DealDamage(6d12,Cold);Distance(3)"
+data "StatsFunctors" "CreateExplosion(SELF,Projectile_SpiritualShroud_6)"
+
+<!--WITCH BOLT-->
+
+new entry "Witch_Bolt_Removal"
+type "PassiveData"
 data "Properties" "Highlighted"
-data "Boosts" "UnlockSpell(Target_LOW_Astarion_VampireAscendant);UnlockSpell(Shout_LOW_MistyEscape_Astarion);DamageBonus(1d12,Necrotic)"
-
-new entry "CAMP_Volo_ErsatzEye"
-type "PassiveData"
-data "DisplayName" "h232cc24ega0f9g4f4dgb5d3g46ab59579d4b;2"
-data "Description" "h9d8550edg6d54g4113gbbdcge6d99b8b2a2f;4"
-data "Icon" "Item_DEN_VoloOperation_ErsatzEye"
-data "StatsFunctorContext" "OnCreate;OnLongRest"
-data "StatsFunctors" "IF(not HasStatus('SEE_INVISIBILITY_VOLO', context.Source)):ApplyStatus(SELF,SEE_INVISIBILITY_VOLO,100,-1)"
+data "DisplayName" "hf6bafad6ga4ceg4964gb087gaed6f56fb99c;1"
+data "Description" "h15d4de85ga056g43c2g928bg17546b4191d0;2"
+data "Icon" "Spell_Evocation_WitchBolt"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsKillingBlow() and Character() and not Self() and HasStatus('WITCH_BOLT', context.Target)"
+data "StatsFunctors" "RemoveStatus(SELF,WITCH_BOLT_OWNER)"

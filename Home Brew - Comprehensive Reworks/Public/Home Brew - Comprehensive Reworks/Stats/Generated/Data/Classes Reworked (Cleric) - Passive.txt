@@ -605,7 +605,7 @@ data "Description" "6593b492919e49e9b6dffa5d2a42cb6e0000l;2"
 data "Properties" "Highlighted;ForceShowInCC;OncePerTurn"
 data "Icon" "PassiveFeature_PactOfTheBlade"
 data "StatsFunctorContext" "OnCast"
-data "Conditions" "SpellId('Shout_DivineIntervention_Bounty') or SpellId('Shout_DivineIntervention') or SpellId('Shout_DivineIntervention_Death') or SpellId('Shout_DivineIntervention_Forge') or SpellId('Shout_DivineIntervention_Life') or SpellId('Shout_DivineIntervention_Tempest') or SpellId('Shout_DivineIntervention_DamageWar') or SpellId('Shout_DivineIntervention_Healing') or SpellId('Shout_DivineIntervention_Buff')"
+data "Conditions" "SpellId('Shout_DivineIntervention_Bounty') or SpellId('Shout_DivineIntervention_Damage') or SpellId('Shout_DivineIntervention_DamageDeath') or SpellId('Shout_DivineIntervention_DamageForge') or SpellId('Shout_DivineIntervention_DamageLife') or SpellId('Shout_DivineIntervention_DamageTempest') or SpellId('Shout_DivineIntervention_DamageWar') or SpellId('Shout_DivineIntervention_Healing') or SpellId('Shout_DivineIntervention_Buff')"
 data "StatsFunctors" "ApplyStatus(SELF,PARADISIACAL_GIFT,100,0)"
 
 new entry "Sacral_Bulwark"
@@ -668,7 +668,7 @@ data "Description" "6593b492919e49e9b6dffa5d2a42cb6e0000t;2"
 data "Properties" "Highlighted;ForceShowInCC"
 data "Icon" "PassiveFeature_PactOfTheBlade"
 data "StatsFunctorContext" "OnCast"
-data "Conditions" "SpellId('Shout_DivineIntervention_Bounty') or SpellId('Shout_DivineIntervention') or SpellId('Shout_DivineIntervention_Death') or SpellId('Shout_DivineIntervention_Forge') or SpellId('Shout_DivineIntervention_Life') or SpellId('Shout_DivineIntervention_Tempest') or SpellId('Shout_DivineIntervention_DamageWar') or SpellId('Shout_DivineIntervention_Healing') or SpellId('Shout_DivineIntervention_Buff')"
+data "Conditions" "SpellId('Shout_DivineIntervention_Bounty') or SpellId('Shout_DivineIntervention_Damage') or SpellId('Shout_DivineIntervention_DamageDeath') or SpellId('Shout_DivineIntervention_DamageForge') or SpellId('Shout_DivineIntervention_DamageLife') or SpellId('Shout_DivineIntervention_DamageTempest') or SpellId('Shout_DivineIntervention_DamageWar') or SpellId('Shout_DivineIntervention_Healing') or SpellId('Shout_DivineIntervention_Buff')"
 data "StatsFunctors" "ApplyStatus(SELF,VENERATION,100,3)"
 
 <!--SUMMON PASSIVES-->

@@ -567,8 +567,6 @@ data "SoundStop" "Spell_Status_DispelEvilAndGood_End"
 data "StackId" "DISPEL_EVIL_AND_GOOD"
 data "StackPriority" "10"
 data "Boosts" "Disadvantage(AttackTarget,ABERRATION);Disadvantage(AttackTarget,CELESTIAL);Disadvantage(AttackTarget,ELEMENTAL);Disadvantage(AttackTarget,FEY);Disadvantage(AttackTarget,FIEND);Disadvantage(AttackTarget,UNDEAD);UnlockSpell(Target_DispelEvilAndGood_BreakEnchantment)"
-data "RemoveConditions" "SpellId('Target_DispelEvilAndGood_Dispel')"
-data "RemoveEvents" "OnSpellCast"
 data "TickType" "EndTurn"
 data "StatusGroups" "SG_RemoveOnRespec"
 

@@ -446,7 +446,7 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "not Grounded() and not HasStatus('SG_Polymorph_BeastShape')"
 
 <!--ARROW OF SMOKEPOWDER-->
 

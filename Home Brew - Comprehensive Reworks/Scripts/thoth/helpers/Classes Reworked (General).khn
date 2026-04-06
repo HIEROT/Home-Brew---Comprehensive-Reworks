@@ -116,6 +116,11 @@ function HasRangedWeaponEquipped()
     return ConditionResult(result.Result, {ConditionError("HasNotWeaponInMainHand")}, {ConditionError("HasWeaponInMainHand")})
 end
 
+function HealingPrevented(entity)
+    local entity = entity or context.Target
+	return HasAnyStatus({'CHILL_TOUCH','GREATER_CHILL_TOUCH','DOWNED_FINALSTAND','CT_IRONBOURNE','WRAITHS_EMBRACE','MAG_FLESHREND','ELEMENTALSTAIN_NECROTIC_EFFECT','HARVEST_CORPSE_ACTUAL','HEALINGLOCKOUT'}, {}, {}, entity)
+end
+
 function IsRangedWeaponAttackCheck()
     return HasStringInSpellRoll('RangedWeaponAttack') | SpellId('Zone_Blunderbuss_ScatterShot')
 end

@@ -585,7 +585,7 @@ data "Boosts" "UnlockSpellVariant(DamagingSpellCheck(),ModifyUseCosts(Add,Sorcer
 data "ToggleOnEffect" "VFX_Spells_Cast_Sorcerer_TidesOfChaos_BodyFX_01:Dummy_BodyFX:;VFX_Spells_Cast_Sorcerer_Shout_EyeFX_01:Dummy_EyeFX_01:;VFX_Spells_Cast_Sorcerer_Shout_EyeFX_02:Dummy_EyeFX_02:;"
 data "ToggleOffContext" "OnCastResolved"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "IsSpell()"
+data "Conditions" "IsSpell() and not Ally()"
 data "StatsFunctors" "ApplyStatus(BLEEDING,100,3)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
 
@@ -628,7 +628,7 @@ data "Boosts" "UnlockSpellVariant(DamagingSpellCheck(),ModifyUseCosts(Add,Sorcer
 data "ToggleOnEffect" "VFX_Spells_Cast_Sorcerer_TidesOfChaos_BodyFX_01:Dummy_BodyFX:;VFX_Spells_Cast_Sorcerer_Shout_EyeFX_01:Dummy_EyeFX_01:;VFX_Spells_Cast_Sorcerer_Shout_EyeFX_02:Dummy_EyeFX_02:;"
 data "ToggleOffContext" "OnCastResolved"
 data "StatsFunctorContext" "OnAttack"
-data "Conditions" "IsSpell() and not HasStatus('LOCKDOWN_CONDITION', context.Target)"
+data "Conditions" "IsSpell() and not Ally() and not HasStatus('LOCKDOWN_CONDITION', context.Target)"
 data "StatsFunctors" "ApplyStatus(FEARED,100,1,,,,not SavingThrow(Ability.Wisdom,SourceSpellDC()))"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
 
@@ -826,7 +826,7 @@ data "Boosts" "UnlockSpellVariant(TempestuousSpellCheck(),ModifyUseCosts(Add,Sor
 data "ToggleOnEffect" "VFX_Spells_Cast_Sorcerer_TidesOfChaos_BodyFX_01:Dummy_BodyFX:;VFX_Spells_Cast_Sorcerer_Shout_EyeFX_01:Dummy_EyeFX_01:;VFX_Spells_Cast_Sorcerer_Shout_EyeFX_02:Dummy_EyeFX_02:;"
 data "ToggleOffContext" "OnCastResolved"
 data "StatsFunctorContext" "OnAttack"
-data "Conditions" "IsSpell() and not Self()"
+data "Conditions" "IsSpell() and not Ally() and not Self()"
 data "StatsFunctors" "Force(9);ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Strength,SourceSpellDC()))"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
 

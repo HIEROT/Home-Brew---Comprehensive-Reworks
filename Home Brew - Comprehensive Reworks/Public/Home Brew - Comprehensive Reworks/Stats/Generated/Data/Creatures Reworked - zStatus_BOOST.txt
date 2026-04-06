@@ -402,15 +402,6 @@ data "StatusPropertyFlags" "ForceOverhead"
 data "StatusGroups" "SG_Rage"
 data "StatusEffect" "54c3207a-4419-441a-86b0-30d8e4eb2c8d"
 
-<!--VAMPIRE-->
-
-new entry "GLO_CAZADOR_HARDCORE"
-type "StatusData"
-data "StatusType" "BOOST"
-using "DIFFICULTY_GUSTAVDEV"
-data "OnApplyFunctors" "IF(not HasStatus('LOW_CAZADORSPALACE_ASCENSION_LEGENDARY_RESISTANCE')):ApplyStatus(LEGENDARY_RESISTANCE,100,-1)"
-data "OnRemoveFunctors" "RemoveStatus(LEGENDARY_RESISTANCE)"
-
 <!--WOOD WOAD-->
 
 new entry "MUD_MANTLE_WOODWOAD"
