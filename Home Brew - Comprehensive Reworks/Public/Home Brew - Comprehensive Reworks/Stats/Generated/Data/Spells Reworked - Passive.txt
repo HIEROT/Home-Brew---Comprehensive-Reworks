@@ -47,6 +47,7 @@ data "DescriptionParams" "DealDamage(1,Force)"
 data "Icon" "statIcons_CrawlingGnawInfection"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnCombatStarted;OnTurn"
+data "Conditions" "not IsAetherSuspended(context.Source)"
 data "StatsFunctors" "IF(not HasStatus('ZOMBIE_DECAY_ACTUAL', context.Source))ApplyStatus(SELF,ZOMBIE_DECAY_ACTUAL,100,-1)"
 
 <!--DRUNK-->
@@ -132,8 +133,8 @@ type "PassiveData"
 data "DisplayName" "h0d1abac8g6808g490ag957cg6a3a81fef1fa;2"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "HasStatus('MAG_CHARGED_LIGHTNING', context.Source) and not HasStatus('MAG_CHARGED_LIGHTNING_AURA_TECHNICAL', context.Source)"
-data "StatsFunctors" "IF(not HasStatus('MAG_CHARGED_LIGHTNING_AURA_TECHNICAL', context.Source) and IsDischargingLightning(context.Source) and not HasStatus('MAG_CHARGED_LIGHTNING_LIGHTNING_DISCHARGE_ONCE_TECHNICAL', context.Source)):ApplyStatus(MAG_CHARGED_LIGHTNING_DISCHARGE_DAMAGE, 100, 0);IF(IsDischargingLightning(context.Source) and not HasStatus('MAG_CHARGED_LIGHTNING_LIGHTNING_DISCHARGE_ONCE_TECHNICAL', context.Source)):ApplyStatus(MAG_CHARGED_LIGHTNING_GENERATE_CHARGE_FX, 100, 0);IF(IsDischargingLightning(context.Source)):ApplyStatus(SELF, MAG_CHARGED_LIGHTNING_LIGHTNING_DISCHARGE_ONCE_TECHNICAL, 100, 0);IF(not HasStatus('MAG_CHARGED_LIGHTNING_AURA_TECHNICAL', context.Source) and IsDischargingLightning(context.Source)):SetStatusDuration(SELF,MAG_CHARGED_LIGHTNING,-5,Add);"
+data "Conditions" "not Ally() and HasStatus('MAG_CHARGED_LIGHTNING', context.Source) and not HasStatus('MAG_CHARGED_LIGHTNING_AURA_TECHNICAL', context.Source)"
+data "StatsFunctors" "IF(not HasStatus('MAG_CHARGED_LIGHTNING_AURA_TECHNICAL', context.Source) and IsDischargingLightning(context.Source) and not HasStatus('MAG_CHARGED_LIGHTNING_LIGHTNING_DISCHARGE_ONCE_TECHNICAL', context.Source)):ApplyStatus(MAG_CHARGED_LIGHTNING_DISCHARGE_DAMAGE, 100, 0);IF(IsDischargingLightning(context.Source) and not HasStatus('MAG_CHARGED_LIGHTNING_LIGHTNING_DISCHARGE_ONCE_TECHNICAL', context.Source)):ApplyStatus(MAG_CHARGED_LIGHTNING_GENERATE_CHARGE_FX, 100, 0);IF(IsDischargingLightning(context.Source)):ApplyStatus(SELF, MAG_CHARGED_LIGHTNING_LIGHTNING_DISCHARGE_ONCE_TECHNICAL, 100, 0);IF(not HasStatus('MAG_CHARGED_LIGHTNING_AURA_TECHNICAL', context.Source) and IsDischargingLightning(context.Source)):SetStatusDuration(SELF,MAG_CHARGED_LIGHTNING,-5,Add)"
 
 <!--RADIATING ORB-->
 
@@ -145,7 +146,7 @@ data "DescriptionParams" ""
 data "Properties" "IsHidden;OncePerAttack"
 data "StatsFunctorContext" "OnAttack"
 data "Conditions" "not Self() and not Item() and HasAttackRoll()"
-data "StatsFunctors" "RemoveStatus(SELF,MAG_RADIANT_RADIATING_ORB)"
+data "StatsFunctors" "IF(StatusDurationMoreThan(context.Source,'MAG_RADIANT_RADIATING_ORB',6)):CreateExplosion(Projectile_RadiatingOrb);RemoveStatus(SELF,MAG_RADIANT_RADIATING_ORB)"
 
 <!--UNSTOPPABLE-->
 
@@ -406,7 +407,7 @@ data "DescriptionParams" "DealDamage(1d4,Fire)"
 data "Properties" "IsToggled;Temporary"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsRangedWeaponAttack()"
-data "StatsFunctors" "UseActionResource(SELF,FlameArrows,1,0);ApplyStatus(BURNING,100,3);DealDamage(1d4,Fire)"
+data "StatsFunctors" "UseActionResource(SELF,FlameArrows,1,0);ApplyStatus(BURNING,100,1);DealDamage(1d4,Fire)"
 data "ToggleGroup" "S5E_FlameArrows"
 data "EnabledConditions" "HasActionResource('FlameArrows', 1, 0, false, false, context.Source) and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
 data "EnabledContext" "OnLongRest;OnActionResourcesChanged;OnStatusApplied;OnStatusRemoved"
@@ -568,7 +569,7 @@ data "Icon" "Spell_Transmutation_Haste"
 data "EnabledConditions" "HasActionResource('ArcaneShot', 1, 0, false, false, context.Source)"
 data "EnabledContext" "OnLongRest;OnActionResourcesChanged;OnStatusApplied;OnStatusRemoved"
 data "Properties" "Highlighted;IsToggled;ToggledDefaultAddToHotbar;Temporary"
-data "ToggleOnEffect" "VFX_Spells_Cast_Sorcerer_TidesOfChaos_BodyFX_01:Dummy_BodyFX:;VFX_Spells_Cast_Sorcerer_Shout_EyeFX_01:Dummy_EyeFX_01:;VFX_Spells_Cast_Sorcerer_Shout_EyeFX_02:Dummy_EyeFX_02:;"
+data "ToggleOnEffect" "VFX_Spells_Cast_Sorcerer_TidesOfChaos_BodyFX_01:Dummy_BodyFX:;VFX_Spells_Cast_Sorcerer_Shout_EyeFX_01:Dummy_EyeFX_01:;VFX_Spells_Cast_Sorcerer_Shout_EyeFX_02:Dummy_EyeFX_02:"
 data "Boosts" "UnlockSpellVariant(HasteCheck(),ModifyUseCosts(Replace,ActionPoint,0,-1,ActionPoint),ModifyUseCosts(Replace,BonusActionPoint,0,-1,BonusActionPoint),ModifyUseCosts(Replace,ReactionActionPoint,0,-1,ReactionActionPoint),ModifyUseCosts(Add,ArcaneShot,1,0))"
 
 <!--HUNTERS MARK-->
@@ -622,6 +623,7 @@ data "Description" "h4b1e9786g99cdg4c8bg88e7g351d70681e55;5"
 data "Icon" "Spell_Necromancy_SpiritShroud_Radiant"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnCombatStarted;OnTurn"
+data "Conditions" "not IsAetherSuspended(context.Source)"
 data "StatsFunctors" "IF(Combat(context.Source) and not HasStatus('SPIRITGUARDIANSVFX_RADIANT', context.Source)):ApplyStatus(SELF,SPIRITGUARDIANSVFX_RADIANT,100,-1)"
 
 new entry "SpiritGuardiansVFX_Necrotic"
@@ -631,6 +633,7 @@ data "Description" "h4b1e9786g99cdg4c8bg88e7g351d70681e55;5"
 data "Icon" "Spell_Necromancy_SpiritShroud_Necrotic"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnCombatStarted;OnTurn"
+data "Conditions" "not IsAetherSuspended(context.Source)"
 data "StatsFunctors" "IF(Combat(context.Source) and not HasStatus('SPIRITGUARDIANSVFX_NECROTIC', context.Source)):ApplyStatus(SELF,SPIRITGUARDIANSVFX_NECROTIC,100,-1)"
 
 <!--SPIRITUAL SHROUD-->

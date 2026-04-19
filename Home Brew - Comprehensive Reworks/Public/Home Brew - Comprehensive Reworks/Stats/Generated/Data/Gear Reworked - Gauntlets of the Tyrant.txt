@@ -43,7 +43,7 @@ data "CastEffect" "28a8039d-9df1-4210-8137-f396dd23614e"
 data "TargetEffect" "6b316222-955e-4539-87eb-a098db22c98b"
 data "BeamEffect" "2d8309ab-c73d-40eb-a42f-fa4935858786"
 data "RequirementConditions" "not HasStatus('CC_BLOCKER')"
-data "Cooldown" "OncePerShortRestPerItem"
+data "Cooldown" "OncePerCombat"
 
 new entry "Target_Command_Gortash_Container"
 type "SpellData"

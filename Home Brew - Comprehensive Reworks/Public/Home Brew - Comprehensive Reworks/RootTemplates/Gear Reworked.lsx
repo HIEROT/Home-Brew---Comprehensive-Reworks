@@ -9695,53 +9695,6 @@
 				</node>
 				<node id="GameObjects">
 					<attribute id="TechnicalDescription" type="TranslatedString" handle="hc8e135e8ged19g44edgb7a2sdf6s4d45fe85" version="4" />
-					<attribute id="Description" type="TranslatedString" handle="h9421a504g3e35g4ef1gb265g83a80a890399" version="3" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h8fbebff5g6088g403fg9636g465e82f1d18d" version="4" />
-					<attribute id="Icon" type="FixedString" value="Item_MAG_SWA_Roaring_Maul_GLOW" />
-					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1aa1bf6-2bb8-4472-9e18-b5285101c4b3" />
-					<attribute id="Name" type="LSString" value="MAG_SWA_Roaring_Maul" />
-					<attribute id="ParentTemplateId" type="FixedString" value="904286be-03fc-4755-adf0-9fd5f44942f4" />
-					<attribute id="Stats" type="FixedString" value="MAG_SWA_Roaring_Maul" />
-					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="VisualTemplate" type="FixedString" value="86ec3b25-0a9f-3ed1-e225-bf38870a2a1f" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144818875517632512" />
-					<children>
-						<node id="OnUsePeaceActions">
-							<children>
-								<node id="Action">
-									<attribute id="ActionType" type="int32" value="7" />
-									<children>
-										<node id="Attributes">
-											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
-											<attribute id="Conditions" type="LSString" value="Tagged('FRONTIER_KNIGHT', context.Source) and not IsEquipped()" />
-											<attribute id="Consume" type="bool" value="True" />
-											<attribute id="IsHiddenStatus" type="bool" value="True" />
-											<attribute id="StatsId" type="FixedString" value="CONSUMED_CORPSEGRINDER" />
-											<attribute id="StatusDuration" type="int32" value="-1" />
-										</node>
-									</children>
-								</node>
-							</children>
-						</node>
-						<node id="StatusList">
-							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="MAG_THUNDER_THUNDER_WEAPON" />
-								</node>
-							</children>
-						</node>
-						<node id="Tags">
-							<children>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
-								</node>
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="GameObjects">
-					<attribute id="TechnicalDescription" type="TranslatedString" handle="hc8e135e8ged19g44edgb7a2sdf6s4d45fe85" version="4" />
 					<attribute id="Description" type="TranslatedString" handle="h529fc45bg3f9cg41e2gbfdfg271af6c4a38d" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hdbada8d5ga7a1g4a9agbd71gaf5aa698a28c" version="2" />
 					<attribute id="LevelName" type="FixedString" value="" />
@@ -11028,48 +10981,6 @@
 											<attribute id="StatusDuration" type="int32" value="-1" />
 										</node>
 									</children>
-								</node>
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="GameObjects">
-					<attribute id="TechnicalDescription" type="TranslatedString" handle="hc8e135e8ged19g44edgb7a2sdf6s4d45fe85" version="4" />
-					<attribute id="Description" type="TranslatedString" handle="hefaabf96g54bcg4f3fg8da5g6396dfdcc4c4" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h199d321eg5008g47d9g81eag40b19398886f" version="2" />
-					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c77553e2-f192-4835-baa9-bdfb63521532" />
-					<attribute id="Name" type="LSString" value="MAG_Spellbreaker_Battleaxe" />
-					<attribute id="ParentTemplateId" type="FixedString" value="c17ee133-cbb5-418f-88be-5ef27991cf50" />
-					<attribute id="Stats" type="FixedString" value="MAG_Spellbreaker_Battleaxe" />
-					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="VisualTemplate" type="FixedString" value="395226f6-ee73-2876-b95e-3df652495e62" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
-					<children>
-						<node id="OnUsePeaceActions">
-							<children>
-								<node id="Action">
-									<attribute id="ActionType" type="int32" value="7" />
-									<children>
-										<node id="Attributes">
-											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
-											<attribute id="Conditions" type="LSString" value="Tagged('FRONTIER_KNIGHT', context.Source) and not IsEquipped()" />
-											<attribute id="Consume" type="bool" value="True" />
-											<attribute id="IsHiddenStatus" type="bool" value="True" />
-											<attribute id="StatsId" type="FixedString" value="CONSUMED_WITCHBREAKER" />
-											<attribute id="StatusDuration" type="int32" value="-1" />
-										</node>
-									</children>
-								</node>
-							</children>
-						</node>
-						<node id="Tags">
-							<children>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
-								</node>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
 								</node>
 							</children>
 						</node>

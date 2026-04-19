@@ -55,6 +55,7 @@ function ExtendedAllowedSpells()
 		SpellId('Shout_DestructiveWave') |
 		SpellId('Shout_DetectMagic') |
 		SpellId('Shout_DisguiseSelf_Invisibility') |
+		SpellId('Shout_EarthTremor') |
 		SpellId('Shout_LongJump') |
 		SpellId('Shout_FeatherFall') |
 		SpellId('Shout_FireShield') |
@@ -79,27 +80,43 @@ function ExtendedAllowedSpells()
 		SpellId('Target_AbsorbElements_Psychic') |
 		SpellId('Target_AbsorbElements_Radiant') |
 		SpellId('Target_AbsorbElements_Thunder') |
+		SpellId('Target_StinkingCloud') |
 		SpellId('Target_ArcaneVortex') |
+		SpellId('Target_Banishment') |
 		SpellId('Target_Barkskin') |
 		SpellId('Target_BeaconOfHope') |
 		SpellId('Target_Blindness') |
 		SpellId('Target_Blur') |
 		SpellId('Target_BorrowedKnowledge') |
+		SpellId('Target_CalmEmotions') |
 		SpellId('Target_CauseFear') |
 		SpellId('Target_CloudOfDaggers') |
+		SpellId('Target_Command_Container') |
+		SpellId('Target_Command_Approach') |
+		SpellId('Target_Command_Flee') |
+		SpellId('Target_Command_Grovel') |
+		SpellId('Target_Command_Halt') |
+		SpellId('Target_CompelledDuel') |
 		SpellId('Target_Confusion') |
 		SpellId('Target_CrownOfMadness') |
 		SpellId('Target_DeathWard') |
 		SpellId('Target_DissonantWhispers') |
+		SpellId('Target_DivineFavor') |
+		SpellId('Target_Entangle') |
+		SpellId('Target_BlackTentacles') |
 		SpellId('Target_Eyebite') |
 		SpellId('Target_FlameStrike') |
 		SpellId('Target_Enlarge') |
 		SpellId('Target_Reduce') |
 		SpellId('Target_EnsnaringStrike') |
 		SpellId('Target_ExpeditiousRetreat') |
+		SpellId('Target_FaerieFire') |
+		SpellId('Target_FlameBlade') |
 		SpellId('Target_Fly') |
 		SpellId('Target_FreedomOfMovement') |
 		SpellId('Target_GlobeOfInvulnerability') |
+		SpellId('Target_Grease') |
+		SpellId('Target_Heroism') |
 		SpellId('Target_Invisibility_Greater') |
 		SpellId('Target_Haste') |
 		SpellId('Target_Hex') |
@@ -122,6 +139,7 @@ function ExtendedAllowedSpells()
 		SpellId('Target_MaximiliansEarthenGrasp') |
 		SpellId('Target_NathairsMischief') |
 		SpellId('Target_IrresistibleDance') |
+		SpellId('Target_PassWithoutTrace') |
 		SpellId('Target_PhantasmalKiller') |
 		SpellId('Target_Polymorph') |
 		SpellId('Target_Antagonize') |
@@ -135,6 +153,7 @@ function ExtendedAllowedSpells()
 		SpellId('Target_HideousLaughter') |
 		SpellId('Target_VitriolicTouch') |
 		SpellId('Target_AuraOfVitality') |
+		SpellId('Target_Web') |
 		SpellId('Wall_BladeBarrier') |
 		SpellId('Wall_WallOfFire') |
 		SpellId('Wall_WallOfIce') |
@@ -159,6 +178,7 @@ function ExtendedAllowedSpells()
 		SpellId('Shout_DestructiveWave_2') |
 		SpellId('Shout_DetectMagic_2') |
 		SpellId('Shout_DisguiseSelf_Invisibility_2') |
+		SpellId('Shout_EarthTremor_2') |
 		SpellId('Shout_LongJump_2') |
 		SpellId('Shout_FeatherFall_2') |
 		SpellId('Shout_FireShield_2') |
@@ -177,27 +197,43 @@ function ExtendedAllowedSpells()
 		SpellId('Target_AbsorbElements_Psychic_2') |
 		SpellId('Target_AbsorbElements_Radiant_2') |
 		SpellId('Target_AbsorbElements_Thunder_2') |
+		SpellId('Target_StinkingCloud_2') |
 		SpellId('Target_ArcaneVortex_2') |
+		SpellId('Target_Banishment_2') |
 		SpellId('Target_Barkskin_2') |
 		SpellId('Target_BeaconOfHope_2') |
 		SpellId('Target_Blindness_2') |
 		SpellId('Target_Blur_2') |
 		SpellId('Target_BorrowedKnowledge_2') |
+		SpellId('Target_CalmEmotions_2') |
 		SpellId('Target_CauseFear_2') |
 		SpellId('Target_CloudOfDaggers_2') |
+		SpellId('Target_Command_Container_2') |
+		SpellId('Target_Command_Approach_2') |
+		SpellId('Target_Command_Flee_2') |
+		SpellId('Target_Command_Grovel_2') |
+		SpellId('Target_Command_Halt_2') |
+		SpellId('Target_CompelledDuel_2') |
 		SpellId('Target_Confusion_2') |
 		SpellId('Target_CrownOfMadness_2') |
 		SpellId('Target_DeathWard_2') |
 		SpellId('Target_DissonantWhispers_2') |
+		SpellId('Target_DivineFavor_2') |
+		SpellId('Target_Entangle_2') |
+		SpellId('Target_BlackTentacles_2') |
 		SpellId('Target_Eyebite_2') |
 		SpellId('Target_FlameStrike_2') |
 		SpellId('Target_Enlarge_2') |
 		SpellId('Target_Reduce_2') |
 		SpellId('Target_EnsnaringStrike_2') |
 		SpellId('Target_ExpeditiousRetreat_2') |
+		SpellId('Target_FaerieFire_2') |
+		SpellId('Target_FlameBlade_2') |
 		SpellId('Target_Fly_2') |
 		SpellId('Target_FreedomOfMovement_2') |
 		SpellId('Target_GlobeOfInvulnerability_2') |
+		SpellId('Target_Grease_2') |
+		SpellId('Target_Heroism_2') |
 		SpellId('Target_Invisibility_Greater_2') |
 		SpellId('Target_Haste_2') |
 		SpellId('Target_Hex_1Strength_2') |
@@ -214,6 +250,7 @@ function ExtendedAllowedSpells()
 		SpellId('Target_MaximiliansEarthenGrasp_2') |
 		SpellId('Target_NathairsMischief_2') |
 		SpellId('Target_IrresistibleDance_2') |
+		SpellId('Target_PassWithoutTrace_2') |
 		SpellId('Target_PhantasmalKiller_2') |
 		SpellId('Target_Polymorph_2') |
 		SpellId('Target_Antagonize_2') |
@@ -227,6 +264,7 @@ function ExtendedAllowedSpells()
 		SpellId('Target_HideousLaughter_2') |
 		SpellId('Target_VitriolicTouch_2') |
 		SpellId('Target_AuraOfVitality_2') |
+		SpellId('Target_Web_2') |
 		SpellId('Wall_BladeBarrier_2') |
 		SpellId('Wall_WallOfFire_2') |
 		SpellId('Wall_WallOfIce_2') |
@@ -251,6 +289,7 @@ function ExtendedAllowedSpells()
 		SpellId('Shout_DestructiveWave_3') |
 		SpellId('Shout_DetectMagic_3') |
 		SpellId('Shout_DisguiseSelf_Invisibility_3') |
+		SpellId('Shout_EarthTremor_3') |
 		SpellId('Shout_LongJump_3') |
 		SpellId('Shout_FeatherFall_3') |
 		SpellId('Shout_FireShield_3') |
@@ -269,27 +308,43 @@ function ExtendedAllowedSpells()
 		SpellId('Target_AbsorbElements_Psychic_3') |
 		SpellId('Target_AbsorbElements_Radiant_3') |
 		SpellId('Target_AbsorbElements_Thunder_3') |
+		SpellId('Target_StinkingCloud_3') |
 		SpellId('Target_ArcaneVortex_3') |
+		SpellId('Target_Banishment_3') |
 		SpellId('Target_Barkskin_3') |
 		SpellId('Target_BeaconOfHope_3') |
 		SpellId('Target_Blindness_3') |
 		SpellId('Target_Blur_3') |
 		SpellId('Target_BorrowedKnowledge_3') |
+		SpellId('Target_CalmEmotions_3') |
 		SpellId('Target_CauseFear_3') |
 		SpellId('Target_CloudOfDaggers_3') |
+		SpellId('Target_Command_Container_3') |
+		SpellId('Target_Command_Approach_3') |
+		SpellId('Target_Command_Flee_3') |
+		SpellId('Target_Command_Grovel_3') |
+		SpellId('Target_Command_Halt_3') |
+		SpellId('Target_CompelledDuel_3') |
 		SpellId('Target_Confusion_3') |
 		SpellId('Target_CrownOfMadness_3') |
 		SpellId('Target_DeathWard_3') |
 		SpellId('Target_DissonantWhispers_3') |
+		SpellId('Target_DivineFavor_3') |
+		SpellId('Target_Entangle_3') |
+		SpellId('Target_BlackTentacles_3') |
 		SpellId('Target_Eyebite_3') |
 		SpellId('Target_FlameStrike_3') |
 		SpellId('Target_Enlarge_3') |
 		SpellId('Target_Reduce_3') |
 		SpellId('Target_EnsnaringStrike_3') |
 		SpellId('Target_ExpeditiousRetreat_3') |
+		SpellId('Target_FaerieFire_3') |
+		SpellId('Target_FlameBlade_3') |
 		SpellId('Target_Fly_3') |
 		SpellId('Target_FreedomOfMovement_3') |
 		SpellId('Target_GlobeOfInvulnerability_3') |
+		SpellId('Target_Grease_3') |
+		SpellId('Target_Heroism_3') |
 		SpellId('Target_Invisibility_Greater_3') |
 		SpellId('Target_Haste_3') |
 		SpellId('Target_Hex_1Strength_3') |
@@ -306,6 +361,7 @@ function ExtendedAllowedSpells()
 		SpellId('Target_MaximiliansEarthenGrasp_3') |
 		SpellId('Target_NathairsMischief_3') |
 		SpellId('Target_IrresistibleDance_3') |
+		SpellId('Target_PassWithoutTrace_3') |
 		SpellId('Target_PhantasmalKiller_3') |
 		SpellId('Target_Polymorph_3') |
 		SpellId('Target_Antagonize_3') |
@@ -319,6 +375,7 @@ function ExtendedAllowedSpells()
 		SpellId('Target_HideousLaughter_3') |
 		SpellId('Target_VitriolicTouch_3') |
 		SpellId('Target_AuraOfVitality_3') |
+		SpellId('Target_Web_3') |
 		SpellId('Wall_BladeBarrier_3') |
 		SpellId('Wall_WallOfFire_3') |
 		SpellId('Wall_WallOfIce_3') |
@@ -343,6 +400,7 @@ function ExtendedAllowedSpells()
 		SpellId('Shout_DestructiveWave_4') |
 		SpellId('Shout_DetectMagic_4') |
 		SpellId('Shout_DisguiseSelf_Invisibility_4') |
+		SpellId('Shout_EarthTremor_4') |
 		SpellId('Shout_LongJump_4') |
 		SpellId('Shout_FeatherFall_4') |
 		SpellId('Shout_FireShield_4') |
@@ -361,27 +419,43 @@ function ExtendedAllowedSpells()
 		SpellId('Target_AbsorbElements_Psychic_4') |
 		SpellId('Target_AbsorbElements_Radiant_4') |
 		SpellId('Target_AbsorbElements_Thunder_4') |
+		SpellId('Target_StinkingCloud_4') |
 		SpellId('Target_ArcaneVortex_4') |
+		SpellId('Target_Banishment_4') |
 		SpellId('Target_Barkskin_4') |
 		SpellId('Target_BeaconOfHope_4') |
 		SpellId('Target_Blindness_4') |
 		SpellId('Target_Blur_4') |
 		SpellId('Target_BorrowedKnowledge_4') |
+		SpellId('Target_CalmEmotions_4') |
 		SpellId('Target_CauseFear_4') |
 		SpellId('Target_CloudOfDaggers_4') |
+		SpellId('Target_Command_Container_4') |
+		SpellId('Target_Command_Approach_4') |
+		SpellId('Target_Command_Flee_4') |
+		SpellId('Target_Command_Grovel_4') |
+		SpellId('Target_Command_Halt_4') |
+		SpellId('Target_CompelledDuel_4') |
 		SpellId('Target_Confusion_4') |
 		SpellId('Target_CrownOfMadness_4') |
 		SpellId('Target_DeathWard_4') |
 		SpellId('Target_DissonantWhispers_4') |
+		SpellId('Target_DivineFavor_4') |
+		SpellId('Target_Entangle_4') |
+		SpellId('Target_BlackTentacles_4') |
 		SpellId('Target_Eyebite_4') |
 		SpellId('Target_FlameStrike_4') |
 		SpellId('Target_Enlarge_4') |
 		SpellId('Target_Reduce_4') |
 		SpellId('Target_EnsnaringStrike_4') |
 		SpellId('Target_ExpeditiousRetreat_4') |
+		SpellId('Target_FaerieFire_4') |
+		SpellId('Target_FlameBlade_4') |
 		SpellId('Target_Fly_4') |
 		SpellId('Target_FreedomOfMovement_4') |
 		SpellId('Target_GlobeOfInvulnerability_4') |
+		SpellId('Target_Grease_4') |
+		SpellId('Target_Heroism_4') |
 		SpellId('Target_Invisibility_Greater_4') |
 		SpellId('Target_Haste_4') |
 		SpellId('Target_Hex_1Strength_4') |
@@ -398,6 +472,7 @@ function ExtendedAllowedSpells()
 		SpellId('Target_MaximiliansEarthenGrasp_4') |
 		SpellId('Target_NathairsMischief_4') |
 		SpellId('Target_IrresistibleDance_4') |
+		SpellId('Target_PassWithoutTrace_4') |
 		SpellId('Target_PhantasmalKiller_4') |
 		SpellId('Target_Polymorph_4') |
 		SpellId('Target_Antagonize_4') |
@@ -411,6 +486,7 @@ function ExtendedAllowedSpells()
 		SpellId('Target_HideousLaughter_4') |
 		SpellId('Target_VitriolicTouch_4') |
 		SpellId('Target_AuraOfVitality_4') |
+		SpellId('Target_Web_4') |
 		SpellId('Wall_BladeBarrier_4') |
 		SpellId('Wall_WallOfFire_4') |
 		SpellId('Wall_WallOfIce_4') |
@@ -435,6 +511,7 @@ function ExtendedAllowedSpells()
 		SpellId('Shout_DestructiveWave_5') |
 		SpellId('Shout_DetectMagic_5') |
 		SpellId('Shout_DisguiseSelf_Invisibility_5') |
+		SpellId('Shout_EarthTremor_5') |
 		SpellId('Shout_LongJump_5') |
 		SpellId('Shout_FeatherFall_5') |
 		SpellId('Shout_FireShield_5') |
@@ -453,27 +530,43 @@ function ExtendedAllowedSpells()
 		SpellId('Target_AbsorbElements_Psychic_5') |
 		SpellId('Target_AbsorbElements_Radiant_5') |
 		SpellId('Target_AbsorbElements_Thunder_5') |
+		SpellId('Target_StinkingCloud_5') |
 		SpellId('Target_ArcaneVortex_5') |
+		SpellId('Target_Banishment_5') |
 		SpellId('Target_Barkskin_5') |
 		SpellId('Target_BeaconOfHope_5') |
 		SpellId('Target_Blindness_5') |
 		SpellId('Target_Blur_5') |
 		SpellId('Target_BorrowedKnowledge_5') |
+		SpellId('Target_CalmEmotions_5') |
 		SpellId('Target_CauseFear_5') |
 		SpellId('Target_CloudOfDaggers_5') |
+		SpellId('Target_Command_Container_5') |
+		SpellId('Target_Command_Approach_5') |
+		SpellId('Target_Command_Flee_5') |
+		SpellId('Target_Command_Grovel_5') |
+		SpellId('Target_Command_Halt_5') |
+		SpellId('Target_CompelledDuel_5') |
 		SpellId('Target_Confusion_5') |
 		SpellId('Target_CrownOfMadness_5') |
 		SpellId('Target_DeathWard_5') |
 		SpellId('Target_DissonantWhispers_5') |
+		SpellId('Target_DivineFavor_5') |
+		SpellId('Target_Entangle_5') |
+		SpellId('Target_BlackTentacles_5') |
 		SpellId('Target_Eyebite_5') |
 		SpellId('Target_FlameStrike_5') |
 		SpellId('Target_Enlarge_5') |
 		SpellId('Target_Reduce_5') |
 		SpellId('Target_EnsnaringStrike_5') |
 		SpellId('Target_ExpeditiousRetreat_5') |
+		SpellId('Target_FaerieFire_5') |
+		SpellId('Target_FlameBlade_5') |
 		SpellId('Target_Fly_5') |
 		SpellId('Target_FreedomOfMovement_5') |
 		SpellId('Target_GlobeOfInvulnerability_5') |
+		SpellId('Target_Grease_5') |
+		SpellId('Target_Heroism_5') |
 		SpellId('Target_Invisibility_Greater_5') |
 		SpellId('Target_Haste_5') |
 		SpellId('Target_Hex_1Strength_5') |
@@ -490,6 +583,7 @@ function ExtendedAllowedSpells()
 		SpellId('Target_MaximiliansEarthenGrasp_5') |
 		SpellId('Target_NathairsMischief_5') |
 		SpellId('Target_IrresistibleDance_5') |
+		SpellId('Target_PassWithoutTrace_5') |
 		SpellId('Target_PhantasmalKiller_5') |
 		SpellId('Target_Polymorph_5') |
 		SpellId('Target_Antagonize_5') |
@@ -503,6 +597,7 @@ function ExtendedAllowedSpells()
 		SpellId('Target_HideousLaughter_5') |
 		SpellId('Target_VitriolicTouch_5') |
 		SpellId('Target_AuraOfVitality_5') |
+		SpellId('Target_Web_5') |
 		SpellId('Wall_BladeBarrier_5') |
 		SpellId('Wall_WallOfFire_5') |
 		SpellId('Wall_WallOfIce_5') |
@@ -527,6 +622,7 @@ function ExtendedAllowedSpells()
 		SpellId('Shout_DestructiveWave_6') |
 		SpellId('Shout_DetectMagic_6') |
 		SpellId('Shout_DisguiseSelf_Invisibility_6') |
+		SpellId('Shout_EarthTremor_6') |
 		SpellId('Shout_LongJump_6') |
 		SpellId('Shout_FeatherFall_6') |
 		SpellId('Shout_FireShield_6') |
@@ -545,27 +641,43 @@ function ExtendedAllowedSpells()
 		SpellId('Target_AbsorbElements_Psychic_6') |
 		SpellId('Target_AbsorbElements_Radiant_6') |
 		SpellId('Target_AbsorbElements_Thunder_6') |
+		SpellId('Target_StinkingCloud_6') |
 		SpellId('Target_ArcaneVortex_6') |
+		SpellId('Target_Banishment_6') |
 		SpellId('Target_Barkskin_6') |
 		SpellId('Target_BeaconOfHope_6') |
 		SpellId('Target_Blindness_6') |
 		SpellId('Target_Blur_6') |
 		SpellId('Target_BorrowedKnowledge_6') |
+		SpellId('Target_CalmEmotions_6') |
 		SpellId('Target_CauseFear_6') |
 		SpellId('Target_CloudOfDaggers_6') |
+		SpellId('Target_Command_Container_6') |
+		SpellId('Target_Command_Approach_6') |
+		SpellId('Target_Command_Flee_6') |
+		SpellId('Target_Command_Grovel_6') |
+		SpellId('Target_Command_Halt_6') |
+		SpellId('Target_CompelledDuel_6') |
 		SpellId('Target_Confusion_6') |
 		SpellId('Target_CrownOfMadness_6') |
 		SpellId('Target_DeathWard_6') |
 		SpellId('Target_DissonantWhispers_6') |
+		SpellId('Target_DivineFavor_6') |
+		SpellId('Target_Entangle_6') |
+		SpellId('Target_BlackTentacles_6') |
 		SpellId('Target_Eyebite_6') |
 		SpellId('Target_FlameStrike_6') |
 		SpellId('Target_Enlarge_6') |
 		SpellId('Target_Reduce_6') |
 		SpellId('Target_EnsnaringStrike_6') |
 		SpellId('Target_ExpeditiousRetreat_6') |
+		SpellId('Target_FaerieFire_6') |
+		SpellId('Target_FlameBlade_6') |
 		SpellId('Target_Fly_6') |
 		SpellId('Target_FreedomOfMovement_6') |
 		SpellId('Target_GlobeOfInvulnerability_6') |
+		SpellId('Target_Grease_6') |
+		SpellId('Target_Heroism_6') |
 		SpellId('Target_Invisibility_Greater_6') |
 		SpellId('Target_Haste_6') |
 		SpellId('Target_Hex_1Strength_6') |
@@ -582,6 +694,7 @@ function ExtendedAllowedSpells()
 		SpellId('Target_MaximiliansEarthenGrasp_6') |
 		SpellId('Target_NathairsMischief_6') |
 		SpellId('Target_IrresistibleDance_6') |
+		SpellId('Target_PassWithoutTrace_6') |
 		SpellId('Target_PhantasmalKiller_6') |
 		SpellId('Target_Polymorph_6') |
 		SpellId('Target_Antagonize_6') |
@@ -595,6 +708,7 @@ function ExtendedAllowedSpells()
 		SpellId('Target_HideousLaughter_6') |
 		SpellId('Target_VitriolicTouch_6') |
 		SpellId('Target_AuraOfVitality_6') |
+		SpellId('Target_Web_6') |
 		SpellId('Wall_BladeBarrier_6') |
 		SpellId('Wall_WallOfFire_6') |
 		SpellId('Wall_WallOfIce_6') |

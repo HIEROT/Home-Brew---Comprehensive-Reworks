@@ -17,7 +17,7 @@ data "DisplayName" "hcbc3f9f4g25eeg4d5egb2fegc4ba164df2be;1"
 data "Description" "h9efa37e5g80f9g4502g9265g9a0859e891f8;3"
 data "DescriptionParams" "Distance(9)"
 data "StatsFunctorContext" "OnTurn"
-data "Conditions" "HasStatus('PERFORM_NEGATIVE', context.Source)"
+data "Conditions" "HasStatus('PERFORM_NEGATIVE', context.Source) and not IsAetherSuspended(context.Source)"
 data "StatsFunctors" "CreateExplosion(SELF,Projectile_MAG_HaHaHat)"
 
 new entry "Projectile_MAG_HaHaHat"

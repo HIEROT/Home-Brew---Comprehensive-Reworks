@@ -17,7 +17,7 @@ data "DisplayName" "h00d004f6g09f6g43bfga6bbg3b2447c60133;2"
 data "Description" "hcca5e021g4205g4ca2ga516g3a531e59a378;9"
 data "Properties" "Highlighted;OncePerCombat"
 data "StatsFunctorContext" "OnTurn"
-data "Conditions" "Combat()"
+data "Conditions" "Combat() and not IsAetherSuspended(context.Source)"
 data "StatsFunctors" "ApplyStatus(SELF, MAG_CRITICAL_CRITICAL_EXECUTION, 100, -1)"
 
 new entry "MAG_CRITICAL_CRITICAL_EXECUTION"

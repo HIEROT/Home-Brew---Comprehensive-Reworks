@@ -768,7 +768,7 @@ data "DescriptionParams" "2"
 data "Icon" "Skill_Sorcerer_Passive_Metamagic_SeekingSpell"
 data "StackId" "METAMAGIC"
 data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator"
-data "Boosts" "IF(IsSpellAttack()):Advantage(AttackRoll);"
+data "Boosts" "IF(IsSpellAttack()):Advantage(AttackRoll)"
 
 new entry "METAMAGIC_DEBUG"
 type "StatusData"

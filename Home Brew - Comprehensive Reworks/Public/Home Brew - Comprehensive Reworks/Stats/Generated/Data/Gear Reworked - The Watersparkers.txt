@@ -8,7 +8,7 @@ data "DefaultBoosts" "Tag(ORI_GALE_CONSUMABLEARTEFACT)"
 data "Rarity" "Rare"
 data "PassivesOnEquip" "MAG_ChargedLightning_ElectrifyWater_Boots_Passive;MAG_ChargedLightning_ElectricSurface_Boots_Passive"
 data "Unique" "1"
-data "Boosts" "StatusImmunity(SHOCKED_SURFACE);StatusImmunity(MAG_ELECTROCUTED);"
+data "Boosts" "StatusImmunity(SHOCKED_SURFACE);StatusImmunity(MAG_ELECTROCUTED)"
 data "UseCosts" "ReactionActionPoint:1;Attunement:2"
 data "StatusOnEquip" "MAG_CHARGED_LIGHTNING_ELECTRIC_SURFACE_BOOTS;MAG_CHARGED_LIGHTNING_ELECTRIC_SURFACE_STARTER;ATTUNEMENT2"
 

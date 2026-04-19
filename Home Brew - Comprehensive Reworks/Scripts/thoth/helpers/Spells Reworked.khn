@@ -37,3 +37,9 @@ function ForceCheck(damageType, entity)
 
     return ConditionResult(false)
 end
+
+function IsTargetableCorpse(entity)
+    entity = entity or context.Target
+    result = Dead(entity) & ~Tagged('UNDEAD',entity) & ~Tagged('CONSTRUCT') & ~Tagged('ELEMENTAL') & ~Tagged('PLANT') & ~Tagged('OOZE')
+    return ConditionResult(result.Result, {ConditionError("IsNotTargetableCorpse")})
+end

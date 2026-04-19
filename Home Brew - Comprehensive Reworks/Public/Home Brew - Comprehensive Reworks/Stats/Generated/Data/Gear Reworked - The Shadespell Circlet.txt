@@ -19,7 +19,6 @@ data "Icon" "PassiveFeature_Generic_Tactical"
 data "DisplayName" "h64fb6ffege8ceg4b35g8ab0g1c573dcd5241;2"
 data "Description" "hd22ea7ecgc9e2g47dbga2f0gc804c65f5827;6"
 data "DescriptionParams" "1"
-data "Icon" "PassiveFeature_Generic_Darkness"
 data "StatsFunctorContext" "OnObscurityChanged;OnCreate"
 data "StatsFunctors" "IF(not HasObscuredState(ObscuredState.Clear)):ApplyStatus(MAG_SHADOW_OBSCURITY_SPELL_DC, 100, -1);IF(HasObscuredState(ObscuredState.Clear)):RemoveStatus(MAG_SHADOW_OBSCURITY_SPELL_DC)"
 

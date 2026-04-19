@@ -24,7 +24,11 @@ function CT_WeaponAttackCheck()
 end
 
 function ExtraAttackSpellCheck()
-    return HasStringInSpellRoll('WeaponAttack') | HasStringInSpellRoll('UnarmedAttack') | HasStringInSpellRoll('ThrowAttack') | SpellId('Target_CommandersStrike') | SpellId('Target_Bufotoxin_Frog_Summon') | SpellId('Projectile_ArrowOfSmokepowder') | SpellId('Projectile_ArcaneShot_SeekingArrow') | SpellId('Zone_ArcaneShot_PiercingArrow') | SpellId('Projectile_FocusedWeave') | SpellId('Projectile_ElementalFletching_Acid') | SpellId('Projectile_ElementalFletching_Cold') | SpellId('Projectile_ElementalFletching_Fire') | SpellId('Projectile_ElementalFletching_Lightning') | SpellId('Projectile_ElementalFletching_Necrotic') | SpellId('Projectile_ElementalFletching_Poison') | SpellId('Projectile_ElementalFletching_Psychic') | SpellId('Projectile_ElementalFletching_Radiant') | SpellId('Projectile_ElementalFletching_Thunder') | SpellId('Projectile_ElementalFletching_Acid_Focused') | SpellId('Projectile_ElementalFletching_Cold_Focused') | SpellId('Projectile_ElementalFletching_Fire_Focused') | SpellId('Projectile_ElementalFletching_Lightning_Focused') | SpellId('Projectile_ElementalFletching_Necrotic_Focused') | SpellId('Projectile_ElementalFletching_Poison_Focused') | SpellId('Projectile_ElementalFletching_Psychic_Focused') | SpellId('Projectile_ElementalFletching_Radiant_Focused') | SpellId('Projectile_ElementalFletching_Thunder_Focused')
+    return HasStringInSpellRoll('WeaponAttack') & ~IsSpell() | HasStringInSpellRoll('UnarmedAttack') & ~IsSpell() | HasStringInSpellRoll('ThrowAttack') & ~IsSpell()
+end
+
+function ExtraAttackCheck()
+    return ExtraAttackSpellCheck()
 end
 
 function HasDRNegationStatusElementalSource(entity)
@@ -111,6 +115,78 @@ function HasMultipleAlliesWithinRange(exclusionStatus, distance, tag, NumberOfAl
     return ConditionResult(false, errorFalse, errorTrue)
 end
 
+function HasProficiencyInAthletics()
+	return HasProficiencyBonus(Ability.Strength,Skill.Athletics,context.Source)
+end
+
+function HasProficiencyInAcrobatics()
+	return HasProficiencyBonus(Ability.Dexterity,Skill.Acrobatics,context.Source)
+end
+
+function HasProficiencyInSleightOfHand()
+	return HasProficiencyBonus(Ability.Dexterity,Skill.SleightOfHand,context.Source)
+end
+
+function HasProficiencyInStealth()
+	return HasProficiencyBonus(Ability.Dexterity,Skill.Stealth,context.Source)
+end
+
+function HasProficiencyInArcana()
+	return HasProficiencyBonus(Ability.Intelligence,Skill.Arcana,context.Source)
+end
+
+function HasProficiencyInHistory()
+	return HasProficiencyBonus(Ability.Intelligence,Skill.History,context.Source)
+end
+
+function HasProficiencyInInvestigation()
+	return HasProficiencyBonus(Ability.Intelligence,Skill.Investigation,context.Source)
+end
+
+function HasProficiencyInNature()
+	return HasProficiencyBonus(Ability.Intelligence,Skill.Nature,context.Source)
+end
+
+function HasProficiencyInReligion()
+	return HasProficiencyBonus(Ability.Intelligence,Skill.Religion,context.Source)
+end
+
+function HasProficiencyInAnimalHandling()
+	return HasProficiencyBonus(Ability.Wisdom,Skill.AnimalHandling,context.Source)
+end
+
+function HasProficiencyInInsight()
+	return HasProficiencyBonus(Ability.Wisdom,Skill.Insight,context.Source)
+end
+
+function HasProficiencyInMedicine()
+	return HasProficiencyBonus(Ability.Wisdom,Skill.Medicine,context.Source)
+end
+
+function HasProficiencyInPerception()
+	return HasProficiencyBonus(Ability.Wisdom,Skill.Perception,context.Source)
+end
+
+function HasProficiencyInSurvival()
+	return HasProficiencyBonus(Ability.Wisdom,Skill.Survival,context.Source)
+end
+
+function HasProficiencyInDeception()
+	return HasProficiencyBonus(Ability.Charisma,Skill.Deception,context.Source)
+end
+
+function HasProficiencyInIntimidation()
+	return HasProficiencyBonus(Ability.Charisma,Skill.Intimidation,context.Source)
+end
+
+function HasProficiencyInPerformance()
+	return HasProficiencyBonus(Ability.Charisma,Skill.Performance,context.Source)
+end
+
+function HasProficiencyInPersuasion()
+	return HasProficiencyBonus(Ability.Charisma,Skill.Persuasion,context.Source)
+end
+
 function HasRangedWeaponEquipped()
     result = WieldingWeapon('Ammunition')
     return ConditionResult(result.Result, {ConditionError("HasNotWeaponInMainHand")}, {ConditionError("HasWeaponInMainHand")})
@@ -133,15 +209,29 @@ function IsCharismaModifierPositive()
 	return GetModifier(context.Source.Charisma) > 0
 end
 
+function IsAetherSuspended(entity)
+    local entity = entity or context.Target
+	return HasAnyStatus({'SG_Sleeping_Magical'}, {}, {}, entity)
+end
+
 function IsIntelligenceModifierPositive()
 	return GetModifier(context.Source.Intelligence) > 0
 end
+
 function IsStrengthModifierPositive()
 	return GetModifier(context.Source.Strength) > 0
 end
 
 function MeleeCheck()
 	return HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeUnarmedAttack')
+end
+
+function MeleeWeaponCheck()
+	return HasStringInSpellRoll('MeleeWeaponAttack')
+end
+
+function MeleeWeaponCheckNoMagic()
+	return HasStringInSpellRoll('MeleeWeaponAttack') & ~IsSpell()
 end
 
 function NoMeleeWeaponEquipped(entity)
@@ -164,6 +254,14 @@ function NoRangedWeaponEquipped(entity)
     end
 
     return ConditionResult(true)
+end
+
+function RangedWeaponCheck()
+	return HasStringInSpellRoll('RangedWeaponAttack')
+end
+
+function RangedWeaponCheckNoMagic()
+	return HasStringInSpellRoll('RangedWeaponAttack') & ~IsSpell()
 end
 
 function SpellSlotCheck()

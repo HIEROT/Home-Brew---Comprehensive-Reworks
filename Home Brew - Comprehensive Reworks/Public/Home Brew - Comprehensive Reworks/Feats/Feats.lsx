@@ -354,7 +354,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="BardCollegeOfSteel"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Melodic_Steel"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Steelforged_Actions;Melodic_Steel"/>
 					<attribute id="Selectors" type="LSString" value="SelectPassives(9355b0df-9229-4a33-8d4b-30d1918388cf,1,Steelforged)" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Bard&apos;)"/>
                     <attribute id="UUID" type="guid" value="e1b012c1-051a-4202-84cd-b037fc2ac6f8"/>

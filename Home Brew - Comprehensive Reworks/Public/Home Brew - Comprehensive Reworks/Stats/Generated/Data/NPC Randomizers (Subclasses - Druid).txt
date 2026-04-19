@@ -211,7 +211,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "Unlock_Dryad;Ensnaring_Presence;Natures_Grasp;Vineburst;"
+data "Passives" "Unlock_Dryad;Ensnaring_Presence;Natures_Grasp;Vineburst"
 
 new entry "APPLY_LAND_7"
 type "StatusData"

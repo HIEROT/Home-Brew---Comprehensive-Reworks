@@ -56,6 +56,23 @@ data "Conditions" "not HasSpellCastBlocked(context.Observer) and IsAbleToReact(c
 data "Roll" "TryCounterspellHigherLevelCheck(5)"
 data "Cost" "ReactionActionPoint:1;SpellSlotsGroup:1:1:6"
 
+<!--GUARDIAN OF FAITH-->
+
+new entry "Interrupt_GuardianOfFaith_Retaliate"
+type "InterruptData"
+data "DisplayName" "h3a40f65dg6499g4e5dg9bf5gf274e7fa52c2;1"
+data "Description" "h3ec41b5bg477cg4ba2ga5edg44914afbd2ac;1"
+data "Icon" "Spell_Evocation_SacredFlame"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Nearby"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and Ally(context.Observer,context.Target) and Enemy(context.Source,context.Observer) and not DistanceToGreaterThan(context.ObserverPosition, context.SourcePosition, 3) and not HasStatus('INVISIBILITY') and not AnyEntityIsItem() and HasLastAttackTriggered()"
+data "Properties" "UseAttack(OBSERVER_SOURCE)"
+data "Cost" ""
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "not HasAnyStatus({'SG_Polymorph','SG_Blinded'}) or Tagged('MINDFLAYER') or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'})"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+
 <!--HELLISH REBUKE-->
 
 new entry "Interrupt_HellishRebuke"

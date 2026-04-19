@@ -1241,7 +1241,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "439cb1c55ce44da8b8f3ccd2e23204f5000xx;1"
 data "Description" "439cb1c55ce44da8b8f3ccd2e23204f5000xv;2"
-data "DescriptionParams" "LevelMapValue(SecondWind)"
+data "DescriptionParams" "LevelMapValue(D12General)"
 data "Icon" "Skill_Fighter_SecondWind"
 
 new entry "Tooltip_ActionSurge"

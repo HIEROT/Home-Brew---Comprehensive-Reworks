@@ -174,33 +174,6 @@ add equipment entry "ARM_Camp_Body"
 add equipmentgroup
 add equipment entry "ARM_Camp_Shoes"
 
-new equipment "EQP_CC_Fighter_ArcaneArcher"
-add initialweaponset "Ranged"
-add equipmentgroup
-add equipment entry "WPN_Longbow"
-add equipmentgroup
-add equipment entry "ARM_ScaleMail_Body"
-add equipmentgroup
-add equipment entry "ARM_Boots_Leather_A"
-add equipmentgroup
-add equipment entry "OBJ_Bag_AlchemyPouch"
-add equipmentgroup
-add equipment entry "OBJ_Backpack_CampSupplies"
-add equipmentgroup
-add equipment entry "OBJ_Keychain"
-add equipmentgroup
-add equipment entry "OBJ_Potion_Healing"
-add equipmentgroup
-add equipment entry "OBJ_Potion_Healing"
-add equipmentgroup
-add equipment entry "OBJ_Potion_Healing"
-add equipmentgroup
-add equipment entry "OBJ_Scroll_Revivify"
-add equipmentgroup
-add equipment entry "ARM_Camp_Body"
-add equipmentgroup
-add equipment entry "ARM_Camp_Shoes"
-
 new equipment "EQP_CC_Monk"
 add initialweaponset "Melee"
 add equipmentgroup
@@ -254,8 +227,6 @@ add equipmentgroup
 add equipment entry "ARM_Camp_Body"
 add equipmentgroup
 add equipment entry "ARM_Camp_Shoes"
-add equipmentgroup
-add equipment entry "OBJ_Book_Paladin"
 
 new equipment "EQP_CC_Ranger"
 add initialweaponset "Ranged"

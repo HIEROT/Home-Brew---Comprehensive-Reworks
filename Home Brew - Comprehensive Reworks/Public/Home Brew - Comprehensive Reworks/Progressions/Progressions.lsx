@@ -110,7 +110,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Artificer);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(FirearmAmmo,3,0)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Artificer" />
-					<attribute id="PassivesAdded" type="LSString" value="Personality_Wizard;Reload_CombatEnded;SummonFirearm_Unlock;Firepower" />
+					<attribute id="PassivesAdded" type="LSString" value="Proficiency_Passives;Personality_Wizard;Reload_CombatEnded;SummonFirearm_Unlock;Firepower" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectPassives(4607f9c7-335c-443f-b075-a3f068c20a0d,1,Archetypes);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectPassives(cf44a7c1-3fcb-4fb6-8624-45dd433c11b1,1,Personality);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,3,1)" />
 					<attribute id="TableUUID" type="guid" value="6b701f1f-c477-43f0-9afe-0e169f65fc7a" />
@@ -981,7 +981,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Barbarian);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(Rage,3,0)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Barbarian" />
-					<attribute id="PassivesAdded" type="LSString" value="Personality_Barbarian;RecklessAttack_Technical;RecklessAttack_Toggle" />
+					<attribute id="PassivesAdded" type="LSString" value="Proficiency_Passives;Personality_Barbarian;RecklessAttack_Technical;RecklessAttack_Toggle" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectPassives(4607f9c7-335c-443f-b075-a3f068c20a0d,1,Archetypes);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectPassives(cf44a7c1-3fcb-4fb6-8624-45dd433c11b1,1,Personality);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,3,1)" />
 					<attribute id="TableUUID" type="guid" value="60bbcc97-5381-4898-bc15-908c072895de" />
@@ -2101,7 +2101,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Bard);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(BardicInspiration,3,0);ActionResource(SpellSlot,2,1);Tag(BARD);Attribute(UseMusicalInstrumentForCasting);Proficiency(MusicalInstrument)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Bard" />
-					<attribute id="PassivesAdded" type="LSString" value="Personality_Bard;BardSpellcasting;SongofRest;Mute_Songs" />
+					<attribute id="PassivesAdded" type="LSString" value="Proficiency_Passives;Personality_Bard;BardSpellcasting;SongofRest;Mute_Songs" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectPassives(4607f9c7-335c-443f-b075-a3f068c20a0d,1,Archetypes);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectPassives(cf44a7c1-3fcb-4fb6-8624-45dd433c11b1,1,Personality);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,3,1)" />
 					<attribute id="TableUUID" type="guid" value="229c98da-2cd1-4a5e-8051-9d90ec7931e7" />
@@ -3015,7 +3015,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Cleric);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(ChannelDivinity,3,0);ActionResource(SpellSlot,2,1)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Cleric" />
-					<attribute id="PassivesAdded" type="LSString" value="Personality_Cleric;Belief_and_Bestowment" />
+					<attribute id="PassivesAdded" type="LSString" value="Proficiency_Passives;Personality_Cleric;Belief_and_Bestowment" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectPassives(4607f9c7-335c-443f-b075-a3f068c20a0d,1,Archetypes);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectPassives(cf44a7c1-3fcb-4fb6-8624-45dd433c11b1,1,Personality);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,3,1);SelectSpells(4b265732-e303-449a-9c39-dc941811b06e,2,0,Cantrips);SelectSpells(63c89951-2cc1-4597-9d4b-b80d90b56803,2,0,Spells)" />
 					<attribute id="TableUUID" type="guid" value="64474b62-b4f5-46b3-b94a-c676c6da3116" />
@@ -3888,7 +3888,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Druids);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(WildShape,3,0);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot_Enabler,1,0);Tag(DRUID)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Druid" />
-					<attribute id="PassivesAdded" type="LSString" value="Personality_Druid;Beastcraft;Wildshape_Removal" />
+					<attribute id="PassivesAdded" type="LSString" value="Proficiency_Passives;Personality_Druid;Beastcraft;Wildshape_Removal" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectPassives(4607f9c7-335c-443f-b075-a3f068c20a0d,1,Archetypes);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectPassives(cf44a7c1-3fcb-4fb6-8624-45dd433c11b1,1,Personality);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,3,1);SelectSpells(10a49db5-0f8f-4e19-9e7c-3d4f92f9a8bd,2,0,Cantrips);SelectSpells(4174e244-89fb-46f8-a953-c73cad0a8c56,2,0,Spells);AddSpells(ae3ce10b-d32c-44df-91b9-ebf74476a9d8)" />
 					<attribute id="TableUUID" type="guid" value="6e7b7bad-e122-4679-8b3c-8f8987a9d466" />
@@ -4935,7 +4935,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Fighter);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(SuperiorityDie,1,0)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Fighter" />
-					<attribute id="PassivesAdded" type="LSString" value="Personality_Fighter;SecondWind" />
+					<attribute id="PassivesAdded" type="LSString" value="Proficiency_Passives;Personality_Fighter;SecondWind" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectPassives(4607f9c7-335c-443f-b075-a3f068c20a0d,1,Archetypes);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectPassives(cf44a7c1-3fcb-4fb6-8624-45dd433c11b1,1,Personality);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,3,1);SelectPassives(e51a2ef5-3663-43f9-8e74-5e28520323f1,1,Maneuvers)" />
 					<attribute id="TableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
@@ -5842,7 +5842,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Monk);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(KiPoint,1,0);ActionResource(DeflectMissiles_Charge,1,0)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Monk" />
-					<attribute id="PassivesAdded" type="LSString" value="Personality_Monk;MartialArts_Display;MartialArts_UnarmedDamage;Monk_SoundSwitch" />
+					<attribute id="PassivesAdded" type="LSString" value="Proficiency_Passives;Personality_Monk;MartialArts_Display;MartialArts_UnarmedDamage;Monk_SoundSwitch" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectPassives(4607f9c7-335c-443f-b075-a3f068c20a0d,1,Archetypes);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectPassives(cf44a7c1-3fcb-4fb6-8624-45dd433c11b1,1,Personality);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,3,1)" />
 					<attribute id="TableUUID" type="guid" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
@@ -6707,7 +6707,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Paladin);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(ChannelOath,3,0);ActionResource(WarPriestActionPoint,3,0);ActionResource(SpellSlot,2,1)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Paladin" />
-					<attribute id="PassivesAdded" type="LSString" value="Smite_Divine;JudgementoftheCrucible" />
+					<attribute id="PassivesAdded" type="LSString" value="Proficiency_Passives;Smite_Divine;JudgementoftheCrucible" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectPassives(4607f9c7-335c-443f-b075-a3f068c20a0d,1,Archetypes);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectPassives(cf44a7c1-3fcb-4fb6-8624-45dd433c11b1,1,Personality);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,3,1);SelectSpells(4b265732-e303-449a-9c39-dc941811b06e,2,0,Cantrips);SelectSpells(63c89951-2cc1-4597-9d4b-b80d90b56803,1,0,Spells);SelectPassives(0cdf39f8-8098-4c6d-8741-66f1877e47ba,1,Smites)" />
 					<attribute id="TableUUID" type="guid" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
@@ -7091,13 +7091,14 @@
 					<attribute id="UUID" type="guid" value="1177580a-a0e4-4da2-928b-f0151ad87339" />
 					</node>
 					
-<!--PALADIN (OATH OF ANCIENTS)-->
+<!--PALADIN (ANCIENT WARDEN)-->
 
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Ancients" />
-					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_OathofAncients;Oath_Ancients_Tenents;Ancient_Judgement;Ancient_Recall;Ancient_Advantage" />
+					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_OathofAncients;Ancient_Judgement;Ancient_Recall;Ancient_Advantage" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="Selectors" type="LSString" value="SelectPassives(659a1bdf-b0e3-40d7-aa6d-f64cc1f18404,1,Oaths)" />
 					<attribute id="TableUUID" type="guid" value="b82864a7-b093-4553-a802-e176831029c1" />
 					<attribute id="UUID" type="guid" value="c5896730-ac3f-4f00-b719-41a1ed82616b" />
 					</node>
@@ -7184,13 +7185,14 @@
 					<attribute id="UUID" type="guid" value="fd8c32f0-ec9b-4a49-8f90-d19e7148449f" />
 					</node>
 					
-<!--PALADIN (OATH OF THE CROWN)-->
+<!--PALADIN (CROWNED PHOENIX)-->
 
 		<node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Crown"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ClassProgression_OathoftheCrown;Oath_Crown_Tenents;Crown_Judgement;Crown_Recall;Crown_Advantage"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ClassProgression_OathoftheCrown;Crown_Judgement;Crown_Recall;Crown_Advantage"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
+					<attribute id="Selectors" type="LSString" value="SelectPassives(659a1bdf-b0e3-40d7-aa6d-f64cc1f18404,1,Oaths)" />
                     <attribute id="TableUUID" type="guid" value="e3a25a7a-e793-4b99-9d4a-0fbc17fcc1ff"/>
                     <attribute id="UUID" type="guid" value="f0cc5c2d-c817-4f3d-8517-e2286c9590e4"/>
 					</node>
@@ -7277,13 +7279,14 @@
                     <attribute id="UUID" type="guid" value="4a599bad-ea98-4eed-bb19-144b65ff045e"/>
 					</node>
 					
-<!--PALADIN (OATH OF DEVOTION)-->
+<!--PALADIN (DEVOUT PARAGON)-->
 
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Devotion" />
-					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_OathofDevotion;Oath_Devotion_Tenents;Divine_Judgement;Divine_Recall;Divine_Advantage" />
+					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_OathofDevotion;Divine_Judgement;Divine_Recall;Divine_Advantage" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="Selectors" type="LSString" value="SelectPassives(659a1bdf-b0e3-40d7-aa6d-f64cc1f18404,1,Oaths)" />
 					<attribute id="TableUUID" type="guid" value="941ca27d-02f7-4f59-bd33-63fa3366134d" />
 					<attribute id="UUID" type="guid" value="394623a5-f829-4295-9efc-3ea14197536a" />
 					</node>
@@ -7370,13 +7373,14 @@
 					<attribute id="UUID" type="guid" value="63dd7f46-1bba-4452-8b62-23a2b04d9e59" />
 					</node>
 					
-<!--PALADIN (OATH OF VENGEANCE)-->
+<!--PALADIN (OATHBOUND CRUSADER)-->
 
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Vengeance" />
-					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_OathofVengeance;Oath_Vengeance_Tenents;Righteous_Judgement;Righteous_Recall;Righteous_Advantage" />
+					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_OathofVengeance;Righteous_Judgement;Righteous_Recall;Righteous_Advantage" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="Selectors" type="LSString" value="SelectPassives(659a1bdf-b0e3-40d7-aa6d-f64cc1f18404,1,Oaths)" />
 					<attribute id="TableUUID" type="guid" value="f769aa02-1f74-4fb6-b94c-8850143daa20" />
 					<attribute id="UUID" type="guid" value="ebe9b2bf-97fb-460b-860b-22ae602b7e97" />
 					</node>
@@ -7748,7 +7752,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Ranger);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(NaturalRecoveryPoint,3,0);ActionResource(SpellSlot,2,1)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Ranger" />
-					<attribute id="PassivesAdded" type="LSString" value="Personality_Ranger;CompanionsBond;Nimble_Movement_Ranger;Ranger_ArrowContainer" />
+					<attribute id="PassivesAdded" type="LSString" value="Proficiency_Passives;Personality_Ranger;CompanionsBond;Nimble_Movement_Ranger;Ranger_ArrowContainer" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectPassives(4607f9c7-335c-443f-b075-a3f068c20a0d,1,Archetypes);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectPassives(cf44a7c1-3fcb-4fb6-8624-45dd433c11b1,1,Personality);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,3,1);SelectSpells(10a49db5-0f8f-4e19-9e7c-3d4f92f9a8bd,2,0,Cantrips);SelectSpells(4174e244-89fb-46f8-a953-c73cad0a8c56,1,0,Spells);SelectPassives(20a80074-ba3e-412d-8f2d-ca3ea234cb94,1,FrontierBallistics)" />
 					<attribute id="TableUUID" type="guid" value="8f068974-ed32-43fc-a9d9-028be1c01a9c" />
@@ -8625,7 +8629,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Rogue);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(LuckPoint,3,0);ActionResource(SneakAttack_Charge,1,0)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Rogue" />
-					<attribute id="PassivesAdded" type="LSString" value="Personality_Rogue;Lucky_Rogue_AttackRolls;Lucky_Rogue_Attack_Fixer;Lucky_Rogue_Attacked_Fixer;Lucky_Rogue_Abilities;Nimble_Movement;Dexterous_Maneuvers" />
+					<attribute id="PassivesAdded" type="LSString" value="Proficiency_Passives;Personality_Rogue;Lucky_Rogue_AttackRolls;Lucky_Rogue_Attack_Fixer;Lucky_Rogue_Attacked_Fixer;Lucky_Rogue_Abilities;Nimble_Movement;Dexterous_Maneuvers" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectPassives(4607f9c7-335c-443f-b075-a3f068c20a0d,1,Archetypes);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectPassives(cf44a7c1-3fcb-4fb6-8624-45dd433c11b1,1,Personality);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,3,1)" />
 					<attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415" />
@@ -9486,7 +9490,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Sorcerer);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,2,1);Tag(SORCERER_METAMAGIC)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Sorcerer" />
-					<attribute id="PassivesAdded" type="LSString" value="Personality_Sorcerer;CreationaryText;CreationaryLVL2" />
+					<attribute id="PassivesAdded" type="LSString" value="Proficiency_Passives;Personality_Sorcerer;CreationaryText;CreationaryLVL2" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectPassives(4607f9c7-335c-443f-b075-a3f068c20a0d,1,Archetypes);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectPassives(cf44a7c1-3fcb-4fb6-8624-45dd433c11b1,1,Personality);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,3,1);SelectSpells(2bb484e2-1d3a-4177-84b4-2894f25ab2b1,2,0,Cantrips);SelectSpells(a3c79518-7d3b-416c-8c78-470fb1a23c28,2,0,Spells);SelectPassives(49704931-e47b-4ce6-abc6-dfa7ba640752,1,Metamagic)" />
 					<attribute id="TableUUID" type="guid" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d" />
@@ -10361,7 +10365,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Warlock);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(WarlockSpellSlot,2,1)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Warlock" />
-					<attribute id="PassivesAdded" type="LSString" value="Personality_Warlock" />
+					<attribute id="PassivesAdded" type="LSString" value="Proficiency_Passives;Personality_Warlock" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectPassives(4607f9c7-335c-443f-b075-a3f068c20a0d,1,Archetypes);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectPassives(cf44a7c1-3fcb-4fb6-8624-45dd433c11b1,1,Personality);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,3,1);SelectSpells(2db3752d-c3da-435a-aaea-a3b2ceafeb44,2,0,Cantrips);SelectSpells(f33b1b19-43c6-4f61-a001-cd55e516791c,2,0,Spells,,e9127b70-22b7-42a1-b172-d02f828f260a);SelectPassives(ceec377d-0888-4226-a36a-9e3fa1c91d4f,1,Patrons)" />
 					<attribute id="TableUUID" type="guid" value="a7a958f1-d858-4021-9fa7-cf87e7d71377" />
@@ -11245,7 +11249,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Wizard);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(ArcaneRecoveryPoint,1,0);ActionResource(SpellSlot,2,1)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Wizard" />
-					<attribute id="PassivesAdded" type="LSString" value="Personality_Wizard;Scholarly_Acumen" />
+					<attribute id="PassivesAdded" type="LSString" value="Proficiency_Passives;Personality_Wizard;Scholarly_Acumen" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectPassives(4607f9c7-335c-443f-b075-a3f068c20a0d,1,Archetypes);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectPassives(cf44a7c1-3fcb-4fb6-8624-45dd433c11b1,1,Personality);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,3,1);SelectSpells(c0aaf09a-fbb5-4480-aae0-f196b7fa33d5,2,0,Cantrips);SelectSpells(8e57e7e8-af23-4621-a64a-3cf34b57676c,2,0,Spells);AddSpells(34c3321d-75ab-4b50-a44d-cbac8705a360)" />
 					<attribute id="TableUUID" type="guid" value="d18eda7e-4b7d-490d-9952-cd33a3c60479" />

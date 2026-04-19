@@ -22,6 +22,7 @@ type "PassiveData"
 using "MAG_Interrupt_MAG_Shield_Resource_Passive"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnTurn"
+data "Conditions" "not IsAetherSuspended(context.Source)"
 data "StatsFunctors" "ApplyStatus(MAG_LEGENDARY_EVASION_PROTECTION_RESOURCE, 100, -1)"
 
 new entry "Interrupt_LegendaryEvasion_Protection"

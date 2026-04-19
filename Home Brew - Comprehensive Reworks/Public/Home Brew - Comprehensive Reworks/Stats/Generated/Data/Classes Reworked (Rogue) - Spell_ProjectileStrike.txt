@@ -3,7 +3,7 @@
 new entry "Target_DirtyTrick_CannonFire"
 type "SpellData"
 data "SpellType" "ProjectileStrike"
-data "SpellProperties" "GROUND:CreateExplosion(Projectile_CannonFire);AI_ONLY:ApplyStatus(SELF,AI_HELPER_BUFF,100,0)"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_CannonFire)"
 data "TargetRadius" "18"
 data "AreaRadius" "9"
 data "DeathType" "Explode"
