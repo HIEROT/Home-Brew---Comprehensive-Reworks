@@ -1715,10 +1715,10 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000d" version="3">Upon rolling a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you potentially force your target to drop the weapons that they are holding.</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600005" version="1">Barbarism</content>
-	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000e" version="3">When dealing damage with this weapon, you deal additional damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;, however your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are reduced by the same amount.</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000e" version="3">When dealing damage with a melee weapon, you deal additional damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;, however your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are reduced by the same amount. This can be toggled at any time.</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600006" version="1">Throwing Expertise</content>
-	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000f" version="3">You &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Throw&lt;/LSTag&gt; objects and creatures as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. Once per turn, you may throw your javeline. Afterwards, it will return to you.</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000f" version="3">Once per turn, you may throw your javeline. Afterwards, it will return to you. Additionally, you may &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Throw&lt;/LSTag&gt; objects and creatures as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This can be toggled at any time.</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600007" version="1">All in the Wrist</content>
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000g" version="3">When dealing damage with this weapon, you inflict a &lt;LSTag Type="Status" Tooltip="HINDERED"&gt;Weak Grip&lt;/LSTag&gt; upon your target for one turn.</content>
@@ -1744,7 +1744,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000m" version="3">Reduce incoming &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; by an amount equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600014" version="1">Hidden Strike</content>
-	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000n" version="3">While &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt;, you make all &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000n" version="3">While &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt;, you may make all &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. This can be toggled at any time.</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600015" version="1">Reap What You Sow</content>
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000o" version="3">When dealing damage with this weapon, you cause your target to &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt; for one turn.</content>
@@ -1783,16 +1783,16 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000z" version="3">When dealing damage with this weapon, you ignore all forms of Piercing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
 
 	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa00001" version="1">Heavy Load</content>
-	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000a" version="3">When making a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you expend [1] of your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; in order to deal additional damage to enemies and items equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; and ignore their Piercing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000a" version="3">When making a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you may expend [1] of your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; in order to deal additional damage to enemies and items equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; and ignore their Piercing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;. This can be toggled at any time.</content>
 
 	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa00002" version="1">Choice of Infantry</content>
-	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000b" version="3">When making a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you roll with a +[1] bonus to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; at the expense of being unable to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000b" version="3">When making a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you may roll with a +[1] bonus to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; at the expense of being unable to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;. This can be toggled at any time.</content>
 
 	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa00003" version="1">Concealed Carry</content>
-	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000c" version="3">While &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt;, you make all &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000c" version="3">While &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt;, you may make all &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. This can be toggled at any time.</content>
 
 	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa00004" version="1">Snapshot</content>
-	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000d" version="3">You make all &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000d" version="3">You may make all &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This can be toggled at any time.</content>
 
 	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa00005" version="1">Draw Strength</content>
 	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000e" version="3">You add your &lt;LSTag Tooltip="AbilityModifier"&gt;Strength Modifier&lt;/LSTag&gt; to the damage you deal with all &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt;.</content>

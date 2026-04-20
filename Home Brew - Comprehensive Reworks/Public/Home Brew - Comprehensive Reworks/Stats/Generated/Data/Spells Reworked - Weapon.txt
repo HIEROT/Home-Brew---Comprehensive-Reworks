@@ -5,11 +5,6 @@
 new entry "WPN_Shortbow_Skeleton_AnimateDead"
 type "Weapon"
 using "WPN_Shortbow"
-data "RootTemplate" "82992370-cb61-4381-b390-891a3a9bd075"
-data "Damage" "1d12"
-data "GameSize" "Medium"
-data "DefaultBoosts" ""
-data "BoostsOnEquipMainHand" ""
 
 <!--SHADOW BLADE-->
 
@@ -22,5 +17,5 @@ data "Damage" "1d12"
 data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
 data "DefaultBoosts" "WeaponProperty(Magical);WeaponAttackRollAbilityOverride(SpellCastingAbility);CannotBeDisarmed()"
 data "PersonalStatusImmunities" "WEAPON_COATED_WITH_POISON;POISON_BASIC;POISON_SERPENT_VENOM;POISON_WYVERN;POISON_WYVERN_DIPPED;POISON_PURPLE_WORM;DIPPED_FIRE;DIPPED_POISON;DIPPED_WATER"
-data "PassivesMainHand" "FreeHandling;HiddenStrikes;ShadowBlade_Passive"
+data "PassivesOnEquip" "HiddenStrikes;ShadowBlade_Passive"
 data "Unique" "1"

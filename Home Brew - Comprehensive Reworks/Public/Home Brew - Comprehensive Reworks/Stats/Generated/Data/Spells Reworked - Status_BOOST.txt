@@ -4630,7 +4630,7 @@ data "Boosts" "ActionResourceBlock(ReactionActionPoint)"
 data "Passives" "Turned_Remove"
 data "StatusPropertyFlags" "InitiateCombat;OverheadOnTurn"
 data "OnApplyFunctors" "RemoveStatus(LOW_GHOST_POSSESSED)"
-data "StatusGroups" "SG_Magical;SG_Fleeing"
+data "StatusGroups" "SG_Magical;SG_Fleeing;SG_Cursed"
 data "StatusEffect" "aceafbd1-c5bc-40e4-afe6-204912818878"
 data "TickType" "EndTurn"
 
@@ -6371,7 +6371,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h70f889efg476eg4f03g8888gf08181403486;1"
 data "Description" "h1f340c16g6deag4c54g82d9g0c7b1c9d678e;1"
-data "Boosts" "ProficiencyBonusOverride(Owner.LevelMapValue(StandardProficiencyBonusScale));RollBonus(Attack,Owner.SpellCastingAbilityModifier);MonkWeaponDamageDiceOverride(LevelMapValue(D6General));ActionResource(Movement,3,0)"
+data "Boosts" "ProficiencyBonusOverride(Owner.LevelMapValue(StandardProficiencyBonusScale));RollBonus(Attack,Owner.SpellCastingAbilityModifier)"
 data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
 data "StatusEffect" "2379ca27-860f-40b0-a429-5b0b903d372f"
 
@@ -9199,17 +9199,6 @@ data "SoundStop" "MAG_Status_ShadowBlade_Stop"
 data "Boosts" "Attribute(InventoryBound)"
 data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
 data "StatusEffect" "4c40f7ab-8513-49da-ae71-b7faae9079ca"
-
-<!--SPIRITUAL WEAPON-->
-
-new entry "SPIRITUAL_WEAPON_GREATAXE"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "h70f889efg476eg4f03g8888gf08181403486;1"
-data "Description" "h1f340c16g6deag4c54g82d9g0c7b1c9d678e;1"
-data "Boosts" "ProficiencyBonusOverride(Owner.LevelMapValue(StandardProficiencyBonusScale));RollBonus(Attack,Owner.SpellCastingAbilityModifier);MonkWeaponDamageDiceOverride(LevelMapValue(SpiritualWeapon_1d8))"
-data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
-data "StatusEffect" "2379ca27-860f-40b0-a429-5b0b903d372f"
 
 <!--ENSNARED-->
 

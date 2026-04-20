@@ -19,6 +19,10 @@ function AbilityIsExactly(ability, value, entity)
     end
 end
 
+function ConcealedCarryCheck()
+	return HasStringInSpellRoll('RangedWeaponAttack') & ~HasUseCosts('ReactionActionPoint')
+end
+
 function CT_WeaponAttackCheck()
 	return HasStringInSpellRoll('MeleeWeaponAttack') & ~NumberOfTargetsGreaterThan(1) | HasStringInSpellRoll('RangedWeaponAttack') & ~NumberOfTargetsGreaterThan(1)
 end
@@ -29,6 +33,10 @@ end
 
 function ExtraAttackCheck()
     return ExtraAttackSpellCheck()
+end
+
+function FlurryofArrowsCheck()
+	return HasStringInSpellRoll('RangedWeaponAttack') & ~HasUseCosts('BonusActionPoint')
 end
 
 function HasDRNegationStatusElementalSource(entity)
@@ -197,6 +205,10 @@ function HealingPrevented(entity)
 	return HasAnyStatus({'CHILL_TOUCH','GREATER_CHILL_TOUCH','DOWNED_FINALSTAND','CT_IRONBOURNE','WRAITHS_EMBRACE','MAG_FLESHREND','ELEMENTALSTAIN_NECROTIC_EFFECT','HARVEST_CORPSE_ACTUAL','HEALINGLOCKOUT'}, {}, {}, entity)
 end
 
+function HiddenStrikesCheck()
+	return HasStringInSpellRoll('MeleeWeaponAttack') & ~HasUseCosts('ReactionActionPoint')
+end
+
 function IsRangedWeaponAttackCheck()
     return HasStringInSpellRoll('RangedWeaponAttack') | SpellId('Zone_Blunderbuss_ScatterShot')
 end
@@ -258,10 +270,6 @@ end
 
 function RangedWeaponCheck()
 	return HasStringInSpellRoll('RangedWeaponAttack')
-end
-
-function RangedWeaponCheckNoMagic()
-	return HasStringInSpellRoll('RangedWeaponAttack') & ~IsSpell()
 end
 
 function SpellSlotCheck()

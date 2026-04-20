@@ -195,7 +195,7 @@
 	<content contentuid="75afaf5bbeec48939102d9037449bef50zzzc" version="1">Affected creature will take [1] Radiant damage at the start of each turn due to a nearby enemies radiance.</content>
 
 	<content contentuid="75afaf5bbeec48939102d9037449bef500004" version="1">Immeasurable Light</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef50000d" version="1">Allies within the radius of your &lt;LSTag Type="Passive" Tooltip="SoulfireIgnition"&gt;Soulfire Ignition&lt;/LSTag&gt; gain &lt;LSTag Type="Status" Tooltip="DIVINE_FAVOR"&gt;Divine Favour&lt;/LSTag&gt;. In addition, each time that you deal Radiant damage to an enemy, your target is afflicted with one &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiating Orb&lt;/LSTag&gt;.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000d" version="1">Allies within the radius of your &lt;LSTag Type="Passive" Tooltip="SoulfireIgnition"&gt;Soulfire Ignition&lt;/LSTag&gt; deal an additional [1] with their weapons. In addition, each time that you deal Radiant damage to an enemy, your target is afflicted with one &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiating Orb&lt;/LSTag&gt;.</content>
 
 	<content contentuid="75afaf5bbeec48939102d9037449bef500005" version="1">Soulfire Inferno</content>
 	<content contentuid="75afaf5bbeec48939102d9037449bef50000e" version="1">The healing done and damage dealt to creatures within your &lt;LSTag Type="Passive" Tooltip="SoulfireIgnition"&gt;Soulfire Ignition&lt;/LSTag&gt; now triggers at both the start and end of their turns.</content>
