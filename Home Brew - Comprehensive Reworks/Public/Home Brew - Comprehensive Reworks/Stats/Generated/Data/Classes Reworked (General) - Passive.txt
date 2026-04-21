@@ -243,7 +243,7 @@ data "Description" "h8612a65dg446cg427bga712g6sd8f890000h;4"
 data "Icon" "PassiveFeature_IronMind"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnDamaged"
-data "Conditions" "Combat() and not HasStatus('SG_Rage', context.Target)"
+data "Conditions" "Combat() and not HasStatus('CALM_EMOTIONS', context.Target)"
 data "StatsFunctors" "ApplyStatus(CT_CRYBABY,100,1)"
 
 new entry "CT_DelusionsintheDark"

@@ -134,6 +134,23 @@ data "ApplyEffect" "4019eeae-d4e3-449b-ba4a-6d7422ec6807"
 
 <!---------------------------------------------------------------------------------------------------CONDITIONS--------------------------------------------------------------------------------------------------->
 
+<!--A CLOWN IN TOWN-->
+
+new entry "GLO_PIXIECURSE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "ha4c926b9g4f75g46a0ga1b4g5ea9fdda486b;1"
+data "Description" "h1e2a3b0eg09c4g497dgb26bge78e34ea2588;1"
+data "Icon" "statIcons_Pixie_Curse"
+data "SoundStart" "Spell_Status_PixieCurseClown_Start"
+data "SoundStop" "Spell_Status_PixieCurseClown_End"
+data "RemoveConditions" "HasStatus('WET')"
+data "RemoveEvents" "OnStatusApplied"
+data "StatusPropertyFlags" "IgnoreResting"
+data "StatusGroups" "SG_Magical;SG_Cursed"
+data "IsUnique" "1"
+data "ApplyEffect" "2fe51fe4-2f1b-440a-84d2-18265c6c2ac0"
+
 <!--ACID-->
 
 new entry "ACID"
@@ -161,6 +178,7 @@ new entry "Acid_Duration_Technical"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnAttacked;OnStatusApplied;OnTurn"
+data "Conditions" "not StatusId('ACID_DURATION_TECHNICAL')"
 data "StatsFunctors" "ApplyStatus(ACID_DURATION_TECHNICAL,100,1)"
 
 new entry "ACID_DURATION_TECHNICAL"
@@ -191,22 +209,25 @@ data "StatusPropertyFlags" "InitiateCombat"
 data "StatusGroups" "SG_Surface"
 data "StatusEffect" "4ca0dc53-1568-4bfd-8680-67086fea6451"
 
-<!--A CLOWN IN TOWN-->
+<!--AMBUSH-->
 
-new entry "GLO_PIXIECURSE"
+new entry "AMBUSH"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "ha4c926b9g4f75g46a0ga1b4g5ea9fdda486b;1"
-data "Description" "h1e2a3b0eg09c4g497dgb26bge78e34ea2588;1"
-data "Icon" "statIcons_Pixie_Curse"
-data "SoundStart" "Spell_Status_PixieCurseClown_Start"
-data "SoundStop" "Spell_Status_PixieCurseClown_End"
-data "RemoveConditions" "HasStatus('WET')"
-data "RemoveEvents" "OnStatusApplied"
-data "StatusPropertyFlags" "IgnoreResting"
-data "StatusGroups" "SG_Magical;SG_Cursed"
-data "IsUnique" "1"
-data "ApplyEffect" "2fe51fe4-2f1b-440a-84d2-18265c6c2ac0"
+data "Icon" "DT_Deadeye"
+data "DisplayName" "92028d1c93474f8b821ee0eb2d82b9c7000z2;1"
+data "Description" "92028d1c93474f8b821ee0eb2d82b9c7000zb;5"
+data "SoundVocalStart" "NONE"
+data "SoundLoop" "Spell_Status_Dash_MO"
+data "SoundStop" "Spell_Status_Dash_MO_Stop"
+data "StackId" "AMBUSH"
+data "TickType" "StartTurn"
+data "Boosts" "UnlockInterrupt(Interrupt_Ambush)"
+data "StatusPropertyFlags" "NonExtendable"
+data "ApplyEffect" "c8db5bfe-06a2-4847-a496-bac8a11453ef"
+data "StatusEffect" "30c73b0a-169a-46f9-9f6f-c3ea19117e38"
+data "RemoveConditions" "MeleeWeaponCheck() and IsReactionAttack()"
+data "RemoveEvents" "OnAttack"
 
 <!--ANOINTED IN SPLENDOR-->
 
@@ -775,6 +796,7 @@ new entry "Burning_Duration_Technical"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnAttacked;OnStatusApplied;OnTurn"
+data "Conditions" "not StatusId('BURNING_DURATION_TECHNICAL')"
 data "StatsFunctors" "ApplyStatus(BURNING_DURATION_TECHNICAL,100,1)"
 
 new entry "BURNING_DURATION_TECHNICAL"
@@ -803,8 +825,9 @@ data "SurfaceChange" "Ignite"
 data "TickType" "StartTurn"
 data "Boosts" "IF(Item(context.Source)):WeaponDamage(1d12, Radiant);IF(Item(context.Source)):WeaponProperty(Unstowable)"
 data "TooltipDamage" "DealDamage(1d12,Radiant)"
+data "OnApplyFunctors" " SetStatusDuration(BURNING_HOLY, -1, ForceSet)"
 data "TickFunctors" "IF(not Tagged('TORCH')):DealDamage(1d12,Radiant,Magical)"
-data "StatusPropertyFlags" "InitiateCombat;Burning;DisableOverhead;IgnoreResting"
+data "StatusPropertyFlags" "InitiateCombat;Burning;DisableOverhead;IgnoreResting;FreezeDuration"
 data "StatusGroups" "SG_Cursed"
 data "StatusEffect" "9055845d-c778-44ba-a671-b0a112bacf61"
 
@@ -1502,11 +1525,23 @@ data "SoundLoop" "Misc_Status_Distracted_MO"
 data "SoundStop" "Misc_Status_Distracted_MO_Stop"
 data "TickType" "StartTurn"
 data "Boosts" "SourceAllyAdvantageOnAttack()"
+data "OnRemoveFunctors" "ApplyStatus(DISTRACTED_IMMUNITY,100,3)"
 data "RemoveConditions" "IsAttack()"
 data "RemoveEvents" "OnAttacked"
 data "StatusPropertyFlags" "InitiateCombat"
 data "StatusEffect" "bd6bb894-25f0-4549-aba0-5e7bcf943b71"
 data "StatusGroups" "SG_Mental;SG_Helpable_Condition"
+
+new entry "DISTRACTED_IMMUNITY"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hf81e3916ge07ag49b7gabacg35a992immune;2"
+data "Description" "h4c8ca661g0c77g4faeg9a8egc3d42eimmune;2"
+data "Icon" "DT_Vigilance"
+data "StackId" "DISTRACTED_IMMUNITY"
+data "TickType" "EndTurn"
+data "Boosts" "StatusImmunity(DISTRACTED)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 <!--DISTRESSED-->
 
@@ -1616,6 +1651,26 @@ data "ApplyEffect" "0e4edd5c-26bf-47a4-946d-8b049a5a6034"
 data "StatusEffect" "bd630d9d-0bad-4cac-a7d6-fa7057f4302d"
 data "Passives" "Downed_CombatEnded"
 
+<!--EVASION-->
+
+new entry "EVASION"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "92028d1c93474f8b821ee0eb2d82b9c7000z1;2"
+data "Description" "92028d1c93474f8b821ee0eb2d82b9c7000za;2"
+data "Icon" "DT_DodgePassive"
+data "StackId" "EVASION"
+data "Boosts" "Disadvantage(AttackTarget)"
+data "SoundVocalStart" "NONE"
+data "SoundLoop" "Spell_Status_Dash_MO"
+data "SoundStop" "Spell_Status_Dash_MO_Stop"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "NonExtendable"
+data "ApplyEffect" "c8db5bfe-06a2-4847-a496-bac8a11453ef"
+data "StatusEffect" "30c73b0a-169a-46f9-9f6f-c3ea19117e38"
+data "TickType" "StartTurn"
+data "RemoveConditions" "IsAttack() and HasDamageEffectFlag(DamageFlags.Hit)"
+data "RemoveEvents" "OnAttacked"
 
 <!--INNEBRIATED-->
 
@@ -2217,6 +2272,7 @@ new entry "Frostbite_Duration_Technical"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnAttacked;OnStatusApplied;OnTurn"
+data "Conditions" "not StatusId('MAG_INCREASED_DAMAGE_COLD_DURATION_TECHNICAL')"
 data "StatsFunctors" "ApplyStatus(MAG_INCREASED_DAMAGE_COLD_DURATION_TECHNICAL,100,1)"
 
 new entry "MAG_INCREASED_DAMAGE_COLD_DURATION_TECHNICAL"
@@ -2284,6 +2340,7 @@ new entry "GapingWound_Duration_Technical"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnAttacked;OnStatusApplied;OnTurn"
+data "Conditions" "not StatusId('GAPING_WOUND_DURATION_TECHNICAL')"
 data "StatsFunctors" "ApplyStatus(GAPING_WOUND_DURATION_TECHNICAL,100,1)"
 
 new entry "GAPING_WOUND_DURATION_TECHNICAL"
@@ -2707,6 +2764,19 @@ data "OnApplyFunctors" "IF(not HasPassive('AnchoredFocus')):BreakConcentration()
 data "StatusEffect" "d709b541-e0f6-4494-adbe-0dfb65177e5f"
 data "TooltipPermanentWarnings" "2f9e6c8d-ee12-4135-aaff-fef944d54f1e"
 
+<!--HOLDING GROUND-->
+
+new entry "HOLD_GROUND"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "DT_RaiseShieldPassive"
+data "DisplayName" "92028d1c93474f8b821ee0eb2d82b9c7000z6;1"
+data "Description" "92028d1c93474f8b821ee0eb2d82b9c7000zf;5"
+data "StackId" "HOLD_GROUND"
+data "Boosts" "Advantage(Skill,Athletics);Advantage(Skill,Acrobatics)"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "DisableOverhead"
+
 <!--HUNTERS MARK-->
 
 new entry "HUNTERS_MARK"
@@ -2969,6 +3039,7 @@ new entry "LightningCharges_Duration_Technical"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnAttack;OnStatusApply;OnTurn"
+data "Conditions" "not StatusId('LIGHTNINGCHARGES_DURATION_TECHNICAL')"
 data "StatsFunctors" "ApplyStatus(LIGHTNINGCHARGES_DURATION_TECHNICAL,100,1)"
 
 new entry "LIGHTNINGCHARGES_DURATION_TECHNICAL"
@@ -3315,6 +3386,41 @@ data "TickType" ""
 data "TickFunctors" ""
 data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
 
+<!--OBSERVING-->
+
+new entry "OBSERVING"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "DT_OverwatchPassive"
+data "DisplayName" "92028d1c93474f8b821ee0eb2d82b9c7000z4;1"
+data "Description" "92028d1c93474f8b821ee0eb2d82b9c7000zd;5"
+data "SoundVocalStart" "NONE"
+data "SoundLoop" "Spell_Status_Dash_MO"
+data "SoundStop" "Spell_Status_Dash_MO_Stop"
+data "StackId" "OBSERVING"
+data "TickType" "StartTurn"
+data "Boosts" "UnlockInterrupt(Interrupt_Overwatch)"
+data "StatusPropertyFlags" "NonExtendable"
+data "ApplyEffect" "c8db5bfe-06a2-4847-a496-bac8a11453ef"
+data "StatusEffect" "30c73b0a-169a-46f9-9f6f-c3ea19117e38"
+data "RemoveConditions" "RangedWeaponCheck() and IsReactionAttack()"
+data "RemoveEvents" "OnAttack"
+
+new entry "OVERWATCH_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "OVERWATCH_AURA"
+data "AuraRadius" "4"
+data "AuraStatuses" "ApplyStatus(OVERWATCH_TECHNCIAL)"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+
+new entry "OVERWATCH_TECHNCIAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "OVERWATCH_TECHNCIAL"
+data "StackType" "Ignore"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+
 <!--OFF BALANCE-->
 
 new entry "OFF_BALANCED"
@@ -3655,6 +3761,7 @@ new entry "Poisoned_Duration_Technical"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnAttacked;OnStatusApplied;OnTurn"
+data "Conditions" "not StatusId('POISONED_DURATION_TECHNICAL')"
 data "StatsFunctors" "ApplyStatus(POISONED_DURATION_TECHNICAL,100,1)"
 
 new entry "POISONED_DURATION_TECHNICAL"
@@ -3784,6 +3891,25 @@ data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Condition) and TurnBas
 data "StatusGroups" "SG_Prone;SG_Helpable_Condition"
 data "SplatterDirtAmount" "0.1"
 data "Sheathing" "Sheathed"
+
+<!--PROTECTOR-->
+
+new entry "PROTECTOR"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "DT_ReadyAttackPassive"
+data "DisplayName" "92028d1c93474f8b821ee0eb2d82b9c7000z3;1"
+data "Description" "92028d1c93474f8b821ee0eb2d82b9c7000zc;5"
+data "DescriptionParams" "Distance(3)"
+data "SoundVocalStart" "NONE"
+data "SoundLoop" "Spell_Status_Dash_MO"
+data "SoundStop" "Spell_Status_Dash_MO_Stop"
+data "StackId" "PROTECTOR"
+data "TickType" "StartTurn"
+data "Boosts" "UnlockInterrupt(Interrupt_Protection)"
+data "StatusPropertyFlags" "NonExtendable"
+data "ApplyEffect" "c8db5bfe-06a2-4847-a496-bac8a11453ef"
+data "StatusEffect" "30c73b0a-169a-46f9-9f6f-c3ea19117e38"
 
 <!--PROTECTION FROM ENERGY-->
 
@@ -9176,6 +9302,7 @@ new entry "MentalFatigue_Duration_Technical"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnAttacked;OnStatusApplied;OnTurn"
+data "Conditions" "not StatusId('MENTALFATIGUE_DURATION_TECHNICAL')"
 data "StatsFunctors" "ApplyStatus(MENTALFATIGUE_DURATION_TECHNICAL,100,1)"
 
 new entry "MENTALFATIGUE_DURATION_TECHNICAL"
@@ -9286,7 +9413,7 @@ data "Icon" "Spell_Transmutation_Prestidigitation"
 data "SoundStop" "Spell_Status_MirrorImage_Dissapear"
 data "StackId" "PRESTIDIGITATION"
 data "Boosts" "Disadvantage(AttackTarget)"
-data "RemoveConditions" "IsAttack() and HasDamageEffectFlag(DamageFlags.Hit) or IsAttack() and IsMiss()"
+data "RemoveConditions" "HasAttackRoll() and HasDamageEffectFlag(DamageFlags.Hit) or HasAttackRoll() and IsMiss()"
 data "RemoveEvents" "OnAttacked"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" "34d203fc-d0ad-48dc-9ddd-ff813abdedd4"

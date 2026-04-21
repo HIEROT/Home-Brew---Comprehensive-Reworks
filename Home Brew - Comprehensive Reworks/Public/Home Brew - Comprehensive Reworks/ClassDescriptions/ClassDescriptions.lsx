@@ -23,6 +23,7 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="4" />
                     <attribute id="SpellList" type="guid" value="beb9389e-24f8-49b0-86a5-e8d08b6fdc2e" />
                     <attribute id="UUID" type="guid" value="03f972eb-de3c-4cdb-9050-e8e3fa0526eb"/>
+                    <attribute id="ValidSomaticEquipmentList" type="LSString" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle"/>
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="6fe3ae27-dc6c-4fc9-9245-710c790c396c" />
@@ -127,6 +128,7 @@
                     <attribute id="SoundClassType" type="FixedString" value="Barbarian" />
                     <attribute id="SpellCastingAbility" type="uint8" value="6" />
                     <attribute id="UUID" type="guid" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399" />
+                    <attribute id="ValidSomaticEquipmentList" type="LSString" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle"/>
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="02913f9a-f696-40cf-acdf-32032afab32c" />
@@ -271,6 +273,7 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="6" />
                     <attribute id="SpellList" type="guid" value="c98f2011-31e1-4e9a-8061-62c8679c645e" />
                     <attribute id="UUID" type="guid" value="92cd50b6-eb1b-4824-8adb-853e90c34c90" />
+                    <attribute id="ValidSomaticEquipmentList" type="LSString" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle"/>
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="d93434bd-6b71-4789-b128-ee24156057cc" />
@@ -365,6 +368,7 @@
                     <attribute id="SpellList" type="guid" value="42acd9d3-3b44-4d08-a061-3fd2f69aa4bf" />
                     <attribute id="SubclassTitle" type="TranslatedString" handle="hee3ec834g1a90g4f22g9f78g2d0195c29d37" version="1" />
                     <attribute id="UUID" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf" />
+                    <attribute id="ValidSomaticEquipmentList" type="LSString" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle"/>
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="1671b4bf-4f47-4bb7-9cb9-80bb1f6009d5" />
@@ -458,6 +462,7 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="5" />
                     <attribute id="SpellList" type="guid" value="fd366d4e-4063-4b6f-9cd9-26889bcd6465" />
                     <attribute id="UUID" type="guid" value="457d0a6e-9da8-4f95-a225-18382f0e94b5" />
+                    <attribute id="ValidSomaticEquipmentList" type="LSString" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle"/>
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="44ac4317-4d38-4d28-80e2-94024c6e42f0" />
@@ -553,6 +558,7 @@
                     <attribute id="SoundClassType" type="FixedString" value="Fighter" />
                     <attribute id="SpellCastingAbility" type="uint8" value="6" />
                     <attribute id="UUID" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f" />
+                    <attribute id="ValidSomaticEquipmentList" type="LSString" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle"/>
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="1ae7017c-4884-4a43-bc4a-742fa0d201c0" />
@@ -650,6 +656,7 @@
                     <attribute id="SoundClassType" type="FixedString" value="Monk" />
                     <attribute id="SpellCastingAbility" type="uint8" value="5" />
                     <attribute id="UUID" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
+                    <attribute id="ValidSomaticEquipmentList" type="LSString" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle"/>
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="e1e460bb-d0ae-4452-8529-c9e176558731" />
@@ -742,6 +749,7 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="6" />
                     <attribute id="SpellList" type="guid" value="4ed41a6d-19fd-4ca8-940a-072314b71e43" />
                     <attribute id="UUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c" />
+                    <attribute id="ValidSomaticEquipmentList" type="LSString" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle"/>
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="6d85ab2d-5c23-498c-a61e-98f05a00177a" />
@@ -864,6 +872,7 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="5" />
                     <attribute id="SpellList" type="guid" value="ffd3b636-d424-4120-87ae-4499a34828dc" />
                     <attribute id="UUID" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144" />
+                    <attribute id="ValidSomaticEquipmentList" type="LSString" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle"/>
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="37a733c1-a862-4157-b92a-9cff46232c6a" />
@@ -974,6 +983,7 @@
                     <attribute id="SoundClassType" type="FixedString" value="Rogue" />
                     <attribute id="SpellCastingAbility" type="uint8" value="4" />
                     <attribute id="UUID" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a" />
+                    <attribute id="ValidSomaticEquipmentList" type="LSString" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle"/>
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="f8a0608b-666c-4be6-a49c-03b369c10bd2" />
@@ -1068,6 +1078,7 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="6" />
                     <attribute id="SpellList" type="guid" value="2ba5248a-f014-409d-ab26-b50116f7e477" />
                     <attribute id="UUID" type="guid" value="784001e2-c96d-4153-beb6-2adbef5abc92" />
+                    <attribute id="ValidSomaticEquipmentList" type="LSString" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle"/>
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="18266c0b-efbc-4c80-8784-ada4a37218d7" />
@@ -1171,6 +1182,7 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="6" />
                     <attribute id="SpellList" type="guid" value="32879c22-4858-48ef-8f8d-22e6d395b396" />
                     <attribute id="UUID" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c" />
+                    <attribute id="ValidSomaticEquipmentList" type="LSString" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle"/>
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="5804f55a-93f7-4281-9512-8d548a9e2a22" />
@@ -1276,6 +1288,7 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="4" />
                     <attribute id="SpellList" type="guid" value="beb9389e-24f8-49b0-86a5-e8d08b6fdc2e" />
                     <attribute id="UUID" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09" />
+                    <attribute id="ValidSomaticEquipmentList" type="LSString" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle"/>
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="6fe3ae27-dc6c-4fc9-9245-710c790c396c" />

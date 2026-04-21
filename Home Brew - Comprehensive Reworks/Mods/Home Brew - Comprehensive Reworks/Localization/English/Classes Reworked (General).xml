@@ -366,9 +366,9 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000g" version="3">Reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 2 when making a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;. However, the damage of your Critical Hits is permanently halved.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00008" version="3">Crybaby</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000h" version="3">Upon being damaged while not enraged, you immediately fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; and begin to cry. Upon starting your next turn, you become enraged for three turns.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000h" version="3">Upon being damaged while not enraged, you immediately fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; and begin to cry. Upon starting your next turn, you become &lt;LSTag Type="Status" Tooltip="CALM_EMOTIONS"&gt;Calm&lt;/LSTag&gt; for three turns.</content>
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd000z8" version="3">Crying</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000zh" version="3">Affected creature is crying. Upon expiration of this status, they will throw a tantrum and become enraged for three turns!</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000zh" version="3">Affected creature is crying. Upon expiration of this status, they will become &lt;LSTag Type="Status" Tooltip="CALM_EMOTIONS"&gt;Calm&lt;/LSTag&gt; for three turns.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00009" version="3">Delusions in the Dark</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000i" version="3">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage and status immunity to Fear-based effects. However, you also become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Radiant damage.</content>
@@ -587,13 +587,13 @@
 	<content contentuid="115fb28f01e84e44b3536we568f4sregainaa" version="3">Regain control of one or more party members.</content>
 
 	<content contentuid="hba0d4fd0ga762g43bfgb86fg1c9c8982c6b2" version="3">Action</content>
-	<content contentuid="hfcd95fc3g4707g4262g80f7gacb371aa8e92" version="3">Actions are your primary resource in combat.</content>
+	<content contentuid="hfcd95fc3g4707g4262g80f7gacb371aa8e92" version="3">Actions are your primary resource in combat. You may have up to four Actions at any given time.</content>
 
 	<content contentuid="h7a2b85d6g3761g4f1fgb6b2g53cf10b449ea" version="2">Bonus Action</content>
-	<content contentuid="he0e99cd2g0e0dg4e68ga411g1ddbb114a19b" version="3">Bonus Actions are your secondary resource in combat.</content>
+	<content contentuid="he0e99cd2g0e0dg4e68ga411g1ddbb114a19b" version="3">Bonus Actions are your secondary resource in combat. You may have up to four Bonus Action at any given time.</content>
 
 	<content contentuid="h43f4dbfeg0d62g49eegbecagad62630e032d" version="2">Reaction</content>
-	<content contentuid="hb8abe274g41c8g481dgbd39g8a1c1c692457" version="3">Reactions are responses you can have to events which can trigger both during and outside of your turn.</content>
+	<content contentuid="hb8abe274g41c8g481dgbd39g8a1c1c692457" version="3">Reactions are responses you can have to events which can trigger both during and outside of your turn. You may have up to four Reactions at any given time.</content>
 
 	<content contentuid="h0089509agc899g43d0g991bg6974279ceb44" version="4">You gain [3] level [4] Spell Slots, which are restored on a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="h09b31492g952bg4e5fg8f84ged1ace0ccf5e" version="1">You gain [3] level [4] Spell Slots, which are restored on a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
@@ -767,6 +767,21 @@
 
 	<content contentuid="h87dd56ecg2a9ag45b0ga933g1079507ff9s7" version="1">Dual-Wield Ranged Attack</content>
 	<content contentuid="h5fafec24g30d5g425cg952cga9c5375aa978" version="2">Make a ranged attack with both of your ranged weapons.</content>
+
+	<content contentuid="hc7e6e2cbg26fbg465dg8a2ag9402190ff0b1" version="1">Wand</content>
+	<content contentuid="h1c62f7c0g083eg4ad5ga754g12b2a1086245" version="1">Wand</content>
+	<content contentuid="h27008081g482fg49e3ga4f6gbfb9f2d77a05" version="1">Wand</content>
+	<content contentuid="h323a3ea7gd7c5g4219g80b7gba3dff598553" version="1">Wand</content>
+	<content contentuid="h32446704g1833g425bg9fc0g2ca98c1f3182" version="1">Wand</content>
+	<content contentuid="h88b8cd86gdf58g466ag9dbaga8b649339a55" version="1">Wand</content>
+	<content contentuid="he15d0698gdc2fg4918g8dc5g7cf44e8402f6" version="2">Wand +1</content>
+	<content contentuid="hfb502717g447cg4038g95bbg4ff7a448f733" version="2">Wand +2</content>
+	<content contentuid="hf8205efdgf1f5g4581g8391g829af9b98138" version="1">Wands</content>
+	<content contentuid="ha4c5f0cfg93ebg47ecg8eecg6524ad70aee0_8" version="1">Wands</content>
+	<content contentuid="had1b08b7g4ed1g44dfgbdc0gc2652ea075cb" version="3">Wand Proficiency</content>
+
+	<content contentuid="c8a7d57e1b594803adef8be646e0b31600001" version="1">Wand Attack</content>
+	<content contentuid="c8a7d57e1b594803adef8be646e0b3160000a" version="2">Make a ranged attack with your wand.</content>
 
 	<content contentuid="9b7b811b9c3043e189f945540bf9288diiu8g" version="1">Additional Spells</content>
 	<content contentuid="9b7b811b9c3043e189f945540200798f7dufd" version="11">Choose additional spells from the list below. Spells within this list change depending on your choice of subclass. Spells require &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; to cast, unless a feature states otherwise.</content>
