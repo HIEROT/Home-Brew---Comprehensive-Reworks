@@ -119,6 +119,34 @@
                     <attribute id="UUID" type="guid" value="b67b5fb0-e72c-40f3-a03d-82eea014c200"/>
 					</node>
                 <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Oath_Ancients"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Oaths"/>
+                    <attribute id="TableUUID" type="guid" value="b82864a7-b093-4553-a802-e176831029c1"/>
+                    <attribute id="UUID" type="guid" value="f821c9b2-d23b-497d-907d-43b0ea52593d"/>
+					</node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Oath_Crown"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Oaths"/>
+                    <attribute id="TableUUID" type="guid" value="e3a25a7a-e793-4b99-9d4a-0fbc17fcc1ff"/>
+                    <attribute id="UUID" type="guid" value="ae198b1d-2ec6-40b7-9ced-4af73567949b"/>
+					</node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Oath_Devotion"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Oaths"/>
+                    <attribute id="TableUUID" type="guid" value="941ca27d-02f7-4f59-bd33-63fa3366134d"/>
+                    <attribute id="UUID" type="guid" value="3353d223-e09c-4e33-aef6-9bffd58da200"/>
+					</node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Oath_Vengeance"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Oaths"/>
+                    <attribute id="TableUUID" type="guid" value="f769aa02-1f74-4fb6-b94c-8850143daa20"/>
+                    <attribute id="UUID" type="guid" value="0a0e7aed-5a74-4dee-b52b-71cb690cc409"/>
+					</node>
+                <node id="DefaultValue">
                     <attribute id="Add" type="LSString" value="Arrow_Fire"/>
                     <attribute id="Level" type="int32" value="1"/>
                     <attribute id="TableUUID" type="guid" value="8f068974-ed32-43fc-a9d9-028be1c01a9c"/>

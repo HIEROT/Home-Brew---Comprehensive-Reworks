@@ -272,6 +272,8 @@ new subtable "1,1"
 object category "I_JWL_DiscordantInstruments_TriageKit",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_JWL_DiscordantInstruments_QuiverBrambleheart",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_MAG_WPN_ApprenticeWand",1,0,0,0,0,0,0,0
 
 new treasuretable "DEN_Thieflings_Pickpocket_Trade"
 CanMerge 1
@@ -282,12 +284,24 @@ object category "I_JWL_DiscordantInstruments_EndlessMead",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_JWL_DiscordantInstruments_CuriousCoin",1,0,0,0,0,0,0,0
 
+new treasuretable "UND_SocietyOfBrilliance_Hobgoblin"
+CanMerge 1
+new subtable "1,1"
+object category "I_MAG_WPN_BalancedWand",1,0,0,0,0,0,0,0
+
 new treasuretable "HAV_Thiefling_Trade"
 CanMerge 1
 new subtable "1,1"
 object category "I_JWL_DiscordantInstruments_WindFan",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_JWL_DiscordantInstruments_MendingRope",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_MAG_WPN_SoulWand",1,0,0,0,0,0,0,0
+
+new treasuretable "PLA_ZhentarimTrader_Common"
+CanMerge 1
+new subtable "1,1"
+object category "I_MAG_ChaosWand",1,0,0,0,0,0,0,0
 
 new treasuretable "WYR_Thiefling_Trade"
 CanMerge 1
@@ -297,6 +311,11 @@ new subtable "1,1"
 object category "I_JWL_DiscordantInstruments_TotemSpirit",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_JWL_DiscordantInstruments_SymbolHelm",1,0,0,0,0,0,0,0
+
+new treasuretable "WYR_Danthelon_Trader"
+CanMerge 1
+new subtable "1,1"
+object category "I_MAG_WPN_ArcWand",1,0,0,0,0,0,0,0
 
 new treasuretable "DEN_Weaponsmith_Trade"
 CanMerge 1
@@ -325,6 +344,8 @@ new subtable "1,1"
 object category "I_JWL_DiscordantInstruments_ShieldingBrooch",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_MAG_Cunning_HandCrossbow",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_MAG_WPN_PyroWand",1,0,0,0,0,0,0,0
 
 new treasuretable "LOW_SorcerousSundries_Trade"
 CanMerge 1
@@ -343,6 +364,8 @@ new subtable "1,1"
 object category "I_JWL_DiscordantInstruments_QuiverChaos",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_MAG_Toll_Collector_Cloak",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_MAG_WPN_NecroticWand",1,0,0,0,0,0,0,0
 
 new treasuretable "LOW_SteepsTrader_Armor"
 CanMerge 1
@@ -362,6 +385,8 @@ new treasuretable "LOW_MysticCarrion_Trade_Magic"
 CanMerge 1
 new subtable "1,1"
 object category "I_JWL_DiscordantInstruments_BlackCrystalTablet",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_MAG_WPN_BindingWand",1,0,0,0,0,0,0,0
 
 new treasuretable "WYR_Circus_KoboldMerchant_Magic"
 CanMerge 1
@@ -374,3 +399,8 @@ new treasuretable "LOW_StormshoreTabernacle_Guardian"
 CanMerge 1
 new subtable "1,1"
 object category "I_JWL_DiscordantInstruments_BannerConsecrated",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_DevilsFee_Diabolist_Trade_Magic"
+CanMerge 1
+new subtable "1,1"
+object category "I_MAG_WPN_ChainMaster",1,0,0,0,0,0,0,0

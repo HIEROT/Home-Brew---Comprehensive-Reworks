@@ -1,6 +1,3 @@
-new entry "BACKGROUNDS"
-type "PassiveData"
-
 new entry "Background_Acolyte"
 type "PassiveData"
 data "DisplayName" "h543f0d83g566fg4ec9gbe5cg3930f6638e92;2"

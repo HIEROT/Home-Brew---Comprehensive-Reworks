@@ -3,7 +3,7 @@
 new entry "ProjectileStrike_ExplosiveRetribution_Player"
 type "SpellData"
 data "SpellType" "ProjectileStrike"
-data "SpellProperties" "GROUND:Spawn(29d32b36-390f-4fe8-b27b-931393d76c2a,,EXPLOSIVE_MINE_ORTHON,,,,true);"
+data "SpellProperties" "GROUND:Spawn(29d32b36-390f-4fe8-b27b-931393d76c2a,,EXPLOSIVE_MINE_ORTHON,,,,true)"
 data "TargetRadius" "9"
 data "AreaRadius" "9"
 data "StrikeCount" "12"

@@ -9,4 +9,4 @@ data "DefaultBoosts" "Tag(ORI_GALE_CONSUMABLEARTEFACT);WeaponDamage(1d4, Lightni
 data "Unique" "1"
 data "UseCosts" "ReactionActionPoint:1;Attunement:1"
 data "StatusOnEquip" "ATTUNEMENT1"
-data "PassivesOnEquip" "MAG_ChargedLightning_Charge_OnDamage_Passive"
+data "PassivesOnEquip" "OpportuneStoppingPower;MAG_ChargedLightning_Charge_OnDamage_Passive"

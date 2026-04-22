@@ -22,7 +22,7 @@ data "DisplayName" "h8ef49014g58dag4a7dga856gaad8f3c1936f;1"
 data "Description" "h85ab0ea3gca94g412bg9d4bg7e526570b85e;1"
 data "Properties" "OncePerCombat;Highlighted"
 data "StatsFunctorContext" "OnTurn"
-data "Conditions" "Combat()"
+data "Conditions" "Combat() and not IsAetherSuspended(context.Source)"
 data "StatsFunctors" "ApplyStatus(SELF,JWL_Status_BookInfernalArchive, 100, -1)"
 
 new entry "JWL_Status_BookInfernalArchive"

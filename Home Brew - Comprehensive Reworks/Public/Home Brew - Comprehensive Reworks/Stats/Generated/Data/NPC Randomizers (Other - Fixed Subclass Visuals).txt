@@ -536,6 +536,19 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 
+new entry "TWINFANG_SUBCLASS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "HitAnimationType" "None"
+data "DisplayName" "h437731e40ccf4eed92b833bf3e3a7c8etwin;1"
+data "Icon" "Twinfang"
+data "StackId" "APPLY_TWINFANG_FIXED"
+data "StackType" "Ignore"
+data "TickType" "StartTurn"
+data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
+data "RemoveEvents" "OnApply;OnTurn;OnMove"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
+
 <!--ROGUE-->
 
 new entry "ARCANETRICKSTER_SUBCLASS"

@@ -7,6 +7,12 @@ function FocusedWeaveCheck()
     | SpellId('Shout_ElementalFletching')
 end
 
+function IsFocusedFletching()
+    return SpellId('Projectile_ElementalFletching_Acid_Focused') | SpellId('Projectile_ElementalFletching_Cold_Focused') | SpellId('Projectile_ElementalFletching_Fire_Focused')
+    | SpellId('Projectile_ElementalFletching_Lightning_Focused') | SpellId('Projectile_ElementalFletching_Necrotic_Focused') | SpellId('Projectile_ElementalFletching_Poison_Focused')
+    | SpellId('Zone_ElementalFletching_Psychic_Focused') | SpellId('Projectile_ElementalFletching_Radiant_Focused') | SpellId('Projectile_ElementalFletching_Thunder_Focused')
+end
+
 function IsManeuver()
     return SpellId('Target_BaitAndSwitch') | SpellId('Interrupt_Brace') | SpellId('Shout_ChargeManeuver')
     | SpellId('Target_CommandersStrike') | SpellId('Target_DisarmingAttack') | SpellId('Projectile_DisarmingAttack')

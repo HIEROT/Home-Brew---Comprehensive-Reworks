@@ -137,6 +137,12 @@
 				<attribute id="UUID" type="guid" value="9a95de87-d5b6-46de-9720-e7216b3bb295" />
 				</node>
         <node id="ProgressionDescription">
+				<attribute id="DisplayName" type="TranslatedString" handle="9b7b811b9c3043e189f945540bf5116eff200" version="2" />
+				<attribute id="Description" type="TranslatedString" handle="9b7b811b9c3043e189f945540bf5116ess60z" version="1" />
+				<attribute id="SelectorId" type="FixedString" value="Oaths" />
+				<attribute id="UUID" type="guid" value="2992994b-5a96-4e19-adde-77301cdfbc76" />
+				</node>
+        <node id="ProgressionDescription">
 				<attribute id="DisplayName" type="TranslatedString" handle="88523fb3deaa2d5f5ef6304e0911fbc400000" version="2" />
 				<attribute id="Description" type="TranslatedString" handle="99523fb3deaasdf5e8f6304e0911fbc400000" version="1" />
 				<attribute id="SelectorId" type="FixedString" value="OptimizationMatrix" />

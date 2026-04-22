@@ -9,6 +9,7 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="hba0d4fd0ga762g43bfgb86fg1c9c8982c6b2" version="3"/>
                     <attribute id="Error" type="TranslatedString" handle="hea9d4496g788ag4a57gb9degb995324381b7" version="1"/>
                     <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="MaxValue" type="uint32" value="4" />
                     <attribute id="Name" type="FixedString" value="ActionPoint"/>
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
@@ -18,6 +19,7 @@
                     <attribute id="Description" type="TranslatedString" handle="he0e99cd2g0e0dg4e68ga411g1ddbb114a19b" version="3"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h7a2b85d6g3761g4f1fgb6b2g53cf10b449ea" version="2"/>
                     <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="MaxValue" type="uint32" value="4" />
                     <attribute id="Name" type="FixedString" value="BonusActionPoint"/>
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
@@ -27,6 +29,7 @@
                     <attribute id="Description" type="TranslatedString" handle="hb8abe274g41c8g481dgbd39g8a1c1c692457" version="3" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h43f4dbfeg0d62g49eegbecagad62630e032d" version="2" />
                     <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="MaxValue" type="uint32" value="4" />
                     <attribute id="Name" type="FixedString" value="ReactionActionPoint" />
                     <attribute id="ReplenishType" type="FixedString" value="Turn" />
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
