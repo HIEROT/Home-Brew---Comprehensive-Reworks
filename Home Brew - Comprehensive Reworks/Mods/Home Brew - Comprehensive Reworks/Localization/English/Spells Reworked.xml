@@ -1738,7 +1738,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="he07ef4d4gd151g4071gbcb4ge33046cb0453" version="1">Requires both hands to use and benefits from Overwhelm if a melee weapon.</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600001" version="1">Battle High</content>
-	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000a" version="3">While below 75% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to this weapons damage.</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000a" version="3">While below 75% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to this weapon's damage.</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600002" version="1">Dazing Strikes</content>
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000b" version="3">When dealing damage with this weapon, you potentially &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Daze&lt;/LSTag&gt; your target for one turn.</content>
@@ -1809,7 +1809,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000w" version="3">When dealing damage with this weapon, you potentially force your target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600024" version="1">Blade Weaver</content>
-	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000x" version="3">Once per turn, as a free action, you may strike with this weapons haft.</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000x" version="3">Once per turn, as a free action, you may strike with this weapon's haft.</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600025" version="1">Opportune Stopping Power</content>
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000y" version="3">Making an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; with this weapon will immobilize your target.</content>
