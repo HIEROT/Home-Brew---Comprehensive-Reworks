@@ -228,7 +228,7 @@
 	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e4990000e" version="2">While enraged, all damage rolls are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against creatures that are Large or smaller.</content>
 
 	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e49900006" version="1">Titanic Strength</content>
-	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e4990000f" version="2">While enraged, dealing damage to another creature will always knock them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. In addition, your &lt;LSTag Tooltip="TwoHanded"&gt;Two-Handed Weapons&lt;/LSTag&gt; are now considered to be &lt;LSTag Tooltip="Versatile"&gt;Versatile&lt;/LSTag&gt;, allowing you to dual-wield them.</content>
+	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e4990000f" version="2">While enraged, dealing damage to another creature will always knock them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. In addition, your &lt;LSTag Tooltip="TwoHanded"&gt;Non-Versatile Weapons&lt;/LSTag&gt; are now considered to be &lt;LSTag Tooltip="Versatile"&gt;Versatile&lt;/LSTag&gt;, allowing you to dual-wield them.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HELLSLAYER</content>
 

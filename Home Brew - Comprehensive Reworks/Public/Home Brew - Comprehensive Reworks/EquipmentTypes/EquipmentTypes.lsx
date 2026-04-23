@@ -164,8 +164,8 @@
                     <attribute id="SourceBoneSheathed" type="FixedString" value="Dummy_Sheath"/>
                     <attribute id="SourceBoneVersatileSheathed" type="FixedString" value="Dummy_Sheath"/>
                     <attribute id="UUID" type="guid" value="eeb1b9d2-8c44-46a2-a0bd-26c1a327672d"/>
-                    <attribute id="WeaponType_OneHanded" type="FixedString" value="Slashing1H"/>
-                    <attribute id="WeaponType_TwoHanded" type="FixedString" value="Slashing1H"/>
+                    <attribute id="WeaponType_OneHanded" type="FixedString" value="Piercing1H"/>
+                    <attribute id="WeaponType_TwoHanded" type="FixedString" value="Piercing1H"/>
                 </node>
             </children>
         </node>

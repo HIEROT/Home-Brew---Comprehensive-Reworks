@@ -1491,7 +1491,6 @@ data "SpellFlags" "IsSpell;IsHarmful;HasVerbalComponent;HasSomaticComponent;HasH
 data "PrepareEffect" "6b2a861b-a5d1-466b-bee9-95131e8e73ba"
 data "CastEffect" "c8464eda-530a-4cad-b5c6-8e21f76fcd38"
 data "DamageType" "Necrotic"
-data "Sheathing" "Sheathed"
 data "Cooldown" "OncePerRest"
 
 <!--DISINTEGRATE-->

@@ -4,56 +4,364 @@
     <region id="Outcomes">
         <node id="root">
             <children>
-                <node id="Outcome">
-                    <attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
-                    <attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Acid"/>
-                    <attribute id="UUID" type="guid" value="7f6bacd4-d00d-473f-9057-43e1661d3c3c"/>
-                </node>
-                <node id="Outcome">
-                    <attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
-                    <attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Cold"/>
-                    <attribute id="UUID" type="guid" value="02202ee8-4de3-4b7c-b6c8-d1bbf283de3f"/>
-                </node>
-                <node id="Outcome">
-                    <attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
-                    <attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Fire"/>
-                    <attribute id="UUID" type="guid" value="62db2a24-08b4-43fd-ba7f-7938152adc9f"/>
-                </node>
-                <node id="Outcome">
-                    <attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
-                    <attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Force"/>
-                    <attribute id="UUID" type="guid" value="ced578ef-4c97-4dbf-af5e-4fec2a4d30c9"/>
-                </node>
-                <node id="Outcome">
-                    <attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
-                    <attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Lightning"/>
-                    <attribute id="UUID" type="guid" value="614ea8dc-3fa3-428b-8a5f-c7d22b52ae61"/>
-                </node>
-                <node id="Outcome">
-                    <attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
-                    <attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Necrotic"/>
-                    <attribute id="UUID" type="guid" value="985ad4cf-1876-434b-9a5c-adecf02d31b4"/>
-                </node>
-                <node id="Outcome">
-                    <attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
-                    <attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Poison"/>
-                    <attribute id="UUID" type="guid" value="69e80cba-feae-4a83-a35a-1c9e39a762f6"/>
-                </node>
-                <node id="Outcome">
-                    <attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
-                    <attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Psychic"/>
-                    <attribute id="UUID" type="guid" value="f0d5701e-25cb-488f-a948-a0ec99ad1fc0"/>
-                </node>
-                <node id="Outcome">
-                    <attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
-                    <attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Radiant"/>
-                    <attribute id="UUID" type="guid" value="c2636e39-9695-4247-8379-c39f11be54c3"/>
-                </node>
-                <node id="Outcome">
-                    <attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
-                    <attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Thunder"/>
-                    <attribute id="UUID" type="guid" value="646f9932-330b-478b-8345-6084c7cb4e05"/>
-                </node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Acid_D4"/>
+					<attribute id="UUID" type="guid" value="5a1e8c73-4d9f-4e20-a6b1-2c7d9f3a8416"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Acid_D6"/>
+					<attribute id="UUID" type="guid" value="84c2b719-6e3d-46af-9a51-cd2f7b184e30"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Acid_D8"/>
+					<attribute id="UUID" type="guid" value="c2e6f4a1-8a63-4c2b-b5f2-1d3a9c7e4b11"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Acid_D10"/>
+					<attribute id="UUID" type="guid" value="1f7d3a66-b94c-4d85-8c21-e6a3f47b92cd"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Acid_D12"/>
+					<attribute id="UUID" type="guid" value="9b1d3f72-2c44-4e0b-9c88-5a3e2d6f7a90"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Acid_D20"/>
+					<attribute id="UUID" type="guid" value="f6a3c0d9-7b2e-4b9a-a1c4-3d8e5f2a6b77"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Acid_D100"/>
+					<attribute id="UUID" type="guid" value="e39b7d12-5ac4-4f68-92de-7b14c6a83f25"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Cold_D4"/>
+					<attribute id="UUID" type="guid" value="a14c8d72-3e6f-4b95-8c21-d7f3a9e2b401"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Cold_D6"/>
+					<attribute id="UUID" type="guid" value="c83e1f49-7b26-4da0-9f54-2a6d7c1e5b12"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Cold_D8"/>
+					<attribute id="UUID" type="guid" value="1d5e8c3a-6b74-4d2f-91a7-2c9f0e3b5a62"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Cold_D10"/>
+					<attribute id="UUID" type="guid" value="5f2b7a90-1c4d-4e86-a3f7-9d2c6b1e4a23"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Cold_D12"/>
+					<attribute id="UUID" type="guid" value="7a2c4e91-5d8b-4f3a-8c60-9e1f2b7d4c33"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Cold_D20"/>
+					<attribute id="UUID" type="guid" value="3f7b9d21-0c5e-4a6f-b8d3-6e2a1c9f4b88"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Cold_D100"/>
+					<attribute id="UUID" type="guid" value="e6a91c3d-8b57-4f20-9d64-1c7e2a5b3f34"/>
+				</node>
+				
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Fire_D4"/>
+					<attribute id="UUID" type="guid" value="b271d4e8-5c3a-4f96-8a10-7d2e9c1b6401"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Fire_D6"/>
+					<attribute id="UUID" type="guid" value="d5a84c12-9e37-4b60-a2f5-3c1d7e9b4a12"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Fire_D8"/>
+					<attribute id="UUID" type="guid" value="8c1e4b2d-9a73-4f5c-80b6-2d7a3e1c9f44"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Fire_D10"/>
+					<attribute id="UUID" type="guid" value="1e9c7a45-6d2b-4f83-b5a1-8c3d7e2f5b23"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Fire_D12"/>
+					<attribute id="UUID" type="guid" value="5e9a2d1c-7f4b-4c8e-9b0d-3a6f2e1c7d55"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Fire_D20"/>
+					<attribute id="UUID" type="guid" value="2b4f7c9a-6d1e-4a3c-b8f0-1e5d3c7a9b66"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Fire_D100"/>
+					<attribute id="UUID" type="guid" value="f3b62d8c-4a91-4e27-9c65-2d1e7b5a3f34"/>
+				</node>
+				
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Force_D4"/>
+					<attribute id="UUID" type="guid" value="c194e7b3-2a6d-4f80-95c1-7e2b3d9a4101"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Force_D6"/>
+					<attribute id="UUID" type="guid" value="4d7a2c91-8e35-4b6f-a2c4-9b1e7d3f5a12"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Force_D8"/>
+					<attribute id="UUID" type="guid" value="4a8d2c7e-1f3b-4c90-a6e5-8b2d1f7c3a77"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Force_D10"/>
+					<attribute id="UUID" type="guid" value="9f3a1e64-5c2b-4d87-b0a5-1e7c3d2f6b23"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Force_D12"/>
+					<attribute id="UUID" type="guid" value="6c3f1e9a-2b7d-4a8c-90f5-3e1b2d7a4c88"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Force_D20"/>
+					<attribute id="UUID" type="guid" value="9d2a6b1c-4e8f-4c73-b5a0-7c1e3d2f6a99"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Force_D100"/>
+					<attribute id="UUID" type="guid" value="2e7d4b1a-6c93-4f25-8d61-3b9e1c7a5f34"/>
+				</node>
+				
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Lightning_D4"/>
+					<attribute id="UUID" type="guid" value="e15c7b42-3d8a-4f96-9a10-6c2e7d1b5401"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Lightning_D6"/>
+					<attribute id="UUID" type="guid" value="7b2d4e91-5a36-4c80-b2f4-1e9c7d3a6b12"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Lightning_D8"/>
+					<attribute id="UUID" type="guid" value="3c8a1d7f-5b2e-4f90-a6d3-2e7c1b4a5d10"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Lightning_D10"/>
+					<attribute id="UUID" type="guid" value="5a9e2c34-1d7b-4f85-a6c1-8d3e2b7f4a23"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Lightning_D12"/>
+					<attribute id="UUID" type="guid" value="7e1b4c9d-2a5f-4c8e-b0d6-1f3a7c2e6b21"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Lightning_D20"/>
+					<attribute id="UUID" type="guid" value="1a6d3f8c-9b2e-4c5f-80a7-6c2e1b4d7f32"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Lightning_D100"/>
+					<attribute id="UUID" type="guid" value="c84f1d72-6b95-4e20-9a63-2d7c1e5b3f34"/>
+				</node>
+				
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Necrotic_D4"/>
+					<attribute id="UUID" type="guid" value="4b1e8d73-2c6f-4a95-8f21-d3a7c9e2b401"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Necrotic_D6"/>
+					<attribute id="UUID" type="guid" value="9c3e1f42-7a26-4d80-b5f4-2e6d7c1a5b12"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Necrotic_D8"/>
+					<attribute id="UUID" type="guid" value="5f2c7a1e-3b9d-4c8a-b6e0-2d1f7c3a8b43"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Necrotic_D10"/>
+					<attribute id="UUID" type="guid" value="1d7b3a65-4e9c-4f82-a5c1-7e2d3b6f4a23"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Necrotic_D12"/>
+					<attribute id="UUID" type="guid" value="8b3d1f6a-7c2e-4a90-b5f8-1e3d2c7a9f54"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Necrotic_D20"/>
+					<attribute id="UUID" type="guid" value="2e7a4c1d-9b5f-4c8a-80d3-6f1c2b7a3e65"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Necrotic_D100"/>
+					<attribute id="UUID" type="guid" value="f6a93c1d-8b57-4e20-9d64-1c7a2e5b3f34"/>
+				</node>
+				
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Poison_D4"/>
+					<attribute id="UUID" type="guid" value="6a1d8c73-4b9f-4e20-a5b1-2c7d9e3f8416"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Poison_D6"/>
+					<attribute id="UUID" type="guid" value="84f2b719-6c3d-46af-9e51-cd2a7b184e30"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Poison_D8"/>
+					<attribute id="UUID" type="guid" value="6d1f3a7c-2e8b-4c90-b5a6-3c7e1d2f4a76"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Poison_D10"/>
+					<attribute id="UUID" type="guid" value="1f7d3a66-b84c-4d85-8c21-e6a3f47b92cd"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Poison_D12"/>
+					<attribute id="UUID" type="guid" value="1c7a5e3d-8b2f-4c9a-a6d0-2e3f7c1b5a87"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Poison_D20"/>
+					<attribute id="UUID" type="guid" value="9a2e6c1f-4b7d-4c83-b5f0-7d1a3c2e6b98"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Poison_D100"/>
+					<attribute id="UUID" type="guid" value="e39b7d12-5bc4-4f68-92de-7b14c6a83f25"/>
+				</node>
+				
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Psychic_D4"/>
+					<attribute id="UUID" type="guid" value="3a8d1c72-5e9f-4b20-a6b1-7d2c9e4f6101"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Psychic_D6"/>
+					<attribute id="UUID" type="guid" value="7c2e4f91-1a35-4d60-b2f4-9e1c7d3a5b12"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Psychic_D8"/>
+					<attribute id="UUID" type="guid" value="3e8b1c7a-5d2f-4c90-a6b3-1f7c2e4a5d09"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Psychic_D10"/>
+					<attribute id="UUID" type="guid" value="5e9a2c34-7d1b-4f85-a6c1-8d3e2b7f4a23"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Psychic_D12"/>
+					<attribute id="UUID" type="guid" value="7c1a4d9b-2e5f-4c8a-b0d6-3f1e7c2a6b10"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Psychic_D20"/>
+					<attribute id="UUID" type="guid" value="1f6d3c8a-9b2e-4c5f-80a7-6c2e1b4d7f11"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Psychic_D100"/>
+					<attribute id="UUID" type="guid" value="c84f1d72-6a95-4e20-9b63-2d7c1e5f3a34"/>
+				</node>
+				
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Radiant_D4"/>
+					<attribute id="UUID" type="guid" value="4b1e8d73-2a6f-4c95-8f21-d3a7e9c2b401"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Radiant_D6"/>
+					<attribute id="UUID" type="guid" value="9d3e1f42-7b26-4a80-b5f4-2e6c7d1a5b12"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Radiant_D8"/>
+					<attribute id="UUID" type="guid" value="5a2c7e1f-3b9d-4c8a-b6e0-2d1f7c3a8b22"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Radiant_D10"/>
+					<attribute id="UUID" type="guid" value="1c7b3a65-4e9d-4f82-a5c1-7e2d3b6f4a23"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Radiant_D12"/>
+					<attribute id="UUID" type="guid" value="8d3b1f6a-7c2e-4a90-b5f8-1e3d2c7a9f33"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Radiant_D20"/>
+					<attribute id="UUID" type="guid" value="2c7a4d1e-9b5f-4c8a-80d3-6f1c2b7a3e44"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Radiant_D100"/>
+					<attribute id="UUID" type="guid" value="f6a93c1d-8c57-4e20-9d64-1b7a2e5c3f34"/>
+				</node>
+				
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Thunder_D4"/>
+					<attribute id="UUID" type="guid" value="6b1d8c73-4a9f-4e20-a5b1-2c7e9d3f8416"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Thunder_D6"/>
+					<attribute id="UUID" type="guid" value="84e2b719-6d3c-46af-9e51-cd2a7c184e30"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Thunder_D8"/>
+					<attribute id="UUID" type="guid" value="6f1d3a7c-2e8b-4c90-b5a6-3c7e1d2f4a55"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Thunder_D10"/>
+					<attribute id="UUID" type="guid" value="1e7d3a66-b84c-4d85-8c21-e6a3f47b92cd"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Thunder_D12"/>
+					<attribute id="UUID" type="guid" value="1d7a5e3c-8b2f-4c9a-a6d0-2e3f7c1b5a66"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Thunder_D20"/>
+					<attribute id="UUID" type="guid" value="9c2e6a1f-4b7d-4c83-b5f0-7d1a3c2e6b77"/>
+				</node>
+				<node id="Outcome">
+					<attribute id="GroupName" type="FixedString" value="ChaosBolt"/>
+					<attribute id="Spell" type="FixedString" value="Shout_ChaosBolt_Thunder_D100"/>
+					<attribute id="UUID" type="guid" value="e39b7d12-5ac4-4f68-92de-7b14c6a83f25"/>
+				</node>
                 <node id="Outcome">
                     <attribute id="GroupName" type="FixedString" value="WildMagicBarbarian"/>
                     <attribute id="Spell" type="FixedString" value="Shout_WildMagicBarbarian_Teleport_Activate"/>
