@@ -502,7 +502,7 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0c" version="3">Gain a bonus to your &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety04" version="3">Imposing Will</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0d" version="3">Gain a +2 bonus to your &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; when casting Spells or applying conditions.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0d" version="3">Gain a +2 bonus to your &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety05" version="3">Iron Breaker</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0e" version="3">When dealing damage to an enemy or item, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>

@@ -121,23 +121,23 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">DUNESIS</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00021" version="1">Dunesis</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000u" version="1">Spells you cast and Conditions you apply have their &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; increased by 1 and will not damage your allies when targeting an area. You may further increase this number by consuming &lt;LSTag Type="ActionResource" Tooltip="Dunesis"&gt;Dunesis Charges&lt;/LSTag&gt;. Upon casting a Spell, you generate one additional Dunesis Charge, up to a maximum of three.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000u" version="1">Spells you cast will not damage your allies when targeting an area. In addition, you gain a +1 bonus to your &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;. You may further increase this number by consuming &lt;LSTag Type="ActionResource" Tooltip="Dunesis"&gt;Dunesis Charges&lt;/LSTag&gt;. Upon casting a Spell, you generate one additional Dunesis Charge, up to a maximum of three.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aazzz21" version="1">Dunesis Charge</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aazzz0u" version="1">The amount of charges you may consume in order to increase the &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; of the next Spell you cast or Condition that you apply. Upon casting a Spell, you generate one additional Dunesis Charge, up to a maximum of three.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aazzz0u" version="1">The amount of charges you may consume in order to increase your &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;. Upon casting a Spell, you generate one additional Dunesis Charge, up to a maximum of three.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aakdk88" version="1">Dunesis</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aaffkd0" version="1">Consume &lt;LSTag Type="ActionResource" Tooltip="Dunesis"&gt;Dunesis Charges&lt;/LSTag&gt; in order to increase the &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; of Spell you cast or Condition that you apply.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aaffkd0" version="1">Consume &lt;LSTag Type="ActionResource" Tooltip="Dunesis"&gt;Dunesis Charges&lt;/LSTag&gt; in order to increase your &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aass6d8" version="1">Lesser Dunesis Charge</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa22d5f" version="1">Consume one &lt;LSTag Type="ActionResource" Tooltip="Dunesis"&gt;Dunesis Charge&lt;/LSTag&gt; in order to increase the &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; of Spells and Conditions by one until the end of your turn.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa22d5f" version="1">Consume one &lt;LSTag Type="ActionResource" Tooltip="Dunesis"&gt;Dunesis Charge&lt;/LSTag&gt; to gain a +1 bonus to your &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa22d6d" version="1">Lesser Dunesis Charge</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8assdf87" version="1">Affected creature has increased the &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; of the next Spell they cast or Condition that they apply by one.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8assdf87" version="1">Affected creature has a +1 bonus to their &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aaasd84" version="1">Moderate Dunesis Charge</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8asd5f4s" version="1">Consume two &lt;LSTag Type="ActionResource" Tooltip="Dunesis"&gt;Dunesis Charges&lt;/LSTag&gt; in order to increase the &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; of Spells and Conditions by two until the end of your turn.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8asd5f4s" version="1">Consume two &lt;LSTag Type="ActionResource" Tooltip="Dunesis"&gt;Dunesis Charges&lt;/LSTag&gt; to gain a +2 bonus to your &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aas5df4" version="1">Moderate Dunesis Charge</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8asdf45s" version="1">Affected creature has increased the &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; of the next Spell they cast or Condition that they apply by two.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8asdf45s" version="1">Affected creature has a +2 bonus to their &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aas65d4" version="1">Greater Dunesis Charge</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa89s7d" version="1">Consume three &lt;LSTag Type="ActionResource" Tooltip="Dunesis"&gt;Dunesis Charges&lt;/LSTag&gt; in order to increase the &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; of Spells and Conditions by three until the end of your turn.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa89s7d" version="1">Consume three &lt;LSTag Type="ActionResource" Tooltip="Dunesis"&gt;Dunesis Charges&lt;/LSTag&gt; to gain a +3 bonus to your &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8as6df45" version="1">Greater Dunesis Charge</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8asd5f87" version="1">Affected creature has increased the &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; of the next Spell they cast or Condition that they apply by three.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8asd5f87" version="1">Affected creature has a +3 bonus to their &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">DURABLE</content>
 

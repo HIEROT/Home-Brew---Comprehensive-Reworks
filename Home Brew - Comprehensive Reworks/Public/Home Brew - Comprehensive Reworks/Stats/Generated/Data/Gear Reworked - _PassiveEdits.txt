@@ -287,19 +287,13 @@ data "Description" "d273c2a6f9f24f73b755b9c0092eb9fa0000e;1"
 data "Icon" "Skill_Infusion_ReplicateMagicItem"
 data "Boosts" "IF((Enemy() or Item()) and RangedWeaponCheck()):CharacterWeaponDamage(StrengthModifier)"
 
-new entry "AvadaKedavra"
+new entry "Abracadabra"
 type "PassiveData"
 data "DisplayName" "d273c2a6f9f24f73b755b9c0092eb9fa00006;2"
 data "Description" "d273c2a6f9f24f73b755b9c0092eb9fa0000f;3"
+data "DescriptionParams" "2"
 data "Icon" "Skill_Infusion_ReplicateMagicItem"
 data "Boosts" "RollBonus(MeleeSpellAttack, 2);RollBonus(RangedSpellAttack, 2);SpellSaveDC(2)"
-
-new entry "AvadaKedavra_ApprenticeWand"
-type "PassiveData"
-data "DisplayName" "d273c2a6f9f24f73b755b9c0092eb9fa000a6;2"
-data "Description" "d273c2a6f9f24f73b755b9c0092eb9fa000af;3"
-data "Icon" "PassiveFeature_Generic_Tactical"
-data "Boosts" "AttackSpellOverride(Projectile_AvadaKedavra_ApprenticeWand, Projectile_MainHandAttack)"
 
 <!--DAMAGE REDUCTION-->
 

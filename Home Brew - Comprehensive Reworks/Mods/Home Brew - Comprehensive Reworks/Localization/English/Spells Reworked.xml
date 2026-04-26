@@ -33,7 +33,7 @@
 	<content contentuid="he4120ec1gc489g4f2fg947cgbe6449fed394" version="3">Affected creature's deity has flooded its mind with ancient secrets both benevolent and baleful. It has a +[1] bonus to all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ha5f07a62g4eefg4ce3gb36egbccbb316e957" version="2">Arcane Acuity</content>
-	<content contentuid="h98740ecdg7b6ag49feg8616g1d025bf32624" version="5">Affected creature has a +[1] bonus to its Spell &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and Spell &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; for each remaining stack.</content>
+	<content contentuid="h98740ecdg7b6ag49feg8616g1d025bf32624" version="5">Affected creature has a +[1] bonus to its Spell based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;. This bonus increases for each remaining stack.</content>
 
 	<content contentuid="h2b4b1619g0580g4ba2g9c7bg6c81cac40be5" version="4">Arcane Charge</content>
 	<content contentuid="h8b3ddcacge2d8g41e0ga7eegb3cefedd8678" version="15">While &lt;LSTag Type="Status" Tooltip="THREATENED"&gt;Threatened&lt;/LSTag&gt;, affected creature has a +[1] bonus to damage with Spells.</content>
@@ -395,7 +395,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="he2f86eb4g6905g465ag916dge1eaefd62e3f" version="3">Conjure and project a virulent cloud of poisonous gas. Additional clouds will project toward any enemies who are &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hfd755f83gdef4g4c34g9b6fg44ab3fd26c96" version="1">Produce Flame</content>
-	<content contentuid="hbc3e6f17g63f2g461eg9454g5115c0d2ece3" version="5">Conjure a holy flame in your hand, shedding a light in a [1] radius. This flame may then be &lt;LSTag Type="Spell" Tooltip="Projectile_ProduceFlame_Hurl"&gt;Projected&lt;/LSTag&gt; into a target in order to wreathe them in &lt;LSTag Type="Status" Tooltip="BURNING_HOLY"&gt;Holy Flames&lt;/LSTag&gt; indefinitely.&lt;Br&gt;&lt;br&gt;Projecting the flame on the turn that it was produced may be done as a free action.</content>
+	<content contentuid="hbc3e6f17g63f2g461eg9454g5115c0d2ece3" version="5">Conjure a holy flame in your hand, shedding a light in a [1] radius. This flame may then be &lt;LSTag Type="Spell" Tooltip="Projectile_ProduceFlame_Hurl"&gt;Projected&lt;/LSTag&gt; into a target in order to wreathe them in &lt;LSTag Type="Status" Tooltip="BURNING_HOLY"&gt;Eternal Flames&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;Projecting the flame on the turn that it was produced may be done as a free action.</content>
 	<content contentuid="h7f98a506g5911g4ae3gb91cg0d4bc7ee4371" version="2">Produce Flame</content>
 	<content contentuid="h1a2c2de9g6bf4g4e6cg91b3g816e9777153b" version="1">A flickering flame sheds light in a [1] radius around the creature holding it.</content>
 	<content contentuid="ha026fd7bg4999g44f2g9772gbfcfaf95e43e" version="1">Dismiss Flame</content>
@@ -1627,7 +1627,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h069297a9g027cg4b60g88a8gd274ecca736e" version="4">Possibly knock your enemy &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h48b16f26g07f4g4654s9e8se5f4e2f545e25" version="2">Befuddling Strike</content>
-	<content contentuid="h069297a9g027cg4b60g86se8e59d6e5f8e54" version="4">Strike your enemy, possibly &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Befuddling&lt;/LSTag&gt; them.</content>
+	<content contentuid="h069297a9g027cg4b60g86se8e59d6e5f8e54" version="4">Strike your enemy, possibly &lt;LSTag Type="Status" Tooltip="TIMMASK_SPORES"&gt;Befuddling&lt;/LSTag&gt; them.</content>
 
 	<content contentuid="h48b16f26g07f4g4654s9e8se5f3s6d6d6e85" version="2">Blinding Strike</content>
 	<content contentuid="h069297a9g027cg4b60g86s8e5d6f8e5f4585" version="4">Strike at your enemies eyes, possibly &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; them.</content>
@@ -1729,13 +1729,25 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="hcc220960g681dg4db6g8cbag2c05s6d669d7" version="3">Affected creature will gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; upon reaching three stacks of this condition. This condition is immediately removed if in a state in which Free Handling charges cannot be accrued.</content>
 	<content contentuid="ha0a9d4d4gdd96g431dgb386g6a12d4522d54" version="1">Free Handling: Action Surge</content>
 	<content contentuid="hcc220960g681dg4db6g8cbag2c05s6dff6s8" version="3">Affected creature has gained an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; this turn. This condition is immediately removed if in a state in which Free Handling charges cannot be accrued.</content>
-	<content contentuid="h755f7955g27b6g499fgb0aag0b51d65fc7a7" version="1">Can be dual wielded and benefits from Free Handling.</content>
+	<content contentuid="h755f7955g27b6g499fgb0aag0b51d65fc7a7" version="1">Deals additional damage if your off-hand is free and can be dual wielded.</content>
 
 	<content contentuid="h141b89fdgbd46g44a4g8b6fg39a9c72a3bed" version="2">Overwhelm</content>
 	<content contentuid="hee4cc52cg793cg4dc6g81fbgead2a4da91b5" version="3">Upon making a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt;, deal additional damage to your target equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by two. This additional damage is still dealt even when you miss.</content>
 	<content contentuid="h3c2d0bd7g2584g4e75gb23bg25ab7871d445" version="1">Overwhelm</content>
 	<content contentuid="h26f3759bg82c2g4f58g915fg893ad148c5f1" version="1">When you miss your target with a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt;, use the overpowering force of your swing to deal [1] anyway.</content>
-	<content contentuid="he07ef4d4gd151g4071gbcb4ge33046cb0453" version="1">Requires both hands to use and benefits from Overwhelm if a melee weapon.</content>
+	<content contentuid="h71bfc5dcg7f7dg4f57gbae4g047a4a7f6fc2" version="1">&lt;LSTag Tooltip="TwoHanded"&gt;Non-Versatile&lt;/LSTag&gt;</content>
+	<content contentuid="hc18aa105g6477g47dcg9962gc0554eda3c77" version="1">Non-Versatile Weapon</content>
+	<content contentuid="he07ef4d4gd151g4071gbcb4ge33046cb0453" version="1">Requires your off-hand to be free.</content>
+
+	<content contentuid="ha287aa54g9a53g4c18ga0f4gfeb652a28da4" version="1">&lt;LSTag Tooltip="Reach"&gt;Extended&lt;/LSTag&gt;</content>
+	<content contentuid="h88026dfbgaedbg446fga24eg7397ffff5a2c" version="1">Has an increased melee range.</content>
+	<content contentuid="h4ca07d0bg10cag4f06g9bc6gf7ac4fe61322" version="1">Extended Weapon</content>
+	<content contentuid="h9cad274bg4c5dg4229gb2e4g1e43a5861988" version="1">No &lt;LSTag Tooltip="Reach"&gt;Extended Weapon&lt;/LSTag&gt; equipped.</content>
+
+	<content contentuid="h1cf683bdg186eg4818gbf84g6255a3436a74" version="1">&lt;LSTag Tooltip="Thrown"&gt;Throwing&lt;/LSTag&gt;</content>
+	<content contentuid="hed951236g8283g4cafgb782g053ae0e08595" version="1">When &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Thrown&lt;/LSTag&gt;, deals full damage.</content>
+	<content contentuid="h608694d6g3d2fg46acg8411gba7ce43e6a5e" version="1">Throwing Weapon</content>
+	<content contentuid="hcb951227gdfa5g42f8g931cg154dac597e5f" version="1">No &lt;LSTag Tooltip="Thrown"&gt;Throwing&lt;/LSTag&gt; weapon equipped.&lt;br&gt;</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600001" version="1">Battle High</content>
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000a" version="3">While below 75% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to this weapon's damage.</content>
@@ -1832,12 +1844,8 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa00005" version="1">Draw Strength</content>
 	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000e" version="3">You add your &lt;LSTag Tooltip="AbilityModifier"&gt;Strength Modifier&lt;/LSTag&gt; to the damage you deal with all &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt;.</content>
 
-	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa00006" version="1">Avada Kedavra</content>
-	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000f" version="3">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; fire a projectile unique to this wand. In addition, your Spell &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; are increased by 2.</content>
-	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa000a6" version="1">Magic Dart</content>
-	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa000af" version="3">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; fires a magical dart. The dart can change direction mid flight, allowing it to target any nearby creature so long as they are within range. It will always hit your target.</content>
-	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa000b6" version="1">Magic Dart</content>
-	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa000bf" version="3">Fire a magical dart. The dart can change direction mid flight, allowing it to target any nearby creature so long as they are within range. It will always hit your target.</content>
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa00006" version="1">Abracadabra</content>
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000f" version="3">Your Spell based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and your &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; are both increased by [1].</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MISC</content>
 	<content contentuid="hc1e12016g745fg425agb531gbbf855247fce" version="1">Cannot use.&lt;br&gt;</content>

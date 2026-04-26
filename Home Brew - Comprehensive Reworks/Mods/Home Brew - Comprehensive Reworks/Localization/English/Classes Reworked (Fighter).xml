@@ -13,9 +13,6 @@
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f56a982" version="2">Second Wind</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f5fs854" version="2">Affected creature will restore [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the end of their turn.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f500xxx" version="2">Strategist</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f500xxv" version="2">The &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; of Spells and Conditions you apply increases by 1 and scales with your levels in Fighter. This bonus is increased to 2 at level five, and 3 at level nine.</content>
-
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f59a644" version="2">Action Surge</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f593kdd" version="2">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, restore your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
 
@@ -546,7 +543,7 @@
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f50000e" version="3">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy, restore one of your &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Dice&lt;/LSTag&gt;. This effect can trigger once per turn.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f500006" version="1">Heavy Assault</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f50000f" version="2">While making a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while wielding a &lt;LSTag Tooltip="TwoHanded"&gt;Two-Handed Weapon&lt;/LSTag&gt;, your damage dice are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f50000f" version="2">While making a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while wielding a &lt;LSTag Tooltip="TwoHanded"&gt;Non-Versatile Weapon&lt;/LSTag&gt;, your damage dice are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f500007" version="1">Intuitive Warning</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f50000g" version="2">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an ally within [1] of you, use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the attack. You must be able to see the attacker.</content>
