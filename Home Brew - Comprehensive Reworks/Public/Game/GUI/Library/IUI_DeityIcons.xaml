@@ -23,7 +23,7 @@
 			<DataTrigger Binding="{Binding Guid}" Value="2515505b-2a5c-47d6-9a14-2d7db9047d68">
 				<Setter Property="OpacityMask">
 					<Setter.Value>
-						<ImageBrush ImageSource="pack://application:,,,/GustavNoesisGUI;component/Assets/Home Brew - Comprehensive Reworks/CC/icons_deities/None.png"/>
+						<ImageBrush ImageSource="pack://application:,,,/GustavNoesisGUI;component/Assets/HomeBrew - Comprehensive Reworks/CC/icons_deities/None.png"/>
 					</Setter.Value>
 				</Setter>
 			</DataTrigger>

@@ -1,0 +1,7 @@
+new entry "MAG_Enforcer_NonLethalFright_Club"
+type "Weapon"
+using "WPN_Club"
+data "RootTemplate" "d3cd1f93-64bb-4d57-bafc-19ee1cefc564"
+data "PassivesOnEquip" "DazingStrikes;MAG_Enforcer_NonLethalFright_Club_Passive"
+data "Unique" "1"
+data "DefaultBoosts" "Tag(ORI_GALE_CONSUMABLEARTEFACT)"

@@ -1,0 +1,6 @@
+new entry "MOO_WulbrenHammer"
+type "Weapon"
+using "WPN_LightHammer_1"
+data "WeaponFunctors" "IF(Item()):DealDamage(999,Force)"
+data "Unique" "1"
+data "DefaultBoosts" "Tag(ORI_GALE_CONSUMABLEARTEFACT);WeaponEnchantment(1)"

@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="5" revision="0" build="0"/>
+    <region id="RulesetValues">
+        <node id="root">
+            <children>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="338450d9-d77d-4950-9e1e-0e7f12210bb3"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="7d844dc4-9475-4479-885b-df207a000001"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="968ce114-d656-407c-88c2-0c071fe2181b"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="4a2deddb-0d13-415a-8ba0-cda6de000001"/>
+                    <attribute id="Value" type="LSString" value="AILETHALITY_FORGIVING"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="7d788f28-1df5-474b-b106-4f8d0b6de928"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="95750bdb-ddb2-47bd-ab03-b7c242000001"/>
+                    <attribute id="Value" type="LSString" value="STATUS_EASY"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="4a8d7b18-b6ed-42f0-b542-c06ec11ceaea"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="2fcfc4e8-45ab-40a6-b372-f9e525000001"/>
+                    <attribute id="Value" type="LSString" value="EASY"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="cac2d8bd-c197-4a84-9df1-f86f54ad4521"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="a1b0dfe6-f51e-4c2b-9c9c-4b3f7a000001"/>
+                    <attribute id="Value" type="LSString" value="EASY"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="226a83ca-abc9-4e98-90a2-4219471a5b15"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="3bc6f4f8-03a0-4fd7-beb6-3a4a7c000001"/>
+                    <attribute id="Value" type="LSString" value="0"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="ebb6a5ea-07d4-4176-b787-bbdab2758527"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="2d5b0d74-3c48-4f2e-8f45-8bfa1e000001"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="8a26f431-6f20-4f62-9733-160c77fe4879"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="6c682c0c-6b84-4f93-b14e-d4b4c8000001"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="b2bf9487-6d94-4292-803f-1c2bdf0975c6"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="f7e9f91b-3d91-42e6-a5c5-0d9d7c000001"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="f6fa6955-80a8-4b26-b8f4-1e39ff4cd9ed"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="c0a03b62-89de-4c0a-81d6-02fca7000001"/>
+                    <attribute id="Value" type="LSString" value="0.5"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="1d9a608a-3885-4d48-8816-458e40d1136e"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="1e67a8d2-b8e1-43c1-a7d5-15f03c000001"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="f52ca62e-e7ee-435a-853f-454b2303c278"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="6f0e13b0-2a5d-4dc6-84c3-9f6d56000001"/>
+                    <attribute id="Value" type="LSString" value="0.5"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="6b8b28a3-52cf-41e5-817e-0d3226135a7d"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="0eaa9e65-88c4-44c5-a842-2c7a58000001"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="89ef6d11-70f4-4215-bfd4-b4c9590819c2"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="4fd9f8c3-0a0d-4e51-9f76-8a17c6000001"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="9b349f94-e520-4c49-83e1-c0a8e0543710"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="e04d04c9-35f7-4c91-9d9b-0a0db4000001"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="19e33ff1-76fc-4447-a5ff-09a001e9544f"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="1d22f4a1-9c6c-4d5c-bad1-71d5f9000001"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="38fc0d10-ee64-40d6-b1d9-35f8de95b972"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="8a0dbb52-08db-49e0-8a73-3aef6e000001"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="1e5d2feb-3c81-4c0e-86d8-37337603234a"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="9a6d3cbe-5b9c-4a87-aec2-9bb6f4000001"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="743a3998-636a-4b39-951b-f742a56b07fc"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="2c80f52b-7d4d-4e06-9a3a-57c8e6000001"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="c8234320-35f5-44ff-85a2-4e4366de02f2"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="7bca7a43-1a54-4f03-bf6d-b69f5f000001"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="db885144-a364-4e40-bae0-778608a5d689"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="d2a3f9a6-5c93-46a0-bb4c-8a9dfc000001"/>
+                    <attribute id="Value" type="LSString" value="CAMPGROWTH_EASY"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="0bf382a5-e32a-4310-807c-6de89de471b2"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="b7e9c8a0-6c59-4e6c-9f69-83d0a4000001"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="1e8586e0-b957-4cf1-a0d4-aaf99f60d954"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="5c8e45d0-fb69-4c66-b5b3-03e1d3000001"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="33bd456b-e716-4ff7-aca7-04b61aaf5d9a"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="d0f6f4a5-6d42-4d5b-8f0d-6b5d7e000001"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="fccef0aa-8e28-4b7b-b661-c33094c5f3f7"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="f2e8c7b9-0f3d-4d9a-b6d5-72c4b1000001"/>
+                    <attribute id="Value" type="LSString" value="LOOTBALANCING_GENEROUS"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="ef0506df-da9f-40e2-903a-1349523c1ae4"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="a54d9e7f-3a72-4f3d-bcb7-5c84c8000001"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="b843263f-869c-4a21-960d-867091e8bd04"/>
+                    <attribute id="Ruleset" type="guid" value="993bc2a5-ab96-4cfe-a240-4e991696af6c"/>
+                    <attribute id="UUID" type="guid" value="6d90d28c-8a35-4d75-b06f-3f64a9000001"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="338450d9-d77d-4950-9e1e-0e7f12210bb3"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="7d844dc4-9475-4479-885b-df207a000002"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="968ce114-d656-407c-88c2-0c071fe2181b"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="4a2deddb-0d13-415a-8ba0-cda6de000002"/>
+                    <attribute id="Value" type="LSString" value="AILETHALITY_BALANCED"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="7d788f28-1df5-474b-b106-4f8d0b6de928"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="95750bdb-ddb2-47bd-ab03-b7c242000002"/>
+                    <attribute id="Value" type="LSString" value="STATUS_MEDIUM"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="4a8d7b18-b6ed-42f0-b542-c06ec11ceaea"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="2fcfc4e8-45ab-40a6-b372-f9e525000002"/>
+                    <attribute id="Value" type="LSString" value="MEDIUM"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="cac2d8bd-c197-4a84-9df1-f86f54ad4521"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="a1b0dfe6-f51e-4c2b-9c9c-4b3f7a000002"/>
+                    <attribute id="Value" type="LSString" value="MEDIUM"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="226a83ca-abc9-4e98-90a2-4219471a5b15"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="3bc6f4f8-03a0-4fd7-beb6-3a4a7c000002"/>
+                    <attribute id="Value" type="LSString" value="0"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="ebb6a5ea-07d4-4176-b787-bbdab2758527"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="2d5b0d74-3c48-4f2e-8f45-8bfa1e000002"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="8a26f431-6f20-4f62-9733-160c77fe4879"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="6c682c0c-6b84-4f93-b14e-d4b4c8000002"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="b2bf9487-6d94-4292-803f-1c2bdf0975c6"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="f7e9f91b-3d91-42e6-a5c5-0d9d7c000002"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="f6fa6955-80a8-4b26-b8f4-1e39ff4cd9ed"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="c0a03b62-89de-4c0a-81d6-02fca7000002"/>
+                    <attribute id="Value" type="LSString" value="1.0"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="1d9a608a-3885-4d48-8816-458e40d1136e"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="1e67a8d2-b8e1-43c1-a7d5-15f03c000002"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="f52ca62e-e7ee-435a-853f-454b2303c278"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="6f0e13b0-2a5d-4dc6-84c3-9f6d56000002"/>
+                    <attribute id="Value" type="LSString" value="1.0"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="6b8b28a3-52cf-41e5-817e-0d3226135a7d"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="0eaa9e65-88c4-44c5-a842-2c7a58000002"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="89ef6d11-70f4-4215-bfd4-b4c9590819c2"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="4fd9f8c3-0a0d-4e51-9f76-8a17c6000002"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="9b349f94-e520-4c49-83e1-c0a8e0543710"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="e04d04c9-35f7-4c91-9d9b-0a0db4000002"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="19e33ff1-76fc-4447-a5ff-09a001e9544f"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="1d22f4a1-9c6c-4d5c-bad1-71d5f9000002"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="38fc0d10-ee64-40d6-b1d9-35f8de95b972"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="8a0dbb52-08db-49e0-8a73-3aef6e000002"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="1e5d2feb-3c81-4c0e-86d8-37337603234a"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="9a6d3cbe-5b9c-4a87-aec2-9bb6f4000002"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="743a3998-636a-4b39-951b-f742a56b07fc"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="2c80f52b-7d4d-4e06-9a3a-57c8e6000002"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="c8234320-35f5-44ff-85a2-4e4366de02f2"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="7bca7a43-1a54-4f03-bf6d-b69f5f000002"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="db885144-a364-4e40-bae0-778608a5d689"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="d2a3f9a6-5c93-46a0-bb4c-8a9dfc000002"/>
+                    <attribute id="Value" type="LSString" value="CAMPGROWTH_MEDIUM"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="0bf382a5-e32a-4310-807c-6de89de471b2"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="b7e9c8a0-6c59-4e6c-9f69-83d0a4000002"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="1e8586e0-b957-4cf1-a0d4-aaf99f60d954"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="5c8e45d0-fb69-4c66-b5b3-03e1d3000002"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="33bd456b-e716-4ff7-aca7-04b61aaf5d9a"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="d0f6f4a5-6d42-4d5b-8f0d-6b5d7e000002"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="fccef0aa-8e28-4b7b-b661-c33094c5f3f7"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="f2e8c7b9-0f3d-4d9a-b6d5-72c4b1000002"/>
+                    <attribute id="Value" type="LSString" value="LOOTBALANCING_BALANCED"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="ef0506df-da9f-40e2-903a-1349523c1ae4"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="a54d9e7f-3a72-4f3d-bcb7-5c84c8000002"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="b843263f-869c-4a21-960d-867091e8bd04"/>
+                    <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
+                    <attribute id="UUID" type="guid" value="6d90d28c-8a35-4d75-b06f-3f64a9000002"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="338450d9-d77d-4950-9e1e-0e7f12210bb3"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="7d844dc4-9475-4479-885b-df207a000003"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="968ce114-d656-407c-88c2-0c071fe2181b"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="4a2deddb-0d13-415a-8ba0-cda6de000003"/>
+                    <attribute id="Value" type="LSString" value="AILETHALITY_BRUTAL"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="7d788f28-1df5-474b-b106-4f8d0b6de928"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="95750bdb-ddb2-47bd-ab03-b7c242000003"/>
+                    <attribute id="Value" type="LSString" value="STATUS_HARD"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="4a8d7b18-b6ed-42f0-b542-c06ec11ceaea"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="2fcfc4e8-45ab-40a6-b372-f9e525000003"/>
+                    <attribute id="Value" type="LSString" value="HARD"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="cac2d8bd-c197-4a84-9df1-f86f54ad4521"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="a1b0dfe6-f51e-4c2b-9c9c-4b3f7a000003"/>
+                    <attribute id="Value" type="LSString" value="HARD"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="226a83ca-abc9-4e98-90a2-4219471a5b15"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="3bc6f4f8-03a0-4fd7-beb6-3a4a7c000003"/>
+                    <attribute id="Value" type="LSString" value="0"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="ebb6a5ea-07d4-4176-b787-bbdab2758527"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="2d5b0d74-3c48-4f2e-8f45-8bfa1e000003"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="8a26f431-6f20-4f62-9733-160c77fe4879"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="6c682c0c-6b84-4f93-b14e-d4b4c8000003"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="b2bf9487-6d94-4292-803f-1c2bdf0975c6"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="f7e9f91b-3d91-42e6-a5c5-0d9d7c000003"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="f6fa6955-80a8-4b26-b8f4-1e39ff4cd9ed"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="c0a03b62-89de-4c0a-81d6-02fca7000003"/>
+                    <attribute id="Value" type="LSString" value="1.5"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="1d9a608a-3885-4d48-8816-458e40d1136e"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="1e67a8d2-b8e1-43c1-a7d5-15f03c000003"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="f52ca62e-e7ee-435a-853f-454b2303c278"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="6f0e13b0-2a5d-4dc6-84c3-9f6d56000003"/>
+                    <attribute id="Value" type="LSString" value="1.5"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="6b8b28a3-52cf-41e5-817e-0d3226135a7d"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="0eaa9e65-88c4-44c5-a842-2c7a58000003"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="89ef6d11-70f4-4215-bfd4-b4c9590819c2"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="4fd9f8c3-0a0d-4e51-9f76-8a17c6000003"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="9b349f94-e520-4c49-83e1-c0a8e0543710"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="e04d04c9-35f7-4c91-9d9b-0a0db4000003"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="19e33ff1-76fc-4447-a5ff-09a001e9544f"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="1d22f4a1-9c6c-4d5c-bad1-71d5f9000003"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="38fc0d10-ee64-40d6-b1d9-35f8de95b972"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="8a0dbb52-08db-49e0-8a73-3aef6e000003"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="1e5d2feb-3c81-4c0e-86d8-37337603234a"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="9a6d3cbe-5b9c-4a87-aec2-9bb6f4000003"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="743a3998-636a-4b39-951b-f742a56b07fc"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="2c80f52b-7d4d-4e06-9a3a-57c8e6000003"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="c8234320-35f5-44ff-85a2-4e4366de02f2"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="7bca7a43-1a54-4f03-bf6d-b69f5f000003"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="db885144-a364-4e40-bae0-778608a5d689"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="d2a3f9a6-5c93-46a0-bb4c-8a9dfc000003"/>
+                    <attribute id="Value" type="LSString" value="CAMPGROWTH_HARD"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="0bf382a5-e32a-4310-807c-6de89de471b2"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="b7e9c8a0-6c59-4e6c-9f69-83d0a4000003"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="1e8586e0-b957-4cf1-a0d4-aaf99f60d954"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="5c8e45d0-fb69-4c66-b5b3-03e1d3000003"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="33bd456b-e716-4ff7-aca7-04b61aaf5d9a"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="d0f6f4a5-6d42-4d5b-8f0d-6b5d7e000003"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="fccef0aa-8e28-4b7b-b661-c33094c5f3f7"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="f2e8c7b9-0f3d-4d9a-b6d5-72c4b1000003"/>
+                    <attribute id="Value" type="LSString" value="LOOTBALANCING_RUTHLESS"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="ef0506df-da9f-40e2-903a-1349523c1ae4"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="a54d9e7f-3a72-4f3d-bcb7-5c84c8000003"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="b843263f-869c-4a21-960d-867091e8bd04"/>
+                    <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
+                    <attribute id="UUID" type="guid" value="6d90d28c-8a35-4d75-b06f-3f64a9000003"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="338450d9-d77d-4950-9e1e-0e7f12210bb3"/>
+                    <attribute id="Ruleset" type="guid" value="5d595a7a-6182-4559-b404-ed7cc7ad8ada"/>
+                    <attribute id="UUID" type="guid" value="7d844dc4-9475-4479-885b-df207a000004"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="338450d9-d77d-4950-9e1e-0e7f12210bb3"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="7d844dc4-9475-4479-885b-df207a000005"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="968ce114-d656-407c-88c2-0c071fe2181b"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="4a2deddb-0d13-415a-8ba0-cda6de000005"/>
+                    <attribute id="Value" type="LSString" value="AILETHALITY_BRUTAL"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="7d788f28-1df5-474b-b106-4f8d0b6de928"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="95750bdb-ddb2-47bd-ab03-b7c242000005"/>
+                    <attribute id="Value" type="LSString" value="STATUS_MYTHIC"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="4a8d7b18-b6ed-42f0-b542-c06ec11ceaea"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="2fcfc4e8-45ab-40a6-b372-f9e525000005"/>
+                    <attribute id="Value" type="LSString" value="HARD"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="cac2d8bd-c197-4a84-9df1-f86f54ad4521"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="a1b0dfe6-f51e-4c2b-9c9c-4b3f7a000005"/>
+                    <attribute id="Value" type="LSString" value="HARD"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="226a83ca-abc9-4e98-90a2-4219471a5b15"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="3bc6f4f8-03a0-4fd7-beb6-3a4a7c000005"/>
+                    <attribute id="Value" type="LSString" value="0"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="ebb6a5ea-07d4-4176-b787-bbdab2758527"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="2d5b0d74-3c48-4f2e-8f45-8bfa1e000005"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="8a26f431-6f20-4f62-9733-160c77fe4879"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="6c682c0c-6b84-4f93-b14e-d4b4c8000005"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="b2bf9487-6d94-4292-803f-1c2bdf0975c6"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="f7e9f91b-3d91-42e6-a5c5-0d9d7c000005"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="f6fa6955-80a8-4b26-b8f4-1e39ff4cd9ed"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="c0a03b62-89de-4c0a-81d6-02fca7000005"/>
+                    <attribute id="Value" type="LSString" value="2.0"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="1d9a608a-3885-4d48-8816-458e40d1136e"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="1e67a8d2-b8e1-43c1-a7d5-15f03c000005"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="f52ca62e-e7ee-435a-853f-454b2303c278"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="6f0e13b0-2a5d-4dc6-84c3-9f6d56000005"/>
+                    <attribute id="Value" type="LSString" value="2.0"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="6b8b28a3-52cf-41e5-817e-0d3226135a7d"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="0eaa9e65-88c4-44c5-a842-2c7a58000005"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="89ef6d11-70f4-4215-bfd4-b4c9590819c2"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="4fd9f8c3-0a0d-4e51-9f76-8a17c6000005"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="9b349f94-e520-4c49-83e1-c0a8e0543710"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="e04d04c9-35f7-4c91-9d9b-0a0db4000005"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="19e33ff1-76fc-4447-a5ff-09a001e9544f"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="1d22f4a1-9c6c-4d5c-bad1-71d5f9000005"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="38fc0d10-ee64-40d6-b1d9-35f8de95b972"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="8a0dbb52-08db-49e0-8a73-3aef6e000005"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="1e5d2feb-3c81-4c0e-86d8-37337603234a"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="9a6d3cbe-5b9c-4a87-aec2-9bb6f4000005"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="743a3998-636a-4b39-951b-f742a56b07fc"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="2c80f52b-7d4d-4e06-9a3a-57c8e6000005"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="c8234320-35f5-44ff-85a2-4e4366de02f2"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="7bca7a43-1a54-4f03-bf6d-b69f5f000005"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="db885144-a364-4e40-bae0-778608a5d689"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="d2a3f9a6-5c93-46a0-bb4c-8a9dfc000005"/>
+                    <attribute id="Value" type="LSString" value="CAMPGROWTH_HARD"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="0bf382a5-e32a-4310-807c-6de89de471b2"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="b7e9c8a0-6c59-4e6c-9f69-83d0a4000005"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="1e8586e0-b957-4cf1-a0d4-aaf99f60d954"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="5c8e45d0-fb69-4c66-b5b3-03e1d3000005"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="33bd456b-e716-4ff7-aca7-04b61aaf5d9a"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="d0f6f4a5-6d42-4d5b-8f0d-6b5d7e000005"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="fccef0aa-8e28-4b7b-b661-c33094c5f3f7"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="f2e8c7b9-0f3d-4d9a-b6d5-72c4b1000005"/>
+                    <attribute id="Value" type="LSString" value="LOOTBALANCING_RUTHLESS"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="ef0506df-da9f-40e2-903a-1349523c1ae4"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="a54d9e7f-3a72-4f3d-bcb7-5c84c8000005"/>
+                    <attribute id="Value" type="LSString" value="false"/>
+                </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="b843263f-869c-4a21-960d-867091e8bd04"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="6d90d28c-8a35-4d75-b06f-3f64a9000005"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -209,25 +209,25 @@ function HiddenStrikesCheck()
 	return HasStringInSpellRoll('MeleeWeaponAttack') & ~HasUseCosts('ReactionActionPoint')
 end
 
-function IsRangedWeaponAttackCheck()
-    return HasStringInSpellRoll('RangedWeaponAttack') | SpellId('Zone_Blunderbuss_ScatterShot')
-end
-
-function IsRangedWeaponAttackCheckNoMultihit()
-    return HasStringInSpellRoll('RangedWeaponAttack') & ~NumberOfTargetsGreaterThan(1)
+function IsAetherSuspended(entity)
+    local entity = entity or context.Target
+	return HasAnyStatus({'SG_Sleeping_Magical'}, {}, {}, entity)
 end
 
 function IsCharismaModifierPositive()
 	return GetModifier(context.Source.Charisma) > 0
 end
 
-function IsAetherSuspended(entity)
-    local entity = entity or context.Target
-	return HasAnyStatus({'SG_Sleeping_Magical'}, {}, {}, entity)
-end
-
 function IsIntelligenceModifierPositive()
 	return GetModifier(context.Source.Intelligence) > 0
+end
+
+function IsRangedWeaponAttackCheck()
+    return HasStringInSpellRoll('RangedWeaponAttack') | SpellId('Zone_Blunderbuss_ScatterShot')
+end
+
+function IsRangedWeaponAttackCheckNoMultihit()
+    return HasStringInSpellRoll('RangedWeaponAttack') & ~NumberOfTargetsGreaterThan(1)
 end
 
 function IsStrengthModifierPositive()
