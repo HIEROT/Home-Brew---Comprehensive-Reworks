@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids" />
+	<region id="MaterialBank">
+		<node id="MaterialBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="6491365f-5c81-7fa9-ce94-fc8f2d7bcff6" />
+					<attribute id="Name" type="LSString" value="VFX_Decal_Deferred_AlphaBlend_Unlit_Emissive_PolarUV_UVDistortion_01_Cinder_Aura_02" />
+					<attribute id="SourceFile" type="LSString" value="Public/HomeBrew - Comprehensive Reworks/Assets/Materials/Effects/Decal/VFX_Decal_Deferred_AlphaBlend_Unlit_Emissive_PolarUV_UVDistortion_01_6491365f-5c81-7fa9-ce94-fc8f2d7bcff6.lsf" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="NonPolarMaskTexture_Power" />
+							<attribute id="GroupName" type="FixedString" value="Mask" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="1" />
+							<attribute id="BaseValue" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="MaskIntensity" />
+							<attribute id="GroupName" type="FixedString" value="Mask" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0.8" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="PolarUVExp" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0.5" />
+							<attribute id="BaseValue" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="_Fix_FlippedUV" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="MaskTexture_Power" />
+							<attribute id="GroupName" type="FixedString" value="Mask" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="1.5" />
+							<attribute id="BaseValue" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="MaskTexture_Power_DyP_Y" />
+							<attribute id="GroupName" type="FixedString" value="Mask" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Distortion_Invert" />
+							<attribute id="GroupName" type="FixedString" value="Distortion" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="_Temp_Distortion_Debug" />
+							<attribute id="GroupName" type="FixedString" value="Distortion" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="DistortionIntensity" />
+							<attribute id="GroupName" type="FixedString" value="Distortion" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0.1" />
+							<attribute id="BaseValue" type="float" value="0.15" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="MainTexture_is_RGB" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="MainTexture_Power" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="1.1" />
+							<attribute id="BaseValue" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Switch_ClampUvInput" />
+							<attribute id="GroupName" type="FixedString" value="Mask" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="1" />
+							<attribute id="BaseValue" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="MaskFadeOutExp" />
+							<attribute id="GroupName" type="FixedString" value="Mask" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="2" />
+							<attribute id="BaseValue" type="float" value="4" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Switch_UseFadeOutUseSmoothStep" />
+							<attribute id="GroupName" type="FixedString" value="Mask" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Switch_UseFadeInMiddle" />
+							<attribute id="GroupName" type="FixedString" value="Mask" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Switch_DynXSmoothStepMaxUseBaseValue" />
+							<attribute id="GroupName" type="FixedString" value="Mask" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Switch_AnimateFadeInMiddle_SmoothStepMin_DynX" />
+							<attribute id="GroupName" type="FixedString" value="Mask" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="1" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="OpacityMult" />
+							<attribute id="GroupName" type="FixedString" value="Opacity" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="1" />
+							<attribute id="BaseValue" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="UpAngleFade" />
+							<attribute id="GroupName" type="FixedString" value="Opacity" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Height" />
+							<attribute id="GroupName" type="FixedString" value="WorldSpace_HeightFalloff" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="2" />
+							<attribute id="BaseValue" type="float" value="2" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="HeightEXP" />
+							<attribute id="GroupName" type="FixedString" value="WorldSpace_HeightFalloff" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="3" />
+							<attribute id="BaseValue" type="float" value="3" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Use_WorldSpace_HeightFalloff" />
+							<attribute id="GroupName" type="FixedString" value="WorldSpace_HeightFalloff" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="AlphaClip" />
+							<attribute id="GroupName" type="FixedString" value="Opacity" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0.001" />
+							<attribute id="BaseValue" type="float" value="0.001" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="EmissiveToColor" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0.5" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Intensity" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="15" />
+							<attribute id="BaseValue" type="float" value="8" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="PostRamp_Intensity" />
+							<attribute id="GroupName" type="FixedString" value="ColorRamp" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="8" />
+							<attribute id="BaseValue" type="float" value="8" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="PostRamp_EXP" />
+							<attribute id="GroupName" type="FixedString" value="ColorRamp" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="1" />
+							<attribute id="BaseValue" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Switch_UseColorRamp" />
+							<attribute id="GroupName" type="FixedString" value="ColorRamp" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="UV_Center" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec2" value="0 0" />
+							<attribute id="BaseValue" type="fvec2" value="0 0" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="MaskTiling" />
+							<attribute id="GroupName" type="FixedString" value="Mask" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec2" value="0.6 2" />
+							<attribute id="BaseValue" type="fvec2" value="0.25 2" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="MaskScrollingSpeed" />
+							<attribute id="GroupName" type="FixedString" value="Mask" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec2" value="-0.035 0.025" />
+							<attribute id="BaseValue" type="fvec2" value="0.2 0" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="DistortionTiling" />
+							<attribute id="GroupName" type="FixedString" value="Distortion" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec2" value="0.55 3" />
+							<attribute id="BaseValue" type="fvec2" value="0.1 1" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="DistortionScrollingSpeed" />
+							<attribute id="GroupName" type="FixedString" value="Distortion" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec2" value="-0.12 0.025" />
+							<attribute id="BaseValue" type="fvec2" value="-0.1 0" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Tiling" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec2" value="0.5 1" />
+							<attribute id="BaseValue" type="fvec2" value="0.25 1" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="ScrollingSpeed" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec2" value="-0.06 -0.035" />
+							<attribute id="BaseValue" type="fvec2" value="-0.1 0" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="FadeOut_SmoothStep" />
+							<attribute id="GroupName" type="FixedString" value="Mask" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec2" value="0 0.3" />
+							<attribute id="BaseValue" type="fvec2" value="0.05 0.3" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="FadeInMiddle_SmoothStep" />
+							<attribute id="GroupName" type="FixedString" value="Mask" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec2" value="0 1" />
+							<attribute id="BaseValue" type="fvec2" value="0 0.3" />
+						</node>
+						<node id="VectorParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="DynamicParameter" />
+							<attribute id="GroupName" type="FixedString" value="Other" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="Value" type="fvec4" value="0 0 0 0" />
+							<attribute id="BaseValue" type="fvec4" value="0 0 0 0" />
+							<attribute id="IsColor" type="bool" value="False" />
+						</node>
+						<node id="VectorParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="_MeshVertexColor" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="Value" type="fvec4" value="1 1 1 1" />
+							<attribute id="BaseValue" type="fvec4" value="1 1 1 1" />
+							<attribute id="IsColor" type="bool" value="False" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="NonPolarMask" />
+							<attribute id="GroupName" type="FixedString" value="Mask" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="ID" type="FixedString" value="67392dc5-6c5d-4d03-af6a-ec0df47e53c6" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="MaskTexture" />
+							<attribute id="GroupName" type="FixedString" value="Mask" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="ID" type="FixedString" value="d151cab2-734e-3e3f-532d-47ad653f16b9" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="DistortionTexture" />
+							<attribute id="GroupName" type="FixedString" value="Distortion" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="ID" type="FixedString" value="c8eef097-d8b4-bbb7-501a-ee3fab036421" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="MainTexture" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="ID" type="FixedString" value="34f1ce22-bf32-3b29-b1dd-6d198894cb79" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="ColorRamp" />
+							<attribute id="GroupName" type="FixedString" value="ColorRamp" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="ID" type="FixedString" value="5da99ff3-7660-666d-fb21-ce10415b594a" />
+							<attribute id="IgnoreTexelDensity" type="bool" value="True" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

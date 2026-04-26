@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="3798884f-367f-0e2d-ad3b-d5fe0815e59a" />
+					<attribute id="Name" type="LSString" value="VFX_Spells_Prepare_Paladin_PhoenixLanding_Root_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/HomeBrew - Comprehensive Reworks/Assets/Effects/Effects_Banks/VFX_Spells_Prepare_Paladin_PhoenixLanding_Root_01.lsfx" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Spells_Prepare_Paladin_PhoenixLanding_Root_01" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -2 -3" />
+					<attribute id="BoundsMax" type="fvec3" value="3 4 3" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="92426c7f-ae8a-4e88-a86b-31818b7fc99e" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="706c6118-b534-ecc1-051c-6699673cca6a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6afbcd12-823c-4d2b-bb97-a02e104e0c41" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7fda79bd-c13f-4d2d-949b-548dfeb1a927" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f812d39c-7d2b-e112-931a-9265f910dbc0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9991b890-11fa-6528-6148-6958dbe5cf4b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="321fd710-fc91-c5ac-de2e-e2acb0957524" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3526dfd3-14fd-8a5b-7813-277dcec1dea6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="435ad0a3-796b-b733-77de-838a7de1add5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="31365a2b-5e1f-0de7-7c06-78201142cd97" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="eae19b05-af2e-679b-1c45-e09a9830c54e" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="44192e18-75cf-4d16-1747-81ed534b8247" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1f1e674c-ccf6-1063-8e53-a1bfc98d5939" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7bdafec7-27dd-539a-e30b-3a3fb9311196" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

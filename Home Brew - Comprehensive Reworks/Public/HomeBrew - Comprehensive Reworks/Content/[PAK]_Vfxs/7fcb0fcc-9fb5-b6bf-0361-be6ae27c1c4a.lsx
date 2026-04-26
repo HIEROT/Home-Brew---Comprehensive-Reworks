@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids" />
+	<region id="MaterialBank">
+		<node id="MaterialBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="7fcb0fcc-9fb5-b6bf-0361-be6ae27c1c4a" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Forge_Cleric_Hammer_GM_Fire" />
+					<attribute id="SourceFile" type="LSString" value="Public/HomeBrew - Comprehensive Reworks/Assets/Materials/Base/Base_GradientMapping_2G_GM_VT.lsf" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="GlowIntensity" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="25" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="GradientIndex" />
+							<attribute id="GroupName" type="FixedString" value="1Gradient" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="6" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="NumberOfGradients" />
+							<attribute id="GroupName" type="FixedString" value="1Gradient" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="32" />
+							<attribute id="BaseValue" type="float" value="32" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Glow_Color" />
+							<attribute id="GroupName" type="FixedString" value="Glow" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="1 0.21576439 0.04145189" />
+							<attribute id="BaseValue" type="fvec3" value="0 0.7962012 1" />
+							<attribute id="IsColor" type="bool" value="False" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="glowmap" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="ID" type="FixedString" value="4cbafa1e-e70d-ab04-b960-1f7a3af32cb4" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="MSK" />
+							<attribute id="GroupName" type="FixedString" value="0Textures" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="ID" type="FixedString" value="4cbafa1e-e70d-ab04-b960-1f7a3af32cb4" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Gradients" />
+							<attribute id="GroupName" type="FixedString" value="0Textures" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="ID" type="FixedString" value="a3d9d9f4-2ec2-385c-e03b-3d5c0a3988c9" />
+						</node>
+						<node id="VirtualTextureParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="virtualtexture" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="ID" type="FixedString" value="6917d97f-7ae8-b127-95f0-fa78de352cda" />
+							<attribute id="Index" type="int32" value="0" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
