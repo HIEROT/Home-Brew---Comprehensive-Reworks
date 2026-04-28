@@ -57,6 +57,7 @@
 
 	<content contentuid="h978e1507gf90eg49b5ga5f8g5b1c0548d77f" version="1">Burning</content>
 	<content contentuid="h749103c1g241dg4d07g923eg977717a2d981" version="4">Affected creature takes [1] at the beginning of each of their turns.&lt;br&gt;&lt;br&gt;Removed if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
+	<content contentuid="h99d294b8g2508g49b4g92a4g214b958fa5b7" version="1">Deals 1d12 Fire damage per turn.</content>
 
 	<content contentuid="h4d641c85g4f32g46d8gad47gd88070b9d62c" version="1">Eternal Flames</content>
 	<content contentuid="h8696a024g7942g464bg8f97geb0ba0900378" version="1">Affected creature takes [1] at the beginning of each of their turns.</content>
@@ -109,8 +110,8 @@
 	<content contentuid="92028d1c93474f8b821ee0eb2d82b9c70000e" version="1">Attempt to distract a creature, granting your allies &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against it.</content>
 	<content contentuid="hf81e3916ge07ag49b7gabacg35a992606feb" version="1">Distracted</content>
 	<content contentuid="h4c8ca661g0c77g4faeg9a8egc3d42e33765b" version="2">Affected creature is no longer paying any attention to their surroundings. They cannot utilize their armours elemental &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The distractor's allies have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against the this creature.&lt;br&gt;&lt;br&gt;Removed if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
-	<content contentuid="hf81e3916ge07ag49b7gabacg35a992606feb" version="1">Distracted Immunity</content>
-	<content contentuid="h4c8ca661g0c77g4faeg9a8egc3d42e33765b" version="2">Affected creature is focused, and cannot be &lt;LSTag Type="Status" Tooltip="DISTRACTED"&gt;Distracted&lt;/LSTag&gt;.</content>
+	<content contentuid="hf81e3916ge07ag49b7gabacg35a992immune" version="1">Distracted Immunity</content>
+	<content contentuid="h4c8ca661g0c77g4faeg9a8egc3d42eimmune" version="2">Affected creature is focused, and cannot be &lt;LSTag Type="Status" Tooltip="DISTRACTED"&gt;Distracted&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hf81e3916ge07ag49b7gabacas5d4fs887548" version="1">Critically Distracted</content>
 	<content contentuid="h4c8ca661g0c77g4faeg9a8egc3s5d4f69858" version="2">Affected creature is no longer paying any attention to their surroundings.&lt;br&gt;&lt;br&gt;&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against them are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
@@ -395,7 +396,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h19bf1f97gaf08g4544g9s8d9f8s954654d85" version="2">Affected creature is distracted. The next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; made against them will be rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Removed if damaged or &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h07618e62g5a92g4e09gaaa9gad303a7d5674" version="1">Poison Spray</content>
-	<content contentuid="he2f86eb4g6905g465ag916dge1eaefd62e3f" version="3">Conjure and project a virulent cloud of poisonous gas. Additional clouds will project toward any enemies who are &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;.</content>
+	<content contentuid="he2f86eb4g6905g465ag916dge1eaefd62e3f" version="3">Conjure and project a virulent cloud of poisonous gas. Additional clouds will project toward any enemies under the effects of a poisonous condition.</content>
 
 	<content contentuid="hfd755f83gdef4g4c34g9b6fg44ab3fd26c96" version="1">Produce Flame</content>
 	<content contentuid="hbc3e6f17g63f2g461eg9454g5115c0d2ece3" version="5">Conjure a holy flame in your hand, shedding a light in a [1] radius. This flame may then be &lt;LSTag Type="Spell" Tooltip="Projectile_ProduceFlame_Hurl"&gt;Projected&lt;/LSTag&gt; into a target in order to wreathe them in &lt;LSTag Type="Status" Tooltip="BURNING_HOLY"&gt;Eternal Flames&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;Projecting the flame on the turn that it was produced may be done as a free action.</content>

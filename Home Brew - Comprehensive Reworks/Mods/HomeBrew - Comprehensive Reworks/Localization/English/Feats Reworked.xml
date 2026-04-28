@@ -311,7 +311,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ARCANE ECHOES</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf68878d03" version="2">Arcane Echoes</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250c" version="3">Once per turn, you recover a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; of a random level.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250c" version="3">Once per turn, gain between one and six &lt;LSTag Type="ActionResource" Tooltip="ArcaneEchoesPoint"&gt;Arcane Echo&lt;/LSTag&gt;. Arcane Echoes may be used to recover your &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt;.</content>
 	<content contentuid="212a895d77db42d6f3d5f8rbc4431d38000z0" version="1">Arcane Echoes</content>
 	<content contentuid="212a895d77db42d6f3d5f8rbc4431d38000zz" version="1">Utilized to recover &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; through &lt;LSTag Type="Spell" Tooltip="Shout_ArcaneEchoes"&gt;Arcane Echoes&lt;/LSTag&gt;.</content>
 	<content contentuid="212a895d77db42d6f3d5f8rbc4431d38000z1" version="6">Arcane Echoes</content>

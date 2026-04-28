@@ -1094,7 +1094,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">THE DEATHSTALKERS MANTLE</content>
 	<content contentuid="h27bf0c06g717ag4e4dgaa69g5f47eef6ed1f" version="2">The Shadow Itself</content>
-	<content contentuid="h540ed943g4bc4g4262g9258gc149f997f7f0" version="8">Once per turn when you kill an enemy, shroud yourself in primaeval darkness, benefitting from the effects of &lt;LSTag Type="Status" Tooltip="GREATER_INVISIBILITY"&gt;Greater Invisibility&lt;/LSTag&gt; for [1] turns.</content>
+	<content contentuid="h540ed943g4bc4g4262g9258gc149f997f7f0" version="8">Once per turn when you kill an enemy, shroud yourself in primaeval darkness, benefitting from the effects of &lt;LSTag Type="Status" Tooltip="GREATER_INVISIBILITY"&gt;Greater Invisibility&lt;/LSTag&gt; for [1] turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ROBE OF SUPREME DEFENCES</content>
 	<content contentuid="h039b5a8fgda00g480eg8729g8909bbf04a95" version="3">Exquisite Focus</content>

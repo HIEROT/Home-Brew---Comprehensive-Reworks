@@ -378,7 +378,7 @@ data "DisplayName" "h4d476cb8gfa45g4f4cga9d1gd0b109e9f9a2;4"
 data "Description" "h20b19b1bg5da3g41d4g901bgd1d613fe8115;4"
 data "Icon" "PassiveFeature_ColossusSlayer"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "IF(HasStatus('HUNTED', context.Target)):Reroll(Damage,20,false);IF(HasStatus('HUNTED', context.Target) and (Enemy(context.Target) or Item(context.Target))):;IgnoreResistance(Bludgeoning,Resistant);IF(HasStatus('HUNTED', context.Target) and (Enemy(context.Target) or Item(context.Target))):;IgnoreResistance(Piercing,Resistant);IF(HasStatus('HUNTED', context.Target) and (Enemy(context.Target) or Item(context.Target))):;IgnoreResistance(Slashing,Resistant)"
+data "Boosts" "IF(HasStatus('HUNTED', context.Target)):Reroll(Damage,20,false);IF(Enemy(context.Target) or Item(context.Target)):IgnoreResistance(Bludgeoning,Resistant);IF(Enemy(context.Target) or Item(context.Target)):IgnoreResistance(Piercing,Resistant);IF(Enemy(context.Target) or Item(context.Target)):IgnoreResistance(Slashing,Resistant)"
 
 new entry "TwinnedStrikes"
 type "PassiveData"
