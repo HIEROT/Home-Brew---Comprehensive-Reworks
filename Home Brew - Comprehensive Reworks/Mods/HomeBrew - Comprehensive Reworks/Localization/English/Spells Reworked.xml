@@ -1753,7 +1753,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="hcb951227gdfa5g42f8g931cg154dac597e5f" version="1">No &lt;LSTag Tooltip="Thrown"&gt;Throwing&lt;/LSTag&gt; weapon equipped.&lt;br&gt;</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600001" version="1">Battle High</content>
-	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000a" version="3">While below 75% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to this weapons damage.</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000a" version="3">While below 75% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to this weapon's damage.</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600002" version="1">Dazing Strikes</content>
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000b" version="3">When dealing damage with this weapon, you potentially &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Daze&lt;/LSTag&gt; your target for one turn.</content>
@@ -1824,7 +1824,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000w" version="3">When dealing damage with this weapon, you potentially force your target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600024" version="1">Blade Weaver</content>
-	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000x" version="3">Once per turn, as a free action, you may strike with this weapons haft.</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000x" version="3">Once per turn, as a free action, you may strike with this weapon's haft.</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600025" version="1">Opportune Stopping Power</content>
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000y" version="3">Making an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; with this weapon will immobilize your target.</content>
@@ -1857,7 +1857,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h078069acgf62bg4c64g9322938rw9feusjf3" version="1">Relinquish control of your summoned creatures, allowing them to act on their own accord. This effect can be toggled at any time.</content>
 	<content contentuid="h4d0c77c3g56aag4077g80c4g3bkjdsi22d5f" version="1">Summon Buffs</content>
 	<content contentuid="h4d0c77c3g56aag4077g80c4g3bkjdsiff6d8" version="1">Buffs applied to this summon due to the passive effects of their summoner.</content>
-	<content contentuid="h197f62bbgd1ddg4436g90df5s6s5d4f56f45" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This passive effect applies to any creatures that you summon.</content>
+	<content contentuid="h197f62bbgd1ddg4436g90df5s6s5d4f56f45" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This passive effect also applies to any creatures that you summon.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ON SAVE EVENTS</content>
 
