@@ -178,7 +178,7 @@ Steel</content>
 	<content contentuid="9b7b811b9c3043e189f945540bf939dkkdjje" version="1">Learn two distinct bardic combat techniques.</content>
 
 	<content contentuid="h044a8a17g48efg4beeg928dgab0da805d9f8" version="4">Defensive Flourish (Melee)</content>
-	<content contentuid="h8a371d2dg2e4ag40f6ga81fgdc54201ae616" version="7">Quickly strike and assume a defensive stance, increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by +[1]. </content>
+	<content contentuid="h8a371d2dg2e4ag40f6ga81fgdc54201ae616" version="7">Quickly strike and assume a defensive stance, increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by +[1].</content>
 
 	<content contentuid="h1d68bdddgab35g467bgad0dg4a8e07d9d83e" version="4">Mobile Flourish (Melee)</content>
 	<content contentuid="hc329d774gdabeg476agab5eg226cc81dd318" version="4">Thrust your weapon with enough force to push your target back [1]. Afterwards, you can &lt;LSTag Type="Spell" Tooltip="Target_BladeFlourish_Mobile_FollowUp"&gt;Teleport&lt;/LSTag&gt; to an area you can see.</content>

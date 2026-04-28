@@ -521,6 +521,13 @@
 					<attribute id="UUID" type="guid" value="750c4922-f381-4f37-bf26-1d0a91a7a797"/>
                 </node>
 				<node id="Feat">
+                    <attribute id="Name" type="FixedString" value="PaladinOathbreaker"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Smite_Oathbroken;Vicious_Condemnation_Melee;Vicious_Condemnation_Ranged;Vicious_Condemnation_Melee_Technical;Vicious_Condemnation_Ranged_Technical" />
+                    <attribute id="Selectors" type="LSString" value="AddSpells(cb1e5aad-26cd-4370-a179-5536bfcc3d47)"/>
+					<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Paladin&apos;)"/>
+					<attribute id="UUID" type="guid" value="3998987c-004f-4913-b7a7-62610e3cb45e"/>
+                </node>
+				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RangerBeastmaster"/>
                     <attribute id="PassivesAdded" type="LSString" value="CompanionsBond;ShieldoftheWildfront;WoodlandSynergy"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Ranger&apos;)"/>

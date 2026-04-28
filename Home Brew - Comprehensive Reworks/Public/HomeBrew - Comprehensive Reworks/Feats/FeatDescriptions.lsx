@@ -649,6 +649,13 @@
                     <attribute id="UUID" type="guid" value="bb62ee5a-8f58-4af7-8d43-ffe15f3753aa"/>
                 </node>
                 <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-6a5sd42e6f8e" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="c09b13fa-d82c-4b47-ad5a-6a5sd4fe2f41" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="PaladinOathbreaker"/>
+                    <attribute id="FeatId" type="guid" value="3998987c-004f-4913-b7a7-62610e3cb45e"/>
+                    <attribute id="UUID" type="guid" value="db825127-33ef-42a2-bff7-ea91278b4a1b"/>
+                </node>
+                <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-5sd6f545df29" version="4"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="e63cefa5-efd4-40d4-8dad-2430d3ba04ed" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="RangerBeastmaster"/>

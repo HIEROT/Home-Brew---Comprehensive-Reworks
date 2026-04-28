@@ -385,6 +385,22 @@ data "RemoveConditions" "not HasTemporaryHP()"
 data "RemoveEvents" "OnDamage"
 data "StatusEffect" "5ba165e7-2ff4-49fc-9c64-ad4d080f2b24"
 
+<!--NECROMITE-->
+
+new entry "MOO_DEATHBLOOM_SPAWN"
+type "StatusData"
+data "StatusType" "BOOST"
+using "AI_HELPER_AVOIDAREA_RADIUS4"
+data "DisplayName" "h4d0c77c3g56aag4077g80c4g3bb4016ac24f;2"
+data "Description" "h078069acgf62bg4c64g9329g0f5210297f64;4"
+data "DescriptionParams" "DealDamage(3d8+3,Necrotic)"
+data "Icon" "GenericIcon_DamageType_Necrotic"
+data "StackId" "MOO_DEATHBLOOM_SPAWN"
+data "TickType" "StartTurn"
+data "TickFunctors" "IF(Combat(GetSummoner(context.Source))):RemoveStatus(MOO_DEATHBLOOM_SPAWN);IF(not Combat(GetSummoner(context.Source))):Kill()"
+data "StatusPropertyFlags" "ApplyToDead"
+data "StatusEffect" "96a8cadb-1cba-456c-9d51-f80121ffca48"
+
 <!--OWLBEAR-->
 
 new entry "FOR_OWLBEAR_ENRAGE_HARDCORE"

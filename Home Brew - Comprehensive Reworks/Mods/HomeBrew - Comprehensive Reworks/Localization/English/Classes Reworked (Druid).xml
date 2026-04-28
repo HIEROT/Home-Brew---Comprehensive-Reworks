@@ -25,7 +25,7 @@
 	<content contentuid="9b7b811b9c3043e189f945540bf516a2e5d64" version="1">As a Druid, you may assume the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;. Toggling this passive allows you to Wildshape using either your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This may be toggled at any time.</content>
 
 	<content contentuid="hde7c0e66g9526g4e3bgb10cg1f7f82300b96" version="1">Wildshape</content>
-	<content contentuid="h641039d1gd640g4f6agb229g672cba8a4f93" version="5">Magically assume the shape of a beast. </content>
+	<content contentuid="h641039d1gd640g4f6agb229g672cba8a4f93" version="5">Magically assume the shape of a beast.</content>
 	<content contentuid="h80dbdd11g5eedg4a73g9a07gfd95bce69f4e" version="6">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, you cannot speak or cast Spells. You take on the attributes of your beast form - excluding your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;, and &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; scores. Equipped items will still apply to you while assuming the form of a Wildshape.</content>
 	<content contentuid="h33261eafgc1fcg44ceg95ddg9caac3391e3e" version="1">Cannot use.</content>
 	<content contentuid="hee7ec66egdfdcg4c1cga880gaf6d84c8b338" version="1">Cannot use.</content>
@@ -404,7 +404,7 @@
 	<content contentuid="h7ef910b7ga2ffg4ba2g8f3dg86fd10c06ef2" version="2">Wildshape: Myrmidon (Earth)</content>
 	<content contentuid="hf21293c5gb5e1g4637g913ageeef6866e0c8" version="4">Take the shape of an earth myrmidon that can increase its &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by casting &lt;LSTag Type="Spell" Tooltip="Shout_MetalCoating_Myrmidon_Earth"&gt;Transmute Steel&lt;/LSTag&gt; and obliterate nearby enemies with a &lt;LSTag Type="Spell" Tooltip="Shout_MudSlap_Myrmidon_Earth"&gt;Seismic Slam&lt;/LSTag&gt;.</content>
 	<content contentuid="he9779092g07eag4803g8985g5dad94dfaff2" version="3">Earthern Fists</content>
-	<content contentuid="ha1781beag088eg4234g9719gec35046240f6" version="4">Wallop a foe with fists of stone. </content>
+	<content contentuid="ha1781beag088eg4234g9719gec35046240f6" version="4">Wallop a foe with fists of stone.</content>
 	<content contentuid="h7faa79cbg43b5g494ag8f93g5ac0158114fe" version="2">Transmute Steel</content>
 	<content contentuid="h432742edg6cfeg4b10ga0b7gf22bff1d9d0c" version="4">Harden your body into a substance like steel, increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1] until your next turn.</content>
 	<content contentuid="haaf79ba9g023eg4c67g8467g8ea58c921757" version="2">Transmute Steel</content>
@@ -430,9 +430,9 @@
 	<content contentuid="hd97d3cd0ga17bg4f76g9edbg6322bb538731" version="2">Wildshape: Myrmidon (Water)</content>
 	<content contentuid="hf2b46947gc29fg43aag85b6g37bfb37bb24d" version="5">Take the shape of a water myrmidon that can heal or destroy with &lt;LSTag Type="Spell" Tooltip="Shout_HealingMist_Myrmidon_Water"&gt;Elemental Vapours&lt;/LSTag&gt; and pierce enemies with a &lt;LSTag Type="Spell" Tooltip="Projectile_ExplosiveIcicle_Myrmidon_Water"&gt;Snap Freeze&lt;/LSTag&gt;.</content>
 	<content contentuid="h630ac320gce30g4ca0g81b7g7daf663d5c69" version="2">Snap Freeze</content>
-	<content contentuid="h4b979c0eg5c6fg4155g88f8gd20bf5bea64b" version="2">Hurl a ball forged of glistening ice that explodes and creates an ice surface on impact. </content>
+	<content contentuid="h4b979c0eg5c6fg4155g88f8gd20bf5bea64b" version="2">Hurl a ball forged of glistening ice that explodes and creates an ice surface on impact.</content>
 	<content contentuid="h63f164b2g477eg4fa8gb8fcg96a2eedf1bef" version="2">Elemental Vapours</content>
-	<content contentuid="hc57b60eeg129eg4b5cg8b97g34e617ade362" version="4">Exude water vapour from your body, healing nearby creatures, or savaging them if you are &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;. </content>
+	<content contentuid="hc57b60eeg129eg4b5cg8b97g34e617ade362" version="4">Exude water vapour from your body, healing nearby creatures, or savaging them if you are &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;.</content>
 	<content contentuid="h8a3be1afg54d1g444fgb012gaf2d572f8d71" version="4">If &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;, the vapour will instead deal [1].</content>
 	<content contentuid="h18fc96d1g4ba5g41c4g9509g87jfiej78451" version="1">Natural Flight</content>
 	<content contentuid="hb2cd1c68g7269g4564ga1c5g6eaf6a993988" version="2">As a manifestation of one of nature's core elements, you are always capable of flight, rather than jumping.</content>

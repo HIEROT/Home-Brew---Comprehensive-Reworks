@@ -471,7 +471,7 @@
 	<content contentuid="h509b8e00gacb9g46e8d55s6d5f4ef4500003" version="1">Summon Musket</content>
 	<content contentuid="h509b8e00gacb9g46e8d5f4e6as8dfe80000c" version="2">Summon a musket capable of dealing high single target damage at a long range.</content>
 
-    <content contentuid="h9948c4df266c474c8f2a9e9f7c75bd508e81" version="1">Reload</content>
+	<content contentuid="h9948c4df266c474c8f2a9e9f7c75bd508e81" version="1">Reload</content>
 	<content contentuid="h60fad97c1f12406089daa939fafbde5dc671" version="1">Restore your supply of &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt; and clear any &lt;LSTag Type="Status" Tooltip="FIREARM_MALFUNCTION"&gt;Misfires&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6e14d0af00b24f35a154d0b96e68a1b067d4" version="1">Misfire</content>

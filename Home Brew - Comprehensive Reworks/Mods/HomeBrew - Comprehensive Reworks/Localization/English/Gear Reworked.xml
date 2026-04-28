@@ -140,7 +140,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HAG HAIR</content>
 	<content contentuid="he3613a4egb36fg4e21g9b64gf28eb5ea79fd" version="1">You want to be stronger? Tougher? Smarter? Done! Anything is possible.</content>
-	<content contentuid="hb9985314gbdaeg43abgb09eg0ba62f84f450" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;. </content>
+	<content contentuid="hb9985314gbdaeg43abgb09eg0ba62f84f450" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;.</content>
 	<content contentuid="h893ca8b9g6fb3g4becg8313gfad6a93c0ad7" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;.</content>
 	<content contentuid="h2613a90bg932fg4a04g9533ga8aa80ba3222" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt;.</content>
 	<content contentuid="hcd29882agc525g43a4gb69ag577fc554d421" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;.</content>
@@ -547,14 +547,14 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">GLOVES OF HAIL OF THORNS</content>
 	<content contentuid="he32b12d4g39f6g48edgac83gc0e56ab3b8dc" version="3">Gloves of Thorns</content>
-	<content contentuid="h67b2e826g9777g4c0eg8817gf53e0186e355" version="2">Whoever previously owned these gloves marked each with a series of thirty superficial scrapes, six per finger. What they indicate is unclear.&lt;/i&gt; </content>
+	<content contentuid="h67b2e826g9777g4c0eg8817gf53e0186e355" version="2">Whoever previously owned these gloves marked each with a series of thirty superficial scrapes, six per finger. What they indicate is unclear.&lt;/i&gt;</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HELLDUSK ARMOUR</content>
 	<content contentuid="h416d4ca9gedbcg43begaac9g68226d5885d4" version="2">Hellflame's Retaliation</content>
 	<content contentuid="hfc8d126dgb4ebg443bg8a5dg19ss5d6f8787" version="5">The wearer may cast &lt;LSTag Type="Spell" Tooltip="Target_HellishRebuke_6"&gt;Hellish Rebuke&lt;/LSTag&gt; as a sixth level Spell without expending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h416d4ca9gedbcg43begaac9g68226d5225d6" version="2">Hellflame's Protection</content>
-	<content contentuid="hfc8d126dgb4ebg443bg8a5dg19ss5d66s8d7" version="5">The wearer is &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt;  to all forms of Fire based damage.</content>
+	<content contentuid="hfc8d126dgb4ebg443bg8a5dg19ss5d66s8d7" version="5">The wearer is &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to all forms of Fire based damage.</content>
 
 	<content contentuid="h416d4ca9gedbcg43begaac9g68226d54ds58" version="2">Hellflame's Embrace</content>
 	<content contentuid="hfc8d126dgb4ebg443bg8a5dg19ss5s5d558f" version="5">The wearer deals an additional [1] when dealing damage.</content>
@@ -589,7 +589,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">SETHAN</content>
 	<content contentuid="h23f0c954gd79bg435fg9cf9g09c5a6118392" version="2">Sethan: Spiritual Greataxe</content>
-	<content contentuid="hae471f22g1856g4c00gad59gb7ab56022520" version="1">Summon six spiritual twins of Sethan at a point you can see. </content>
+	<content contentuid="hae471f22g1856g4c00gad59gb7ab56022520" version="1">Summon six spiritual twins of Sethan at a point you can see.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">STAFF OF CHERISHED NECROMANCY</content>
 	<content contentuid="hc78d53a5g6507g4176ga5begbbc16f57f543" version="2">Life Essence Absorbtion</content>
@@ -1043,7 +1043,7 @@
 	<content contentuid="hd6237ab2g83f8g4830gb80fg16e86775258b" version="2">The wearer's unarmed strikes deal additional damage equal to their &lt;LSTag Tooltip="AbilityModifier"&gt;Wisdom Modifier&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">THE SHADESPELL CIRCLET</content>
-	<content contentuid="h64fb6ffege8ceg4b35g8ab0g1c573dcd5241" version="2">Shadespell </content>
+	<content contentuid="h64fb6ffege8ceg4b35g8ab0g1c573dcd5241" version="2">Shadespell</content>
 	<content contentuid="hd22ea7ecgc9e2g47dbga2f0gc804c65f5827" version="6">While the wearer is obscured in shadow, they gain a +[1] bonus to their &lt;LSTag Tooltip="SpellDifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CORVID TOKEN</content>
@@ -1534,7 +1534,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">DUELLISTS PREROGATIVE</content>
 	<content contentuid="h711045a1g2e51g4ca1gbed0g1f418fa12e6b" version="1">Elegant Duellist</content>
-	<content contentuid="hd5a3914bgf8c8g4f2bg89c0gcca964daf305" version="2">While your off-hand is empty, reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 2. Additionally, you gain an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. </content>
+	<content contentuid="hd5a3914bgf8c8g4f2bg89c0gcca964daf305" version="2">While your off-hand is empty, reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 2. Additionally, you gain an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">DARK JUSTICIAR MASK</content>
 	<content contentuid="hcbb02b50g75d3g46a0239490wdasdfs5d4f2" version="1">Psychosis</content>
@@ -1594,11 +1594,11 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">THE SACRED STAR</content>
 	<content contentuid="h78cb566dg1b86g44c3g805cg3282813f6627" version="2">Dawnburst Strike</content>
-	<content contentuid="hf140e50bg68dag4893g84eeg84cc0566e0b7" version="2">Deal additional Radiant damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by two. On a hit, light erupts around you in a [1] area. Enemies in the light must succeed a Constitution based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or they become &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; for one turn. </content>
+	<content contentuid="hf140e50bg68dag4893g84eeg84cc0566e0b7" version="2">Deal additional Radiant damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by two. On a hit, light erupts around you in a [1] area. Enemies in the light must succeed a Constitution based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or they become &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; for one turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">TRIDENT OF THE WAVES</content>
 	<content contentuid="h1f8a1eb5gf249g4ff0gb449g0917279d6c1a" version="2">The Water Caller</content>
-	<content contentuid="h54d28573g3180g43bfgbcbcg0a85b8c97e05" version="2">This weapon always returns to you when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Thrown&lt;/LSTag&gt;. When dealing damage with this weapon, you create a [1] water surface centred around your target. </content>
+	<content contentuid="h54d28573g3180g43bfgbcbcg0a85b8c97e05" version="2">This weapon always returns to you when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Thrown&lt;/LSTag&gt;. When dealing damage with this weapon, you create a [1] water surface centred around your target.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MARKSMANSHIP HAT</content>
 	<content contentuid="h019c26f6g67b0g4b19ga98eg843c9d76d379" version="1">Marksmanship</content>
@@ -1723,7 +1723,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ENFORCER SHIELD</content>
 	<content contentuid="h91f13987gc0f4g45a4ga93cg69aa69c7aac1" version="2">Staunch Blessing</content>
 	<content contentuid="h09a66be1g32eag4f32gb00egb3a28897fe0d" version="5">When a creature misses the wielder of this shield with an attack, the wielder gains a +[1] bonus to their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
-	<content contentuid="hee388bdfgbd21g49bega590gd770156dfc80" version="2">Blessing of Authority </content>
+	<content contentuid="hee388bdfgbd21g49bega590gd770156dfc80" version="2">Blessing of Authority</content>
 	<content contentuid="hfbb93055gaca7g45f3gbddaga9a909674948" version="3">Affected creature's has a +[1] bonus to it's next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">IDOL OF SELUNE</content>
@@ -2284,9 +2284,9 @@
 	<content contentuid="hbad72f06g47b7g476fg847fg186749cecc71" version="1">Chaos Rod</content>
 	<content contentuid="hb4a3d36cga382g4f94g914cg303d4bd57a2a" version="1">This wand warps with barely-contained magic.</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea00004" version="1">Chaos Bolt</content>
-	<content contentuid="969ab85776d540a1b4b9d757b30281ea0000d" version="3">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; fire a bolt of chaotic magic. The bolt deals a random amount of elemental damage.</content>
+	<content contentuid="969ab85776d540a1b4b9d757b30281ea0000d" version="3">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; fire a bolt of chaotic &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. The bolt causes your target to experience a Wild Magic surge which causes a random amount of elemental damage.</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea000z4" version="1">Chaos Bolt</content>
-	<content contentuid="969ab85776d540a1b4b9d757b30281ea000zd" version="3">Fire a bolt of chaotic magic. The bolt deals a random amount of elemental damage.</content>
+	<content contentuid="969ab85776d540a1b4b9d757b30281ea000zd" version="3">Fire a bolt of chaotic &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. The bolt causes your target to experience a Wild Magic surge which causes a random amount of elemental damage.</content>
 
 	<content contentuid="h61845dcag490fg44e4g9669g730c45df2cbc" version="1">Necrotic Fetish</content>
 	<content contentuid="h59ec38aeg7d83g4480g9ecfgfe3fc0819627" version="1">This unsettling wand twists and thrums with necromantic energy.</content>
@@ -2330,11 +2330,11 @@
 	<content contentuid="hd61ed6a7gc34eg4ed8g972dg5c5292749d10" version="1">Split Fate</content>
 	<content contentuid="h449168cbg9efeg4293gbba6g89474fac6401" version="1">A shaving struck from the legendary staff, Markoheshkir.</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea00010" version="1">Divided Outcome</content>
-	<content contentuid="969ab85776d540a1b4b9d757b30281ea0000j" version="1">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; produce an unstable arcane eruption, dealing a random amount of damage to enemies, or restoring a random amount of health to allies.</content>
+	<content contentuid="969ab85776d540a1b4b9d757b30281ea0000j" version="1">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; produce an unstable &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;, dealing a random amount of damage to enemies, or restoring a random amount of health to allies.</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea00z10" version="1">Divided Outcome</content>
-	<content contentuid="969ab85776d540a1b4b9d757b30281ea000zj" version="3">Produce an unstable arcane eruption, dealing a random amount of damage to enemies, or restoring a random amount of health to allies.</content>
+	<content contentuid="969ab85776d540a1b4b9d757b30281ea000zj" version="3">Produce an unstable &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;, dealing a random amount of damage to enemies, or restoring a random amount of health to allies.</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea00b10" version="1">Unstable Threads</content>
-	<content contentuid="969ab85776d540a1b4b9d757b30281ea000bj" version="1">When targeting a creature with this wand while in combat, the eruption causes your target to potentially experience a surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. The surge will be either positive or negative, depending on who you target.</content>
+	<content contentuid="969ab85776d540a1b4b9d757b30281ea000bj" version="1">When targeting a creature with this wand while in combat, your target to potentially experiences a sudden surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. The surge will be either positive or negative, depending on who you target.</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea00c10" version="1">Severed Fate</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea000cj" version="1">Once per turn, killing a creature will restore a sixth level &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
 
