@@ -1113,6 +1113,20 @@ data "PoisonResistance" "Resistant"
 
 <!--------------------------------------------------NECROMITE
 
+new entry "COL_Ketheric_DeathBloom"
+type "Object"
+using "_BaseItem"
+data "RootTemplate" "47d0ac01-b412-44f6-9fcf-fe6888764c1d"
+data "Weight" "90"
+data "GameSize" "Medium"
+data "Vitality" "24"
+data "BludgeoningResistance" "Vulnerable"
+data "ColdResistance" "Resistant"
+data "FireResistance" "Resistant"
+data "NecroticResistance" "Immune"
+data "PsychicResistance" "Resistant"
+data "RadiantResistance" "Vulnerable"
+
 new entry "Skeleton_Necromite_NoXP"
 type "Character"
 data "Strength" "11"

@@ -172,7 +172,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(FirearmAmmo,3,0)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="NPC_Artificer" />
-					<attribute id="PassivesAdded" type="LSString" value="NPC_Artificer_Subclass;NPCConcentration_End;Reload_CombatEnded;SummonFirearm_Unlock;Firepower;NPC_Gun_Fix" />
+					<attribute id="PassivesAdded" type="LSString" value="NPC_Artificer_Subclass;NPCConcentration_End;Reload_CombatEnded;SummonFirearm_Unlock;Firepower" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="TableUUID" type="guid" value="d951b92f-acb5-44a6-b642-962cc4c30c17" />
 					<attribute id="UUID" type="guid" value="a049bacd-ad7d-485b-a1dd-ce100e757dda" />

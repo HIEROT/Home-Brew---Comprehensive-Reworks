@@ -32,13 +32,6 @@ data "Description" "h509b8e00gacb9g46e8d5f4e5fee8d5f0000c;1"
 data "Icon" "Passive_ArcaneFirearm"
 data "Properties" "Highlighted;ForceShowInCC"
 
-new entry "NPC_Gun_Fix"
-type "PassiveData"
-data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnTurn"
-data "Conditions" "Combat()"
-data "StatsFunctors" "IF(RollDieAgainstDC(DiceType.d4,2)):UseSpell(Shout_Summon_Firearm_Musket,true,true,true);IF(RollDieAgainstDC(DiceType.d4,2)):UseSpell(Shout_Summon_Firearm_Flintlock,true,true,true);IF(RollDieAgainstDC(DiceType.d4,2)):UseSpell(Shout_Summon_Firearm_Blunderbuss,true,true,true)"
-
 <!--BLUNDERBUSS-->
 
 new entry "LowRange_Firearm_Passive"

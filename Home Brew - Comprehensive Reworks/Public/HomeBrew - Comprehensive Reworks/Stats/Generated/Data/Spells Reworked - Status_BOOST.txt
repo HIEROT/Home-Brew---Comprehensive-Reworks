@@ -819,6 +819,7 @@ data "TickFunctors" "IF(not Tagged('TORCH')):DealDamage(1d12,Radiant,Magical)"
 data "StatusPropertyFlags" "InitiateCombat;Burning;DisableOverhead;IgnoreResting;FreezeDuration"
 data "StatusGroups" "SG_Cursed"
 data "StatusEffect" "9055845d-c778-44ba-a671-b0a112bacf61"
+data "RemoveEvents" "OnSourceDeath;OnCombatEnded"
 
 <!--BUTHIRS WRATH-->
 

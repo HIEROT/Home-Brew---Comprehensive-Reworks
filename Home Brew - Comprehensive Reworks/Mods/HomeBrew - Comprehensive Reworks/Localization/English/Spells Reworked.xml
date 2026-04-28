@@ -29,7 +29,7 @@
 	<content contentuid="h4560d443gb6e8g4c8cgbda5gd85c1b70e17c" version="2">Ancient Grudges</content>
 	<content contentuid="h4e28d939g42f4g4b9fga0c7g49696d273338" version="2">Filled with a touch of arcane gith knowledge.&lt;Br&gt;&lt;br&gt;Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against aberrations.</content>
 
-	<content contentuid="h86fef9afgeb0eg45e8g8388gd8e9f7c619b7" version="3">Anointed in Splendour </content>
+	<content contentuid="h86fef9afgeb0eg45e8g8388gd8e9f7c619b7" version="3">Anointed in Splendour</content>
 	<content contentuid="he4120ec1gc489g4f2fg947cgbe6449fed394" version="3">Affected creature's deity has flooded its mind with ancient secrets both benevolent and baleful. It has a +[1] bonus to all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ha5f07a62g4eefg4ce3gb36egbccbb316e957" version="2">Arcane Acuity</content>
@@ -271,7 +271,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h30df09d8g9eb9g47f5gb0f6gc4964d40cbc2" version="9">Affected creature has a [1] penalty to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; per stack. It also sheds bright light in a [2] area surrounding it.&lt;br&gt;&lt;br&gt;All stacks are removed once this creature makes an Attack Roll. If seven stacks are present when this condition is removed, all creatures within [3] are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; by an intense light.</content>
 
 	<content contentuid="h2e842c14gfaafg47a4gafaag2553e211f034" version="1">Rallied</content>
-	<content contentuid="h81de816fg12aeg4fe4gafafg8ae1064ee0e0" version="3">Affected creature has been granted [1] by a friendly combatant's rallying cry. </content>
+	<content contentuid="h81de816fg12aeg4fe4gafafg8ae1064ee0e0" version="3">Affected creature has been granted [1] by a friendly combatant's rallying cry.</content>
 
 	<content contentuid="hff445074g69fdg4e54g8243g0b1751dac7a0" version="2">Reeling</content>
 	<content contentuid="he7905c63g65b6g4588ga00dgbb13d01b2a96" version="5">Affected creature is recovering from physical recoil, suffering a -1 penalty to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; for every stack remaining.</content>
@@ -292,7 +292,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="hdbeb2408gf1c5g4b7fg9583g684f3ec93814" version="4">Affected creature's &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; has been reduced by [1] per stack and they are unable to utilize their armours physical &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;. Upon starting their turn, all stacks will be removed.</content>
 
 	<content contentuid="h6e0ca0bfgdbd9g4c1fga89ag6e9769de9961" version="1">Utterly Sickened</content>
-	<content contentuid="h0e543253g68deg47a0g8d6eg47e330b8c140" version="1">Affected creature is reeling from the inside out, and has become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to all types of damage. </content>
+	<content contentuid="h0e543253g68deg47a0g8d6eg47e330b8c140" version="1">Affected creature is reeling from the inside out, and has become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to all types of damage.</content>
 
 	<content contentuid="hf2e00d6cg3704g4d62gadf0g614a96sd8ff2" version="1">Muted</content>
 	<content contentuid="hb0820869g4747g46feg8111gb2e9fffff5d8" version="2">Affected creature cannot speak, preventing them from casting Spells with a verbal component.</content>
@@ -753,7 +753,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h078a4616g2b89g4cedg9ecagd5f4a5ec4a51" version="2">Dispel Evil And Good</content>
 	<content contentuid="hb3171791g1491g4596g9e5eg955b641a4534" version="4">Dispel all outside influence from a creature. Aberrations, Celestials, Elementals, Fey, Fiends, and Undead will have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when making &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against them.&lt;Br&gt;&lt;br&gt;The selected creature will also be able to &lt;LSTag Type="Spell" Tooltip="Target_DispelEvilAndGood_BreakEnchantment"&gt;Break Enchantments&lt;/LSTag&gt; that &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt;, or &lt;LSTag Type="Status" Tooltip="LOW_GHOST_POSSESSED"&gt;Possess&lt;/LSTag&gt; their allies.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
 	<content contentuid="hd50e0796g863bg4196g8549g431b6b2c3910" version="2">Dispel Evil and Good</content>
-	<content contentuid="hc80b0395g4197g4a78g9557g3a8307483051" version="3">Affected creature is protected from outside influence. Aberrations, Celestials, Elementals, Fey, Fiends and Undead roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when making &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against them. Additionally, they can &lt;LSTag Type="Spell" Tooltip="Target_DispelEvilAndGood_BreakEnchantment"&gt;Break Enchantments&lt;/LSTag&gt; that &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt;, or &lt;LSTag Type="Status" Tooltip="LOW_GHOST_POSSESSED"&gt;Possess&lt;/LSTag&gt; their allies. </content>
+	<content contentuid="hc80b0395g4197g4a78g9557g3a8307483051" version="3">Affected creature is protected from outside influence. Aberrations, Celestials, Elementals, Fey, Fiends and Undead roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when making &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against them. Additionally, they can &lt;LSTag Type="Spell" Tooltip="Target_DispelEvilAndGood_BreakEnchantment"&gt;Break Enchantments&lt;/LSTag&gt; that &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt;, or &lt;LSTag Type="Status" Tooltip="LOW_GHOST_POSSESSED"&gt;Possess&lt;/LSTag&gt; their allies.</content>
 
 	<content contentuid="h21d26c53g94c8g4f53ga031gc5f01f2156f8" version="1">Dissonant Whispers</content>
 	<content contentuid="h41773809gd654g4306g8c38gf8ed1448088d" version="6">Whisper maddening words of power to a creature, potentially &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; them.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Fighters&lt;br&gt;Sorcerers&lt;br&gt;Warlocks</content>
