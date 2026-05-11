@@ -301,7 +301,7 @@ object category "I_MAG_WPN_SoulWand",1,0,0,0,0,0,0,0
 new treasuretable "PLA_ZhentarimTrader_Common"
 CanMerge 1
 new subtable "1,1"
-object category "I_MAG_ChaosWand",1,0,0,0,0,0,0,0
+object category "I_MAG_WPN_ChaosRod",1,0,0,0,0,0,0,0
 
 new treasuretable "WYR_Thiefling_Trade"
 CanMerge 1

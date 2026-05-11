@@ -979,6 +979,9 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h9c45b075g7cfeg4557ga26fgbcee9d2040a5" version="1">Freedom of Movement</content>
 	<content contentuid="h1ee0dfcbg9ebcg4117gb921gebf190ea4a7d" version="3">Affected creature's &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is unaffected by &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, Spells, or magical effects. Additionally, they cannot be paralyzed or restrained.</content>
 
+	<content contentuid="hb14f7ccdg67afg4755g8d86g0b50b9220a16;3" version="15">Garrotted</content>
+	<content contentuid="h1e88c530ge710g465dgb3e0g5b3c4a81e356" version="15">Affected creature is being strangled by a garrotte. It is &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt;, cannot move, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, and it takes [1] per turn. If the entity and the garrotter move more than [2] apart, this condition ends.</content>
+
 	<content contentuid="h44585d58gfba7g4acfgb5ffg76b55f7f155e" version="1">Gaseous Form</content>
 	<content contentuid="h0b98d9b2g9dd4g40b0g9cd7g3164e5903e24" version="3">Transform yourself or an ally into a tiny gas cloud. The cloud cannot fall, and fits through small openings.&lt;Br&gt;&lt;br&gt;The cloud has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Constitution, Dexterity, and Strength &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="hb245b5f0gab6fg4a4cgbf62g80326dc2dfb3" version="1">Gaseous Form</content>
@@ -1362,7 +1365,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h9047132dg45c1g4d1bgb834ga98bc0aa41ff" version="2">Slow</content>
 	<content contentuid="h87e09423gaa01g4372g99d2g7ff4d657e8d1" version="6">Target a creature and impose severe limitations upon all facets of normal function, including halving their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt;, reducing their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 2, and preventing them from utilizing &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Each turn, the affected creature will attempt to come to their senses through a Wisdom based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Sorcerers</content>
 	<content contentuid="h1b414996gb9a5g471dgaa85gbbe2657548b0" version="2">Slowed</content>
-	<content contentuid="hf0d5c7f8g9e5fg41e4g99d5gd97fe3698321" version="7">Affected creature has had their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; halved, and its &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; has been reduced by 2. Additionally, the creatures Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; are rolled with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The creature cannot use &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt; or make more than 1 attack per turn.&lt;br&gt;&lt;br&gt;Each turn, the affected creature will attempt to come to their senses through a Wisdom based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+	<content contentuid="hf0d5c7f8g9e5fg41e4g99d5gd97fe3698321" version="7">Affected creature has had their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; halved, and its &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; has been reduced by 2. Additionally, the creatures Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; are rolled with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; and they cannot use &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Each turn, the affected creature will attempt to come to their senses through a Wisdom based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hd2d06133g5277g44f8ga6dbg82bef1117d44" version="2">See Invisibility</content>
 	<content contentuid="ha4544864g1c5eg4d1ag9c19gdec71cfb899c" version="3">Grant yourself or another creature the ability to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; entities, revealing them to others.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Sorcerers</content>
@@ -2127,5 +2130,14 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 
 	<content contentuid="h7c8ce380g0d56g4807gb60cg58e283b4ecdb" version="2">Vampire Ascendant</content>
 	<content contentuid="hf9a3c136gfa53g4170g9eeega20ced9c9111" version="4">Behold, the Vampire Ascendant! Thousands of souls have bought you power, granting you &lt;LSTag Type="Spell" Tooltip="Target_LOW_Astarion_VampireAscendant"&gt;Ascendant Bite&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_LOW_MistyEscape_Astarion"&gt;Gaseous form&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;You also gain a +[1] bonus to all damage dealt.</content>
+
+	<content contentuid="h85a66febg18eeg41b6g84bcgf2f1cb213355" version="1">Weakened Intelligence</content>
+	<content contentuid="hc71486d7geedcg4fcag9ba2g198152d38cb5" version="3">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; has been reduced by 2 by the Zaith'isk. The githyanki device failed to harm your illithid parasite.</content>
+
+	<content contentuid="hc6f3cb65g7243g40f1g8857gf203a16a9724" version="1">Weakened Wisdom</content>
+	<content contentuid="h55e0fc7dgcd0ag4bb7g8d6cgb1d093ce452b" version="3">Your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; has been reduced by 2 by the Zaith'isk. The githyanki device failed to harm your illithid parasite.</content>
+
+	<content contentuid="h5fa1c04fgefe3g4c8bga374gf08691eb0067" version="1">Weakened Constitution</content>
+	<content contentuid="h202dc139g4871g4a2ega932g075704cbbcbc" version="3">Your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; has been reduced by 2 by the Zaith'isk. The githyanki device failed to harm your illithid parasite.</content>
 
 </contentList>

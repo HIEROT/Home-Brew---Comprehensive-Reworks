@@ -1,9 +1,49 @@
-function IsUniqueNPCSubclass(entity)
-    entity = entity or context.Source
-    return Tagged('FIXEDSUBCLASS',entity)
-end
-
 function IsCrowdControlled(entity)
     local entity = entity or context.Target
 	return HasAnyStatus({'SG_Approaching','SG_Blinded','SG_Dominated','SG_Fleeing','SG_Incapacitated','SG_Paralyzed','SG_Prone','SG_ScriptedPeaceBehaviour','SG_Sleeping_Magical','SG_Stunned','SG_Unconscious'}, {}, {}, entity)
+end
+
+function IsLockdownCondition()
+    return (
+        StatusId('BANISHED_SPELL') or
+        StatusId('CHEST_TRAUMA') or
+        StatusId('COMMAND_APPROACH') or
+        StatusId('COMMAND_FLEE') or
+        StatusId('COMMAND_GROVEL') or
+        StatusId('COMMAND_HALT') or
+        StatusId('CONFUSION_SKIP') or
+        StatusId('CROWN_OF_MADNESS') or
+        StatusId('DOMINATE_PERSON') or
+        StatusId('ENTOMBED') or
+        StatusId('FEARED') or
+        StatusId('FROZEN') or
+        StatusId('HIDEOUS_LAUGHTER') or
+        StatusId('HIDEOUS_LAUGHTER_FIRSTLEVEL') or
+        StatusId('HOLD_MONSTER') or
+        StatusId('HYPNOTIC_GAZE') or
+        StatusId('HYPNOTIC_PATTERN') or
+        StatusId('INCAPACITATED_DND') or
+        StatusId('INTIMIDATING_PRESENCE') or
+        StatusId('IRRESISTIBLE_DANCE') or
+        StatusId('LURING_SONG') or
+        StatusId('PACIFIED') or
+        StatusId('PARALYZED') or
+        StatusId('PETRIFIED') or
+        StatusId('POLYMORPH_SHEEP') or
+        StatusId('PRONE') or
+        StatusId('RESILIENT_SPHERE') or
+        StatusId('SLEEP') or
+        StatusId('SLEEPING') or
+        StatusId('STAGGERING_SMITE') or
+        StatusId('STINKING_CLOUD') or
+        StatusId('STUNNED') or
+        StatusId('SURPRISED') or
+        StatusId('TURNED') or
+        StatusId('UNHOLY_SUBJUGATION')
+    )
+end
+
+function IsUniqueNPCSubclass(entity)
+    entity = entity or context.Source
+    return Tagged('FIXEDSUBCLASS',entity)
 end

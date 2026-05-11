@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
 
+	<content contentuid="h096859ddg8600g438cg8cc9g43403c06efd3" version="1">Cannot Learn</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">TUTORIAL</content>
 
 	<content contentuid="h9ba0158egeb2ag40e8g84f4g23f979fadf09" version="1">Reset Tutorials</content>
@@ -346,7 +348,7 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000a" version="3">While below 75% of your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you gain a +2 bonus to all damage dealt. However, while above 75% of your maximum Hit Points, you receive a -2 penalty instead.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00002" version="3">Blind Emotions</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000b" version="3">You permanently benefit from the effects of being &lt;LSTag Type="Status" Tooltip="CALM_EMOTIONS"&gt;Calmed&lt;/LSTag&gt;. However, you are unable to utilize your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000b" version="3">You permanently benefit from the effects of being &lt;LSTag Type="Status" Tooltip="CALM_EMOTIONS"&gt;Calmed&lt;/LSTag&gt;. However, upon being struck by a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; you are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; for three turns.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00003" version="3">Bloody Results</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000c" version="3">Gain a bonus to damage dealt equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. However, when taking damage, you take additional damage equal to your Proficiency Bonus as well.</content>
@@ -355,9 +357,9 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000d" version="3">At the beginning of any combat encounter, you receive &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your level multiplied by two. Upon ending combat, you take Force damage equal to your level multiplied by four.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00005" version="3">Breathe Deep</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000e" version="3">Gain the ability to center yourself with a deep breath, restoring your &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;. At the end of your turn, you immediately fall &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt;, causing you to lose your next turn.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000e" version="3">Gain the ability to center yourself with a deep breath, restoring your &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;. At the end of your turn, you will immediately fall &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt; for three turns. In addition, at the start of each of your turns, you have a chance to fall unconscious for one turn.</content>
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd000z5" version="3">Breathe Deep</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ze" version="3">Center yourself with a deep breath, restoring your &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;. At the end of your turn, you will immediately fall &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt;, causing you to lose your next turn.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ze" version="3">Center yourself with a deep breath, restoring your &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;. At the end of your turn, you will immediately fall &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt; for three turns.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00006" version="3">Confidently Incorrect</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000f" version="3">Upon casting a Spell, there is a 10% chance that it will erupt in a violent explosion, damaging everything within [1] of your target.</content>

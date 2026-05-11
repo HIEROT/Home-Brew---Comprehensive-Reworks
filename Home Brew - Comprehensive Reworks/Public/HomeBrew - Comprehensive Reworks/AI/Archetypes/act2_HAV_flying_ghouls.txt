@@ -1,1 +1,1 @@
-USING beast
+USING melee_stupid

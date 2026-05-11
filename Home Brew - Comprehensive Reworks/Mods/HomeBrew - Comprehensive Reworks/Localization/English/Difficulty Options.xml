@@ -73,6 +73,9 @@ Honoured Adventurers:
 - Annoynamous72z
 - Kaiser Karry, Champion of Lightning
 - Neem
+- bleah11
+- YOU
+- Ani
 	</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MYTHIC DIFFICULTY</content>
@@ -203,14 +206,14 @@ See the tutorial menu for info on Mythic changes.</content>
 	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity10" version="1">Toxicity X: Death</content>
 	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity0j" version="1">Affected creature's body collapses under catastrophic toxic overload, killing them instantly.</content>
 
-	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect01" version="1">Resurrection Limit: Two Remaining</content>
-	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect0a" version="1">Affected creature's soul has become destabilized. They may be brought back to life using &lt;LSTag Type="Spell" Tooltip="Teleportation_Revivify"&gt;Revivify&lt;/LSTag&gt; just two more times.</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect01" version="1">Destabilized Soul</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect0a" version="1">Affected creature's soul has become destabilized. They feel lighter, as if they have lost something they'll never get back.&lt;br&gt;&lt;br&gt;This creature may be brought back to life just two more times.</content>
 
-	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect02" version="1">Resurrection Limit: One Remaining</content>
-	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect0b" version="1">Affected creature's soul has become heavily destabilized. They may be brought back to life using &lt;LSTag Type="Spell" Tooltip="Teleportation_Revivify"&gt;Revivify&lt;/LSTag&gt; just one more time.</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect02" version="1">Fractured Soul</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect0b" version="1">Affected creature's soul has begun to fracture. Their essence has begun to slip, giving way to the weave around them.&lt;br&gt;&lt;br&gt;This creature may be brought back to life just one more time.</content>
 
-	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect03" version="1">Destabilized Soul</content>
-	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect0c" version="1">Affected creature's soul has become exceedingly destabilized through multiple resurrections. As a result, resurrecting them through normal means is no longer safe. They may no longer be brought back to life using &lt;LSTag Type="Spell" Tooltip="Teleportation_Revivify"&gt;Revivify&lt;/LSTag&gt;.</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect03" version="1">Shattered Soul</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect0c" version="1">Affected creature's soul has been irrevocably shattered. Their essence is now fleeting, and the weave is poised to claim them at any moment.&lt;br&gt;&lt;br&gt;This creature cannot be resurrected ever again.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PERILOUS WOUNDS</content>
 

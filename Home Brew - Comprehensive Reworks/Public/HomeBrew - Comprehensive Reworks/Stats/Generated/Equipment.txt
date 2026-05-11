@@ -695,3 +695,10 @@ new equipment "CCompanion_Cambion"
 add initialweaponset "Melee"
 add equipmentgroup
 add equipment entry "WPN_Greatsword"
+
+new equipment "CRE_CrecheTeacher"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greatsword_Gith"
+add equipmentgroup
+add equipment entry "ARM_HalfPlate_Body_Githyanki"

@@ -30,7 +30,7 @@ data "Icon" "PassiveFeature_Lifedrinker"
 data "StackId" "JWL_Status_WhistleWitchAura"
 data "AuraRadius" "9"
 data "AuraStatuses" "IF(not HasStatus('SITOUT_ONCOMBATSTART_APPLIER_TECHNICAL',context.Source) and not HasStatus('SITOUT_ONCOMBATSTART_DOONCE_TECHNICAL',context.Source) and not HasStatus('BANISHED',context.Source) and not HasStatus('BANISHED_FINALSTAND',context.Source) and Tagged('SUMMON') and Tagged('UNDEAD') and SummonOwner(context.Target, context.Source)):ApplyStatus(JWL_Status_WhistleWitchBuff)"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
 
 new entry "JWL_Status_WhistleWitchBuff"
 type "StatusData"

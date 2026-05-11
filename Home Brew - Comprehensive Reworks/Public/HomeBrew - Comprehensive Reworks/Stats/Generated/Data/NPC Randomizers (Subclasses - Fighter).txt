@@ -34,6 +34,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_ARCANEARCHER,100,-1);IF(not CharacterLevelGreaterThan(2)):ApplyStatus(APPLY_ARCANEARCHER_1,100,-1);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(APPLY_ARCANEARCHER_3,100,-1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(APPLY_ARCANEARCHER_5,100,-1);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(APPLY_ARCANEARCHER_7,100,-1);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_ARCANEARCHER_9,100,-1);IF(CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_ARCANEARCHER_11,100,-1)"
+data "Boosts" "AiArchetypeOverride(ranged,1)"
 
 new entry "FIGHTER_SUBCLASS_CHAMPION"
 type "StatusData"
@@ -46,6 +47,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_CHAMPION,100,-1);IF(not CharacterLevelGreaterThan(2)):ApplyStatus(APPLY_CHAMPION_1,100,-1);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(APPLY_CHAMPION_3,100,-1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(APPLY_CHAMPION_5,100,-1);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(APPLY_CHAMPION_7,100,-1);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_CHAMPION_9,100,-1);IF(CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_CHAMPION_11,100,-1)"
+data "Boosts" "AiArchetypeOverride(melee,1)"
 
 new entry "FIGHTER_SUBCLASS_DRACONICSENTINEL"
 type "StatusData"
@@ -58,6 +60,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_DRACONICSENTINEL,100,-1);IF(not CharacterLevelGreaterThan(2)):ApplyStatus(APPLY_DRACONICSENTINEL_1,100,-1);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(APPLY_DRACONICSENTINEL_3,100,-1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(APPLY_DRACONICSENTINEL_5,100,-1);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(APPLY_DRACONICSENTINEL_7,100,-1);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_DRACONICSENTINEL_9,100,-1);IF(CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_DRACONICSENTINEL_11,100,-1)"
+data "Boosts" "AiArchetypeOverride(melee,1)"
 
 new entry "FIGHTER_SUBCLASS_ELDRITCH"
 type "StatusData"
@@ -70,6 +73,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_ELDRITCH,100,-1);IF(not CharacterLevelGreaterThan(2)):ApplyStatus(APPLY_ELDRITCH_1,100,-1);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(APPLY_ELDRITCH_3,100,-1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(APPLY_ELDRITCH_5,100,-1);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(APPLY_ELDRITCH_7,100,-1);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_ELDRITCH_9,100,-1);IF(CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_ELDRITCH_11,100,-1)"
+data "Boosts" "AiArchetypeOverride(melee_magic,1)"
 
 new entry "FIGHTER_SUBCLASS_FRONTIER"
 type "StatusData"
@@ -82,6 +86,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_FRONTIER,100,-1);IF(not CharacterLevelGreaterThan(2)):ApplyStatus(APPLY_FRONTIER_1,100,-1);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(APPLY_FRONTIER_3,100,-1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(APPLY_FRONTIER_5,100,-1);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(APPLY_FRONTIER_7,100,-1);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_FRONTIER_9,100,-1);IF(CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_FRONTIER_11,100,-1)"
+data "Boosts" "AiArchetypeOverride(melee,1)"
 
 <!----------------------------------------------------------------------------------------------------SUBCLASS 1---------------------------------------------------------------------------------------------------->
 

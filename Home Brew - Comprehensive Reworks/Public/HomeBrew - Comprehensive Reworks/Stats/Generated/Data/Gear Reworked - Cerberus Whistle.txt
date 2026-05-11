@@ -30,7 +30,7 @@ data "Icon" "PassiveFeature_FearOfWolves_Shadowheart"
 data "StackId" "JWL_Status_WhistleCerberusAura"
 data "AuraRadius" "9"
 data "AuraStatuses" "IF(not HasStatus('SITOUT_ONCOMBATSTART_APPLIER_TECHNICAL',context.Source) and not HasStatus('SITOUT_ONCOMBATSTART_DOONCE_TECHNICAL',context.Source) and not HasStatus('BANISHED',context.Source) and not HasStatus('BANISHED_FINALSTAND',context.Source) and Tagged('SUMMON') and not Tagged('UNDEAD') and not Tagged('CONSTRUCT') and SummonOwner(context.Target, context.Source)):ApplyStatus(JWL_Status_WhistleCerberusBuff)"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
 
 new entry "JWL_Status_WhistleCerberusBuff"
 type "StatusData"

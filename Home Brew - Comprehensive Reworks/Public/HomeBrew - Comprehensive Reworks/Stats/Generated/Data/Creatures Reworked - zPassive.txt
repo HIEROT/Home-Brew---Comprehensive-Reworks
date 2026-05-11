@@ -643,6 +643,12 @@ data "Boosts" "Initiative(2);Ability(Strength, 2)"
 
 <!--------------------------------------------------MISC--------------------------------------------------->
 
+new entry "AntimagicSusceptibility"
+type "PassiveData"
+data "DisplayName" "h6238e83agbb8bg4cb9g9451g44cd107f164f;2"
+data "Description" "h3f6ac710gc1dfg4955g9a4dga41bc1e247fc;2"
+data "Icon" "statIcons_SussurBloom"
+
 new entry "CreaturePassive_Aware"
 type "PassiveData"
 data "DisplayName" "h4b7c2703ge1a8g4fb4g98c92s6d5f12e5f12;1"
@@ -682,7 +688,7 @@ data "DisplayName" "h2395dc03ga60dg4ca8gbf28g9c5d6d2d3d5f;2"
 data "Description" "h36f181f8g1bcag43bag8f71g6922585345rf;2"
 data "Icon" "Action_Monster_Banite_AuraOfTerror"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "Tag(CANT_SHOVE_THROW);CanShootThrough(true);CanWalkThrough(true);Attribute(Grounded);IgnoreLeaveAttackRange()"
+data "Boosts" "Tag(CANT_SHOVE_THROW);CanShootThrough(true);CanWalkThrough(true);Attribute(Grounded);IgnoreLeaveAttackRange();StatusImmunity(SG_Restrained);StatusImmunity(SG_DifficultTerrain)"
 
 new entry "CreaturePassive_Floating"
 type "PassiveData"
@@ -709,9 +715,8 @@ data "DisplayName" "51939390dfff9dif9dff4699fafff6d900001;1"
 data "Description" "51939390dfff9dif9dff4699fafff6d90000a;4"
 data "Icon" "PassiveFeature_UnarmoredDefense"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "IF(CheckRulesetModifier('b843263f-869c-4a21-960d-867091e8bd04', true)):Tag(CHASM_IMMUNE)"
 data "StatsFunctorContext" "OnStatusRemoved"
-data "Conditions" "StatusId('STINKING_CLOUD') or StatusId('BANISHED_SPELL') or StatusId('CONFUSION_SKIP') or StatusId('CROWN_OF_MADNESS') or StatusId('DOMINATE_PERSON') or StatusId('SLEEP') or StatusId('SLEEPING') or StatusId('FEARED') or StatusId('HOLD_MONSTER') or StatusId('HYPNOTIC_PATTERN') or StatusId('RESILIENT_SPHERE') or StatusId('IRRESISTIBLE_DANCE') or StatusId('HIDEOUS_LAUGHTER_FIRSTLEVEL') or StatusId('HIDEOUS_LAUGHTER') or StatusId('CHEST_TRAUMA') or StatusId('INCAPACITATED_DND') or StatusId('SURPRISED') or StatusId('PARALYZED') or StatusId('INTIMIDATING_PRESENCE') or StatusId('PACIFIED') or StatusId('UNHOLY_SUBJUGATION') or StatusId('HYPNOTIC_GAZE') or StatusId('FROZEN') or StatusId('PETRIFIED') or StatusId('STUNNED') or StatusId('POLYMORPH_SHEEP') or StatusId('COMMAND_HALT') or StatusId('COMMAND_GROVEL') or StatusId('COMMAND_FLEE') or StatusId('COMMAND_APPROACH') or StatusId('PRONE') or StatusId('ENTOMBED') or StatusId('TURNED') or StatusId('LURING_SONG')"
+data "Conditions" "StatusId('BANISHED_SPELL') or StatusId('CHEST_TRAUMA') or StatusId('COMMAND_APPROACH') or StatusId('COMMAND_FLEE') or StatusId('COMMAND_GROVEL') or StatusId('COMMAND_HALT') or StatusId('CONFUSION_SKIP') or StatusId('CROWN_OF_MADNESS') or StatusId('DOMINATE_PERSON') or StatusId('ENTOMBED') or StatusId('FEARED') or StatusId('FROZEN') or StatusId('HIDEOUS_LAUGHTER') or StatusId('HIDEOUS_LAUGHTER_FIRSTLEVEL') or StatusId('HOLD_MONSTER') or StatusId('HYPNOTIC_GAZE') or StatusId('HYPNOTIC_PATTERN') or StatusId('INCAPACITATED_DND') or StatusId('INTIMIDATING_PRESENCE') or StatusId('IRRESISTIBLE_DANCE') or StatusId('LURING_SONG') or StatusId('PACIFIED') or StatusId('PARALYZED') or StatusId('PETRIFIED') or StatusId('POLYMORPH_SHEEP') or StatusId('PRONE') or StatusId('RESILIENT_SPHERE') or StatusId('SLEEP') or StatusId('SLEEPING') or StatusId('STAGGERING_SMITE') or StatusId('STINKING_CLOUD') or StatusId('STUNNED') or StatusId('SURPRISED') or StatusId('TURNED') or StatusId('UNHOLY_SUBJUGATION')"
 data "StatsFunctors" "ApplyStatus(LOCKDOWN_CONDITION, 100, 3)"
 
 new entry "Darkvision"
@@ -740,7 +745,7 @@ data "Icon" "Spell_Conjuration_SummonDraconicSpirit"
 data "Properties" "Highlighted;ForceShowInCC"
 data "Boosts" "StatusImmunity(DISARM);StatusImmunity(COMMAND_DROP);Tag(CHASM_IMMUNE)"
 data "StatsFunctorContext" "OnStatusRemoved"
-data "Conditions" "StatusId('STINKING_CLOUD') or StatusId('BANISHED_SPELL') or StatusId('CONFUSION_SKIP') or StatusId('CROWN_OF_MADNESS') or StatusId('DOMINATE_PERSON') or StatusId('SLEEP') or StatusId('SLEEPING') or StatusId('FEARED') or StatusId('HOLD_MONSTER') or StatusId('HYPNOTIC_PATTERN') or StatusId('RESILIENT_SPHERE') or StatusId('IRRESISTIBLE_DANCE') or StatusId('HIDEOUS_LAUGHTER_FIRSTLEVEL') or StatusId('HIDEOUS_LAUGHTER') or StatusId('CHEST_TRAUMA') or StatusId('INCAPACITATED_DND') or StatusId('SURPRISED') or StatusId('PARALYZED') or StatusId('INTIMIDATING_PRESENCE') or StatusId('PACIFIED') or StatusId('UNHOLY_SUBJUGATION') or StatusId('HYPNOTIC_GAZE') or StatusId('FROZEN') or StatusId('PETRIFIED') or StatusId('STUNNED') or StatusId('POLYMORPH_SHEEP') or StatusId('COMMAND_HALT') or StatusId('COMMAND_GROVEL') or StatusId('COMMAND_FLEE') or StatusId('COMMAND_APPROACH') or StatusId('PRONE') or StatusId('ENTOMBED') or StatusId('TURNED') or StatusId('LURING_SONG')"
+data "Conditions" "StatusId('BANISHED_SPELL') or StatusId('CHEST_TRAUMA') or StatusId('COMMAND_APPROACH') or StatusId('COMMAND_FLEE') or StatusId('COMMAND_GROVEL') or StatusId('COMMAND_HALT') or StatusId('CONFUSION_SKIP') or StatusId('CROWN_OF_MADNESS') or StatusId('DOMINATE_PERSON') or StatusId('ENTOMBED') or StatusId('FEARED') or StatusId('FROZEN') or StatusId('HIDEOUS_LAUGHTER') or StatusId('HIDEOUS_LAUGHTER_FIRSTLEVEL') or StatusId('HOLD_MONSTER') or StatusId('HYPNOTIC_GAZE') or StatusId('HYPNOTIC_PATTERN') or StatusId('INCAPACITATED_DND') or StatusId('INTIMIDATING_PRESENCE') or StatusId('IRRESISTIBLE_DANCE') or StatusId('LURING_SONG') or StatusId('PACIFIED') or StatusId('PARALYZED') or StatusId('PETRIFIED') or StatusId('POLYMORPH_SHEEP') or StatusId('PRONE') or StatusId('RESILIENT_SPHERE') or StatusId('SLEEP') or StatusId('SLEEPING') or StatusId('STAGGERING_SMITE') or StatusId('STINKING_CLOUD') or StatusId('STUNNED') or StatusId('SURPRISED') or StatusId('TURNED') or StatusId('UNHOLY_SUBJUGATION')"
 data "StatsFunctors" "ApplyStatus(LOCKDOWN_CONDITION, 100, 3)"
 
 new entry "FeyAncestry"
@@ -800,6 +805,14 @@ data "StatsFunctorContext" "OnObscurityChanged"
 data "Conditions" "not HasObscuredState(ObscuredState.Clear,context.Source) and not HasStatus('SHADOWVEIL_MASTIFF')"
 data "StatsFunctors" "IF(context.HasContextFlag(StatsFunctorContext.OnObscurityChanged)):ApplyStatus(SHADOWVEIL_MASTIFF,100,-1)"
 
+new entry "CreaturePassive_Shadow"
+type "PassiveData"
+data "DisplayName" "5118b4641cdb4145a0fb4699fa2s6e5fe4545;3"
+data "Description" "5118b4641cd9we8fs56e8f56e5fe54fe89s85;6"
+data "Icon" "Action_Monster_Banite_AuraOfTerror"
+data "Properties" "Highlighted;ForceShowInCC"
+data "Boosts" "IF(Enemy() or Item()):IgnoreResistance(Necrotic,Resistant);IF(Enemy() or Item()):IgnoreResistance(Necrotic,Immune)"
+
 new entry "ShadowyRetreat"
 type "PassiveData"
 data "DisplayName" "h5fca4903g537dg488cg87b1g63a762a6d64f;2"
@@ -837,6 +850,17 @@ data "StatsFunctorContext" "OnAttacked"
 data "Conditions" "not FacingMe()"
 data "StatsFunctors" "ApplyStatus(STUNNED,100,1);ApplyStatus(AI_HELPER_SCRIPTEVENT, 100, 1)"
 
+<!--------------------------------------------------ANSUR--------------------------------------------------->
+
+new entry "CreaturePassive_Grym_Turn"
+type "PassiveData"
+data "DisplayName" "h1f934d12g982bg446ag9ac1gc96b23f742e7;2"
+data "Description" "h358a087cg3cb4g4e62g967bgfcd5ade476a0;3"
+data "Icon" "Action_Monster_Banite_AuraOfTerror"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnTurn"
+data "StatsFunctors" "UseSpell(ProjectileStrike_WYR_LightningStrike_Spawner,true,true,true)"
+
 <!--------------------------------------------------CLOAKERS--------------------------------------------------->
 
 new entry "Multiattack_Cloaker"
@@ -861,6 +885,17 @@ data "Boosts" "RedirectDamage(2,Force,Radiant,true)"
 
 <!--------------------------------------------------GOBLINS--------------------------------------------------->
 
+new entry "Goblin_Swarm"
+type "PassiveData"
+data "DisplayName" "5118b4641cdb4145a0fb4699faf1d32200008;1"
+data "Description" "5118b4641cdb4145a0fb4699faf1d3220000h;1"
+data "DescriptionParams" "Distance(3)"
+data "Icon" "Action_Monster_Banite_AuraOfTerror"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnTurn"
+data "Conditions" "HasAllyWithinRange('SG_Incapacitated',3)"
+data "StatsFunctors" "ApplyStatus(GOBLIN_SWARM,100,1)"
+
 new entry "Goblin_SummonWorg"
 type "PassiveData"
 data "Properties" "IsHidden"
@@ -873,7 +908,7 @@ data "Description" "5118b4641cdb4145a0fb4699faf1d3220000e;4"
 data "Icon" "Action_Mag_WrecklessWarCry"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnTurn"
-data "Conditions" "not HasStatus('GOBLINWARCRY') and not HasStatus('HEAVILY_SILENCED') and not HasStatus('SILENCED') or CheckRulesetModifier('b843263f-869c-4a21-960d-867091e8bd04', true) and not HasStatus('HEAVILY_SILENCED') and not HasStatus('SILENCED')"
+data "Conditions" "not HasStatus('GOBLINWARCRY') and not HasStatus('HEAVILY_SILENCED') and not HasStatus('SILENCED')"
 data "StatsFunctors" "UseSpell(Shout_GoblinWarcry,true,true,true);UseActionResource(BonusActionPoint,1,0)"
 
 <!--------------------------------------------------GNOLLS--------------------------------------------------->
@@ -932,6 +967,18 @@ data "StatsFunctorContext" "OnRound;OnCombatStarted"
 data "Conditions" "not HasStatus('LEGENDARYACTION_SCL_DRIDER_PSIONICVENGEANCE')"
 data "StatsFunctors" "ApplyStatus(LEGENDARYACTION_SCL_DRIDER_PSIONICVENGEANCE,100,-1)"
 
+<!--------------------------------------------------DISPLACER BEASTS--------------------------------------------------->
+
+new entry "CreaturePassive_Displacer"
+type "PassiveData"
+data "DisplayName" "h3344d3e6gb749g4bd5ga9e9g75f0desd5f21;2"
+data "Description" "h38d3f000g4a2eg4682g9wsefe845de868545;2"
+data "Icon" "Action_Monster_Banite_AuraOfTerror"
+data "Properties" "Highlighted;ForceShowInCC"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "Character() and not Self() and not HasStatus('LOCKDOWN_CONDITION', context.Target) and not HasObscuredState(ObscuredState.Clear,context.Source)"
+data "StatsFunctors" "IF(not SavingThrow(Ability.Wisdom, SourceSpellDC())):ApplyStatus(MADNESS,100,3)"
+
 <!--------------------------------------------------GREMISHKA--------------------------------------------------->
 
 new entry "MagicAllergy_Unstable"
@@ -943,17 +990,48 @@ data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnTurn"
 data "StatsFunctors" "TriggerRandomCast(1,,WildMagic)"
 
-<!--------------------------------------------------DISPLACER BEASTS--------------------------------------------------->
+<!--------------------------------------------------GRYM--------------------------------------------------->
 
-new entry "CreaturePassive_Displacer"
+new entry "CreaturePassive_Grym"
 type "PassiveData"
-data "DisplayName" "h3344d3e6gb749g4bd5ga9e9g75f0desd5f21;2"
-data "Description" "h38d3f000g4a2eg4682g9wsefe845de868545;2"
+data "DisplayName" "hb5232a3egc046g45e9g92a9gbeaec7eace7c;2"
+data "Description" "hbf1f45a4g0c29g4e66ga808gd6sd62e5f454;3"
+data "Icon" "Action_Monster_Banite_AuraOfTerror"
+data "Properties" "Highlighted;ForceShowInCC"
+data "StatsFunctorContext" "OnStatusApply"
+data "Conditions" "StatusId('PRONE')"
+data "StatsFunctors" "Force(4.5)"
+
+new entry "CreaturePassive_Grym_Turn"
+type "PassiveData"
+data "DisplayName" "hbf1f45a4g0c29g4e66ga808gd31c054d7dfa;2"
+data "Description" "hbf1f45a4g0c29g4e66ga808gd6s84e6f46s5;3"
+data "Icon" "Action_Monster_Banite_AuraOfTerror"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnTurn"
+data "StatsFunctors" "UseSpell(Shout_Stomp_Grym,true,true,true)"
+
+new entry "CreaturePassive_Grym_Detonate"
+type "PassiveData"
+data "DisplayName" "hbf1f45a4g0c29g4e66ga808gd31c054d7dfa;2"
+data "Description" "hbf1f45a4g0c29g4e66ga808gd6s84e6f46s5;3"
+data "Icon" "Action_Monster_Banite_AuraOfTerror"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnTurn"
+data "Conditions" "HasHPPercentageWithoutTemporaryHPLessThan(10, context.Source)"
+data "StatsFunctors" "UseSpell(Shout_SelfDestruct_Grym,true,true,true)"
+
+<!--------------------------------------------------HAGS--------------------------------------------------->
+
+new entry "CreaturePassive_Hag"
+type "PassiveData"
+data "DisplayName" "5118b4641cda5s6df45s62ef168ef4sd6524f;3"
+data "Description" "5118b4641cdb414as54df645se98rfs65e978;6"
 data "Icon" "Action_Monster_Banite_AuraOfTerror"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "Character() and not Self() and not HasObscuredState(ObscuredState.Clear,context.Source)"
-data "StatsFunctors" "IF(not SavingThrow(Ability.Wisdom, SourceSpellDC())):ApplyStatus(MADNESS,100,3)"
+data "Conditions" "IsMeleeAttack()"
+data "StatsFunctors" "IF(Tagged('SORCERER_WILD_MAGIC_GUARANTEED', context.Source)):TriggerRandomCast(1,,WildMagicNegative);IF(not HasStatus('WILD_MAGIC_GUARANTEED',context.Source) and HasStatus('INCREASED_SURGE',context.Source)):TriggerRandomCast(14,,WildMagicNegative,WildMagicTurn);IF(not HasStatus('WILD_MAGIC_GUARANTEED',context.Source) and not HasStatus('INCREASED_SURGE',context.Source)):TriggerRandomCast(17,,WildMagicNegative,WildMagicTurn)"
 
 <!--------------------------------------------------MASK OF VENGEANCE--------------------------------------------------->
 
@@ -969,6 +1047,16 @@ data "StatsFunctors" "UseSpell(SWAP,Target_HAG_MaskOfVengeance,true,true,true);U
 
 <!--------------------------------------------------MYCONID--------------------------------------------------->
 
+new entry "CreaturePassive_Minotaur"
+type "PassiveData"
+data "DisplayName" "h4b7c2703ge1a8g4a6s54df6942s341f4s85e;1"
+data "Description" "6e8d6rf93g166eg4d2bga330g5f64s2dfse8f;2"
+data "Icon" "Action_Monster_Banite_AuraOfTerror"
+data "Properties" "Highlighted;ForceShowInCC"
+data "Boosts" "StatusImmunity(SG_Restrained);StatusImmunity(SG_DifficultTerrain)"
+
+<!--------------------------------------------------MYCONID--------------------------------------------------->
+
 new entry "CreaturePassive_Myconid"
 type "PassiveData"
 data "DisplayName" "h3344d3e6gb749g4bd5ga9e9g75f2d5f3d542;2"
@@ -976,7 +1064,7 @@ data "Description" "h38d3f000g4a2eg4682g9wsefe845de5d8f7e;2"
 data "Icon" "Action_Monster_Banite_AuraOfTerror"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "Character() and not Self() and not Tagged('PLANT',context.Target) and not HasStatus('BURNING', context.Target) and not HasStatus('BURNING', context.Source)"
+data "Conditions" "Character() and not Self() and not HasStatus('LOCKDOWN_CONDITION', context.Target) and not Tagged('PLANT',context.Target) and not HasStatus('BURNING', context.Target) and not HasStatus('BURNING', context.Source)"
 data "StatsFunctors" "IF(not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(TIMMASK_SPORES,100,1)"
 
 new entry "SunSickness_Myconid"
@@ -1019,6 +1107,18 @@ data "StatsFunctorContext" "OnDamaged"
 data "Conditions" "TotalDamageDoneGreaterThan(0) and not HasStatus('LOCKDOWN_CONDITION', context.Source)"
 data "StatsFunctors" "IF(not SavingThrow(Ability.Intelligence, SourceSpellDC())):ApplyStatus(SWAP,CONFUSION,100,3)"
 
+<!--------------------------------------------------SPECTATORS--------------------------------------------------->
+
+new entry "Multiattack_Cloaker"
+type "PassiveData"
+data "DisplayName" "h2395dc03ga60d2s6e5f6e8f9ecc613301043;3"
+data "Description" "h36f181f8g1bc99989e5f6e8589c05e02ea0c;2"
+data "Icon" "Action_Monster_Banite_AuraOfTerror"
+data "Properties" "Highlighted;ForceShowInCC"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "Character() and not Self() and not HasStatus('LOCKDOWN_CONDITION', context.Target)"
+data "StatsFunctors" "IF(not SavingThrow(Ability.Charisma, SourceSpellDC())):ApplyStatus(MADNESS,100,1)"
+
 <!--------------------------------------------------SPIDER QUEEN--------------------------------------------------->
 
 new entry "FOR_SpiderQueen_SeeInvis"
@@ -1053,3 +1153,13 @@ data "Description" "h8723ab90g86e8g40e9g83e0g35e04064178e;1"
 data "Icon" "PassiveFeature_Generic_Death"
 data "Properties" "Highlighted"
 data "Boosts" "Tag(CONTROL_UNDEAD_IMMUNE)"
+
+<!--------------------------------------------------WEREWOLVES--------------------------------------------------->
+
+new entry "CreaturePassive_Werewolf"
+type "PassiveData"
+data "DisplayName" "5118b4641cdb4145a0fb4werewolfzzfe4545;3"
+data "Description" "5118b4641cd9we8fs56e8werewolfzze89s85;6"
+data "Icon" "Action_Monster_Banite_AuraOfTerror"
+data "Properties" "Highlighted;ForceShowInCC"
+data "Boosts" "IF(Enemy() or Item()):IgnoreResistance(Bludgeoning,Resistant);IF(Enemy() or Item()):IgnoreResistance(Bludgeoning,Immune);IF(Enemy() or Item()):IgnoreResistance(Piercing,Resistant);IF(Enemy() or Item()):IgnoreResistance(Piercing,Immune);IF(Enemy() or Item()):IgnoreResistance(Slashing,Resistant);IF(Enemy() or Item()):IgnoreResistance(Slashing,Immune);UnlockSpell(Shout_PackHowl_Wolf_Dire_NPC)"

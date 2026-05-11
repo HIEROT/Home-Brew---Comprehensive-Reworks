@@ -3,8 +3,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">SORCERER</content>
 
-	<content contentuid="hc3cb9a24g2714g46f1gb026g3cf7426738b5" version="2">Sorcery Points are an important facet of a Sorcerer's power. They can be spent to augment Spells in unique and powerful ways, or converted to be used as fuel for Spell Slots. You may have up to 24 Sorcery Points at any given time.</content>
-	<content contentuid="hc4b799ebg71fag4e61g8ef1g4840fb1c17a5" version="1">Sorcery Points can be used to augment Spells in unique and powerful ways. You may have up to 24 Sorcery Points at any given time.</content>
+	<content contentuid="hc3cb9a24g2714g46f1gb026g3cf7426738b5" version="2">Sorcery Points are an important facet of a Sorcerer's power. They can be spent to augment Spells in unique and powerful ways, or converted to be used as fuel for Spell Slots.</content>
+	<content contentuid="hc4b799ebg71fag4e61g8ef1g4840fb1c17a5" version="1">Sorcery Points can be used to augment Spells in unique and powerful ways.</content>
 
 	<content contentuid="h579c4854g5d33g44a4ga2d7ga83cc2f3a211" version="6">Creationary</content>
 	<content contentuid="h291fdebdgb520g4fa0g90c0gca2a2a689j56" version="1">Gain the ability to convert &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; into &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; and vice versa.&lt;br&gt;&lt;br&gt;When converting Sorcery Points into Spell Slots, you may create Spell Slots up to one level higher than what you can normally cast, up to the sixth level. You cannot create more than twice the amount of Spell Slots that you would normally have available for any given level.&lt;br&gt;&lt;br&gt;Additionally, when a Spell is cast within [1] of you, you may store the arcane energy as &lt;LSTag Type="Status" Tooltip="SORCEROUS_OVERFLOW"&gt;Sorcerous Overflow&lt;/LSTag&gt;. Upon reaching three stacks of Sorcerous Overflow, you gain a Sorcery Point.</content>

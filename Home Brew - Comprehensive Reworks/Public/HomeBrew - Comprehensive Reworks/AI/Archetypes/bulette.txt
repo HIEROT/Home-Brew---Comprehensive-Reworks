@@ -7,6 +7,3 @@ FALLBACK_ENEMIES_NEARBY_MIN_DISTANCE			6.00
 FALLBACK_ENEMIES_NEARBY_MAX_DISTANCE			9.00
 
 SPELL_JUMP_MINIMUM_DISTANCE						9.00
-
-//Bulette slightly prefers attacking monstrositities instead of players (definition in osiris)
-MULTIPLIER_TARGET_PREFERRED						3.50

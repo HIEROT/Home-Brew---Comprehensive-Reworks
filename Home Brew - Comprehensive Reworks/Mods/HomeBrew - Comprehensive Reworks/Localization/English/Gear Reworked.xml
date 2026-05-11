@@ -302,7 +302,6 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">BHAALIST GLOVES</content>
 	<content contentuid="h637d25d5g33ddg41b2ga10cg08ca6b0a3ca6" version="1">Wrap a shadow rope around a Humanoid creature's throat to start &lt;LSTag Type="Status" Tooltip="MAG_GARROTE_TARGET"&gt;Garrotting&lt;/LSTag&gt; it.</content>
-	<content contentuid="h1e88c530ge710g465dgb3e0g5b3c4a81e356" version="15">Affected creature is being strangled by a garrotte. It is &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; and takes [1] per turn. If the entity and the garrotter move more than [2] apart, this condition ends.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HALBERD OF VIGILANCE</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8sdf5sf8" version="2">Vigilant Defender</content>
@@ -1459,6 +1458,10 @@
 	<content contentuid="he5ba861bg5fb7g4190gb366g09397775d352" version="3">Encroaching Shadow</content>
 	<content contentuid="h95b34e82g7a11g4d2bg9520g8f9efe507b11" version="6">While Lightly or Heavily Obscured and dealing damage with a weapon, you deal an additional [1].</content>
 
+<content contentuid="0000000000000000000000000000000000000" version="1">VERY HEAVY GREATAXE</content>
+	<content contentuid="h859fb575gfd33g499bg9ad5g707019a61d9e" version="2">Gargantuan Cleave</content>
+	<content contentuid="h3eb67ecegab30g4ce5g9f9fg1686128828b0" version="4">Swing your weapon with all your might. You can attack multiple targets, but become &lt;LSTag Type="Status" Tooltip="OFF_BALANCED"&gt;Off Balanced&lt;/LSTag&gt;.</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">EMBLAZONED PLATE OF THE MARSHAL</content>
 	<content contentuid="h2c4155d0g790ag46ccg87a9ge7dd5d4f6d84" version="2">Trial by Fire</content>
 	<content contentuid="hea2da00dgf6a6g40aag8fd1ga075ds9d8898" version="3">You have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage and a +[1] bonus to &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Additionally, on your first turn of any combat encounter, you gain the affects of &lt;LSTag Type="Spell" Tooltip="Target_FlameBlade_6"&gt;Flaming Armament&lt;/LSTag&gt; cast as a sixth level Spell.</content>
@@ -1840,7 +1843,7 @@
 	<content contentuid="h34928a6ag6133g4798gb825g22fb15f51b11" version="1">Holy Symbol of Kelemvor</content>
 	<content contentuid="hc7f5cd59g17dbg4c01gae23g95151b0c035e" version="1">A small and ancient stone coin with the symbol of Kelemvor engraved on it.</content>
 	<content contentuid="h056322b9g3133g4a74g94fcg870752f5a500" version="1">Balance the Scales</content>
-	<content contentuid="h41345d5eg81deg4336g8edcgbd7b9c2bc9b7" version="1">When dealing damage with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, deal an additional +1d4 damage.</content>
+	<content contentuid="h41345d5eg81deg4336g8edcgbd7b9c2bc9b7" version="1">When dealing elemental damage with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, deal an additional +1d4 damage.</content>
 
 	<content contentuid="hf0015675gcc57g4b31ga36agebbbae1f8c88" version="1">Holy Symbol of Silvanus</content>
 	<content contentuid="hd0b62233gaec6g4b49g9b23g497b53984317" version="1">A smooth wooden token carved with the symbol of Silvanus on the front.</content>

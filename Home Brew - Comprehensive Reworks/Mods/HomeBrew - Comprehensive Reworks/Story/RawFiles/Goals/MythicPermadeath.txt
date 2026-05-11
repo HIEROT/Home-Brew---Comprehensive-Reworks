@@ -1,0 +1,34 @@
+Version 1
+SubGoalCombiner SGC_AND
+
+INITSECTION
+
+DB_HB_Mythic_PermadeathStatus("RESURRECTION_LIMIT_3");
+
+KBSECTION
+
+// Origin companions.
+IF
+Died(_Character)
+AND DB_PartOfTheTeam(_Character)
+AND DB_Origins(_Character)
+AND NOT DB_Hirelings_Hired(_Character)
+AND IsTagged(_Character, AVATAR_306b9b05-1057-4770-aa17-01af21acd650, 0)
+AND DB_HB_Mythic_PermadeathStatus(_Status)
+AND HasActiveStatus(_Character, _Status, 1)
+THEN
+PROC_Origins_CompanionLeavePermanently(_Character, "Killed");
+
+// Hirelings.
+IF
+Died(_Character)
+AND DB_PartOfTheTeam(_Character)
+AND DB_Hirelings_Hired(_Character)
+AND DB_HB_Mythic_PermadeathStatus(_Status)
+AND HasActiveStatus(_Character, _Status, 1)
+THEN
+PROC_Origins_CompanionLeavePermanently(_Character, "Killed");
+
+EXITSECTION
+
+ENDEXITSECTION

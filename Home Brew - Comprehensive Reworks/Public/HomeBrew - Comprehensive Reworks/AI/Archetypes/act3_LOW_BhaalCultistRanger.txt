@@ -1,4 +1,4 @@
 USING ranged_smart
 
-// She cannot pick weapons, she only has 1 hand
+// She cannot pick up weapons, she only has one hand
 WEAPON_PICKUP_MODIFIER 									0.0

@@ -4217,6 +4217,12 @@ using "_MagicScroll"
 data "RootTemplate" "7f866a27-5512-4685-bc02-fb8faea1e90a"
 data "UseCosts" "BonusActionPoint:1"
 
+new entry "OBJ_Scroll_ArcaneEye"
+type "Object"
+using "_MagicScroll"
+data "RootTemplate" "5314d1eb-5771-47b5-80a7-2ee093ef4618"
+data "MinLevel" "21"
+
 new entry "Gale_Hand"
 type "Object"
 using "OBJ_GenericLootItem"

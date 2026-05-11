@@ -1,2 +1,1 @@
-USING melee
-//this is intended for use by the Brewer
+USING melee_stupid

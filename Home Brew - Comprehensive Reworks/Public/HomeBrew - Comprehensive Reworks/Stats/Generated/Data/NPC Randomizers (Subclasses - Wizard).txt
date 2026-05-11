@@ -34,6 +34,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_ARCBLADE,100,-1);IF(not CharacterLevelGreaterThan(2)):ApplyStatus(APPLY_ARCBLADE_1,100,-1);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(APPLY_ARCBLADE_3,100,-1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(APPLY_ARCBLADE_5,100,-1);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(APPLY_ARCBLADE_7,100,-1);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_ARCBLADE_9,100,-1);IF(CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_ARCBLADE_11,100,-1)"
+data "Boosts" "AiArchetypeOverride(melee_magic,1)"
 
 new entry "WIZARD_SUBCLASS_ARCANEWARDEN"
 type "StatusData"
@@ -46,6 +47,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_ARCANEWARDEN,100,-1);IF(not CharacterLevelGreaterThan(2)):ApplyStatus(APPLY_ARCANEWARDEN_1,100,-1);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(APPLY_ARCANEWARDEN_3,100,-1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(APPLY_ARCANEWARDEN_5,100,-1);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(APPLY_ARCANEWARDEN_7,100,-1);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_ARCANEWARDEN_9,100,-1);IF(CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_ARCANEWARDEN_11,100,-1)"
+data "Boosts" "AiArchetypeOverride(melee_magic,1)"
 
 new entry "WIZARD_SUBCLASS_LUMINALCONFLUENCE"
 type "StatusData"
@@ -58,6 +60,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_LUMINALCONFLUENCE,100,-1);IF(not CharacterLevelGreaterThan(2)):ApplyStatus(APPLY_LUMINALCONFLUENCE_1,100,-1);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(APPLY_LUMINALCONFLUENCE_3,100,-1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(APPLY_LUMINALCONFLUENCE_5,100,-1);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(APPLY_LUMINALCONFLUENCE_7,100,-1);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_LUMINALCONFLUENCE_9,100,-1);IF(CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_LUMINALCONFLUENCE_11,100,-1)"
+data "Boosts" "AiArchetypeOverride(mage,1)"
 
 new entry "WIZARD_SUBCLASS_EVOKER"
 type "StatusData"
@@ -70,6 +73,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_EVOKER,100,-1);IF(not CharacterLevelGreaterThan(2)):ApplyStatus(APPLY_EVOKER_1,100,-1);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(APPLY_EVOKER_3,100,-1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(APPLY_EVOKER_5,100,-1);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(APPLY_EVOKER_7,100,-1);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_EVOKER_9,100,-1);IF(CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_EVOKER_11,100,-1)"
+data "Boosts" "AiArchetypeOverride(mage,1)"
 
 new entry "WIZARD_SUBCLASS_NECROMANCY"
 type "StatusData"
@@ -82,6 +86,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_NECROMANCY,100,-1);IF(not CharacterLevelGreaterThan(2)):ApplyStatus(APPLY_NECROMANCY_1,100,-1);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(APPLY_NECROMANCY_3,100,-1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(APPLY_NECROMANCY_5,100,-1);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(APPLY_NECROMANCY_7,100,-1);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_NECROMANCY_9,100,-1);IF(CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_NECROMANCY_11,100,-1)"
+data "Boosts" "AiArchetypeOverride(mage,1)"
 
 <!----------------------------------------------------------------------------------------------------SUBCLASS 1---------------------------------------------------------------------------------------------------->
 

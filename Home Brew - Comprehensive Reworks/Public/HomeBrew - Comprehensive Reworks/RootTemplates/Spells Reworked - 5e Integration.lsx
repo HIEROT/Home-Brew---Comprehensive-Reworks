@@ -57,7 +57,7 @@
 				<node id="GameObjects">
 					<attribute id="CanJoinCombat" type="bool" value="False" />
 					<attribute id="DisarmDifficultyClassID" type="guid" value="00000000-0000-0000-0000-000000000000" />
-					<attribute id="DisplayName" type="TranslatedString" handle="a5sfd4s65asd5fsdf1d45sdfsa5sd0ssaaaa9" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="a5sfd4s65asd5fsdf1d45sdfsa5sd0ssaaaa9" version="1" />
 					<attribute id="Icon" type="FixedString" value="Item_Snare_Trap" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="LevelOverride" type="int32" value="-1" />

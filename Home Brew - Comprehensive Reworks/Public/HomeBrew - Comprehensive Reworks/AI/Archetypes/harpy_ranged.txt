@@ -1,1 +1,1 @@
-USING beast
+USING beast_ranged

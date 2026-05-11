@@ -81,7 +81,6 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead;FreezeDuration"
 data "OnApplyFunctors" "ApplyStatus(BARD_STEEL_WEAPON_APPLICATOR,100,1)"
-data "Boosts" "AiArchetypeOverride(melee_smart,1)"
 
 new entry "BARD_STEEL_WEAPON_APPLICATOR"
 type "StatusData"

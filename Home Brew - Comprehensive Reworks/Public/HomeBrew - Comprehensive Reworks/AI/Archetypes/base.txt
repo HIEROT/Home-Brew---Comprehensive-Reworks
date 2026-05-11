@@ -74,7 +74,7 @@ MULTIPLIER_CANNOT_EXECUTE_THIS_TURN				0.25
 MULTIPLIER_PLANNED_ACTION_WITH_MOVE_SPELL		1.50 // Used to boost the score of the action AI initially planned to do after using a move spell for it
 
 // Used to scale effect of action's resource costs
-MULTIPLIER_ACTION_RESOURCE_COST					0.0
+MULTIPLIER_ACTION_RESOURCE_COST					1.0
 
 // multiplier for how much characters want to interact with things like Exploding barrels
 MULTIPLIER_USABLE_ITEM							1.25
@@ -94,7 +94,7 @@ MULTIPLIER_TARGET_HOSTILE_COUNT_TWO_OR_MORE		0.50
 MULTIPLIER_TARGET_IN_SIGHT						1.05
 MULTIPLIER_TARGET_INCAPACITATED					1.25
 MULTIPLIER_TARGET_KNOCKED_DOWN					1.25
-MULTIPLIER_TARGET_PREFERRED						4.00
+MULTIPLIER_TARGET_PREFERRED						1.50
 MULTIPLIER_TARGET_UNPREFERRED					0.50
 MULTIPLIER_TARGET_HEALTH_BIAS					1.25	// How important the current HP of a target is (lower HP = higher score)
 MULTIPLIER_TARGET_ENEMY_DOWNED 					1.25
@@ -106,15 +106,15 @@ MULTIPLIER_TARGET_NEUTRAL_DOWNED				0.00
 
 MULTIPLIER_ENDPOS_ALLIES_NEARBY					0.00
 ENDPOS_ALLIES_NEARBY_MIN_DISTANCE				1.50 // distance at which being any closer makes no difference
-ENDPOS_ALLIES_NEARBY_MAX_DISTANCE				6.00 // ignore characters beyond this distance
+ENDPOS_ALLIES_NEARBY_MAX_DISTANCE				9.00 // ignore characters beyond this distance
 
 MULTIPLIER_ENDPOS_ENEMIES_NEARBY				0.01
 ENDPOS_ENEMIES_NEARBY_MIN_DISTANCE				1.50 // distance at which being any closer makes no difference
-ENDPOS_ENEMIES_NEARBY_MAX_DISTANCE				6.00 // ignore characters beyond this distance
+ENDPOS_ENEMIES_NEARBY_MAX_DISTANCE				9.00 // ignore characters beyond this distance
 
 MULTIPLIER_ENDPOS_FLANKED						0.05
 MULTIPLIER_ENDPOS_HEIGHT_DIFFERENCE				0.00
-MULTIPLIER_ENDPOS_TURNED_INVISIBLE				0.01
+MULTIPLIER_ENDPOS_TURNED_INVISIBLE				-0.25
 MULTIPLIER_ENDPOS_NOT_IN_AIHINT					1.00
 MULTIPLIER_ENDPOS_NOT_IN_SMOKE					1.00
 MULTIPLIER_ENDPOS_NOT_IN_DANGEROUS_SURFACE		1.00
@@ -131,12 +131,12 @@ MULTIPLIER_NO_ENEMIES_IN_MAX_DISTANCE			0.0001  // tiny score so only if there i
 //////////////////////////////////////////////////////////////////////////
 // Fallback Settings
 MULTIPLIER_FALLBACK_ALLIES_NEARBY				0.00
-FALLBACK_ALLIES_NEARBY_MIN_DISTANCE				0.00 // distance at which being any closer makes no difference
-FALLBACK_ALLIES_NEARBY_MAX_DISTANCE				0.00 // ignore characters beyond this distance
+FALLBACK_ALLIES_NEARBY_MIN_DISTANCE				1.50 // distance at which being any closer makes no difference
+FALLBACK_ALLIES_NEARBY_MAX_DISTANCE				9.00 // ignore characters beyond this distance
 
 MULTIPLIER_FALLBACK_ENEMIES_NEARBY				0.00
-FALLBACK_ENEMIES_NEARBY_MIN_DISTANCE			0.00 // distance at which being any closer makes no difference
-FALLBACK_ENEMIES_NEARBY_MAX_DISTANCE			0.00 // ignore characters beyond this distance
+FALLBACK_ENEMIES_NEARBY_MIN_DISTANCE			1.50 // distance at which being any closer makes no difference
+FALLBACK_ENEMIES_NEARBY_MAX_DISTANCE			9.00 // ignore characters beyond this distance
 
 FALLBACK_HEIGHT_DIFFERENCE						0.00
 
@@ -152,7 +152,7 @@ FALLBACK_ATTACK_BLOCKER_SCORE					0.10 // base score for attacking an item that 
 
 //////////////////////////////////////////////////////////////////////////
 // General score multipliers
-MULTIPLIER_SCORE_ON_NEUTRAL						-0.75
+MULTIPLIER_SCORE_ON_NEUTRAL						-1.25
 MULTIPLIER_SCORE_ON_ALLY						-1.25
 MULTIPLIER_SCORE_OUT_OF_COMBAT					0.25
 
@@ -195,7 +195,7 @@ SPELL_TELEPORT_MINIMUM_DISTANCE					9.00
 MULTIPLIER_SURFACE_REMOVE						0.35
 
 // Used for destroying interesting items.
-MULTIPLIER_DESTROY_INTERESTING_ITEM				3.25
+MULTIPLIER_DESTROY_INTERESTING_ITEM				4.00
 
 // How important resistances/immunities are for this character
 MULTIPLIER_RESISTANCE_STUPIDITY					1.00
@@ -209,8 +209,8 @@ MULTIPLIER_SECONDARY_ABILITY					0.50
 TURNS_CAP										4.0
 
 // Modifier used for possible combo score
-MULTIPLIER_COMBO_SCORE_INTERACTION				1.00
-MULTIPLIER_COMBO_SCORE_POSITIONING				0.00
+MULTIPLIER_COMBO_SCORE_INTERACTION				1.25
+MULTIPLIER_COMBO_SCORE_POSITIONING				1.25
 
 // Modifier used for jump and teleportation SPELLs for the position score of the position we're leaving
 MULTIPLIER_POSITION_LEAVE						-1.0
@@ -240,7 +240,7 @@ LOSE_CONTROL_MAX_CONSUMABLES_PER_TURN			1
 MULTIPLIER_FIRST_ACTION_BUFF					1.25
 
 // Multiplier for invisibility as the first action
-MULTIPLIER_FIRST_ACTION_INVISIBILITY			0.1
+MULTIPLIER_FIRST_ACTION_INVISIBILITY			1.25
 
 // Modifiers used when converting a resource of specified type to a score, where higher score means higher cost
 MULTIPLIER_RESOURCE_REPLENISH_TYPE_NEVER		1.00
@@ -367,9 +367,9 @@ WEAPON_PICKUP_RADIUS 9
 // Modifier used to enable preferring ranged weapons above melee
 WEAPON_PICKUP_PREFER_RANGED_ENABLED 0
 // Modifier used to change score of picking up a weapon when it is preferred
-WEAPON_PICKUP_MODIFIER_PREFERRED 1.25
+WEAPON_PICKUP_MODIFIER_PREFERRED 4.0
 // Modifier used to change score of picking up a weapon when it was equipped before
-WEAPON_PICKUP_MODIFIER_PREVIOUSLY_EQUIPPED 1.25
+WEAPON_PICKUP_MODIFIER_PREVIOUSLY_EQUIPPED 4.0
 // Modifier used to change score of picking up a weapon based on the damage. Usually low, used as a tie breaker
 WEAPON_PICKUP_MODIFIER_DAMAGE 0.005
 // Modifier used to change score of picking up a weapon when the source has no profiency

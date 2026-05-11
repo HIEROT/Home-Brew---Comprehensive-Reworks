@@ -311,6 +311,6 @@
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00020" version="1">Venerational Strikes</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000t" version="1">After using one of your Miracles, you receive &lt;LSTag Type="Status" Tooltip="VENERATION"&gt;Veneration&lt;/LSTag&gt; for three turns.</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00z20" version="1">Veneration</content>
-	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e000zt" version="1">Affected creature's weapon deals damage equal to their &lt;LSTag Tooltip="AbilityModifier"&gt;Wisdom Modifier&lt;/LSTag&gt;. The type of damage dealt changes depending on their choice of subclass.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e000zt" version="1">Affected creature's main-hand weapon deals damage equal to their &lt;LSTag Tooltip="AbilityModifier"&gt;Wisdom Modifier&lt;/LSTag&gt;. The type of damage dealt changes depending on their choice of subclass.</content>
 	
 </contentList>

@@ -1,6 +1,3 @@
-//This archetype is intended for average humanoids like guards/bandits/soldiers etc
-
-
 //Don't care as much about sight range as they are melee anyways
 MULTIPLIER_BOOST_SIGHT_RANGE 0.05
 
@@ -8,6 +5,6 @@ MULTIPLIER_BOOST_SIGHT_RANGE 0.05
 MULTIPLIER_ENDPOS_ENEMIES_NEARBY	1.0
 MULTIPLIER_FALLBACK_ENEMIES_NEARBY	1.0
 
-// “Close enough” should be closer than base’s 3.0m
+// “Close enough” should be closer than base
 ENDPOS_ENEMIES_NEARBY_MIN_DISTANCE   0.0
 FALLBACK_ENEMIES_NEARBY_MIN_DISTANCE 1.5

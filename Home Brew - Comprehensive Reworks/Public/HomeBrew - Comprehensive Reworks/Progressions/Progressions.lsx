@@ -4842,7 +4842,7 @@
 					<attribute id="UUID" type="guid" value="a74b7a53-b650-48b9-81dd-12a319108ff6" />
 					</node>
         <node id="Progression">
-					<attribute id="Boosts" type="LSString" value="Tag(DRUID);ActionResource(Movement,9,0)" />
+					<attribute id="Boosts" type="LSString" value="Tag(RANGER);ActionResource(Movement,9,0)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="NPC_Jaheria" />
 					<attribute id="PassivesAdded" type="LSString" value="Dangerous_Encounter" />

@@ -1,4 +1,4 @@
-USING mage
+USING melee_stupid
 
 //Absolutely doesn't want to pickup weapons
 WEAPON_PICKUP_MODIFIER 							0
