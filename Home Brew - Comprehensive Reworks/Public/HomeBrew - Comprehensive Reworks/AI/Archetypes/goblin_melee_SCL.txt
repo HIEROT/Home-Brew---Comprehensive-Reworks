@@ -1,5 +1,22 @@
-USING goblin_melee
+//Don't care as much about sight range as they are melee anyways
+MULTIPLIER_BOOST_SIGHT_RANGE 0.05
 
+// Melee wants to end turns closer
+MULTIPLIER_ENDPOS_ENEMIES_NEARBY	1.0
+MULTIPLIER_FALLBACK_ENEMIES_NEARBY	1.0
+
+// “Close enough” should be closer than base
+ENDPOS_ENEMIES_NEARBY_MIN_DISTANCE   0.0
+FALLBACK_ENEMIES_NEARBY_MIN_DISTANCE 1.5
+
+MULTIPLIER_POS_IN_AURA 0.05
+MODIFIER_OWN_AURA 0.05
+
+// Does not attack barrels / items
+MULTIPLIER_USABLE_ITEM 0.0
+
+// Doesn't care to damage its allies
+MULTIPLIER_SCORE_ON_ALLY 0.0
 MULTIPLIER_DARKNESS_CLEAR 						0.0500
 MULTIPLIER_DARKNESS_LIGHT 						0.0000
 MULTIPLIER_DARKNESS_HEAVY 						0.0000

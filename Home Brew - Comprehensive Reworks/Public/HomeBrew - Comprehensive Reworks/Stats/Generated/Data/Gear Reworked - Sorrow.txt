@@ -11,7 +11,7 @@ data "UseCosts" "ReactionActionPoint:1;Attunement:2"
 data "StatusOnEquip" "ATTUNEMENT2"
 data "DefaultBoosts" "Tag(ORI_GALE_CONSUMABLEARTEFACT);WeaponEnchantment(1);WeaponDamage(1d6, Piercing)"
 
-new entry "Shout_ThornWhip_Improved"
+new entry "Shout_BloodvineGrasp"
 type "SpellData"
 data "SpellType" "Shout"
 data "Level" "0"

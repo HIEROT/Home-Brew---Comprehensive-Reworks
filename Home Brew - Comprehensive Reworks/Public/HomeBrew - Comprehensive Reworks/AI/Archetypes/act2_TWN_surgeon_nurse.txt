@@ -1,4 +1,29 @@
-USING healer_melee
+//Don't care as much about sight range as they are melee anyways
+MULTIPLIER_BOOST_SIGHT_RANGE 0.05
+
+// Melee wants to end turns closer
+MULTIPLIER_ENDPOS_ENEMIES_NEARBY	1.0
+MULTIPLIER_FALLBACK_ENEMIES_NEARBY	1.0
+
+// “Close enough” should be closer than base
+ENDPOS_ENEMIES_NEARBY_MIN_DISTANCE   0.0
+FALLBACK_ENEMIES_NEARBY_MIN_DISTANCE 1.5
+
+//Healers care a bit less about going for kills
+MULTIPLIER_KILL_ENEMY 							1.00
+
+// Healers will strongly prefer to heal and buff allies 
+MULTIPLIER_HEAL_ALLY_POS						15.0
+MULTIPLIER_BOOST_ALLY_POS		 				15.0
+
+// Healers will strongly prefer to debuff enemies
+MULTIPLIER_BOOST_ENEMY_POS		 				15.0
+
+// Healer doesn't try to damage as enemies as much
+MULTIPLIER_DAMAGE_ENEMY_POS						1.00
+
+//Healers will try to heal or stabilize downed players
+MULTIPLIER_TARGET_ALLY_DOWNED 					1.50
 
 //Nurse likes buffing themselves - through the doing of which she'll actually be buffing the Surgeon
 MULTIPLIER_BOOST_SELF_POS		 				4.00

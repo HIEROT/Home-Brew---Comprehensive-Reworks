@@ -1,3 +1,10 @@
-USING mage
+// Keep distance from enemies
+MULTIPLIER_ENDPOS_ENEMIES_NEARBY			-0.01
+
+// Slight high-ground preference (ranged should care a bit)
+MULTIPLIER_ENEMY_HEIGHT_DIFFERENCE			0.0500
+
+// Prefer picking up ranged weapons
+WEAPON_PICKUP_PREFER_RANGED_ENABLED			1
 
 MULTIPLIER_TARGET_PREFERRED						0.00

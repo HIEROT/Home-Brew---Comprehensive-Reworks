@@ -1,5 +1,20 @@
 local __util = require 'larian.util'
 
+function GreaterInvisibilityCheck_InvisSpellOrRoll()
+    local invisSpell = IsStatusEvent(StatusEvent.OnSpellCast) and HasSpellFlag(SpellFlags.Invisible)
+	if (invisSpell.Result) then
+		return ConditionResult(false)
+	end
+
+	local numberOfSuccesses = GetStatusDuration('GREATER_INVISIBILITY_SUCCESS')
+
+	local DC = 20 + (numberOfSuccesses + 4)
+
+	local skillCheck = SkillCheck(Skill.Stealth, DC, false, false, context.Target, context.Target)
+
+    return ConditionResult(not skillCheck.Result)
+end
+
 function HasteCheck()
     return HasUseCosts('ActionPoint', true) | HasUseCosts('BonusActionPoint', true) | HasUseCosts('ReactionActionPoint', true)
 end

@@ -425,6 +425,8 @@
 	<content contentuid="h9bc3c302g3d9ag4644g9b8fge54ab43c709b" version="1">The queen is enraged! She's gained an additional &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;!</content>
 	<content contentuid="h2395dc03ga60dg4ca8gbf28g9cc6132sd3d1" version="1">The Queen's Brood</content>
 	<content contentuid="h36f181f8g1bcag43bag8f71g69c05esdfe58" version="1">Upon being damaged, the Spider Queen will create one Phase Spiderling.</content>
+	<content contentuid="h68e78850ga23bg4760g8606g8712e5f2e54f" version="1">Eight-Legged Landing</content>
+	<content contentuid="h9bc3c302g3d9ag4644g9b8fge546e9e6f854" version="1">This creature will only take half the usual damage from falling.</content>
 
 	<content contentuid="h1fc6c0bbg4cf4g4ac7g8e8dgbe7ead417b34" version="1">Static Overdrive</content>
 	<content contentuid="haebd3b95g5e41g4d86g825dg38047306da99" version="7">Emanate a static discharge that buffs nearby constructs and damages all others.</content>
@@ -441,7 +443,7 @@
 	<content contentuid="h3344d3e6gb749g4bd5ga9e9g75f0desd5f21" version="5">Displacement</content>
 	<content contentuid="h38d3f000g4a2eg4682g9wsefe845de868545" version="1">While unubscured, Displacer Beasts may cause their targets to go &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Mad&lt;/LSTag&gt; when dealing damage to them.</content>
 	<content contentuid="ha87e063cg90aag4085g94bbg77b7f89b339e" version="5">Illusory Copy</content>
-	<content contentuid="h50825fb4g9c1ag4146g9efeg7164023ebf01" version="1">Create an illusory Displacer Beast at a location you can see. It will then attack nearby enemies for three turns.</content>
+	<content contentuid="h50825fb4g9c1ag4146g9efeg7164023ebf01" version="1">Create an illusory Displacer Beast at a location you can see.</content>
 	<content contentuid="ha87e063cg90aag4085g94bbg77b7f2d5f6e2" version="5">Illusory Displacement</content>
 	<content contentuid="h50825fb4g9c1ag4146g9efeg716406s8e6f8" version="1">Teleport a creature to an area you can see, rending their mind in the process. Allies will take no damage from this action.</content>
 

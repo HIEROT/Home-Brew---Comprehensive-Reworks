@@ -160,9 +160,14 @@
                     <attribute id="UUID" type="guid" value="ae3ce10b-d32c-44df-91b9-ebf74476a9d8" />
 					</node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Druid - Wildshape Selection" />
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Badger;Shout_WildShape_Bear_Polar;Shout_WildShape_Cat;Shout_WildShape_DeepRothe;Shout_WildShape_Dilophosaurus;Shout_WildShape_Dire_Raven;Shout_WildShape_Dire_Wolf;Shout_WildShape_Giant_Spider;Shout_Wildshape_SaberTooth_Tiger" />
+                    <attribute id="Comment" type="LSString" value="Druid - Circle of the Moon" />
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Badger;Shout_WildShape_Bear_Polar;Shout_WildShape_Cat;Shout_WildShape_DeepRothe;Shout_WildShape_Dilophosaurus;Shout_WildShape_Dire_Raven;Shout_WildShape_Dire_Wolf;Shout_Wildshape_Giant_Eagle;Shout_WildShape_Giant_Spider;Shout_WildShape_Owlbear;Shout_Wildshape_Panther" />
                     <attribute id="UUID" type="guid" value="11c23a6f-6f53-47bc-ad35-9cb7ed0c2b2e" />
+					</node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Druid - Wildshape Selection" />
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Bear_Polar;Shout_WildShape_Cat;Shout_WildShape_Dire_Wolf" />
+                    <attribute id="UUID" type="guid" value="048d3543-1ac4-4eb9-b6a8-1713d8ff5f91" />
 					</node>
         <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Druid - Circle of the Elements (Level 1)" />
@@ -173,11 +178,6 @@
                     <attribute id="Comment" type="LSString" value="Druid - Circle of the Land (Level 1)" />
                     <attribute id="Spells" type="LSString" value="Target_ConjureDryad" />
                     <attribute id="UUID" type="guid" value="64e0c193-f303-499f-a33a-76aa04fa819a" />
-					</node>
-        <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Druid - Circle of the Moon (Level 1)" />
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Owlbear;Shout_Wildshape_Panther" />
-                    <attribute id="UUID" type="guid" value="88b56a57-f48c-4550-9143-397686963a86" />
 					</node>
         <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Druid - Circle of the Spores (Level 1)" />

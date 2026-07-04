@@ -1,1 +1,15 @@
-USING cloaker
+//Don't care as much about sight range as they are melee anyways
+MULTIPLIER_BOOST_SIGHT_RANGE 0.05
+
+// “Close enough” should be closer than base
+ENDPOS_ENEMIES_NEARBY_MIN_DISTANCE   0.0
+FALLBACK_ENEMIES_NEARBY_MIN_DISTANCE 1.5
+
+//cloakers attempt to attack then move away from their enemy, sometimes risking attack of opportunity
+MULTIPLIER_ENDPOS_ENEMIES_NEARBY                -1.00
+
+MULTIPLIER_ENDPOS_ALLIES_NEARBY                 -1.00
+
+MULTIPLIER_FALLBACK_ALLIES_NEARBY				-1.00
+
+MULTIPLIER_FALLBACK_ENEMIES_NEARBY				-1.00

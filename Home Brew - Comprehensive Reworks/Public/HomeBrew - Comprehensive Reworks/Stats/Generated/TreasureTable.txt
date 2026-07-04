@@ -394,6 +394,8 @@ new subtable "1,1"
 object category "I_MAG_Toll_Collector_Cloak",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_MAG_WPN_NecroticWand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_MAG_ArcaneAbsorption_Dagger",1,0,0,0,0,0,0,0
 
 new treasuretable "LOW_SteepsTrader_Armor"
 CanMerge 1

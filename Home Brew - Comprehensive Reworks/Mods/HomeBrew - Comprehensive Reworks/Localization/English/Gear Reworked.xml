@@ -1089,7 +1089,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">COLD SNAP</content>
 	<content contentuid="hee87b1afg77b0g43a5g9ab0gee6157ec09de" version="2">Chilling Counter</content>
-	<content contentuid="hf9961059g646eg4646gb936ge54098a70132" version="3">When a creature fails an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, it becomes &lt;LSTag Type="Status" Tooltip="CHILLED"&gt;Chilled&lt;/LSTag&gt; for [1] turns.</content>
+	<content contentuid="hf9961059g646eg4646gb936ge54098a70132" version="3">When a creature fails an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, it becomes &lt;LSTag Type="Status" Tooltip="CHILLED"&gt;Chilled&lt;/LSTag&gt; for [1] turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CROOKED WAND OF FIREBALLS</content>
 	<content contentuid="h161aa62ag510cg48cega0cbge37e3321c64a" version="2">Crooked Wand of Fireballs</content>
@@ -1203,7 +1203,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HORNS OF THE BERSERKER</content>
 	<content contentuid="h0633c5c1g0427g4169g8b1fgde5e1605d387" version="1">Blood Thirst</content>
-	<content contentuid="ha0b53930g3ba7g425ag8901g41585c661758" version="4">Unarmed and melee attacks will deal an additional [1] while below half of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="ha0b53930g3ba7g425ag8901g41585c661758" version="4">Melee attacks will deal an additional [1] while below half of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">KILLERS SWEETHEART</content>
 	<content contentuid="h00d004f6g09f6g43bfga6bbg3b2447c60133" version="2">Executioner</content>
@@ -1881,8 +1881,9 @@
 	<content contentuid="hda711983gaa8dg4857g8009g6e7fad1586f9" version="1">Candle of Lawful Invocation</content>
 	<content contentuid="h39c74846g1ebag40aagb85dg948bcd217aa3" version="1">A slender taper dedicated to various lawful deities.</content>
 	<content contentuid="h6464bc22gfd08g4349gad10g8d70ed230120" version="1">Holy Warmth</content>
-	<content contentuid="h737ae331g5f76g4ffag8528gd91bdf1e21dd" version="1">Infuse your weapon with light.</content>
-	<content contentuid="h93101549gc2acg425ag92f7gf0b846a2f2ae" version="1">When targeting a creature holding an object, they gain an additional 1st level &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
+	<content contentuid="h93101549gc2acg425ag92f7gf0b846a2f2ae" version="1">Targeting a creature, granting them an additional 1st level &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
+	<content contentuid="h6464bc22gfd08g4349gad10g8d70ed23012z" version="1">Holy Warmth</content>
+	<content contentuid="h93101549gc2acg425ag92f7gf0b846a2f2az" version="1">Affected creature has an additional 1st level &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h623f78f1gb4cbg477aga12cg22b6926a343a" version="1">Efficient Quiver</content>
 	<content contentuid="hadade399g5e64g4096ga708g87fbc6bf17b8" version="1">Contains a small extradimensional space capable of holding more than the average quiver.</content>
@@ -2291,7 +2292,7 @@
 	<content contentuid="hbad72f06g47b7g476fg847fg186749cecc71" version="1">Chaos Rod</content>
 	<content contentuid="hb4a3d36cga382g4f94g914cg303d4bd57a2a" version="1">This wand warps with barely-contained magic.</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea00004" version="1">Chaos Bolt</content>
-	<content contentuid="969ab85776d540a1b4b9d757b30281ea0000d" version="3">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; fire a &lt;LSTag Type="Spell" Tooltip="Projectile_Abracadabra_ChaosRod"&gt;Chaos Bolt&lt;/LSTag&gt;. The bolt causes your target to experience a surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt; which causes a random amount of elemental damage. The damage done by this wand cannot be increased.</content>
+	<content contentuid="969ab85776d540a1b4b9d757b30281ea0000d" version="3">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; fire a &lt;LSTag Type="Spell" Tooltip="Projectile_Abracadabra_ChaosRod"&gt;Chaos Bolt&lt;/LSTag&gt;. The bolt causes your target to experience a surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt; which causes a random amount of elemental damage. The damage done by these surges cannot be affected by passive effects or increased in any way.</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea000z4" version="1">Chaos Bolt</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea000zd" version="3">Fire a bolt of chaotic &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. The bolt causes your target to experience a Wild Magic surge which causes a random amount of elemental damage.</content>
 
@@ -2337,7 +2338,7 @@
 	<content contentuid="hd61ed6a7gc34eg4ed8g972dg5c5292749d10" version="1">Split Fate</content>
 	<content contentuid="h449168cbg9efeg4293gbba6g89474fac6401" version="1">A shaving struck from the legendary staff, Markoheshkir.</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea00010" version="1">Divided Outcome</content>
-	<content contentuid="969ab85776d540a1b4b9d757b30281ea0000j" version="1">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; produce an &lt;LSTag Type="Spell" Tooltip="Projectile_Abracadabra_SplitFate"&gt;Unstable Outcome&lt;/LSTag&gt;, dealing a random amount of damage to enemies, or restoring a random amount of health to allies. The damage done by this wand cannot be increased.</content>
+	<content contentuid="969ab85776d540a1b4b9d757b30281ea0000j" version="1">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; produce an &lt;LSTag Type="Spell" Tooltip="Projectile_Abracadabra_SplitFate"&gt;Unstable Outcome&lt;/LSTag&gt;, dealing a random amount of damage to enemies, or restoring a random amount of health to allies. The damage and healing done by these surges cannot be affected by passive effects or increased in any way.</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea00z10" version="1">Unstable Outcome</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea000zj" version="3">Produce an unstable &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;, dealing a random amount of damage to enemies, or restoring a random amount of health to allies.</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea00b10" version="1">Unstable Threads</content>

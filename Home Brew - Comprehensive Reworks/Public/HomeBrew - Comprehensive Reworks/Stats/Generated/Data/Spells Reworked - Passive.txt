@@ -126,7 +126,7 @@ new entry "MAG_ChargedLightning_LightningDamage_Passive"
 type "PassiveData"
 data "DisplayName" "h32201734g34b3g4abbgab21gb325fd183200;2"
 data "Properties" "IsHidden"
-data "Boosts" "IF(IsDamageTypeLightning() and not HasStatus('MAG_CHARGED_LIGHTNING_LIGHTNING_DISCHARGE_ONCE_TECHNICAL', context.Source)):DamageBonus(1d4, Lightning)"
+data "Boosts" "IF(Enemy() and HasDamageDoneForType(DamageType.Lightning,context.Target) and not HasStatus('MAG_CHARGED_LIGHTNING_LIGHTNING_DISCHARGE_ONCE_TECHNICAL', context.Source)):DamageBonus(1d4, Lightning)"
 
 new entry "MAG_ChargedLightning_LightningDischarge_Passive"
 type "PassiveData"
@@ -170,7 +170,7 @@ data "Description" "hf9a3c136gfa53g4170g9eeega20ced9c9111;4"
 data "DescriptionParams" "DealDamage(1d12, Necrotic)"
 data "Icon" "Action_Monster_Bulette_Bite"
 data "Properties" "Highlighted"
-data "Boosts" "UnlockSpell(Target_LOW_Astarion_VampireAscendant);UnlockSpell(Shout_LOW_MistyEscape_Astarion);DamageBonus(1d12,Necrotic)"
+data "Boosts" "UnlockSpell(Target_LOW_Astarion_VampireAscendant);UnlockSpell(Shout_LOW_MistyEscape_Astarion);IF(not HasStatus('MULTIHIT_BLOCKER', context.Source)):DamageBonus(1d12,Necrotic)"
 
 <!--VOLOS EYE-->
 
@@ -180,7 +180,7 @@ data "DisplayName" "h232cc24ega0f9g4f4dgb5d3g46ab59579d4b;2"
 data "Description" "h9d8550edg6d54g4113gbbdcge6d99b8b2a2f;4"
 data "Icon" "Item_DEN_VoloOperation_ErsatzEye"
 data "StatsFunctorContext" "OnCreate;OnLongRest"
-data "StatsFunctors" "IF(not HasStatus('SEE_INVISIBILITY_VOLO', context.Source)):ApplyStatus(SELF,SEE_INVISIBILITY_VOLO,100,-1)"
+data "StatsFunctors" "IF(not HasStatus('SEE_INVISIBILITY', context.Source)):ApplyStatus(SELF,SEE_INVISIBILITY,100,-1)"
 
 <!---------------------------------------------------------------------------------------------------CANTRIPS--------------------------------------------------------------------------------------------------->
 
@@ -612,7 +612,7 @@ type "PassiveData"
 data "DisplayName" "h0160e9efg8974g43d6gb3fcg8d4e9d200a3c;4"
 data "Description" "ha672fd65g0fe4g4596g9529gce372c013ca1;6"
 data "Icon" "Spell_Illusion_ShadowBlade"
-data "Boosts" "IF(not HasObscuredState(ObscuredState.Clear,context.Source) and IsMeleeAttack() and IsWeaponAttack() and not IsOffHandAttack() and (HasStatus('SNEAKING', context.Source) or HasStatus('SG_Invisible', context.Source))):MinimumRollResult(Damage,20)"
+data "Boosts" "IF(not HasObscuredState(ObscuredState.Clear,context.Source) and IsMeleeAttack() and IsWeaponAttack() and not IsOffHandAttack()):Reroll(Damage,20,false)"
 
 <!--SPIRIT GUARDIANS-->
 

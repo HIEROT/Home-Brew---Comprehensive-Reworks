@@ -1,4 +1,12 @@
-USING melee
+//Don't care as much about sight range as they are melee anyways
+MULTIPLIER_BOOST_SIGHT_RANGE 0.05
+
+// Melee wants to end turns closer
+MULTIPLIER_ENDPOS_ENEMIES_NEARBY	1.0
+
+// “Close enough” should be closer than base
+ENDPOS_ENEMIES_NEARBY_MIN_DISTANCE   0.0
+FALLBACK_ENEMIES_NEARBY_MIN_DISTANCE 1.5
 
 // Shadows care little about surfaces
 MULTIPLIER_MOVEMENT_SURFACE						0.00

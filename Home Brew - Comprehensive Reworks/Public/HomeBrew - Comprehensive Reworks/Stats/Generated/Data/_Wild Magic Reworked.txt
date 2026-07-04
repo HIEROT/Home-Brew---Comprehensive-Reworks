@@ -286,7 +286,7 @@ data "Icon" "PassiveFeature_WildMagicSurge"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnAttacked"
 data "Conditions" "IsAttack() and HasDamageEffectFlag(DamageFlags.Hit)"
-data "StatsFunctors" "DealDamage(SWAP,1d12, Force,Magical);ApplyStatus(SELF,PASSIVE_WILDMAGIC_MAGICRETRIBUTION_DEFENDER,100,0);ApplyStatus(PASSIVE_WILDMAGIC_MAGICRETRIBUTION_ATTACKER,100,0)"
+data "StatsFunctors" "DealDamage(SWAP,1d12, Force,,,0,,true);ApplyStatus(SELF,PASSIVE_WILDMAGIC_MAGICRETRIBUTION_DEFENDER,100,0);ApplyStatus(PASSIVE_WILDMAGIC_MAGICRETRIBUTION_ATTACKER,100,0)"
 
 new entry "Shout_WildMagicBarbarian_ProtectiveLights"
 type "SpellData"

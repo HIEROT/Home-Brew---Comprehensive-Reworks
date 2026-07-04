@@ -803,8 +803,8 @@
                     <attribute id="UUID" type="guid" value="df3e08b8-0e50-4cc3-b5fa-7331af3f5ec4"/>
                 </node>
                 <node id="FeatDescription">
-                    <attribute id="Description" type="TranslatedString" handle="55ce1b701c9642a4a3s9e98f9sd4ef989e85b" version="4"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="55ce1b701c9642a4a3dbasdf56s54e62f1s62" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="f8eb5743-ea2a-4249-8f16-846545c86cb4" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="e032fd36-033e-4e44-b45b-e8cd5676ab0d" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="SorcererRadiantBloom"/>
                     <attribute id="FeatId" type="guid" value="35e6f8f0-01d4-4273-ad6b-994b287fabd1"/>
                     <attribute id="UUID" type="guid" value="fd603da7-f156-42f2-a958-50a903470054"/>

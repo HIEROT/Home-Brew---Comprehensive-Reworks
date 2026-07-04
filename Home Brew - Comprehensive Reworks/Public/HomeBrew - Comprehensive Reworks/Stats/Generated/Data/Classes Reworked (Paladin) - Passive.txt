@@ -428,7 +428,7 @@ new entry "Oathbreaker_Tag"
 type "PassiveData"
 data "DisplayName" "9b7b811b9c3043e189f94554a64sw6df84fed;1"
 data "Description" "9b7b811b9c3043e189f94556s8ef4e8f45845;2"
-data "Icon" "PassiveFeature_Hex"
+data "Icon" "Spell_2e_Heal"
 data "Properties" "IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
 data "Boosts" "Tag(OATHBREAKER)"
 

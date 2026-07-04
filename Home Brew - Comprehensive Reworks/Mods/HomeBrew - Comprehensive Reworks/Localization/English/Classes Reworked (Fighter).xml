@@ -134,13 +134,13 @@
 	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c2100x1d" version="1">Teleport an item or creature to another location.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This Spell may be cast while &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; and will not break &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Stealth&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h2e8de670g9f71g4d53ga652ga2816de00004" version="1">Improved Fletching</content>
-	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c210000d" version="1">&lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; which cost an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; may now be cast using your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This may be toggled at any time.</content>
+	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c210000f" version="1">When casting a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 1.</content>
 
 	<content contentuid="h2e8de670g9f71g4d53ga652ga2816de00005" version="1">Greater Focus</content>
 	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c210000e" version="1">When &lt;LSTag Type="Passive" Tooltip="FocusedWeave"&gt;Focused Weave&lt;/LSTag&gt; is active, your basic shots now ricochet to two other creatures if within [1] of each other.</content>
 
 	<content contentuid="h2e8de670g9f71g4d53ga652ga2816de00006" version="1">Eye of the Arcana</content>
-	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c210000f" version="1">When casting a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 1.</content>
+	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c210000d" version="1">&lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; which cost an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; may now be cast using your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This may be toggled at any time.</content>
 
 	<content contentuid="h2e8de670g9f71g4d53ga652ga2816de5sd2f" version="1">Arcane Focus</content>
 	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c210df58" version="1">When &lt;LSTag Type="Passive" Tooltip="FocusedWeave"&gt;Focused Weave&lt;/LSTag&gt; is active, your basic shots now ricochet to all other creatures within [1] of your original target.</content>
@@ -458,7 +458,7 @@
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b4zzzzz" version="1">The best offense is a good defense, and you've taken the adage to heart. Shield in hand, you march forward, ready to bash any who challenge you into a fine mist.</content>
 	
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b400001" version="1">Reinforced Strikes</content>
-	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b40000a" version="1">Dealing damage with a shield deals additional damage equal to your &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Dice&lt;/LSTag&gt;.</content>
+	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b40000a" version="1">Dealing damage with a shield deals additional damage equal to your &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt;.</content>
 	
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b400002" version="1">Projected Bulwark</content>
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b40000b" version="1">&lt;LSTag Type="Spell" Tooltip="Target_ShieldBlow_Daze"&gt;Dazing Bash&lt;/LSTag&gt; is now capable of targeting creatures within [1] of you.</content>
