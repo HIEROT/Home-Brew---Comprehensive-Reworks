@@ -89,7 +89,7 @@
 	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd30000d" version="2">While in combat, you ignore all forms of damage &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; associated with your current season when dealing damage to an enemy or item.</content>
 
 	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd300005" version="2">Maelstrom</content>
-	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd30000e" version="2">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you immediately trigger &lt;LSTag Type="Passive" Tooltip="TempestuousSeasons"&gt;Tempestuous Seasons&lt;/LSTag&gt; within a [1] area around your target.&lt;br&gt;&lt;br&gt;Triggering Tempestuous Seasons in this way will not advance your season.</content>
+	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd30000e" version="2">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you immediately trigger &lt;LSTag Type="Passive" Tooltip="TempestuousSeasons"&gt;Tempestuous Seasons&lt;/LSTag&gt; within a [1] area around your target.&lt;br&gt;&lt;br&gt;Triggering Tempestuous Seasons in this way will not advance your season.</content>
 
 	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd300006" version="2">Avatar of Gaia</content>
 	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd30000f" version="2">At the beginning of each turn in combat, you immediately recover all your &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape Charges&lt;/LSTag&gt;.</content>
@@ -183,7 +183,7 @@
 	<content contentuid="5126c10823d3434e8286ee66c19e569800zz1" version="1">Displacer Beast</content>
 
 	<content contentuid="5126c10823d3434e8286ee66c19e569800002" version="2">Veilstalker</content>
-	<content contentuid="5126c10823d3434e8286ee66c19e56980000b" version="2">While obscured, you deal additional Psychic damage and recover &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each of your turns, equal to your levels in Druid. This bonus does not apply to damage dealt with an off-hand weapon.</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e56980000b" version="2">While assuming a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, deal additional Psychic damage and recover &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each of your turns, equal to your levels in Druid. This bonus does not apply to damage dealt with an off-hand weapon.</content>
 
 	<content contentuid="5126c10823d3434e8286ee66c19e569800003" version="2">Predatory Communion</content>
 	<content contentuid="5126c10823d3434e8286ee66c19e56980000c" version="2">Gain the ability to morph your allies into &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_DisplacerBeast"&gt;Displacer Beasts&lt;/LSTag&gt;.</content>
@@ -386,14 +386,14 @@
 	<content contentuid="h0e46ea98g5c80g450aga9b5g9269175a578d" version="1">Animalistic Vitality</content>
 	<content contentuid="h2ca5b313g0e08g4b0ega14bg01a0fe956de2" version="2">Regain [1] every round of combat.</content>
 
-	<content contentuid="hdfb8d944g2db3g4eb9gb3c6g8f63956424ec" version="3">Wildshape: Panther</content>
-	<content contentuid="h7e7f5662ga225g4191g81a8g83dba2890183" version="2">Take the shape of a panther that can turn invisible with its &lt;LSTag Type="Spell" Tooltip="Shout_Prowl_Panther"&gt;Prowl&lt;/LSTag&gt;.</content>
+	<content contentuid="hdfb8d944g2db3g4eb9gb3c6g8f63956424ec" version="3">Wildshape: Giant Panther</content>
+	<content contentuid="h7e7f5662ga225g4191g81a8g83dba2890183" version="2">Take the shape of a giant panther that can turn invisible with its &lt;LSTag Type="Spell" Tooltip="Shout_Prowl_Panther"&gt;Prowl&lt;/LSTag&gt;.</content>
 	<content contentuid="h047a0c6fg043eg4f79gb497g7b5b25899f8a" version="2">Prowl</content>
 	<content contentuid="h277a5323g8a85g4329g8482g50f1a50bb124" version="3">Turn &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; while stalking your prey. While Invisible, your first attack deals an additional +[1] damage.</content>
 	<content contentuid="h77e5b733ge51ag4087gae8eg143de199a097" version="1">Pounce</content>
 	<content contentuid="h219f44f4ga9dag4f80gbb76g2201989c3310" version="2">Leap at a target to bite it and knock it &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d34912iekdj" version="2">Apex Predator</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349126a998" version="3">As an apex predator, you take advantage of every opening. When attacking an enemy who is &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, you deal an additional +1d6 damage.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349126a998" version="3">As an apex predator, you take advantage of every opening. When attacking an enemy who is &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, you deal an additional +1d8 damage.</content>
 	<content contentuid="h77e5b733ge51ag4087gae8eg143de16a8454" version="2">Leap</content>
 	<content contentuid="h219f44f4ga9dag4f80gbb76g2201986a9878" version="3">Jump exceptionally far due to your Wildshape.</content>
 	<content contentuid="h77e5b733ge51ag4087gae8eg14338f8djfjd" version="2">Prowling</content>
@@ -482,13 +482,13 @@
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000c" version="1">When you roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with a Spell, &lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;Petrify&lt;/LSTag&gt; your target for one turn.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200004" version="1">Feral Precision</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000d" version="1">Gain a +2 bonus to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. This bonus is doubled while assuming a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;, or while &lt;LSTag Type="Status" Tooltip="SYMBIOTIC_ENTITY"&gt;Symbiotic Entity&lt;/LSTag&gt; is active.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000d" version="1">Gain a +2 bonus to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;This bonus is doubled while assuming a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;, while &lt;LSTag Type="Status" Tooltip="SYMBIOTIC_ENTITY"&gt;Symbiotic Entity&lt;/LSTag&gt; is active, or while your &lt;LSTag Type="Spell" Tooltip="Target_ConjureDryad"&gt;Dryad&lt;/LSTag&gt; is currently summoned.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200005" version="1">Feral Resilience</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000e" version="1">Upon utilizing a &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape Charge&lt;/LSTag&gt; to assume the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your Druid level multiplied by four.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000e" version="1">Upon utilizing a &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape Charge&lt;/LSTag&gt; to assume the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; or summon your &lt;LSTag Type="Spell" Tooltip="Target_ConjureDryad"&gt;Dryad&lt;/LSTag&gt;, gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your Druid level multiplied by four.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200006" version="1">Ferocious Stand</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000f" version="1">Gain a +1 bonus to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;. This bonus is doubled while assuming a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;, or while &lt;LSTag Type="Status" Tooltip="SYMBIOTIC_ENTITY"&gt;Symbiotic Entity&lt;/LSTag&gt; is active.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000f" version="1">Gain a +1 bonus to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;This bonus is doubled while assuming a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;, while &lt;LSTag Type="Status" Tooltip="SYMBIOTIC_ENTITY"&gt;Symbiotic Entity&lt;/LSTag&gt; is active, or while your &lt;LSTag Type="Spell" Tooltip="Target_ConjureDryad"&gt;Dryad&lt;/LSTag&gt; is currently summoned.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200007" version="1">Instinctive Defense</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000g" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, you gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all physical damage.</content>
@@ -497,7 +497,7 @@
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000h" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all damage rolls while assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200009" version="1">Mantra of Restoration</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000i" version="1">While not assuming the form of a Wildshape, you may expend &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape&lt;/LSTag&gt; charges to restore &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt;. Additionally, gain &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_Combat_Heal"&gt;Lunar Mend&lt;/LSTag&gt;, allowing you to heal yourself while in the form of a Wildshape.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000i" version="1">While not assuming the form of a Wildshape, you may expend &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape&lt;/LSTag&gt; charges to restore &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Additionally, gain &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_Combat_Heal"&gt;Lunar Mend&lt;/LSTag&gt;, allowing you to heal yourself while in the form of a Wildshape.</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349126a855" version="1">Solar Rebirth</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d34912ff5s4" version="1">Call upon your connection to nature to restore your &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt;.</content>
 	<content contentuid="ba8dc90c6dd0425a45a4212368d3491200001" version="1">Lesser Solar Rebirth</content>
@@ -548,13 +548,13 @@
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000n" version="1">Damaging other creatures potentially &lt;LSTag Type="Status" Tooltip="TAUNTED"&gt;Goads&lt;/LSTag&gt; them into attacking you.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200015" version="1">Primal Bloodletter</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000o" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;, or while &lt;LSTag Type="Status" Tooltip="SYMBIOTIC_ENTITY"&gt;Symbiotic Entity&lt;/LSTag&gt; is active, you have a chance to inflict &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; on your target when you make a successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000o" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;, while &lt;LSTag Type="Status" Tooltip="SYMBIOTIC_ENTITY"&gt;Symbiotic Entity&lt;/LSTag&gt; is active, or while your &lt;LSTag Type="Spell" Tooltip="Target_ConjureDryad"&gt;Dryad&lt;/LSTag&gt; is currently summoned, you have a chance to inflict &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; on your target when you make a successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200016" version="1">Primal Surge</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000p" version="1">Deal additional damage while &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshaped&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Wisdom Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000p" version="1">Deal additional damage to enemies while &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshaped&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Wisdom Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200017" version="1">Primal Takedown</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000q" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;, or while &lt;LSTag Type="Status" Tooltip="SYMBIOTIC_ENTITY"&gt;Symbiotic Entity&lt;/LSTag&gt; is active, you have a chance to knock your target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; when you make a successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000q" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;, while &lt;LSTag Type="Status" Tooltip="SYMBIOTIC_ENTITY"&gt;Symbiotic Entity&lt;/LSTag&gt; is active, or while your &lt;LSTag Type="Spell" Tooltip="Target_ConjureDryad"&gt;Dryad&lt;/LSTag&gt; is currently summoned, you have a chance to knock your target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; when you make a successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200018" version="1">Shapechanger's Versatility</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000r" version="1">Outside of combat, you may &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; as a free action.</content>

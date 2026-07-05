@@ -6,17 +6,17 @@
             <children>
         <node id="LevelMapSeries">
                     <attribute id="Level1" type="LSString" value="12"/>
-                    <attribute id="Level2" type="LSString" value="12"/>
-                    <attribute id="Level3" type="LSString" value="24"/>
-                    <attribute id="Level4" type="LSString" value="24"/>
-                    <attribute id="Level5" type="LSString" value="36"/>
-                    <attribute id="Level6" type="LSString" value="36"/>
-                    <attribute id="Level7" type="LSString" value="48"/>
-                    <attribute id="Level8" type="LSString" value="48"/>
-                    <attribute id="Level9" type="LSString" value="60"/>
-                    <attribute id="Level10" type="LSString" value="60"/>
-                    <attribute id="Level11" type="LSString" value="72"/>
-                    <attribute id="Level12" type="LSString" value="72"/>
+                    <attribute id="Level2" type="LSString" value="24"/>
+                    <attribute id="Level3" type="LSString" value="36"/>
+                    <attribute id="Level4" type="LSString" value="48"/>
+                    <attribute id="Level5" type="LSString" value="60"/>
+                    <attribute id="Level6" type="LSString" value="72"/>
+                    <attribute id="Level7" type="LSString" value="84"/>
+                    <attribute id="Level8" type="LSString" value="96"/>
+                    <attribute id="Level9" type="LSString" value="108"/>
+                    <attribute id="Level10" type="LSString" value="120"/>
+                    <attribute id="Level11" type="LSString" value="132"/>
+                    <attribute id="Level12" type="LSString" value="144"/>
                     <attribute id="Name" type="FixedString" value="Assassinate"/>
                     <attribute id="PreferredClassUUID" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
                     <attribute id="UUID" type="guid" value="8bb943b4-2e33-42c0-b2ab-37afa2631fee"/>

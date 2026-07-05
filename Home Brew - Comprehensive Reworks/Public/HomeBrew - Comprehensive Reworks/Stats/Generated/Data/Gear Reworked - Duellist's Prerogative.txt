@@ -67,7 +67,7 @@ data "ExtraDescription" ""
 data "ExtraDescriptionParams" ""
 data "Icon" "GenericIcon_DamageType_Necrotic"
 data "Conditions" "IsAbleToReact(context.Observer) and not Item() and IsMeleeAttack() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and IsWeaponAttack()"
-data "Properties" "DealDamage(ProficiencyBonus, Necrotic);ApplyStatus(MAG_NECROTIC_NECROTIC_BLAST_TECHNICAL,100, 0)"
+data "Properties" "DealDamage(ProficiencyBonus, Necrotic,,,0,,true);ApplyStatus(MAG_NECROTIC_NECROTIC_BLAST_TECHNICAL,100, 0)"
 data "Cost" "ReactionActionPoint:1"
 data "InterruptDefaultValue" "Ask;Enabled"
 

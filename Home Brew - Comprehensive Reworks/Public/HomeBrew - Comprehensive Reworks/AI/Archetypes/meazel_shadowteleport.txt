@@ -1,4 +1,5 @@
-USING ranged
+// Prefer picking up ranged weapons
+WEAPON_PICKUP_PREFER_RANGED_ENABLED			1
 
 // Meazels don't care about height
 MULTIPLIER_ENEMY_HEIGHT_DIFFERENCE				0.00

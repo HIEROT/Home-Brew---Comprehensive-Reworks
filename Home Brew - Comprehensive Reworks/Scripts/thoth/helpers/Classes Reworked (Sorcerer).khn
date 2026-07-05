@@ -905,6 +905,7 @@ function TwinnedExclusionSpells()
 		| SpellId('Target_Thunderstep_4')
 		| SpellId('Target_Thunderstep_5')
 		| SpellId('Target_Thunderstep_6')
+		| SpellId('Target_WildShape_DisplacerBeast')
 end
 
 function TwinnedTargetSpellCheck()

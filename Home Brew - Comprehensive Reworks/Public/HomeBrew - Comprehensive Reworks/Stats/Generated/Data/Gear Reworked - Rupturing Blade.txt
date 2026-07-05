@@ -47,7 +47,7 @@ data "TargetSound" "Action_Impact_PiercingThrust"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 new entry "CONSUMED_RUPTURINGBLADE"
 type "StatusData"

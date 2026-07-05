@@ -65,7 +65,7 @@ data "TargetSound" "Action_Impact_PiercingThrust"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--BACKBREAKER-->
 
@@ -104,7 +104,7 @@ data "CastSound" "Action_Cast_PostureBreaker"
 data "TargetSound" "Action_Impact_PostureBreaker"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--BEFUDDLING STRIKE-->
 
@@ -143,7 +143,7 @@ data "TargetSound" "Action_Impact_ConcussiveSmash"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--BLINDING STRIKE-->
 
@@ -182,7 +182,7 @@ data "TargetSound" "Action_Impact_ConcussiveSmash"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--BRACE (MELEE)-->
 
@@ -206,7 +206,7 @@ data "CastEffect" "b660a683-61c5-44a0-87c6-84cac5f9201d"
 data "CastSound" "Action_Cast_Steady"
 data "TargetSound" "Action_Impact_Steady"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 new entry "STEADY"
 type "StatusData"
@@ -253,7 +253,7 @@ data "WeaponTypes" "Melee"
 data "SpellFlags" "IsDefaultWeaponAction;IsHarmful;IsMelee"
 data "RechargeValues" "6"
 data "SpellAnimationIntentType" "Aggressive"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 data "PrepareEffect" "9342eaf4-6a20-44c6-a740-863b0f9c2475"
 data "CastEffect" "1d808499-eac9-408a-b5c8-219bb4f52bdc"
 data "TargetEffect" "0444f9b9-f4a9-4c0e-8671-3bfc3e883447"
@@ -297,7 +297,7 @@ data "TargetSound" "Action_Impact_ConcussiveSmash"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--CROWNING STRIKE-->
 
@@ -336,7 +336,7 @@ data "TargetSound" "Action_Impact_ConcussiveSmash"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--DISARMING STRIKE-->
 
@@ -374,7 +374,7 @@ data "TargetSound" "Action_Impact_DisarmingAttack"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--FLOURISH-->
 
@@ -413,7 +413,7 @@ data "TargetSound" "Action_Impact_OpeningAttack"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--GRAND SLAM-->
 
@@ -458,7 +458,7 @@ data "CastSound" "Action_Cast_PostureBreaker"
 data "TargetSound" "Action_Impact_PostureBreaker"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--HEARTSTOPPER-->
 
@@ -498,7 +498,7 @@ data "TargetSound" "Action_Impact_HeartStopper"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--JAVELIN TOSS-->
 
@@ -537,7 +537,7 @@ data "CastSound" "CrSpell_Cast_BugbearThrowJavelin"
 data "TargetSound" "Action_Impact_PiercingThrust"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Sheathed"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--LACERATE-->
 
@@ -576,7 +576,7 @@ data "TargetSound" "Action_Impact_Slash"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--MAIMING STRIKE-->
 
@@ -615,7 +615,7 @@ data "TargetSound" "Action_Impact_CripplingStrike"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--LOBOTOMIZING STRIKE-->
 
@@ -654,7 +654,7 @@ data "TargetSound" "Action_Impact_ConcussiveSmash"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--OVERWHELM-->
 
@@ -720,7 +720,7 @@ data "TargetSound" "Action_Impact_PiercingThrust"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--POLEARM BUTTS-->
 
@@ -751,7 +751,7 @@ data "SpellAnimationIntentType" "Aggressive"
 data "CastEffect" "9a209fc9-6479-4792-9470-f7d88ce93277"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('POLEARMMASTER_COOLDOWN')"
+data "RequirementConditions" "PlayableRace(context.Source) and not HasStatus('POLEARMMASTER_COOLDOWN')"
 data "Cooldown" "OncePerTurn"
 
 new entry "POLEARMMASTER_COOLDOWN"
@@ -798,7 +798,7 @@ data "TargetSound" "Action_Impact_PommelStrike"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--PREPARE-->
 
@@ -822,7 +822,7 @@ data "CastEffect" "c96318ca-93b5-470b-be9e-6a51c7a8ccf9"
 data "CastSound" "Action_Cast_Surge"
 data "TargetSound" "Action_Impact_Surge"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 new entry "FULL_SWING"
 type "StatusData"
@@ -866,7 +866,7 @@ data "SpellFlags" "IsDefaultWeaponAction;IsHarmful;IsMelee"
 data "SpellAnimationIntentType" "Aggressive"
 data "RechargeValues" "4-6"
 data "VerbalIntent" "Damage"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 data "PrepareEffect" "9342eaf4-6a20-44c6-a740-863b0f9c2475"
 data "CastEffect" "4d97dc4c-0b6f-4c87-a65a-6e6f08c186b9"
 data "TargetEffect" ""
@@ -933,7 +933,7 @@ data "TargetSound" "Action_Impact_Slash"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--TERRIFYING STRIKE-->
 
@@ -972,7 +972,7 @@ data "TargetSound" "Action_Impact_ConcussiveSmash"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--TOPPLE-->
 
@@ -1010,7 +1010,7 @@ data "CastSound" "Action_Cast_Topple"
 data "TargetSound" "Action_Impact_Topple"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--WEAKENING STRIKE-->
 
@@ -1049,7 +1049,7 @@ data "TargetSound" "Action_Impact_HinderingStrike"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Melee"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 <!--WHIRLWIND-->
 
@@ -1077,7 +1077,7 @@ data "SpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;,,;bb6068f0-9e3b-4
 data "WeaponTypes" "Melee"
 data "SpellFlags" "IsDefaultWeaponAction;IsHarmful;IsMelee"
 data "SpellAnimationIntentType" "Aggressive"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 data "PrepareEffect" "9342eaf4-6a20-44c6-a740-863b0f9c2475"
 data "CastEffect" "4d97dc4c-0b6f-4c87-a65a-6e6f08c186b9;VFX_Actions_Cast_WeaponAttack_Target_Slash_CastFX_Textkey_01;VFX_Actions_Prepare_Meelee_Dipped_Fire_Root_01,KeepRot:Dummy_Root;VFX_Actions_Cast_Common_ShoutSelf_ActionSurge_BodyFX_01:Dummy_BodyFX;VFX_Actions_Cast_Common_ShoutSelf_ActionSurge_Root_01:Dummy_Root;VFX_Actions_Cast_Common_ShoutSelf_ActionSurge_CastFX_01:Dummy_CastFX;VFX_Actions_Cast_Common_ShoutSelf_ActionSurge_EyeFX_01:Dummy_EyeFX_01,Dummy_EyeFX_02;VFX_Spells_Cast_Intent_Control_TargetAoE_Impact_PostProcess_Textkey_01"
 data "TargetEffect" "aba1b31b-fff5-4dc5-bb9a-3984bd3af79d"
@@ -1120,7 +1120,7 @@ data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 data "PrepareEffect" "cb7f062b-0a9f-423a-945c-64de24a9301b"
 data "CastEffect" "d8134ee0-add9-449f-8934-c6ef8dbee199"
 data "HitEffect" "967745e4-54b9-4a9a-926b-3f1e6f545eaa"
@@ -1137,7 +1137,7 @@ data "Icon" "Action_Steady_Ranged"
 data "DisplayName" "ha07074c0gf103g42ffg8e82gf2e599cf32fd;2"
 data "Description" "h96c46cb5g8a78g4063g8e23g459378f4ef14;4"
 data "TooltipStatusApply" "ApplyStatus(STEADY_RANGED,100,1)"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 new entry "STEADY_RANGED"
 type "StatusData"
@@ -1179,7 +1179,7 @@ data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 data "PrepareEffect" "cb7f062b-0a9f-423a-945c-64de24a9301b"
 data "CastEffect" "44076e08-5ecc-41d1-93f2-90d9663774cb"
 data "CastSound" "Action_Cast_HamstringShot"
@@ -1216,7 +1216,7 @@ data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape') and MobileShootingCasterCondition()"
+data "RequirementConditions" "PlayableRace(context.Source) and MobileShootingCasterCondition()"
 data "PrepareEffect" "cb7f062b-0a9f-423a-945c-64de24a9301b"
 data "CastEffect" "cf56fd6b-7ff8-43fd-90f6-7677e396a7da"
 data "HitEffect" "6b692ae1-2b09-4b42-9928-351f7f1e19a9"
@@ -1255,7 +1255,7 @@ data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
 data "Cooldown" "OncePerCombat"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 data "PrepareEffect" "cb7f062b-0a9f-423a-945c-64de24a9301b"
 data "CastEffect" "732c29ee-1083-44b1-8974-4e8973a1b51c"
 data "HitEffect" "967745e4-54b9-4a9a-926b-3f1e6f545eaa"
@@ -1305,19 +1305,18 @@ data "CastTextEvent" "CastOffhand"
 data "CycleConditions" "Enemy() and not Dead()"
 data "UseCosts" "BonusActionPoint:1"
 data "SpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;c1df9aea-8be9-4de3-bcbc-4e4c1e44dc37,,;722df2d7-7898-4b0b-b930-5a850b55ccf0,722df2d7-7898-4b0b-b930-5a850b55ccf0,722df2d7-7898-4b0b-b930-5a850b55ccf0;a693a7c3-e7e7-4edb-98dd-db5fd700663f,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;c1df9aea-8be9-4de3-bcbc-4e4c1e44dc37,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
-data "DualWieldingSpellAnimation" "1d832b0a-ccfe-4ca7-8426-10200306921c,,;c1df9aea-8be9-4de3-bcbc-4e4c1e44dc37,,;722df2d7-7898-4b0b-b930-5a850b55ccf0,,;a693a7c3-e7e7-4edb-98dd-db5fd700663f,,;cbe217f4-bca8-46c0-bb22-c846b18e13a1,,;35f5cba8-3706-46d5-9a1e-2def9ba22473,,;,,;,,;,,"
 data "VerbalIntent" "Control"
 data "WeaponTypes" "Melee"
 data "SpellFlags" "IsDefaultWeaponAction;IsHarmful;IsMelee"
 data "RechargeValues" "5-6"
 data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
-data "PrepareEffect" "e1cc173f-b12f-4060-b8ea-57b891dd30fe"
-data "CastEffect" "468f6e0e-222f-4ea6-8572-10ff14f2c422"
-data "TargetEffect" "6f92ffb6-d1b8-4818-a691-a030e3e39952"
+data "PrepareEffect" "09001287-db22-4054-9165-4926ecb9b9b4"
+data "CastEffect" "6cba6b96-0fc2-4536-b8d5-7e6c804aa6b7"
+data "TargetEffect" "224776ab-51cb-45f1-ae1e-f20c0c63d40c"
 data "BeamEffect" "a71ed096-740f-4c8c-80a2-6f09c67a2507"
 data "Sheathing" "Melee"
-data "RequirementConditions" "CanUseWeaponActions() and not HasStatus('SG_Polymorph_BeastShape')"
+data "RequirementConditions" "PlayableRace(context.Source)"
 
 new entry "Interrupt_ShieldBlow"
 type "InterruptData"
@@ -1378,16 +1377,15 @@ data "CastTextEvent" "CastOffhand"
 data "CycleConditions" "Enemy() and not Dead()"
 data "UseCosts" "ReactionActionPoint:1"
 data "SpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;c1df9aea-8be9-4de3-bcbc-4e4c1e44dc37,,;722df2d7-7898-4b0b-b930-5a850b55ccf0,722df2d7-7898-4b0b-b930-5a850b55ccf0,722df2d7-7898-4b0b-b930-5a850b55ccf0;a693a7c3-e7e7-4edb-98dd-db5fd700663f,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;c1df9aea-8be9-4de3-bcbc-4e4c1e44dc37,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
-data "DualWieldingSpellAnimation" "1d832b0a-ccfe-4ca7-8426-10200306921c,,;c1df9aea-8be9-4de3-bcbc-4e4c1e44dc37,,;722df2d7-7898-4b0b-b930-5a850b55ccf0,,;a693a7c3-e7e7-4edb-98dd-db5fd700663f,,;cbe217f4-bca8-46c0-bb22-c846b18e13a1,,;35f5cba8-3706-46d5-9a1e-2def9ba22473,,;,,;,,;,,"
 data "VerbalIntent" "Control"
 data "WeaponTypes" "Melee"
-data "SpellFlags" "IsDefaultWeaponAction;IsHarmful;IsMelee"
+data "SpellFlags" "IsHarmful;IsMelee"
 data "RechargeValues" "5-6"
 data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
-data "PrepareEffect" "e1cc173f-b12f-4060-b8ea-57b891dd30fe"
-data "CastEffect" "468f6e0e-222f-4ea6-8572-10ff14f2c422"
-data "TargetEffect" "6f92ffb6-d1b8-4818-a691-a030e3e39952"
+data "PrepareEffect" "09001287-db22-4054-9165-4926ecb9b9b4"
+data "CastEffect" "6cba6b96-0fc2-4536-b8d5-7e6c804aa6b7"
+data "TargetEffect" "224776ab-51cb-45f1-ae1e-f20c0c63d40c"
 data "BeamEffect" "a71ed096-740f-4c8c-80a2-6f09c67a2507"
 data "Sheathing" "Melee"
 

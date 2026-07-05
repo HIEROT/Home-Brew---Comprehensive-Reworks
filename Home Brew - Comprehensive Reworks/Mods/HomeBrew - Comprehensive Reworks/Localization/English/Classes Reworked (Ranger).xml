@@ -165,10 +165,10 @@
 	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d616a87715" version="2">When damaging a target you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you gain a bonus to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; equal to the amount of stacks they have remaining.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d1gd0b109e9f9a2" version="2">On the Hunt</content>
-	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d613fe8115" version="2">When damaging a target you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you roll your damage dice with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. In addition, you ignore all forms of physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
+	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d613fe8115" version="2">When damaging a target you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you roll your damage dice with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. In addition, you ignore all forms of physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d13w5e6f5sef21e" version="2">Twinned Strikes</content>
-	<content contentuid="h20b19b1bg5da3g41d4g9015se46f5s4e6f8d" version="2">When making a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you may target two creatures instead of one.</content>
+	<content contentuid="h20b19b1bg5da3g41d4g9015se46f5s4e6f8d" version="2">Your Frontier Ballistics may target two creatures instead of one.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MIRE MIST</content>
 
@@ -176,7 +176,7 @@
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bfzzzzz" version="1">Through stagnant waters, decay takes root. Through drifting vapors and creeping corrosion, the wilderness slowly consumes all who trespass within it.</content>
 
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00001" version="1">Caustic Mire</content>
-	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000a" version="1">Both you and your Ranger Companions deal an additional [1] when dealing damage to an enemy. This bonus does not apply to damage dealt with an off-hand weapon. In addition, each time that you deal damage, you apply one stack of &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt;.</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000a" version="1">Both you and your Ranger Companions deal an additional [1] when dealing damage to an enemy. In addition, each time that you deal damage, you apply one stack of &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt;.</content>
 
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00002" version="1">Corrosive Bloom</content>
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000b" version="1">When &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corrosion&lt;/LSTag&gt; is removed from an enemy, all enemies within [1] of them receive &lt;LSTag Type="Status" Tooltip="CAUSTIC_BRINE"&gt;Caustic Brine&lt;/LSTag&gt; for three turns.</content>
@@ -271,7 +271,7 @@
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000e" version="1">When both you and your Ranger Companion damage the same creature, they become &lt;LSTag Type="Status" Tooltip="CRIPPLED"&gt;Crippled&lt;/LSTag&gt; for one turn.</content>
 
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00006" version="1">Apex Coordination</content>
-	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000f" version="1">When either you or your Ranger Companion deal damage to a creature the other has already damaged, you deal an additional 1d8 damage.</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000f" version="1">When either you or your Ranger Companion deal damage to a creature the other has already damaged, you deal an additional +1d12 damage.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ARROWS</content>
 

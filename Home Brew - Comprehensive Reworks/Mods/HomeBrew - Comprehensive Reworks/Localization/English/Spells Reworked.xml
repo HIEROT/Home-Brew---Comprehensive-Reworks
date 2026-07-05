@@ -503,9 +503,9 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h417cde81g931eg48a2gad6cg6c32ef46d666" version="2">Affected creature may no longer be &lt;LSTag Type="Status" Tooltip="BANISHED"&gt;Banished&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h7184d499g1008g4665g8f46gcef29202e902" version="1">Barkskin</content>
-	<content contentuid="hc07ab314g3e99g405ega382gde24ece3da53" version="4">Protect a creature, reducing all elemental damage they take by [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Sorcerers</content>
+	<content contentuid="hc07ab314g3e99g405ega382gde24ece3da53" version="4">Protect a creature, reducing all elemental damage they take by [1] until the end of their next combat encounter.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Sorcerers</content>
 	<content contentuid="h4ee13b54gfbefg4c89g85efg735f35eaaf71" version="2">Barkskin</content>
-	<content contentuid="h659c2026g662fg41a4g9060gfa143ad797c9" version="2">Affected creature is protected, reducing elemental damage taken by [1].</content>
+	<content contentuid="h659c2026g662fg41a4g9060gfa143ad797c9" version="2">Affected creature is protected, reducing elemental damage taken by [1] until the end of their next combat encounter.</content>
 
 	<content contentuid="h3f273f88g663cg456dg8430g51108bf5b9e8" version="1">Beacon of Hope</content>
 	<content contentuid="h3ce43d50g5b6dg4772g834fgba200cc3cdcd" version="3">Become an icon of prosperity. Target a creature and provide them with a boon that will force them to regain the maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; possible when healed.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
@@ -885,12 +885,12 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h1a1a6a3ag2747g483dg92dfg4f3a48936490" version="3">Affected creature's rate of descent is slowed, granting them &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Falling damage.</content>
 
 	<content contentuid="h0692dfc0g0d43g4f25g8d68g1716bc329cb7" version="1">Feign Death</content>
-	<content contentuid="h32679351gcb25g44e2gaa36g30482fbf5819" version="3">Put non-hostile, nearby creatures within [1] of you into a protective coma. They become &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all damage, and gain status immunity to all forms of disease and poison.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Sorcerers</content>
+	<content contentuid="h32679351gcb25g44e2gaa36g30482fbf5819" version="3">Put non-hostile, nearby creatures within [1] of you into a protective coma. They become &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all damage, and gain status immunity to all forms of disease and poison. Should they succeed their &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, they will instead take Psychic damage.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Sorcerers</content>
 	<content contentuid="h21877e01g7e89g4d77g8f98gddbdc29056e1" version="1">Feigning Death</content>
 	<content contentuid="h972d4430gd95fg4ab3g9228gbfe997db736b" version="1">Affected creature has sunk into a magical coma deep enough to imitate death. They cannot act, and have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all damage, as well as status immunity to all forms of disease and poison.&lt;br&gt;&lt;br&gt;Removed when damaged or if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h7cdde2cagd199g498bg8ae1gf693a97f57cc" version="1">Find Familiar</content>
-	<content contentuid="h90a8893dg8023g4be2gbcd2gfa1857d7c23f" version="2">Summon fey spirits that take an animal form of your choosing.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
+	<content contentuid="h90a8893dg8023g4be2gbcd2gfa1857d7c23f" version="2">Summon two fey spirits that take an animal form of your choosing.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
 	<content contentuid="h3a15041bga873g4f1cgb45eg7774bac4a109" version="1">Find Familiar: Cat</content>
 	<content contentuid="h24633996g3e8ag4cb8ga616g141d6dad37af" version="3">Summon a cat familiar that can &lt;LSTag Type="Spell" Tooltip="Shout_Distract_Cat_Summon"&gt;Meow&lt;/LSTag&gt; to distract your enemies.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
 	<content contentuid="h24e4566cg132ag4dbegb355g6140a0dba1ea" version="1">Meow</content>
@@ -1081,7 +1081,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="hcf1c0532gd0afg439eg8683g05080783d38a" version="5">React to your next attacker with flames that deal [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
 
 	<content contentuid="hf64fb172g2b3fg40d1g855eg90c024d4c890" version="2">Heroes' Feast</content>
-	<content contentuid="hb170ef47g290ag4f0bgbfd1g7b0dc1ffeacf" version="5">Summon a container filled to the brim with &lt;LSTag Tooltip="CampSupplies"&gt;Camp Supplies&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
+	<content contentuid="hb170ef47g290ag4f0bgbfd1g7b0dc1ffeacf" version="5">Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;, summon a container filled to the brim with &lt;LSTag Tooltip="CampSupplies"&gt;Camp Supplies&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
 	<content contentuid="hd776d4fbgfafeg4418g9991g7aa9bb2a86f6" version="2">Feast Supplies</content>
 
 	<content contentuid="hd7d3711fgd2f1g43fdg9f53g3da8a8b31067" version="1">Heroism</content>
@@ -1090,7 +1090,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h5079418eg432dg4a2agb470gb3a7e5bb036c" version="1">Affected creature cannot be &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Additionally, they recieve [1] at the beginning of each of their turns.</content>
 
 	<content contentuid="heb47bc26gcd09g429cg97f6g21791a883edf" version="1">Hex</content>
-	<content contentuid="h1e2c767dg93ccg472bg8d5dgd990bf0ac8bf" version="7">Force a creature to roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; for an &lt;LSTag Tooltip="Abilities"&gt;Ability&lt;/LSTag&gt; of your choosing.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
+	<content contentuid="h1e2c767dg93ccg472bg8d5dgd990bf0ac8bf" version="7">Force a creature to roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; in an &lt;LSTag Tooltip="Abilities"&gt;Ability&lt;/LSTag&gt; of your choosing for three turns.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
 	<content contentuid="h2c21b4f1g103ag411fg827eg36d1b1e7c918" version="1">Hex (Strength)</content>
 	<content contentuid="hbba76069g16d0g4a5dga7e9g8da438a4c19a" version="2">Impart &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on a creature's Strength based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
 	<content contentuid="h098b7d5dge7bbg4958g889eg2324c964cd81" version="1">Hex (Dexterity)</content>
@@ -1435,7 +1435,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h9b24ab3fg7f90g4df5g8a23gdfe9ef69s8d7" version="2">Malevolent spirits assault the affected creature. While inside the area of effect, they will take [1] when the Spellcaster controlling the aura ends their turn.</content>
 
 	<content contentuid="h4c22e47fgdb52g4300g959eg7a7d1b07e562" version="2">Spiritual Weapon</content>
-	<content contentuid="h7d022f20g3f9eg465fg994cgc84bb0a8984b" version="2">Summon a floating, spectral weapon that attacks your enemies alongside you.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
+	<content contentuid="h7d022f20g3f9eg465fg994cgc84bb0a8984b" version="2">Summon a floating, spectral weapon that attacks your enemies alongside you until the end of your next combat encounter.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
 
 	<content contentuid="h942fc95bgcce4g4a58g8d6eg2af8037d7d9e" version="2">Stoneskin</content>
 	<content contentuid="hd2a07b10g06e7g4fc2ga9adg1845a45f8d64" version="4">Turn a creature's flesh hard as stone. It becomes &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
@@ -2114,9 +2114,9 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h23dde6dfg0193g4163g86e1g2390wr70w788" version="6">Ferociously slam yourself against your target.</content>
 
 	<content contentuid="h245d543eg02dfg45f5g910age84e27663e89" version="2">Shadow Blade</content>
-	<content contentuid="h3ce51988gc9efg482ag9b9egdabe769a9482" version="3">Weave a blade into your hand from the nearby shadows. The blade deals [1]. While &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; in an obscured area, the blades damage is maximized.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Sorcerers</content>
+	<content contentuid="h3ce51988gc9efg482ag9b9egdabe769a9482" version="3">Weave a blade into your hand from the nearby shadows. The blade deals [1]. While in an obscured area, the blades damage is rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Sorcerers</content>
 	<content contentuid="h0160e9efg8974g43d6gb3fcg8d4e9d200a3c" version="4">Shadows Edge</content>
-	<content contentuid="ha672fd65g0fe4g4596g9529gce372c013ca1" version="6">While &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; in an obscured area, this blades damage is maximized.</content>
+	<content contentuid="ha672fd65g0fe4g4596g9529gce372c013ca1" version="6">While in an obscured area, this blades damage is rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h8d8581efg7155g41b5g9c1ag6a6f59c3bc03" version="1">Paralysed</content>
 	<content contentuid="hb40ed8aagb03fg4f38gb8bcg7f1a2c96633a" version="1">Affected creature has been paralysed. They cannot act.</content>

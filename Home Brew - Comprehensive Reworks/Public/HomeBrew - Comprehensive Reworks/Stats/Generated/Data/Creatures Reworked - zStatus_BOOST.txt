@@ -384,6 +384,7 @@ data "RemoveEvents" "OnDamage"
 data "ManagedStatusEffectType" "Positive"
 data "ManagedStatusEffectGroup" "6435c10a-c67d-4f79-8813-b84b0762f92b"
 data "TickType" "EndTurn"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
 
 <!--GORTASH-->
 
@@ -736,6 +737,14 @@ data "Passives" "ExtraAttack_2_Beastial"
 data "StatusPropertyFlags" "ForceOverhead"
 data "StatusGroups" "SG_Rage"
 data "StatusEffect" "54c3207a-4419-441a-86b0-30d8e4eb2c8d"
+
+new entry "MYTHIC_REDUCED_FALLDAMAGE_SPIDERS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h68e78850ga23bg4760g8606g8712e5f2e54f;1"
+data "Description" "h9bc3c302g3d9ag4644g9b8fge546e9e6f854;1"
+data "Icon" "PassiveFeature_SlowFall"
+data "Boosts" "FallDamageMultiplier(0.5)"
 
 <!--WEREWOLF-->
 

@@ -9,8 +9,8 @@
 	<content contentuid="h4c613264gb41123r6egb992839r7987fe983" version="4">Crusader's Smite Charges: 3</content>
 	<content contentuid="h50416111g8a61g43fs54fs9283r9w78rw97f" version="2">You gain three Smite Charges per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, which allow you to deal tremendous damage to your enemies.</content>
 
-	<content contentuid="9b7b811b9c3043e189f94554a64sw6df84fed" version="3">Allow Respec</content>
-	<content contentuid="9b7b811b9c3043e189f94556s8ef4e8f45845" version="3">Selecting an Oathbreaker as your starting class grants the Oathbreaker dialogue tag, disabling your ability to respec. Toggle this passive off in order to remove the Oathbreaker dialogue tag, allowing you to respec. This can be toggled at any time.</content>
+	<content contentuid="9b7b811b9c3043e189f94554a64sw6df84fed" version="3">Broken Oath</content>
+	<content contentuid="9b7b811b9c3043e189f94556s8ef4e8f45845" version="3">Selecting this as your starting subclass grants the Oathbreaker dialogue tag, disabling your ability to swear an oath, as well as respec. Toggle this passive off in order to remove the Oathbreaker dialogue tag, allowing you to respec. This can be toggled at any time.</content>
 
 	<content contentuid="9b7b811b9c3043e189f945540bf5116eff200" version="5">Sworn Oath</content>
 	<content contentuid="9b7b811b9c3043e189f945540bf5116ess60z" version="1">Oaths upheld lend permanence to power, strengthened by your conviction. To what ideals have you sworn yourself to?&lt;br&gt;&lt;br&gt;Breaking your oath will result in grave consequences.</content>
