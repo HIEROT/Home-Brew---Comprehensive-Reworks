@@ -244,7 +244,7 @@
 	<content contentuid="h69aed89fg5ca1g435cg8dcfg9911514asdf5" version="3">If casting this action results in a killing blow, it is considered a free action.</content>
 
 	<content contentuid="h9edc5297g58c0g4b7dg8e45g59dsa5588d12" version="2">Void Stalker</content>
-	<content contentuid="h9edc5297g58c0g4b7dg8e45g59ads6fsdf89" version="3">While obscured in shadow, you may &lt;LSTag Type="Spell" Tooltip="HIDING"&gt;Hide&lt;/LSTag&gt; as a free action. Additionally, you can see normally in darkness, both magical and non-magical, to a distance of [1].</content>
+	<content contentuid="h9edc5297g58c0g4b7dg8e45g59ads6fsdf89" version="3">While obscured in shadow, you may &lt;LSTag Type="Spell" Tooltip="HIDING"&gt;Hide&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. Additionally, you can see normally in darkness, both magical and non-magical, to a distance of [1].</content>
 
 	<content contentuid="4512454c8e254628bd4dca56s45df6sd8458d" version="2">Auspicious Shadows</content>
 	<content contentuid="4512454c8e254628bd4dc6as9d8f79s8d7f58" version="3">Upon landing a killing blow with &lt;LSTag Type="Spell" Tooltip="Target_ShadowStrike_Instant"&gt;Shadow Strike&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Target_ShadowStrike_Instant_Unarmed"&gt;Shadow Strike: Unarmed&lt;/LSTag&gt;, all further &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; will be considered &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; for the rest of your turn.</content>
@@ -326,7 +326,7 @@
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a0000zc" version="6">Affected creature will avoid damage more easily. Their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increases by 1 for each stack of Dance of Flowing Water. This effect will reset at the beginning of each of their turns.</content>
 
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a000004" version="6">Deflective Missiles</content>
-	<content contentuid="4512454c8e254628bd4dc62ea243a2a00000d" version="6">When a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; is made against you, reduce the damage by -1d12 plus your &lt;LSTag Tooltip="AbilityModifier"&gt;Dexterity Modifier&lt;/LSTag&gt; and your level as a free &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. If reduced to zero, you may use a &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt; in order to throw the projectile back at your aggressor.</content>
+	<content contentuid="4512454c8e254628bd4dc62ea243a2a00000d" version="6">When a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; is made against you, reduce the damage by -1d12 plus your &lt;LSTag Tooltip="AbilityModifier"&gt;Dexterity Modifier&lt;/LSTag&gt; and your level as a free &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. If reduced to zero, you may throw the projectile back at your aggressor.</content>
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a0000z4" version="6">Deflective Reflex</content>
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a0000zd" version="6">When a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; is made against you, reduce the damage by -1d12 plus your &lt;LSTag Tooltip="AbilityModifier"&gt;Dexterity Modifier&lt;/LSTag&gt; and your level.</content>
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a000zz4" version="6">Deflective Redux</content>

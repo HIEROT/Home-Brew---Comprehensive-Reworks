@@ -79,7 +79,7 @@ the Blade</content>
 	<content contentuid="hb5821feag2ff1g4781gbae9g883a6976a454" version="2">Affected creature's weapons have become wreathed in flame, and now deals additional damage.</content>
 
 	<content contentuid="hecba1ef0g88beg401bg869dg6de6ba5eba40" version="1">Dark One's Blessing</content>
-	<content contentuid="hf690b23dg039ag4befg90a1g18e279b05184" version="2">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, your patron will grant you &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; added to your level.</content>
+	<content contentuid="hf690b23dg039ag4befg90a1g18e279b05184" version="2">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, your patron will grant you &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; added to your level and remove one stack of &lt;LSTag Type="Spell" Tooltip="Shout_HematicInvocation"&gt;Hematic Invocation&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h2d527f55g3322g4492g9b6eg692418bac609" version="2">Hellblade Resonation</content>
 	<content contentuid="ha736d140g3d03g4279g8386g07f2a1cd07ad" version="2">When dealing damage to an enemy or item, you ignore all forms of Fire &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt;. In addition, while your weapons are coated in &lt;LSTag Type="Status" Tooltip="HELLFIRE"&gt;Hellfire&lt;/LSTag&gt;, dealing damage with your main-hand weapon causes all targets within [1] of you to take Fire damage equal to your levels in Warlock.</content>
@@ -291,7 +291,7 @@ Penumbra</content>
 	<content contentuid="041cd1a196fc4de4b58ab1f6e9c92d1e0zzza" version="1">Teleport to a space of your choosing within [1]. Your range is not limited by sight.</content>
 
 	<content contentuid="041cd1a196fc4de4b58ab1f6e9c92d1e00002" version="1">Curse of the Spectre</content>
-	<content contentuid="041cd1a196fc4de4b58ab1f6e9c92d1e0000b" version="1">Dealing Cold damage applies one stack of &lt;LSTag Type="Status" Tooltip="MAG_FROST"&gt;Encrusted With Frost&lt;/LSTag&gt;.</content>
+	<content contentuid="041cd1a196fc4de4b58ab1f6e9c92d1e0000b" version="1">Dealing Cold damage applies one stack of &lt;LSTag Type="Status" Tooltip="MAG_FROST"&gt;Encrusted With Frost&lt;/LSTag&gt;. Killing a creature who is Encrusted With Frost will remove one stack of &lt;LSTag Type="Spell" Tooltip="Shout_HematicInvocation"&gt;Hematic Invocation&lt;/LSTag&gt;.</content>
 
 	<content contentuid="041cd1a196fc4de4b58ab1f6e9c92d1e00003" version="1">Severed Resolve</content>
 	<content contentuid="041cd1a196fc4de4b58ab1f6e9c92d1e0000c" version="1">Upon using &lt;LSTag Type="Spell" Tooltip="Shout_HematicInvocation_Severing"&gt;Severing Hematic Invocation&lt;/LSTag&gt;, you restore your &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
@@ -321,7 +321,7 @@ the Tome</content>
 	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd1ac1e" version="3">You add your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; to the damage your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; deals, if positive and damaging an enemy. In addition, you are able to cast your Eldritch Blast with your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This can be toggled at any time.</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e00005" version="1">Projected Inertia</content>
-	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000e" version="3">Upon dealing damage with your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, you apply one stack of &lt;LSTag Type="Status" Tooltip="ELDRITCH_STRIKE"&gt;Eldritch Inertia&lt;/LSTag&gt;.</content>
+	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000e" version="3">Upon dealing damage with your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, you apply one stack of &lt;LSTag Type="Status" Tooltip="ELDRITCH_STRIKE"&gt;Eldritch Inertia&lt;/LSTag&gt;. In addition, killing a creature with your Eldritch Blast will remove one stack of &lt;LSTag Type="Spell" Tooltip="Shout_HematicInvocation"&gt;Hematic Invocation&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e00002" version="1">Eldritch Overflow</content>
 	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000b" version="3">You are capable of dividing your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; into two separate beams. Each beam will deal 1d12 Force damage. This can be toggled at any time.</content>

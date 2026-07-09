@@ -440,7 +440,7 @@ data "Description" "9585509cf15f491a86ba751105cc21000000b;2"
 data "Icon" "Spell_2e_ImpeccableFlow"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "Character() and not Self() and not Ally() and not HasStatus('MADNESS', context.Target)"
+data "Conditions" "Character() and not Self() and not Ally() and not HasStatus('MADNESS', context.Target) and not HasStatus('LOCKDOWN_CONDITION', context.Target)"
 data "StatsFunctors" "IF(not SavingThrow(Ability.Wisdom, SourceSpellDC())):ApplyStatus(MADNESS,100,1)"
 
 new entry "WinterHarvest"

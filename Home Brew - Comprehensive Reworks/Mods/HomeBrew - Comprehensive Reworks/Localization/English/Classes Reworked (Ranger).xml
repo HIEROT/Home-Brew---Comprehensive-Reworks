@@ -133,12 +133,12 @@
 	<content contentuid="hafc743f7g5d89g4175g80bfg869c34sds687" version="9">When rolling a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a target, you may also cause them to become &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrified&lt;/LSTag&gt; for one turn.</content>
 
 	<content contentuid="hae000758g2c53g402cgb846g1e5asdfa8397" version="2">Gloom Stalker's Cruelty</content>
-	<content contentuid="hb8bf311cg5a03g46a9g888bgceewersfa4f5" version="2">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against a &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrified&lt;/LSTag&gt; target will always roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="hb8bf311cg5a03g46a9g888bgceewersfa4f5" version="2">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against a &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrified&lt;/LSTag&gt; target will always roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;. Upon landing a Critical Hit with this passive, Terrified is immediately removed from your target.</content>
 
 	<content contentuid="hfad5bf4eg0236g4af2g970agfdc9c7d219e2" version="2">Dread Ambusher</content>
-	<content contentuid="hafc743f7g5d89g4175g80bfg869c348717ed" version="9">On the first turn of combat, every successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will be rolled as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="hafc743f7g5d89g4175g80bfg869c348717ed" version="9">On each turn of combat, your first successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will be rolled as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 	<content contentuid="h8fe2d065g37c5g4c09ga086gb6a1db243352" version="2">Dread Ambusher</content>
-	<content contentuid="h0ed18fffge19bg4abag838fg1ed1692e591f" version="9">Affected creature will roll every successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h0ed18fffge19bg4abag838fg1ed1692e591f" version="9">Affected creature will roll their next successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HUNTER</content>
 
@@ -168,7 +168,7 @@
 	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d613fe8115" version="2">When damaging a target you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you roll your damage dice with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. In addition, you ignore all forms of physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d13w5e6f5sef21e" version="2">Twinned Strikes</content>
-	<content contentuid="h20b19b1bg5da3g41d4g9015se46f5s4e6f8d" version="2">Your Frontier Ballistics may target two creatures instead of one.</content>
+	<content contentuid="h20b19b1bg5da3g41d4g9015se46f5s4e6f8d" version="2">Your single target Frontier Ballistics may target two creatures instead of one.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MIRE MIST</content>
 
@@ -191,7 +191,7 @@
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000e" version="1">&lt;LSTag Type="Status" Tooltip="Tooltip_CorrosiveBloom"&gt;Corrosive Bloom&lt;/LSTag&gt; now applies &lt;LSTag Type="Status" Tooltip="CAUSTIC_BRINE"&gt;Caustic Brine&lt;/LSTag&gt; to your targets indefinitely, rather than for three turns.</content>
 
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00006" version="1">Fatal Decay</content>
-	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000f" version="1">When dealing damage to a &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corroded&lt;/LSTag&gt; enemy, you will only roll &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;.</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000f" version="1">When dealing damage to a &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corroded&lt;/LSTag&gt; enemy, you will only roll &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;. Upon landing a Critical Hit with this passive, Corrosion is immediately removed from your target.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">SWARMKEEPER</content>
 

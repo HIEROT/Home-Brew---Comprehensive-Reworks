@@ -359,7 +359,7 @@ data "Icon" "Action_Mag_Hellcrawler"
 data "Properties" "Highlighted;ForceShowInCC"
 data "BoostConditions" "not HasObscuredState(ObscuredState.Clear,context.Source)"
 data "BoostContext" "OnObscurityChanged"
-data "Boosts" "UnlockSpellVariant(SpellId('Shout_Hide'),ModifyUseCosts(Replace,ActionPoint,0,-1,ActionPoint))"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_Hide'),ModifyUseCosts(Replace,ActionPoint,0,-1,ActionPoint),ModifyUseCosts(Add,ReactionActionPoint,1,0))"
 
 new entry "Void_Stalker_Vision"
 type "PassiveData"

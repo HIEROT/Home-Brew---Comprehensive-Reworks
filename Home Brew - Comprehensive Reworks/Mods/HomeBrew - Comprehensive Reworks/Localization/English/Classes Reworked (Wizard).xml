@@ -150,7 +150,7 @@
 	<content contentuid="he03bcffeg9447g47cfgbe07g4ef50cb2606d" version="1">As an evoker, you stride unharmed through the unfettered chaos you call, a storm of mysicism contained only by the flick of your wrist.</content>
 
 	<content contentuid="h445d84b5g0c9bg4349g8c4bg54f039bb4054" version="2">Sculpt Spells</content>
-	<content contentuid="h41e528e7gd77ag42b1g883bgc9b31037c8bd" version="3">Create pockets of safety within damaging Spells that you directly cast. Allies will take no damage from them.</content>
+	<content contentuid="h41e528e7gd77ag42b1g883bgc9b31037c8bd" version="3">Create pockets of safety within damaging, area of effect Spells that you directly cast. Allies will take no damage from them.</content>
 
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g38914f493837" version="6">Eruptive Casting</content>
 	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b855adf87" version="6">When casting a Spell that makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>

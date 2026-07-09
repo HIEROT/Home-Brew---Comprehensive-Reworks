@@ -194,6 +194,18 @@ data "PrepareEffect" "e10fa2ab-984e-4ab7-b756-4982dfca4018"
 data "CastEffect" "516519af-84bf-4a97-bdb3-afa14522156a"
 data "Requirements" ""
 
+<!--STRIKER-->
+
+new entry "Projectile_AlphaStrike_BonusAttack"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_MainHandAttack"
+data "Icon" "DT_CalledShot"
+data "DisplayName" "862d4e8f8c41462d8a2a4a2cfd5b81e100zz1;1"
+data "Description" "862d4e8f8c41462d8a2a4a2cfd5b81e100zza;2"
+data "SpellFlags" "IsHarmful;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;Temporary"
+data "AmountOfTargets" "2"
+
 <!--PASSIVES-->
 
 new entry "Projectile_ConjureTurret_ArcaneMissile"

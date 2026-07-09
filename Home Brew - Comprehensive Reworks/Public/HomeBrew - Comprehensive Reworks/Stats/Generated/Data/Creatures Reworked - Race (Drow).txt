@@ -391,7 +391,7 @@ data "DarkvisionRange" "18"
 data "FallingHitEffect" "VFX_Combat_Bludgeoning_Damage_Blood_01"
 data "FallingLandEffect" "VFX_Combat_Force_Land_01"
 data "DifficultyStatuses" ""
-data "Progressions" "cda01bce-b09b-459a-bdb0-b162de09e54d;f0ede459-8b86-48fd-ac11-4432573566a5"
+data "Progressions" "cda01bce-b09b-459a-bdb0-b162de09e54d;532203c2-7bcb-4162-9a7c-2bb20e227a30"
 data "Flags" "EnableObscurityEvents;ObscurityWithoutSneaking"
 
 new entry "UND_PetrifiedDrow_Drow_Ranger"

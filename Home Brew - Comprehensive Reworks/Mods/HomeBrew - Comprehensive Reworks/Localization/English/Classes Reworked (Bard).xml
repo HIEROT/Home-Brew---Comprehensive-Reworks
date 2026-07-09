@@ -34,6 +34,9 @@
 	<content contentuid="hb117050dg0016g4833g87f0g8d22d6ffs6d9" version="1">Third Note</content>
 	<content contentuid="h893450deg4af3g43f4gad83g7bss6d522d6f" version="1">Affected creature will restore one charge of &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; when this status expires.</content>
 
+	<content contentuid="h496eb8b3g1440g4fd8gbdb3g0endperformn" version="1">End Performance</content>
+	<content contentuid="h496eb8b3g1440g4fd8gbdb3g0endperforma" version="1">End your current performance.</content>
+
 	<content contentuid="hc9735187g68cag427ag8ff9d8f8dff800001" version="1">Accelerated Tempo</content>
 	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d90000a" version="2">Enter the next stage of your performance early.</content>
 
@@ -52,7 +55,7 @@
 	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d9000ze" version="2">Affected creature may cast their next Spell without consuming a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hc9735187g68cag427ag8ff9d8f8dff800006" version="1">Climax</content>
-	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d90000f" version="2">End your performance in climactic triumph! You gain an additional &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d90000f" version="2">End your performance in climactic triumph! You &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hasten&lt;/LSTag&gt; yourself until the end of your turn.</content>
 	<content contentuid="hc9735187g68cag427ag8ff9d8f8dff8000z6" version="1">Climax</content>
 	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d9000zf" version="2">Affected creature has gained an additional &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
 
@@ -329,7 +332,7 @@ Valour</content>
 	<content contentuid="171ffb649bb448399193ed1c0d6896dd0000f" version="1">Upon granting another creature &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;, both you and targets &lt;LSTag Type="Status" Tooltip="DASH"&gt;Dash&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="DISENGAGE"&gt;Disengage&lt;/LSTag&gt; for one turn.</content>
 
 	<content contentuid="171ffb649bb448399193ed1c0d6896dd00007" version="1">Engaging Composition</content>
-	<content contentuid="171ffb649bb448399193ed1c0d6896dd0000g" version="1">Targets of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; may make one additional attack using their &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. In addition, you are capable of doing so at the cost of one charge of your Bardic Inspiration.</content>
+	<content contentuid="171ffb649bb448399193ed1c0d6896dd0000g" version="1">Targets of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; may make one additional attack using their &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. In addition, you are capable of doing so once per turn at the cost of one charge of your Bardic Inspiration.</content>
 	<content contentuid="h4344309ag115dg487bgbdcbg14552d855f69" version="1">Bardic Strike</content>
 	<content contentuid="h4344309ag115dg487bgbdcbg14552d822356" version="1">Bardic Strike (Ranged)</content>
 

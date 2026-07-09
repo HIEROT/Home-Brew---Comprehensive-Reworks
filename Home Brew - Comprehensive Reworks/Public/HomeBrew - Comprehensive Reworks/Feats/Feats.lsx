@@ -192,7 +192,7 @@
                 </node>
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="Multifaceted"/>
-					<attribute id="Selectors" type="LSString" value="SelectPassives(cf44a7c1-3fcb-4fb6-8624-45dd433c11b1,1,Personality);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4)" />
+					<attribute id="Selectors" type="LSString" value="SelectPassives(4607f9c7-335c-443f-b075-a3f068c20a0d,1,Archetypes);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4)" />
                     <attribute id="UUID" type="guid" value="be0889d2-f9aa-472d-b942-592bff0f1ef3"/>
                 </node>
                 <node id="Feat">
@@ -498,7 +498,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="FighterPalisade"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ReinforcedStrikes;ProjectedBulwark"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SentinelsRebuke;ProjectedBulwark"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Fighter&apos;)"/>
                     <attribute id="UUID" type="guid" value="30498f77-3440-42dc-a61a-cb05ac49b248"/>
                 </node>
@@ -640,7 +640,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RogueThief"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Feat_Thief;EscapeArtist;Reflexive"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Feat_Thief;EscapeArtist;NaturalSmokebomb;NaturalSmokebomb_Boosts"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Rogue&apos;)"/>
 					<attribute id="UUID" type="guid" value="3ae7b1ea-be32-4cd2-8a36-545e4a40a3b9"/>
                 </node>
@@ -713,7 +713,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="WarlockPactOfSeverance"/>
-                    <attribute id="PassivesAdded" type="LSString" value="GoingGhost;CurseoftheSpectre"/>
+                    <attribute id="PassivesAdded" type="LSString" value="GoingGhost;CurseoftheSpectre;CurseoftheSpectre_Hematic"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Warlock&apos;)"/>
                     <attribute id="UUID" type="guid" value="866befae-74b3-45a0-9da4-bdec17a3a63d"/>
                 </node>

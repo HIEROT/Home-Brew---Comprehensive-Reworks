@@ -478,6 +478,8 @@
 	<content contentuid="hf76f314fg3191g45b9g8850g5b978c824349" version="4">Affected creature is preparing to &lt;LSTag Type="Spell" Tooltip="Projectile_SteelWatcher_Quadruped_SelfDestructExplosion"&gt;Self-Detonate&lt;/LSTag&gt;.</content>
 	<content contentuid="h5c988176gb298g40edg8748g438d3b4f08f3" version="2">Affected creature can only be harmed by an attack dealing at least [1] damage.</content>
 
+	<content contentuid="h7039a4f5g2474g4396g99e1g1f9ab5c24dc3" version="1">BAAAAAAAAAck With a Vengeance!</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">OLD ENEMY PASSIVES</content>
 
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d32200004" version="1">Worg Master</content>
@@ -499,9 +501,9 @@
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000g" version="4">You may make an additional weapon attack per turn, though the second attack is rolled with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d32200008" version="1">Mob Mentality</content>
-	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000h" version="4">When starting their turn within [1] of an ally, this creature gains an &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
+	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000h" version="4">When starting their turn within [1] of an ally, this creature rolls their damage with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d322012z8" version="1">Mob Mentality</content>
-	<content contentuid="5118b4641cdb4145a0fb4699faf1d322013zh" version="4">Affected creature may make an &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt; this turn.</content>
+	<content contentuid="5118b4641cdb4145a0fb4699faf1d322013zh" version="4">Affected creature makes all damage rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d32200009" version="1">Devour Intellect</content>
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000i" version="4">Consume fragments of a creature's mind. If your targets Intelligence is below 4, it takes double the damage and is &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt;.</content>
